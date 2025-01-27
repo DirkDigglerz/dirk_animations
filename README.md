@@ -16,6 +16,9 @@
 - Pointing, Handsup and Crouching included.
 - Easily convert Menyoo and Scully Emotes to clean_animations' format. 
 
+## Animation Placing 
+https://streamable.com/d15itc
+
 # Dependencies 
 - [Clean Lib](https://github.com/Clean-Server-Pack/clean_lib/releases/tag/latest_production)
 
