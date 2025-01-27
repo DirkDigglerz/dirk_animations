@@ -3,3 +3,4 @@
 # Features 
 
 # Credits
+- [Scully Emote Menu](https://github.com/Scullyy/scully_emotemenu) thanks for the big list of animations!
