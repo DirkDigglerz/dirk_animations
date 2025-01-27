@@ -40,7 +40,7 @@ export default function AnimationPage(props: AnimationPageProps) {
       flex={1}
       h="100%"
       w="100%"
-      gap="xs"
+      // gap="xs"
       direction="column"
       align="center"
     > 
@@ -59,6 +59,7 @@ export default function AnimationPage(props: AnimationPageProps) {
         }
       />
       <SimpleGrid
+        mt='xs'
         p="xs"
         w="100%"
         cols={3}
@@ -81,6 +82,7 @@ export default function AnimationPage(props: AnimationPageProps) {
         >
           {(styles) => (
             <Pagination
+            
               style={{
                 ...styles,
                 userSelect: 'none',
@@ -91,8 +93,16 @@ export default function AnimationPage(props: AnimationPageProps) {
               total={pages.length}
               // page={page} // Ensure controlled pagination
               radius='xxs'
-              
-            /> 
+              pt='xs'
+              styles={{
+                control: {
+                  // backgroundColor: 'rgba(66, 66, 66, 0.5)',
+                  outline: 'none', 
+                  border: 'none',
+        
+                }
+              }}
+            />
           )}
         </Transition>
     </Flex>

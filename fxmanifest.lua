@@ -8,6 +8,7 @@ version      '1.0.1'
 
 shared_script {
   '@clean_lib/init.lua',
+  'src/shared/*.lua',
 }
 
 client_script { 
@@ -22,7 +23,9 @@ server_script {
 ui_page 'web/build/index.html'
 
 files {
+  'locales/*.json',
   'settings/*.lua',
+  'settings/**/*.lua',
 	'web/build/index.html',
 	'web/build/**/*',
 }

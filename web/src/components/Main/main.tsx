@@ -6,10 +6,12 @@ import { Title } from "../Generic/Title"
 import FrontPage from "../Pages/FrontPage"
 import { useNuiEvent } from "../../hooks/useNuiEvent"
 import { fetchNui } from "../../utils/fetchNui"
+import Sequences from "../Pages/Sequences/main"
 
 export default function Main() {
   const open = useAnimations(state => state.open)  
   const page = useAnimations(state => state.page)
+  const sequenceBox = useAnimations(state => state.sequenceBox)
   const pageId = useAnimations(state => state.pageId)
   const setPage = useAnimations(state => state.setPage)
   const theme = useMantineTheme()
@@ -19,26 +21,31 @@ export default function Main() {
     animations: AnimationProps[],
     categories: AnimCategoryProps[]
   }) => {
-
-    console.log('OPEN_ANIMATIONS', JSON.stringify(data, null, 2))
-
-    useAnimations.setState({ animations: data.animations })
-    useAnimations.setState({ categories: data.categories })
-    useAnimations.setState({ open: true })
-    useAnimations.setState({ page: <FrontPage />, pageId: 'front' })
+    useAnimations.setState({ 
+      animations: data.animations,
+      categories: data.categories,
+      open: true,
+      page: <FrontPage />,
+      pageId: 'front'
+    })
   })
 
   // listen for excape key 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
+        if (!open) return
+        if (sequenceBox) {
+          useAnimations.setState({ sequenceBox: false })
+          return
+        }
         useAnimations.setState({ open: false })
         fetchNui('CLOSE_ANIMATIONS')
       }
     }
     document.addEventListener('keydown', handleKeyDown)
     return () => document.removeEventListener('keydown', handleKeyDown  ) 
-  }, [])
+  }, [open, sequenceBox])
   
   return (
 
@@ -55,8 +62,6 @@ export default function Main() {
         userSelect: 'none',
       }}
 
-    
-      
       onClose={() => {
         useAnimations.setState({ open: false })
         fetchNui('CLOSE_ANIMATIONS')  
@@ -78,7 +83,6 @@ export default function Main() {
           }
         }}
         closeButton
-        
       />
       {page}
     </SideBar>

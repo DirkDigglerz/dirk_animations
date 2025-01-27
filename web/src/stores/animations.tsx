@@ -26,6 +26,7 @@ export type AnimationProps = {
 type AnimationStoreProps = {
     // Add your store properties here
   open: boolean;
+  sequenceBox?: boolean;
   pageId: string;
   page: React.ReactNode;
   categories: AnimCategoryProps[];
@@ -36,6 +37,7 @@ type AnimationStoreProps = {
 export const useAnimations = create<AnimationStoreProps>((set) => ({
   open: isEnvBrowser(),
   page: <FrontPage />,
+  sequenceBox: true,
   pageId: 'front',
   categories: [
     {
@@ -82,6 +84,2247 @@ export const useAnimations = create<AnimationStoreProps>((set) => ({
           name: 'wave',
           dict: 'anim@mp_player_intcelebrationfemale@wave'
         },
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'Wave',
+      category: 'emotes',
+      animations: [
         {
           name: 'wave',
           dict: 'anim@mp_player_intcelebrationfemale@wave'

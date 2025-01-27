@@ -13,6 +13,10 @@ type TitleProps = {
   onBack?: () => void;
   mt?: string;
   closeButton?: boolean;
+  extraButtons?:{
+    icon: string;
+    onClick: () => void;
+  }[];
   onClose?: () => void;
 };
 
@@ -69,15 +73,19 @@ export function Title(props: TitleProps) {
           align='center'
           gap='xs'
         >
-        {props.backButton && (
-          <Button icon='fa-arrow-left' onClick={props.onBack}/> 
-        )}
+          {props.extraButtons && props.extraButtons.map((button, index) => (
+            <Button icon={button.icon} onClick={button.onClick} key={index}/>
+          ))}
 
-        {props.closeButton && (
-          <Button icon='fa-times' onClick={props.onClose} 
-        hoverColor='red'
-          />
-        )}
+          {props.backButton && (
+            <Button icon='fa-arrow-left' onClick={props.onBack}/> 
+          )}
+
+          {props.closeButton && (
+            <Button icon='fa-times' onClick={props.onClose} 
+              hoverColor='red'
+            />
+          )}
 
         </Flex>
       </Flex>

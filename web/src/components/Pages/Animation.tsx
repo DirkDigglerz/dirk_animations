@@ -1,11 +1,9 @@
 import { Flex, SimpleGrid, Text, useMantineTheme } from "@mantine/core";
 import { useHover, useLocalStorage } from "@mantine/hooks";
 import { useState } from "react";
-import { AnimationProps } from "../../stores/animations";
+import { AnimationProps, useAnimations } from "../../stores/animations";
 import { useAudio } from "../../stores/audio/store";
 import colorWithAlpha from "../../utils/colorWithAlpha";
-import Button from "../Generic/Button";
-import BorderedIcon from "../Generic/BorderedIcon";
 import { fetchNui } from "../../utils/fetchNui";
 
 export default function Animation(props: AnimationProps) {
@@ -35,7 +33,7 @@ export default function Animation(props: AnimationProps) {
               command: props.command,
               type: 'animations',
               option: 1,
-              positioning: 'ON SPOT',
+              position: false,
             })
           }
         }
@@ -138,7 +136,7 @@ export default function Animation(props: AnimationProps) {
 }
 
 function AnimOption(props: AnimationProps & {optionNumber: number}) {
-  const [positionPref, setPosition] = useLocalStorage<
+  const [positionPref] = useLocalStorage<
     'ON SPOT' | 'POSITION'
   >({
     key: 'animationPlacementPref',
@@ -165,11 +163,18 @@ function AnimOption(props: AnimationProps & {optionNumber: number}) {
       }}
       ta='center'
       onClick={() => {
-        fetchNui('EXECUTE_ANIMATION', {
+        if (positionPref == 'POSITION') {
+          useAnimations.setState({ open: false })
+        }
+        fetchNui<string>('EXECUTE_ANIMATION', {
           command: props.command,
           type: 'animations',
           option: props.optionNumber,
-          positioning: positionPref == 'POSITION',
+          position: positionPref == 'POSITION',
+        }).then((data:string) => {
+          if (data == 'ok') {
+            useAnimations.setState({ open: true })
+          }
         })
       }}
     >
