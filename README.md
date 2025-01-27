@@ -17,7 +17,9 @@
 - Easily convert Menyoo and Scully Emotes to clean_animations' format. 
 
 ## Animation Placing 
-https://streamable.com/d15itc
+https://github.com/user-attachments/assets/f3ba96dc-f8ca-42b6-9601-da0c7059d015
+
+
 
 # Dependencies 
 - [Clean Lib](https://github.com/Clean-Server-Pack/clean_lib/releases/tag/latest_production)
