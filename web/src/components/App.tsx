@@ -9,7 +9,7 @@ import { isEnvBrowser } from '../utils/misc';
 import "./App.css";
 import Main from './Main/main';
 import Sequences from './Pages/Sequences/main';
-import Report from './Test';
+
 
 const App: React.FC = () => {
   const [curTheme, setCurTheme] = useState(theme);

@@ -17,7 +17,7 @@ export type AnimationProps = {
   pedTypes?: string[];
   animations?: {
     name: string;
-    dict: string;0
+    dict: string;
     label?: string;
   }[];
 }
