@@ -10,7 +10,7 @@ export default function Animation(props: AnimationProps) {
   const [flipped, setFlipped] = useState(false);
   const theme = useMantineTheme();
   const { hovered, ref } = useHover();
-
+  const sequenceBox = useAnimations((state) => state.sequenceBox);
 
   const play = useAudio((state) => state.play);
 
@@ -20,6 +20,9 @@ export default function Animation(props: AnimationProps) {
       ref={ref}
       onContextMenu={(e) => e.preventDefault()}
       onMouseDown={(e: React.MouseEvent) => {
+        if (sequenceBox) {
+          return 
+        }
         e.preventDefault();
         if (e.button === 2) {
           play("click");

@@ -1,6 +1,5 @@
 import { create } from "zustand";
 import FrontPage from "../components/Pages/FrontPage";
-import AnimationPage from "../components/Pages/Animations";
 import { isEnvBrowser } from "../utils/misc";
 
 export type AnimCategoryProps = {
@@ -18,7 +17,7 @@ export type AnimationProps = {
   pedTypes?: string[];
   animations?: {
     name: string;
-    dict: string;
+    dict: string;0
     label?: string;
   }[];
 }
@@ -37,7 +36,7 @@ type AnimationStoreProps = {
 export const useAnimations = create<AnimationStoreProps>((set) => ({
   open: isEnvBrowser(),
   page: <FrontPage />,
-  sequenceBox: true,
+  sequenceBox: false,
   pageId: 'front',
   categories: [
     {

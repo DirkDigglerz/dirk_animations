@@ -48,3 +48,6 @@ RegisterCommand('e', function(src, args)
   print('Playing animation', animation)
 end)
 
+TriggerEvent('chat:addSuggestion', '/e', 'Play an animation', {
+  { name="animation", help="The animation name" }
+})  

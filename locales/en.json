@@ -1,10 +1,10 @@
 {
-  "Example": "Example",
-  "FailedToReach": "FailedToReach",
-  "Point": "Point",
-  "Cancel": "Cancel",
-  "HandsUp": "HandsUp",
-  "Animations": "Animations",
   "Rotate Right": "Rotate Right",
+  "Cancel": "Cancel",
+  "Example": "Example",
+  "HandsUp": "HandsUp",
+  "Point": "Point",
+  "FailedToReach": "FailedToReach",
+  "Animations": "Animations",
   "Rotate Left": "Rotate Left"
 }

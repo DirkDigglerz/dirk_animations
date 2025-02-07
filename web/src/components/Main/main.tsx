@@ -76,13 +76,13 @@ export default function Main() {
           useAnimations.setState({ open: false })
           fetchNui('CLOSE_ANIMATIONS')  
         }}
-        backButton={pageId != 'front'}
+        backButton={pageId != 'front' && !sequenceBox}
         onBack={()=>{
           if (pageId == 'animations'){
             setPage(<FrontPage />, 'front')
           }
         }}
-        closeButton
+        closeButton={!sequenceBox}
       />
       {page}
     </SideBar>

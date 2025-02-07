@@ -58,6 +58,11 @@ export default function FrontPage(){
           label='SEQUENCES'
           description='Create sequences of animations'
           h='10vh'
+          onClick={() => {
+            console.log('clicked')
+            useAnimations.setState((state) => ({...state, page: <AnimationPage />, pageId: 'animations', sequenceBox: true})) 
+          }}
+          
         />
         <MainButton 
           icon='fa fa-pencil'
