@@ -1,6 +1,7 @@
-local scullyFormatAnims = require 'settings.scullyFormatAnims'
+local basic = require 'settings.basic'
+if not basic.convertScullyEmotes then return end
+local scullyFormatAnims = require 'settings.conversions.scullyFormatAnims'
 
--- Function to convert a Lua table to a string representation with 2-space indentation
 -- Function to convert a Lua table to a string representation with 2-space indentation
 function table_to_string(tbl, indent_level)
   indent_level = indent_level or 0
@@ -37,123 +38,100 @@ function table_to_string(tbl, indent_level)
   return result
 end
 
-
 local ret = {}
 
-
-local getByCommand = function(command)
+local getByCommand = function(command, _type)
   for k,v in ipairs(ret) do 
-    if v.command == command then 
+    if v.command == command and (not _type or v.type == _type) then
       return v 
     end 
   end 
   return false
 end
 
-for k,v in ipairs(scullyFormatAnims) do 
-
-
-
+for k, v in ipairs(scullyFormatAnims) do 
   if v.Command then 
     local commandNumber = v.Command:match('%d+')
     local commandNoNumbers = v.Command:match('%a+')
-    local existing = getByCommand(commandNoNumbers)
-    if existing then 
-      if (v.Animation or v.Dictionary) then 
-        existing.animations = existing.animations or {}
-        table.insert(existing.animations, {
-          dict = v.Dictionary, 
-          anim = v.Animation,
-          props = v.Options?.Props and {},
-          flags = v.Options?.Flags and #v.Options?.Flags > 0 and {} or nil,
+    local _type = v.Dictionary and (v.Options and v.Options.Shared and 'shared' or 'animation')
+      or v.Expression and 'expression' 
+      or v.Walk and 'walk' 
+    
+    local existing = getByCommand(commandNoNumbers, _type)
+    
+    local function addFlags(target, options)
+      target.flags = target.flags or {}
+      for _, flag in ipairs(options.Flags) do 
+        table.insert(target.flags, {
+          loop     = flag.Loop,
+          duration = flag.Duration,
+          move     = flag.Move,
         })
-        local newIndex = #existing.animations
-        if v.Options?.Flags then 
-          for k,v in ipairs(v.Options.Flags) do 
-            existing.animations[newIndex].flags = existing.animations[newIndex].flags or {}
-            table.insert(existing.animations[newIndex].flags, {
-              loop     = v.Loop,
-              duration = v.Duration,
-              move     = v.Move,
-            })
-          end
-        end
-
-        if v.Options?.Props then 
-          for k,v in ipairs(v.Options.Props) do 
-            existing.animations[newIndex].props = existing.animations[newIndex].props or {}
-            table.insert(existing.animations[newIndex].props, {
-              bone  = v.Bone,  
-              model = v.Name,
-              pos   = v.Placement and v.Placement[1],
-              rot   = v.Placement and v.Placement[2],
-            })
-          end
-        end
-
-      elseif v.Expression then
-        table.insert(existing.expressions, v.Expression)
-      elseif v.Walk then 
-        existing.walks = existing.walks or {}
-        table.insert(existing.walks, v.Walk)
-      end 
-      goto continue
-    end 
-  end 
-
-  local newAnimation = {
-    command = v.Command,
-    label   = v.Label,
-    pedTypes = v.PedTypes, 
-  }
-
-  if v.Expression then 
-    newAnimation.expressions = {}
-    table.insert(newAnimation.expressions, v.Expression)
-  end
-
-  if v.Dictionary and v.Animation then 
-    local baseAnim = {
-      dict = v.Dictionary, 
-      anim = v.Animation,
-      props = v.Options?.Props and {},
-      flags = v.Options?.Flags and #v.Options?.Flags > 0 and {},
+      end
+    end
+    
+    local function addProps(target, options)
+      target.props = target.props or {}
+      for _, prop in ipairs(options.Props) do 
+        table.insert(target.props, {
+          bone  = prop.Bone,  
+          model = prop.Name,
+          pos   = prop.Placement and prop.Placement[1],
+          rot   = prop.Placement and prop.Placement[2],
+        })
+      end
+    end
+    
+    local target = existing or {
+      type    = _type,
+      command = v.Command,
+      label   = v.Label,
+      pedTypes = v.PedTypes,
     }
-
-    if v.Options?.Flags then 
-      for k,v in ipairs(v.Options.Flags) do 
-        table.insert(baseAnim.flags, {
-          loop     = v.Loop,
-          duration = v.Duration,
-          move     = v.Move,
-        })
+    
+    if _type == 'expression' then
+      target.expressions = target.expressions or {}
+      table.insert(target.expressions, v.Expression)
+    elseif _type == 'walk' then
+      target.walks = target.walks or {}
+      table.insert(target.walks, v.Walk)
+    elseif _type == 'animation' or _type == 'shared' then
+      target.animations = target.animations or {}
+      
+      local newAnim = {
+        dict = v.Dictionary, 
+        anim = v.Animation,
+      }
+      
+      if v.Options and v.Options.Shared then 
+        newAnim.shared = {
+          otherAnimation = v.Options.Shared.OtherAnimation,
+          frontOffset    = v.Options.Shared.FrontOffset,
+          attach         = v.Options.Shared.Attach and {
+            bone = v.Options.Shared.Bone,
+            pos  = v.Options.Shared.Placement[1],
+            rot  = v.Options.Shared.Placement[2],
+          },
+        }
+      end 
+      
+      if v.Options and v.Options.Flags then 
+        addFlags(newAnim, v.Options)
       end
-    end
-
-    if v.Options?.Props then 
-      for k,v in ipairs(v.Options.Props) do 
-        table.insert(baseAnim.props, {
-          bone  = v.Bone,  
-          model = v.Name,
-          pos   = v.Placement and v.Placement[1],
-          rot   = v.Placement and v.Placement[2],
-        })
+      
+      if v.Options and v.Options.Props then 
+        addProps(newAnim, v.Options)
       end
+      
+      table.insert(target.animations, newAnim)
     end
-    newAnimation.animations = {}
-    table.insert(newAnimation.animations, baseAnim)
+    
+    if not existing then
+      table.insert(ret, target)
+    end
   end
-
-  if v.Walk then 
-    newAnimation.walks = {}
-    table.insert(newAnimation.walks, v.Walk)
-  end
-
-  table.insert(ret, newAnimation)
-
-  ::continue::
 end
 
 local to_text = table_to_string(ret)
 
-SaveResourceFile(GetCurrentResourceName(), 'settings/exportedEmotes.lua', 'return '..to_text)  
+SaveResourceFile(GetCurrentResourceName(), 'settings/conversions/exportedAnims.lua', 'return '..to_text)

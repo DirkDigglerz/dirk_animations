@@ -1,19 +1,29 @@
 import { Flex, SimpleGrid, Text, useMantineTheme } from "@mantine/core";
 import { useHover, useLocalStorage } from "@mantine/hooks";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { AnimationProps, useAnimations } from "../../stores/animations";
 import { useAudio } from "../../stores/audio/store";
 import colorWithAlpha from "../../utils/colorWithAlpha";
 import { fetchNui } from "../../utils/fetchNui";
 
-export default function Animation(props: AnimationProps) {
+export default function Animation(props: AnimationProps & {selected: boolean} ) {  
   const [flipped, setFlipped] = useState(false);
   const theme = useMantineTheme();
   const { hovered, ref } = useHover();
   const sequenceBox = useAnimations((state) => state.sequenceBox);
 
-  const play = useAudio((state) => state.play);
 
+  const play = useAudio((state) => state.play);
+  const options = useMemo(() => {
+    switch(props.type) {
+      case 'walk':
+        return props.walks;
+      case 'expression':
+        return props.expressions;
+      default:
+        return props.animations;
+    }
+  }, [props])
 
   return (
     <Flex
@@ -34,7 +44,7 @@ export default function Animation(props: AnimationProps) {
           if (!flipped) {
             fetchNui('EXECUTE_ANIMATION', {
               command: props.command,
-              type: 'animations',
+              type: props.type,
               option: 1,
               position: false,
             })
@@ -64,7 +74,7 @@ export default function Animation(props: AnimationProps) {
       >
         {/* Front Side */}
         <Flex
-          bg={hovered ? "rgba(77,77,77,0.6)" : "rgba(77,77,77,0.5)"}
+          bg={(props.selected && hovered) ? "rgba(77,77,77,0.6)" : "rgba(77,77,77,0.5)"}
           style={{
             position: "absolute",
             backfaceVisibility: "hidden",
@@ -72,13 +82,13 @@ export default function Animation(props: AnimationProps) {
             height: "100%",
             // pointerEvents: flipped ? "auto" : "none",
             borderRadius: theme.radius.xxs,
-            boxShadow: hovered
+            boxShadow: (props.selected && hovered)
               ? `inset 0 0 8vh ${colorWithAlpha(
                   theme.colors[theme.primaryColor][theme.primaryShade as number],
                   0.8
                 )}`
               : "inset 0 0 0.2vh rgba(0,0,0,0.6)",
-            outline: hovered
+            outline: (props.selected && hovered)
               ? `0.2vh solid ${colorWithAlpha(
                   theme.colors[theme.primaryColor][9],
                   0.8
@@ -110,7 +120,7 @@ export default function Animation(props: AnimationProps) {
           gap='xs'
         >
         
-          <PositionToggle/>
+          {props.type != 'expression' && props.type != 'walk' && props.type != 'shared' && <PositionToggle />}
           <SimpleGrid
             cols={3}
             spacing='xs'
@@ -124,7 +134,7 @@ export default function Animation(props: AnimationProps) {
               overflowY: 'auto',
             }}
           >
-            {props.animations?.map((animation, index) => (
+            {options?.map((animation, index) => (
               <AnimOption key={index} {...props} 
                 optionNumber={index + 1}
               />
@@ -171,8 +181,9 @@ function AnimOption(props: AnimationProps & {optionNumber: number}) {
         }
         fetchNui<string>('EXECUTE_ANIMATION', {
           command: props.command,
-          type: 'animations',
+          type: props.type,
           option: props.optionNumber,
+        
           position: positionPref == 'POSITION',
         }).then((data:string) => {
           if (data == 'ok') {
@@ -286,6 +297,14 @@ function AnimationOptions(props: AnimationProps) {
 
 function CommandDisplay(props: AnimationProps) {
   const theme = useMantineTheme();
+
+  const commandStart = useMemo(() => {
+    return props.type == 'shared' ? 'shared' 
+    : props.type == 'walk' ? 'walk'
+    : props.type == 'expression' ? 'face'
+    : 'e'
+  }, [props])
+
   return (
     <Flex 
       direction="column"
@@ -312,7 +331,7 @@ function CommandDisplay(props: AnimationProps) {
           lineHeight: "1.2vh",
         }}
       >
-        /e {props.command}
+        /{commandStart} {props.command}
       </Text>
     </Flex>
   );

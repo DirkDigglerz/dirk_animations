@@ -1,7 +1,8 @@
 import { Flex, Input, Text, Transition, useMantineTheme } from "@mantine/core";
-import { Title } from "../../Generic/Title";
 import { useState } from "react";
 import { AnimationProps, useAnimations } from "../../../stores/animations";
+import { Title } from "../../Generic/Title";
+import FrontPage from "../FrontPage";
 
 type SequenceProps = {
   command: string;
@@ -74,7 +75,13 @@ export default function Sequences() {
             icon='fa fa-list'
             closeButton
             onClose={() => {
-              useAnimations.setState({sequenceBox: false})
+              useAnimations.setState({
+                sequenceBox: false,
+                pageId: 'front',
+                page: <FrontPage/>
+              
+              })
+              
             }}
 
             extraButtons={[
@@ -168,13 +175,22 @@ function SequenceAnimBox(props:SequenceAnimBoxProps){
       h='14vh'
       m='xs'
       bg='rgba(77, 77, 77, 0.6)'
+      p='xs'
       style={{
         borderRadius: theme.radius.xxs,
         outline: `0.2vh solid rgba(77, 77, 77, 0.8)`,
         boxShadow: `inset 0 0 2vh rgba(122, 122, 122, 0.8)`,
         aspectRatio: '1/1',
       }}
-    />
+    >
+      <Text
+        mt='auto'
+        size='xs'
+        c='rgba(255, 255, 255, 0.8)'
+      >
+        /e {props.command}
+      </Text>
+    </Flex>
   )
 }
 

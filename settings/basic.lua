@@ -1,4 +1,6 @@
 return {
+  convertScullyEmotes = true, -- will convert scullyEmotes format to clean_animations from conversions/scullyFormatAnims.lua  
+  idleCamDefault      = false, -- will set the idle cam to false as default
   defaultBinds = {
     menu    = 'K',
     cancel  = 'X',

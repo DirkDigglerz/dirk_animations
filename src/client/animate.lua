@@ -1,8 +1,8 @@
 local animations = require 'settings.animations'
 local basic = require 'settings.basic'
-local getAnimation = function(command, number) 
+local getAnimation = function(command, number, _type)
   for _, animation in ipairs(animations) do
-    if animation.command == command then
+    if animation.command == command and animation.type == _type then
       return animation
     end
   end
@@ -12,26 +12,30 @@ end
 
 
 
-local parseAnim = function(command, number)
-  local animation = getAnimation(command, number)
+local parseAnim = function(command, number, _type)
+  local animation = getAnimation(command, number, _type)
   if not animation then return lib.print.error(('No actual animation found for %s'):format(command)) end
-  local hasType = animation and animation['animations']
-  if not hasType then return lib.print.error(('No type %s found for %s %s'):format('animations', command, number)) end
-  local hasOption = animation['animations'][number]
+  local hasType = animation and animation[_type..'s']
+  if not hasType then return lib.print.error(('No type %s found for %s %s'):format(_type..'s', command, number)) end
+  local hasOption = animation[_type..'s'][number]
   if not hasOption then return lib.print.error(('No option found for %s %s'):format(command, number)) end
   return hasOption
 end
 
--- _type: 'animations' | 'expressions' | 'walks
+-- _type: 'animation' | 'expression' | 'walk
 playAnimation = function(_type, id, option, ped, forceLoop, forcePos)
-  local hasOption = parseAnim(id, option)
+  print('playAnimation', _type, id, option, ped, forceLoop, forcePos)
+  local hasOption = parseAnim(id, option, _type)
   if not hasOption then return end
 
-  if _type == 'walks' then 
+  if _type == 'walk' then 
+    lib.request.animSet(hasOption)
+    SetPedMovementClipset(cache.ped, hasOption, 0.2)
+    RemoveAnimSet(hasOption)
 
-  elseif _type == 'expressions' then
-
-  elseif _type == 'animations' then
+  elseif _type == 'expression' then
+    SetFacialIdleAnimOverride(cache.ped, hasOption, 0)
+  elseif _type == 'animation' then
     local dict, anim = hasOption.dict, hasOption.anim
     local dictLoaded = lib.request.animDict(dict)
     if not dictLoaded then return false, lib.print.error(('Failed to load dictionary %s'):format(dict)) end
@@ -105,14 +109,14 @@ AddEventHandler('onResourceStop', function(resource)
 end)
 
 
-local placeAnimation = function(id, option)
-  local hasOption = parseAnim(id, option)
+local placeAnimation = function(id, option, _type)
+  local hasOption = parseAnim(id, option, _type)
   if not hasOption then return end
   LocalPlayer.state.placingAnimation = true
 
   local entity = clonePed()
 
-  playAnimation('animations', id, option, entity)
+  playAnimation('animation', id, option, entity)
   
 
   local isValidPos = function(coords)
@@ -131,8 +135,8 @@ local placeAnimation = function(id, option)
     removeEntity()
     cancelAll()
   end
-  local retpromise = promise.new()
 
+  local retpromise = promise.new()
   local rotation = GetEntityRotation(entity)
   local min, max = GetModelDimensions(loaded_model)
   lib.showKeys({
@@ -205,12 +209,13 @@ end
 
 
 RegisterNuiCallback('EXECUTE_ANIMATION', function(data, cb)
-  -- _type: 'animations' | 'faces' | 'walks'
+  -- _type: 'animation' | 'expression' | 'walk'
   print('EXECUTE_ANIMATION', data.type, data.command, data.option, data.position)
   
-  if data.type == 'animations' and data.position then 
+  if data.type == 'animation' and data.position then 
+    print('Placing animation')
     SetNuiFocus(false, false)
-    local position = placeAnimation(data.command, data.option)
+    local position = placeAnimation(data.command, data.option, data.type)
     -- Make ped walk to this spot 
     local ped = cache.ped
     TaskGoStraightToCoord(ped, position.pos.x, position.pos.y, position.pos.z, 1.0, -1, position.pos.w, 0.0)
@@ -241,7 +246,7 @@ RegisterNuiCallback('EXECUTE_ANIMATION', function(data, cb)
           SetPlayerControl(PlayerId(), true)
           ClearPedTasks(ped)
           ClearPedSecondaryTask(ped)
-          playAnimation('animations', data.command, data.option, nil, nil, position.pos)
+          playAnimation('animation', data.command, data.option, nil, nil, position.pos)
           SetNuiFocus(true, true)
           cb('ok')
           LocalPlayer.state.movingToAnim = false

@@ -1,12 +1,11 @@
 import { useMantineTheme } from "@mantine/core"
 import { useEffect } from "react"
+import { useNuiEvent } from "../../hooks/useNuiEvent"
 import { AnimationProps, AnimCategoryProps, useAnimations } from "../../stores/animations"
+import { fetchNui } from "../../utils/fetchNui"
 import SideBar from "../Generic/SideBar"
 import { Title } from "../Generic/Title"
 import FrontPage from "../Pages/FrontPage"
-import { useNuiEvent } from "../../hooks/useNuiEvent"
-import { fetchNui } from "../../utils/fetchNui"
-import Sequences from "../Pages/Sequences/main"
 
 export default function Main() {
   const open = useAnimations(state => state.open)  
@@ -21,6 +20,7 @@ export default function Main() {
     animations: AnimationProps[],
     categories: AnimCategoryProps[]
   }) => {
+    console.log(JSON.stringify(data.animations, null, 2))
     useAnimations.setState({ 
       animations: data.animations,
       categories: data.categories,
@@ -78,7 +78,7 @@ export default function Main() {
         }}
         backButton={pageId != 'front' && !sequenceBox}
         onBack={()=>{
-          if (pageId == 'animations'){
+          if (pageId != 'front') {
             setPage(<FrontPage />, 'front')
           }
         }}

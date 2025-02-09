@@ -6,6 +6,7 @@ import colorWithAlpha from "../../utils/colorWithAlpha";
 
 import { useEffect } from "react";
 import { useAudio } from "../../stores/audio/store";
+import { locale } from "../../stores/locales";
 
 type MainButtonProps = {
   icon: string;
@@ -16,6 +17,7 @@ type MainButtonProps = {
   description?: string;
   flex?: number
   onClick?: () => void;
+  comingSoon?: boolean;
 }
 
 
@@ -26,14 +28,18 @@ function MainButton(props:MainButtonProps) {
   const playSound = useAudio(state => state.play)
 
   useEffect(() => {
+    if (props.comingSoon) {
+      return
+    }
     if(hovered){
     playSound('hover')
     }
-  }, [hovered])
+  }, [hovered, props.comingSoon])
   
   return (
 
       <Flex
+    
         ref={ref}
         h={props.h}
         flex={props.flex}
@@ -41,6 +47,9 @@ function MainButton(props:MainButtonProps) {
         w={props.w}
         justify='center'  
         onClick={() => {
+          if (props.comingSoon) {
+            return
+          }
           if (props.onClick) {
             props.onClick()
             playSound('click')
@@ -50,15 +59,15 @@ function MainButton(props:MainButtonProps) {
         p='sm'
         style={{
           transition: 'all ease-in-out 0.2s',
-          boxShadow: hovered ? `inset 0 0 8vh ${colorWithAlpha(theme.colors[theme.primaryColor][theme.primaryShade as number], 0.8)}` : 'inset 0 0 0.2vh rgba(0,0,0,0.6)', 
-          outline: hovered ?  `0.2vh solid ${colorWithAlpha(theme.colors[theme.primaryColor][9], 0.8)}` : '0.2rem solid transparent',
-          backgroundColor: hovered ? 'rgba(77,77,77,0.6)' : 'rgba(77,77,77,0.5)',
+          boxShadow: (!props.comingSoon && hovered) ? `inset 0 0 8vh ${colorWithAlpha(theme.colors[theme.primaryColor][theme.primaryShade as number], 0.8)}` : 'inset 0 0 0.2vh rgba(0,0,0,0.6)', 
+          outline: (!props.comingSoon && hovered) ?  `0.2vh solid ${colorWithAlpha(theme.colors[theme.primaryColor][9], 0.8)}` : '0.2rem solid transparent',
+          backgroundColor: (!props.comingSoon && hovered) ? 'rgba(77,77,77,0.6)' : !props.comingSoon? 'rgba(77,77,77,0.5)' : 'rgba(77,77,77,0.3)',
           userSelect: 'none', 
           borderRadius: theme.radius.xxs,
           backgroundImage: props.bgImg ? `url('./${props.bgImg}.png')` : 'none',
           backgroundBlendMode: 'multiply',
           backgroundSize: 'cover',
-          cursor: 'pointer',
+          cursor: !props.comingSoon ? 'pointer' : 'default',
         }}
       >
         <Flex
@@ -67,7 +76,7 @@ function MainButton(props:MainButtonProps) {
           mr='auto'
           gap='xxs'
           style={{
-            transform: hovered ? 'scale(1.02)' : 'scale(1)',
+            transform: (!props.comingSoon && hovered) ? 'scale(1.02)' : 'scale(1)',
             transition: 'all ease-in-out 0.2s',
           }}
         >
@@ -79,12 +88,12 @@ function MainButton(props:MainButtonProps) {
             <FontAwesomeIcon icon={props.icon as IconProp} 
               style={{
                 transition: 'all ease-in-out 0.2s',
-                color: !hovered ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,1)',
+                color: !(!props.comingSoon && hovered) ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,1)',
                 fontSize: theme.fontSizes.xs,
               }}
             />
             <Text
-              c={!hovered ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,1)'}
+              c={!(!props.comingSoon && hovered) ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,1)'}
               size={theme.fontSizes.xs}
               style={{
                 fontFamily: 'Akrobat Bold',
@@ -92,14 +101,14 @@ function MainButton(props:MainButtonProps) {
               }}
             >{props.label}</Text>
           </Flex>
-          {props.description && <Text
-            c={!hovered ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.8)'}
+          {(props.description || props.comingSoon) && <Text
+            c={!(!props.comingSoon && hovered) ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.8)'}
             style={{
               transition: 'all ease-in-out 0.2s',
             }}
             size = {theme.fontSizes.xs}
             mih={theme.spacing.md}
-          >{props.description}</Text>}
+          >{props.comingSoon ? locale('ComingSoon') : props.description}</Text>}
         </Flex>
       </Flex>
 

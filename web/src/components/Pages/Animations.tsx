@@ -1,12 +1,12 @@
-import { Flex, SimpleGrid, Pagination, TextInput, useMantineTheme, Transition } from "@mantine/core";
-import { useAnimations } from "../../stores/animations";
-import Animation from "./Animation";
-import { useEffect, useMemo, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Flex, Pagination, SimpleGrid, TextInput, Transition, useMantineTheme } from "@mantine/core";
+import { useMemo, useState } from "react";
+import { AnimationProps, useAnimations } from "../../stores/animations";
+import Animation from "./Animation";
 
 type AnimationPageProps = {
-  filterCategory?: string;
+  type: AnimationProps['type'];
 };
 
 export default function AnimationPage(props: AnimationPageProps) {
@@ -14,17 +14,20 @@ export default function AnimationPage(props: AnimationPageProps) {
   const theme = useMantineTheme();
   const animPerPage = 15;
   const [page, setPage] = useState(1); // Start at page 1 for user-friendly indexing
-  const animations = useAnimations((state) => state.animations).filter((animation) =>{
-    return (animation.animations && !animation.walks && !animation.expressions)
-  })
+  const animations = useAnimations((state) => state.animations); // Don't filter prematurely
 
-
-  // filter animations by search 
+  // filter animations by category and search 
   const filteredAnimations = useMemo(() => {
     return animations.filter((animation) => {
-      return (animation.animations && !animation.walks && !animation.expressions) && animation.label.toLowerCase().includes(search.toLowerCase()) || animation.command.toLowerCase().includes(search.toLowerCase());    
+      const matchesType = animation.type === props.type;
+      const matchesSearch =
+        animation.label.toLowerCase().includes(search.toLowerCase()) ||
+        animation.command.toLowerCase().includes(search.toLowerCase());
+  
+      return matchesType && matchesSearch; // Ensure both match
     });
-  }, [animations, search]);
+  }, [animations, search, props.type]);
+  
 
   // Chunk animations into pages
   const pages = useMemo(() => {
