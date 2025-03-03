@@ -1,12 +1,14 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Flex, Pagination, SimpleGrid, TextInput, Transition, useMantineTheme } from "@mantine/core";
+import { Flex, Pagination, SimpleGrid, Text, TextInput, Transition, useMantineTheme } from "@mantine/core";
 import { useMemo, useState } from "react";
 import { AnimationProps, useAnimations } from "../../stores/animations";
 import Animation from "./Animation";
+import { locale } from "../../stores/locales";
 
 type AnimationPageProps = {
   type: AnimationProps['type'];
+  sub?: string;
 };
 
 export default function AnimationPage(props: AnimationPageProps) {
@@ -15,18 +17,22 @@ export default function AnimationPage(props: AnimationPageProps) {
   const animPerPage = 15;
   const [page, setPage] = useState(1); // Start at page 1 for user-friendly indexing
   const animations = useAnimations((state) => state.animations); // Don't filter prematurely
-
-  // filter animations by category and search 
+  const pedType = useAnimations((state) => state.pedType);
+  // filter animations by category and search   
   const filteredAnimations = useMemo(() => {
-    return animations.filter((animation) => {
+    const validAnimations = animations.filter((animation) => {
       const matchesType = animation.type === props.type;
+      const matchesSub = !props.sub || animation[props.sub as unknown as keyof AnimationProps];
       const matchesSearch =
         animation.label.toLowerCase().includes(search.toLowerCase()) ||
         animation.command.toLowerCase().includes(search.toLowerCase());
   
-      return matchesType && matchesSearch; // Ensure both match
+      const matchesPedType = !animation.pedTypes  && pedType == 'humans' || animation.pedTypes?.includes(pedType);
+
+      return matchesType && matchesSearch && matchesSub && matchesPedType;
     });
-  }, [animations, search, props.type]);
+    return validAnimations;
+  }, [animations, search, props.type, props.sub, pedType]);
   
 
   // Chunk animations into pages
@@ -37,6 +43,19 @@ export default function AnimationPage(props: AnimationPageProps) {
     }
     return pages;
   }, [filteredAnimations]);
+  const currentExpression = useAnimations((state) => state.currentExpression);
+  const currentWalk = useAnimations((state) => state.currentWalk);
+
+  const isAnimSelected = (animation: AnimationProps) => {
+    // check if this option and animation is selected if the type is walk or expression 
+    if (props.type === 'walk') {
+      return currentWalk.name === animation.command;
+    } else if (props.type === 'expression') {
+      return currentExpression.name === animation.command;
+    } else {
+      return false;
+    }
+  }
 
   return (
     <Flex
@@ -65,7 +84,7 @@ export default function AnimationPage(props: AnimationPageProps) {
         mt='xs'
         p="xs"
         w="100%"
-        cols={3}
+        cols={filteredAnimations.length == 0 ? 1 : 3}
         spacing="xs"
         mah="79vh"
         verticalSpacing="xs"
@@ -73,9 +92,40 @@ export default function AnimationPage(props: AnimationPageProps) {
           overflow: "hidden",
         }}
       >
-        {pages[page - 1]?.map((animation, index) => (
-          <Animation key={index} {...animation} />
-        ))}
+        {filteredAnimations.length === 0 ? (
+          <Flex 
+            gap='sm'
+            align='center'
+            w='60%'
+            ml='auto'
+            h='70vh'
+            justify={'center'}
+            mr='auto'
+            
+          >
+            <FontAwesomeIcon
+              icon={'fa fa-exclamation-triangle' as IconProp}
+              style={{
+                fontSize: theme.fontSizes.xl,
+                color: 'rgba(255,255,255,0.8)',
+              }}
+            />
+            <Flex
+              direction={'column'}
+            >
+              <Text size='sm'>{locale('Warning').toUpperCase()}</Text>
+              <Text size='xs' c='rgba(255,255,255,0.8)'>{locale('NoAnimationsWarning')}</Text>
+            </Flex>
+          </Flex>
+        ): (
+          pages[page - 1].map((animation) => (
+            <Animation
+              key={animation.command}
+               {...animation}
+              selected={isAnimSelected(animation)}
+            />
+          ))
+        )}
       </SimpleGrid>
         <Transition
           duration={200}

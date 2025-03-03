@@ -7,5 +7,6 @@ toggleIdleCam = function(bool)
 end
 
 CreateThread(function()
-  toggleIdleCam(kvp.get('idleCam', basic.idleCamDefaultidleCamDefault))
+  local idleCam = kvp.get('idleCam', basic.disableIdleCamDefault)
+  toggleIdleCam(idleCam)
 end)

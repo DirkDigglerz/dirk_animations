@@ -365,7 +365,7 @@ constants.OFFSETS = {
   bottom = vec2(0.7, -0.45),
 }
 
-local male_models, female_models, animal_models = require 'settings.models.male_models', require 'settings.models.female_models', require 'settings.models.animal_models'
+local humanModels, animalModels = require 'settings.pedModels.humans', require 'settings.pedModels.animals'
 
 local hashesComputed = false
 local PED_TATTOOS = {}
@@ -383,22 +383,47 @@ local getPedModel = function(ped)
   if not pedModelsByHash then 
     pedModelsByHash = {}
 
-    for _, model in ipairs(male_models) do 
-      pedModelsByHash[GetHashKey(model)] = model
+    for _, model in ipairs(humanModels) do 
+      pedModelsByHash[GetHashKey(model)] = {
+        model = model,
+        type = 'humans', 
+      }
     end
 
-    for _,model in ipairs(female_models) do 
-      pedModelsByHash[GetHashKey(model)] = model
-    end
-
-    for _,model in ipairs(animal_models) do 
-      pedModelsByHash[GetHashKey(model)] = model
+    for _type,model in pairs(animalModels) do 
+      for _,model in ipairs(model) do 
+        pedModelsByHash[GetHashKey(model)] = {
+          model = model,
+          type = _type,
+        }
+      end
     end
   end
 
   local model = GetEntityModel(ped)
-  return pedModelsByHash[model]
+  return pedModelsByHash[model]?.model, pedModelsByHash[model]?.type
 end
+
+rawHash, pedModel, pedType = false, false, false 
+lib.onCache('playerLoaded', function(data)
+  if not data then return end
+  CreateThread(function()
+    while true do
+      local model = GetEntityModel(cache.ped)
+      if model ~= rawHash then 
+        rawHash = model
+        pedModel, pedType = getPedModel(cache.ped)
+        SendNuiMessage(json.encode({
+          action = 'UPDATE_PED_TYPE',
+          data = pedType,
+        }))
+        
+      end 
+      Wait(10000)
+    end
+  end)
+end)
+
 
 local isPedFreemodeModel = function(ped)
   local model = GetEntityModel(ped)
@@ -697,4 +722,3 @@ utils = {
   getPedModel = getPedModel,
   getPedHeadBlend = getPedHeadBlend,
 }
-  

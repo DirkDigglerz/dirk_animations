@@ -15,19 +15,40 @@ export default function Main() {
   const setPage = useAnimations(state => state.setPage)
   const theme = useMantineTheme()
 
+  useNuiEvent('UPDATE_PED_TYPE', (data: string) => {
+    useAnimations.setState({ pedType: data })
+  })
 
   useNuiEvent('OPEN_ANIMATIONS', (data:{
     animations: AnimationProps[],
-    categories: AnimCategoryProps[]
+    categories: AnimCategoryProps[],
+    currentWalk: {name: string, option: number},
+    currentExpression: {name: string, option: number},
+    pedType: string,
   }) => {
-    console.log(JSON.stringify(data.animations, null, 2))
+
     useAnimations.setState({ 
       animations: data.animations,
       categories: data.categories,
+      currentExpression: data.currentExpression,
+      currentWalk: data.currentWalk,
       open: true,
+      pedType: data.pedType,
       page: <FrontPage />,
       pageId: 'front'
     })
+  })
+
+  useNuiEvent('CLOSE_ANIMATIONS', () => {
+    useAnimations.setState({ open: false })
+  })
+
+  useNuiEvent('SET_CURRENT_WALK', (data: {name: string, option: number}) => {
+    useAnimations.setState({ currentWalk: data })
+  })
+
+  useNuiEvent('SET_CURRENT_EXPRESSION', (data: {name: string, option: number}) => {
+    useAnimations.setState({ currentExpression: data })
   })
 
   // listen for excape key 

@@ -60,14 +60,13 @@ for k, v in ipairs(scullyFormatAnims) do
     local existing = getByCommand(commandNoNumbers, _type)
     
     local function addFlags(target, options)
-      target.flags = target.flags or {}
-      for _, flag in ipairs(options.Flags) do 
-        table.insert(target.flags, {
-          loop     = flag.Loop,
-          duration = flag.Duration,
-          move     = flag.Move,
-        })
-      end
+      if not options.Flags then return end
+      target.flags = {
+        loop     = options.Flags.Loop,
+        duration = options.Flags.Duration,
+        move     = options.Flags.Move,
+        
+      }
     end
     
     local function addProps(target, options)
@@ -121,6 +120,7 @@ for k, v in ipairs(scullyFormatAnims) do
       
       if v.Options and v.Options.Props then 
         addProps(newAnim, v.Options)
+        target.type = 'prop'
       end
       
       table.insert(target.animations, newAnim)

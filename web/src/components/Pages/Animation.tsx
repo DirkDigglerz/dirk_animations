@@ -1,17 +1,20 @@
 import { Flex, SimpleGrid, Text, useMantineTheme } from "@mantine/core";
 import { useHover, useLocalStorage } from "@mantine/hooks";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AnimationProps, useAnimations } from "../../stores/animations";
 import { useAudio } from "../../stores/audio/store";
 import colorWithAlpha from "../../utils/colorWithAlpha";
 import { fetchNui } from "../../utils/fetchNui";
+import { locale } from "../../stores/locales";
 
-export default function Animation(props: AnimationProps & {selected: boolean} ) {  
+export default function Animation(props: AnimationProps & {selected?: boolean} ) {  
   const [flipped, setFlipped] = useState(false);
   const theme = useMantineTheme();
   const { hovered, ref } = useHover();
   const sequenceBox = useAnimations((state) => state.sequenceBox);
+  const pedType = useAnimations((state) => state.pedType);
 
+  
 
   const play = useAudio((state) => state.play);
   const options = useMemo(() => {
@@ -24,6 +27,25 @@ export default function Animation(props: AnimationProps & {selected: boolean} ) 
         return props.animations;
     }
   }, [props])
+
+
+  const [positionPref, setPosition] = useLocalStorage<
+    'ON SPOT' | 'POSITION'
+  >({
+    key: 'animationPlacementPref',
+    defaultValue: 'POSITION',
+  });
+
+  const canPosition = useMemo(() => {
+    return (props.type != 'expression' && props.type != 'walk' && props.type != 'shared' && pedType == 'humans')
+  }, [props, pedType])
+
+  // if canPosition is false then return set our position to on spot 
+  useEffect(() => {
+    if (!canPosition) {
+      setPosition('ON SPOT')
+    }
+  }, [canPosition])
 
   return (
     <Flex
@@ -42,11 +64,19 @@ export default function Animation(props: AnimationProps & {selected: boolean} ) 
           setFlipped(true);
         } else {
           if (!flipped) {
+            if (props.type == 'shared') {
+              // temp close 
+              useAnimations.setState({ open: false })
+            }
             fetchNui('EXECUTE_ANIMATION', {
               command: props.command,
               type: props.type,
               option: 1,
               position: false,
+            }).then((data) => {
+              if (data == 'ok') {
+                useAnimations.setState({ open: true })
+              }
             })
           }
         }
@@ -74,7 +104,7 @@ export default function Animation(props: AnimationProps & {selected: boolean} ) 
       >
         {/* Front Side */}
         <Flex
-          bg={(props.selected && hovered) ? "rgba(77,77,77,0.6)" : "rgba(77,77,77,0.5)"}
+          bg={(props.selected || hovered) ? "rgba(77,77,77,0.6)" : "rgba(77,77,77,0.5)"}
           style={{
             position: "absolute",
             backfaceVisibility: "hidden",
@@ -82,13 +112,13 @@ export default function Animation(props: AnimationProps & {selected: boolean} ) 
             height: "100%",
             // pointerEvents: flipped ? "auto" : "none",
             borderRadius: theme.radius.xxs,
-            boxShadow: (props.selected && hovered)
+            boxShadow: (props.selected || hovered)
               ? `inset 0 0 8vh ${colorWithAlpha(
                   theme.colors[theme.primaryColor][theme.primaryShade as number],
                   0.8
                 )}`
               : "inset 0 0 0.2vh rgba(0,0,0,0.6)",
-            outline: (props.selected && hovered)
+            outline: (props.selected || hovered)
               ? `0.2vh solid ${colorWithAlpha(
                   theme.colors[theme.primaryColor][9],
                   0.8
@@ -120,7 +150,7 @@ export default function Animation(props: AnimationProps & {selected: boolean} ) 
           gap='xs'
         >
         
-          {props.type != 'expression' && props.type != 'walk' && props.type != 'shared' && <PositionToggle />}
+          {canPosition && <PositionToggle  />}
           <SimpleGrid
             cols={3}
             spacing='xs'
@@ -137,6 +167,11 @@ export default function Animation(props: AnimationProps & {selected: boolean} ) 
             {options?.map((animation, index) => (
               <AnimOption key={index} {...props} 
                 optionNumber={index + 1}
+
+                onClick={() => {
+                
+                  setFlipped(false);
+                }}
               />
             ))}
           </SimpleGrid>
@@ -148,7 +183,20 @@ export default function Animation(props: AnimationProps & {selected: boolean} ) 
   );
 }
 
-function AnimOption(props: AnimationProps & {optionNumber: number}) {
+function AnimOption(props: AnimationProps & {optionNumber: number, onClick: () => void}) {
+  const currentExpression = useAnimations((state) => state.currentExpression);
+  const currentWalk = useAnimations((state) => state.currentWalk);
+  const isAnimSelected = useMemo(() => {
+    // check if this option and animation is selected if the type is walk or expression 
+    if (props.type === 'walk') {
+      return currentWalk.name === props.command && currentWalk.option === props.optionNumber;
+    } else if (props.type === 'expression') {
+      return currentExpression.name === props.command && currentExpression.option === props.optionNumber;
+    } else {
+      return false;
+    }
+  }, [props, currentExpression, currentWalk])
+
   const [positionPref] = useLocalStorage<
     'ON SPOT' | 'POSITION'
   >({
@@ -157,6 +205,11 @@ function AnimOption(props: AnimationProps & {optionNumber: number}) {
   });
   const {ref, hovered} = useHover();
   const theme = useMantineTheme();
+
+  const realHover = useMemo(() => {
+    return hovered || isAnimSelected
+  }, [hovered, isAnimSelected])
+
   return (
     <Text
       ref={ref}
@@ -170,8 +223,8 @@ function AnimOption(props: AnimationProps & {optionNumber: number}) {
         alignItems: 'center',
         justifyContent: 'center',
         cursor: 'pointer',
-        boxShadow: hovered ? `inset 0 0 8vh ${colorWithAlpha(theme.colors[theme.primaryColor][theme.primaryShade as number], 0.8)}` : 'inset 0 0 0.2vh rgba(0,0,0,0.6)',  
-        outline: hovered ? `0.1vh solid ${colorWithAlpha(theme.colors[theme.primaryColor][theme.primaryShade as number], 0.8)}` : '0.1vh solid transparent', 
+        boxShadow: realHover ? `inset 0 0 8vh ${colorWithAlpha(theme.colors[theme.primaryColor][theme.primaryShade as number], 0.8)}` : 'inset 0 0 0.2vh rgba(0,0,0,0.6)',  
+        outline: realHover ? `0.1vh solid ${colorWithAlpha(theme.colors[theme.primaryColor][theme.primaryShade as number], 0.8)}` : '0.1vh solid transparent', 
         transition: 'all 0.2s ease-in-out',
       }}
       ta='center'
@@ -179,6 +232,7 @@ function AnimOption(props: AnimationProps & {optionNumber: number}) {
         if (positionPref == 'POSITION') {
           useAnimations.setState({ open: false })
         }
+        props.onClick();
         fetchNui<string>('EXECUTE_ANIMATION', {
           command: props.command,
           type: props.type,
@@ -206,6 +260,10 @@ function PositionToggle() {
     key: 'animationPlacementPref',
     defaultValue: 'POSITION',
   });
+
+
+
+
 
   const play = useAudio((state) => state.play);
 
@@ -241,7 +299,7 @@ function PositionToggle() {
           setPosition('POSITION')
         }}
       >
-        POSITION
+        {locale('Position')}
       </Text>
       <Text
         ta='center'
@@ -260,7 +318,7 @@ function PositionToggle() {
           setPosition('ON SPOT')
         }}
       >
-        ON SPOT
+        {locale('OnSpot')}
       </Text>
     </Flex>
       
@@ -269,8 +327,14 @@ function PositionToggle() {
 
 function AnimationOptions(props: AnimationProps) {
   const theme = useMantineTheme();
+  const optionAmount = useMemo(() => {
+    return props.type == 'shared' ? props.animations?.length
+    : props.type == 'walk' ? props.walks?.length
+    : props.type == 'expression' ? props.expressions?.length
+    : props.animations?.length
+  }, [props])
 
-  return props.animations && props.animations.length > 1 && (
+  return (optionAmount && optionAmount > 1) && (
     <Text
       bg={colorWithAlpha(
         theme.colors[theme.primaryColor][theme.primaryShade as number],
@@ -290,7 +354,7 @@ function AnimationOptions(props: AnimationProps) {
       }}
       size="xs"
     >
-      {props.animations.length} OPTIONS
+      {optionAmount} OPTIONS
     </Text>
   )
 }

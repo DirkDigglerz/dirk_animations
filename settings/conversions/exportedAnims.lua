@@ -1,281 +1,306 @@
 return {
   {
-    command = "adjust",
-    type = "animation",
     animations = {
       {
-        dict = "missmic4",
         anim = "michael_tux_fidget",
         flags = {
+          move = true,
         },
+        dict = "missmic4",
       },
     },
+    command = "adjust",
+    type = "animation",
     label = "Adjust",
   },
   {
-    command = "adjusttie",
-    type = "animation",
     animations = {
       {
-        dict = "clothingtie",
         anim = "try_tie_positive_a",
         flags = {
+          move = true,
         },
+        dict = "clothingtie",
       },
     },
+    command = "adjusttie",
+    type = "animation",
     label = "Adjust Tie",
   },
   {
-    command = "airforce",
-    type = "animation",
     animations = {
       {
+        anim = "base",
+        flags = {
+          loop = true,
+        },
         dict = "airforce@at_ease",
-        anim = "base",
-        flags = {
-        },
       },
       {
+        anim = "base",
+        flags = {
+          loop = true,
+        },
         dict = "airforce@attention",
-        anim = "base",
-        flags = {
-        },
       },
       {
+        anim = "base",
+        flags = {
+          loop = true,
+        },
         dict = "airforce@parade_rest",
-        anim = "base",
-        flags = {
-        },
       },
       {
-        dict = "airforce@salute",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "airforce@salute",
       },
     },
+    command = "airforce",
+    type = "animation",
     label = "Airforce",
   },
   {
-    command = "airguitar",
-    type = "animation",
     animations = {
       {
         anim = "air_guitar",
         dict = "anim@mp_player_intcelebrationfemale@air_guitar",
       },
     },
+    command = "airguitar",
+    type = "animation",
     label = "Air Guitar",
   },
   {
-    command = "airplane",
-    type = "animation",
     animations = {
       {
-        dict = "missfbi1",
         anim = "ledge_loop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "missfbi1",
       },
     },
+    command = "airplane",
+    type = "animation",
     label = "Air Plane",
   },
   {
-    command = "airsynth",
-    type = "animation",
     animations = {
       {
         anim = "air_synth",
         dict = "anim@mp_player_intcelebrationfemale@air_synth",
       },
     },
+    command = "airsynth",
+    type = "animation",
     label = "Air Synth",
   },
   {
-    command = "argue",
-    type = "animation",
     animations = {
       {
-        dict = "misscarsteal4@actor",
         anim = "actor_berating_loop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "misscarsteal4@actor",
       },
       {
-        dict = "oddjobs@assassinate@vice@hooker",
         anim = "argue_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "oddjobs@assassinate@vice@hooker",
       },
     },
+    command = "argue",
+    type = "animation",
     label = "Argue",
   },
   {
-    command = "bang",
-    type = "animation",
     animations = {
       {
         anim = "bang_bang",
         dict = "anim@mp_player_intcelebrationfemale@bang_bang",
       },
     },
+    command = "bang",
+    type = "animation",
     label = "Bang Bang",
   },
   {
-    command = "bark",
-    type = "animation",
     animations = {
       {
         anim = "wakeup",
         dict = "random@peyote@dog",
       },
     },
+    command = "bark",
+    type = "animation",
     label = "Bark",
   },
   {
-    command = "bartender",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@clubhouse@bar@drink@idle_a",
         anim = "idle_a_bartender",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@amb@clubhouse@bar@drink@idle_a",
       },
     },
+    command = "bartender",
+    type = "animation",
     label = "Bartender",
   },
   {
-    command = "beast",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_fm_event@intro",
         anim = "beast_transform",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_fm_event@intro",
       },
     },
+    command = "beast",
+    type = "animation",
     label = "Beast",
   },
   {
-    command = "bird",
-    type = "animation",
     animations = {
       {
         anim = "wakeup",
         dict = "random@peyote@bird",
       },
     },
+    command = "bird",
+    type = "animation",
     label = "Bird",
   },
   {
-    command = "blowkiss",
-    type = "animation",
     animations = {
       {
         anim = "blow_kiss",
         dict = "anim@mp_player_intcelebrationfemale@blow_kiss",
       },
       {
-        dict = "anim@mp_player_intselfieblow_kiss",
         anim = "exit",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intselfieblow_kiss",
       },
     },
+    command = "blowkiss",
+    type = "animation",
     label = "Blow Kiss",
   },
   {
-    command = "boi",
-    type = "animation",
     animations = {
       {
-        dict = "special_ped@jane@monologue_5@monologue_5c",
         anim = "brotheradrianhasshown_2",
         flags = {
+          move = true,
         },
+        dict = "special_ped@jane@monologue_5@monologue_5c",
       },
     },
+    command = "boi",
+    type = "animation",
     label = "BOI",
   },
   {
-    command = "bow",
-    type = "animation",
     animations = {
       {
-        dict = "anim@arena@celeb@podium@no_prop@",
         anim = "regal_c_1st",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@arena@celeb@podium@no_prop@",
       },
       {
-        dict = "anim@arena@celeb@podium@no_prop@",
         anim = "regal_a_1st",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@arena@celeb@podium@no_prop@",
       },
       {
-        dict = "anim@arena@celeb@podium@no_prop@",
         anim = "regal_b_1st",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@arena@celeb@podium@no_prop@",
       },
     },
+    command = "bow",
+    type = "animation",
     label = "Bow",
   },
   {
-    command = "boxing",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intcelebrationmale@shadow_boxing",
         anim = "shadow_boxing",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intcelebrationmale@shadow_boxing",
       },
       {
-        dict = "anim@mp_player_intcelebrationfemale@shadow_boxing",
         anim = "shadow_boxing",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@shadow_boxing",
       },
     },
+    command = "boxing",
+    type = "animation",
     label = "Boxing",
   },
   {
-    command = "bringiton",
-    type = "animation",
     animations = {
       {
-        dict = "misscommon@response",
         anim = "bring_it_on",
         flags = {
+          move = true,
         },
+        dict = "misscommon@response",
       },
     },
+    command = "bringiton",
+    type = "animation",
     label = "Bring It On",
   },
   {
-    command = "buzz",
-    type = "animation",
     animations = {
       {
         anim = "buzz_reg",
         dict = "anim@apt_trans@buzzer",
       },
     },
+    command = "buzz",
+    type = "animation",
     label = "Buzz Door",
   },
   {
-    command = "calldog",
-    type = "animation",
     animations = {
       {
-        dict = "switch@franklin@plays_w_dog",
         anim = "001916_01_fras_v2_9_plays_w_dog_idle",
         flags = {
+          loop = true,
         },
+        dict = "switch@franklin@plays_w_dog",
       },
       {
         anim = "call_chop_r",
@@ -286,366 +311,415 @@ return {
         dict = "missfra0_chop_find",
       },
     },
+    command = "calldog",
+    type = "animation",
     label = "Call Dog",
   },
   {
-    command = "celebrate",
-    type = "animation",
     animations = {
       {
-        dict = "rcmfanatic1celebrate",
         anim = "celebrate",
         flags = {
+          loop = true,
         },
+        dict = "rcmfanatic1celebrate",
       },
     },
+    command = "celebrate",
+    type = "animation",
     label = "Celebrate",
   },
   {
-    command = "checkcar",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@carmeet@checkout_car@male_a@idles",
         anim = "idle_b",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@carmeet@checkout_car@male_a@idles",
       },
       {
-        dict = "anim@amb@carmeet@checkout_car@male_c@idles",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@carmeet@checkout_car@male_c@idles",
       },
     },
+    command = "checkcar",
+    type = "animation",
     label = "Check Out · Female",
   },
   {
-    command = "checkwatch",
-    type = "animation",
     animations = {
       {
-        dict = "watch@looking_at",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "watch@looking_at",
       },
     },
+    command = "checkwatch",
+    type = "animation",
     label = "Check Watch",
   },
   {
-    command = "chicken",
-    type = "animation",
     animations = {
       {
-        dict = "random@peyote@chicken",
         anim = "wakeup",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@peyote@chicken",
       },
     },
+    command = "chicken",
+    type = "animation",
     label = "Chicken",
   },
   {
-    command = "chill",
-    type = "animation",
     animations = {
       {
-        dict = "switch@trevor@scares_tramp",
         anim = "trev_scares_tramp_idle_tramp",
         flags = {
+          loop = true,
         },
+        dict = "switch@trevor@scares_tramp",
       },
       {
-        dict = "anim@sw_chill_pose",
         anim = "chill_pose_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@sw_chill_pose",
       },
       {
-        dict = "anim@sw_sit_chill",
         anim = "sit_chill_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@sw_sit_chill",
       },
     },
+    command = "chill",
+    type = "animation",
     label = "Chill",
   },
   {
-    command = "clap",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_cheering@male_a",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "amb@world_human_cheering@male_a",
       },
     },
+    command = "clap",
+    type = "animation",
     label = "Clap",
   },
   {
-    command = "clapangry",
-    type = "animation",
     animations = {
       {
-        dict = "anim@arena@celeb@flat@solo@no_props@",
         anim = "angry_clap_a_player_a",
         flags = {
+          loop = true,
         },
+        dict = "anim@arena@celeb@flat@solo@no_props@",
       },
     },
+    command = "clapangry",
+    type = "animation",
     label = "Clap Angry",
   },
   {
-    command = "cleanface",
-    type = "animation",
     animations = {
       {
-        dict = "switch@michael@wash_face",
         anim = "loop_michael",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "switch@michael@wash_face",
       },
     },
+    command = "cleanface",
+    type = "animation",
     label = "Clean Your Face",
   },
   {
-    command = "cleanhands",
-    type = "animation",
     animations = {
       {
-        dict = "missheist_agency3aig_23",
         anim = "urinal_sink_loop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "missheist_agency3aig_23",
       },
     },
+    command = "cleanhands",
+    type = "animation",
     label = "Clean Them Filthy Hands",
   },
   {
-    command = "cloudgaze",
-    type = "animation",
     animations = {
       {
-        dict = "switch@trevor@annoys_sunbathers",
         anim = "trev_annoys_sunbathers_loop_girl",
         flags = {
+          loop = true,
         },
+        dict = "switch@trevor@annoys_sunbathers",
       },
       {
-        dict = "switch@trevor@annoys_sunbathers",
         anim = "trev_annoys_sunbathers_loop_guy",
         flags = {
+          loop = true,
         },
+        dict = "switch@trevor@annoys_sunbathers",
       },
     },
+    command = "cloudgaze",
+    type = "animation",
     label = "Cloudgaze",
   },
   {
-    command = "clown",
-    type = "animation",
     animations = {
       {
-        dict = "rcm_barry2",
         anim = "clown_idle_0",
         flags = {
+          loop = true,
         },
+        dict = "rcm_barry2",
       },
       {
-        dict = "rcm_barry2",
         anim = "clown_idle_1",
         flags = {
+          loop = true,
         },
+        dict = "rcm_barry2",
       },
       {
-        dict = "rcm_barry2",
         anim = "clown_idle_2",
         flags = {
+          loop = true,
         },
+        dict = "rcm_barry2",
       },
       {
-        dict = "rcm_barry2",
         anim = "clown_idle_3",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "rcm_barry2",
       },
       {
-        dict = "rcm_barry2",
         anim = "clown_idle_6",
         flags = {
+          loop = true,
         },
+        dict = "rcm_barry2",
       },
     },
+    command = "clown",
+    type = "animation",
     label = "Clown",
   },
   {
-    command = "comeatmebro",
-    type = "animation",
     animations = {
       {
-        dict = "mini@triathlon",
         anim = "want_some_of_this",
         flags = {
+          move = true,
         },
+        dict = "mini@triathlon",
       },
     },
+    command = "comeatmebro",
+    type = "animation",
     label = "Come at me bro",
   },
   {
-    command = "copstand",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@peds@",
         anim = "rcmme_amanda1_stand_loop_cop",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@peds@",
       },
     },
+    command = "copstand",
+    type = "animation",
     label = "Cop Stand",
   },
   {
-    command = "copinv",
-    type = "animation",
     animations = {
       {
-        dict = "amb@code_human_police_investigate@idle_a",
         anim = "idle_b",
         flags = {
+          loop = true,
         },
+        dict = "amb@code_human_police_investigate@idle_a",
       },
     },
+    command = "copinv",
+    type = "animation",
     label = "Cop Investigate",
   },
   {
-    command = "cough",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@gardener@smoking_joint",
         anim = "idle_cough",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "timetable@gardener@smoking_joint",
       },
     },
+    command = "cough",
+    type = "animation",
     label = "Cough",
   },
   {
-    command = "countdown",
-    type = "animation",
     animations = {
       {
-        dict = "random@street_race",
         anim = "grid_girl_race_start",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@street_race",
       },
     },
+    command = "countdown",
+    type = "animation",
     label = "Countdown",
   },
   {
-    command = "cpr",
-    type = "animation",
     animations = {
       {
-        dict = "mini@cpr@char_a@cpr_str",
         anim = "cpr_pumpchest",
         flags = {
+          loop = true,
         },
+        dict = "mini@cpr@char_a@cpr_str",
       },
       {
-        dict = "mini@cpr@char_a@cpr_str",
         anim = "cpr_pumpchest",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mini@cpr@char_a@cpr_str",
       },
     },
+    command = "cpr",
+    type = "animation",
     label = "CPR",
   },
   {
-    command = "crawl",
-    type = "animation",
     animations = {
       {
-        dict = "move_injured_ground",
         anim = "front_loop",
         flags = {
+          loop = true,
         },
+        dict = "move_injured_ground",
       },
     },
+    command = "crawl",
+    type = "animation",
     label = "Crawl",
   },
   {
-    command = "crossarms",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_hang_out_street@female_arms_crossed@idle_a",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "amb@world_human_hang_out_street@female_arms_crossed@idle_a",
       },
       {
-        dict = "amb@world_human_hang_out_street@male_c@idle_a",
         anim = "idle_b",
         flags = {
+          move = true,
         },
+        dict = "amb@world_human_hang_out_street@male_c@idle_a",
       },
       {
-        dict = "anim@heists@heist_corona@single_team",
         anim = "single_team_loop_boss",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@heists@heist_corona@single_team",
       },
       {
-        dict = "random@street_race",
         anim = "_car_b_lookout",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@street_race",
       },
       {
-        dict = "anim@amb@nightclub@peds@",
         anim = "rcmme_amanda1_stand_loop_cop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@amb@nightclub@peds@",
       },
       {
-        dict = "random@shop_gunstore",
         anim = "_idle",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@shop_gunstore",
       },
     },
+    command = "crossarms",
+    type = "animation",
     label = "Crossarms",
   },
   {
-    command = "crossarmsside",
-    type = "animation",
     animations = {
       {
-        dict = "rcmnigel1a_band_groupies",
         anim = "base_m2",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "rcmnigel1a_band_groupies",
       },
     },
+    command = "crossarmsside",
+    type = "animation",
     label = "Crossarms Side",
   },
   {
-    command = "curtsy",
-    type = "animation",
     animations = {
       {
         anim = "sarcastic_left",
         dict = "anim@mp_player_intcelebrationpaired@f_f_sarcastic",
       },
     },
+    command = "curtsy",
+    type = "animation",
     label = "Curtsy",
   },
   {
-    command = "cutthroat",
-    type = "animation",
     animations = {
       {
         anim = "cut_throat",
@@ -656,109 +730,120 @@ return {
         dict = "anim@mp_player_intcelebrationfemale@cut_throat",
       },
     },
+    command = "cutthroat",
+    type = "animation",
     label = "Cut Throat",
   },
   {
-    command = "dab",
-    type = "animation",
     animations = {
       {
         anim = "dab",
         dict = "custom@dab",
       },
     },
+    command = "dab",
+    type = "animation",
     label = "Dab",
   },
   {
-    command = "damn",
-    type = "animation",
     animations = {
       {
-        dict = "gestures@m@standing@casual",
         anim = "gesture_damn",
         flags = {
+          move = true,
         },
+        dict = "gestures@m@standing@casual",
       },
       {
-        dict = "anim@am_hold_up@male",
         anim = "shoplift_mid",
         flags = {
+          move = true,
         },
+        dict = "anim@am_hold_up@male",
       },
     },
+    command = "damn",
+    type = "animation",
     label = "Damn",
   },
   {
-    command = "dispenser",
-    type = "animation",
     animations = {
       {
         anim = "plyr_buy_drink_pt1",
         dict = "mini@sprunk",
       },
     },
+    command = "dispenser",
+    type = "animation",
     label = "Dispenser",
   },
   {
-    command = "dock",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intincardockstd@rds@",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intincardockstd@rds@",
       },
     },
+    command = "dock",
+    type = "animation",
     label = "Dock",
   },
   {
-    command = "facepalm",
-    type = "animation",
     animations = {
       {
-        dict = "random@car_thief@agitated@idle_a",
         anim = "agitated_idle_a",
         flags = {
+          move = true,
         },
+        dict = "random@car_thief@agitated@idle_a",
       },
       {
-        dict = "anim@mp_player_intcelebrationfemale@face_palm",
         anim = "face_palm",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@face_palm",
       },
       {
-        dict = "missminuteman_1ig_2",
         anim = "tasered_2",
         flags = {
+          move = true,
         },
+        dict = "missminuteman_1ig_2",
       },
       {
-        dict = "anim@mp_player_intupperface_palm",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intupperface_palm",
       },
     },
+    command = "facepalm",
+    type = "animation",
     label = "Facepalm",
   },
   {
-    command = "fallasleep",
-    type = "animation",
     animations = {
       {
-        dict = "mp_sleep",
         anim = "sleep_loop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_sleep",
       },
     },
+    command = "fallasleep",
+    type = "animation",
     label = "Fall Asleep",
   },
   {
-    command = "fallover",
-    type = "animation",
     animations = {
       {
         anim = "drunk_fall_over",
@@ -781,11 +866,11 @@ return {
         dict = "anim@gangops@hostage@",
       },
     },
+    command = "fallover",
+    type = "animation",
     label = "Fall Over",
   },
   {
-    command = "fightme",
-    type = "animation",
     animations = {
       {
         anim = "intro_male_unarmed_c",
@@ -804,36 +889,42 @@ return {
         dict = "anim@deathmatch_intros@1hmale",
       },
     },
+    command = "fightme",
+    type = "animation",
     label = "Fight Me",
   },
   {
-    command = "finger",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intselfiethe_bird",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intselfiethe_bird",
       },
       {
-        dict = "anim@mp_player_intupperfinger",
         anim = "idle_a_fp",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intupperfinger",
       },
       {
-        dict = "fuckyou@joker",
         anim = "fuckyou_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "fuckyou@joker",
       },
     },
+    command = "finger",
+    type = "animation",
     label = "Finger",
   },
   {
-    command = "fingerguns",
-    type = "animation",
     animations = {
       {
         anim = "finger_guns_a_1st",
@@ -844,24 +935,26 @@ return {
         dict = "anim@arena@celeb@podium@no_prop@",
       },
     },
+    command = "fingerguns",
+    type = "animation",
     label = "Finger Guns",
   },
   {
-    command = "fishdance",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intupperfind_the_fish",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intupperfind_the_fish",
       },
     },
+    command = "fishdance",
+    type = "animation",
     label = "Fish Dance",
   },
   {
-    command = "flip",
-    type = "animation",
     animations = {
       {
         anim = "flip_a_player_a",
@@ -872,396 +965,476 @@ return {
         dict = "anim@arena@celeb@flat@solo@no_props@",
       },
     },
+    command = "flip",
+    type = "animation",
     label = "Flip",
   },
   {
-    command = "flipoff",
-    type = "animation",
     animations = {
       {
-        dict = "anim@arena@celeb@podium@no_prop@",
         anim = "flip_off_a_1st",
         flags = {
+          move = true,
         },
+        dict = "anim@arena@celeb@podium@no_prop@",
       },
       {
-        dict = "anim@arena@celeb@podium@no_prop@",
         anim = "flip_off_c_1st",
         flags = {
+          move = true,
         },
+        dict = "anim@arena@celeb@podium@no_prop@",
       },
       {
-        dict = "anim@arena@celeb@podium@no_prop@",
         anim = "flip_off_b_1st",
         flags = {
+          move = true,
         },
+        dict = "anim@arena@celeb@podium@no_prop@",
       },
       {
-        dict = "anim@arena@celeb@podium@no_prop@",
         anim = "flip_off_c_1st",
         flags = {
+          move = true,
         },
+        dict = "anim@arena@celeb@podium@no_prop@",
       },
     },
+    command = "flipoff",
+    type = "animation",
     label = "Flip Off",
   },
   {
-    command = "foldarms",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@business@bgen@bgen_no_work@",
         anim = "stand_phone_phoneputdown_idle_nowork",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@amb@business@bgen@bgen_no_work@",
       },
       {
-        dict = "anim@amb@nightclub@peds@",
         anim = "rcmme_amanda1_stand_loop_cop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@amb@nightclub@peds@",
       },
     },
+    command = "foldarms",
+    type = "animation",
     label = "Fold Arms",
   },
   {
-    command = "fspose",
-    type = "animation",
     animations = {
       {
-        dict = "missfam5_yoga",
         anim = "c2_pose",
         flags = {
+          loop = true,
         },
+        dict = "missfam5_yoga",
       },
       {
-        dict = "missfam5_yoga",
         anim = "c6_pose",
         flags = {
+          loop = true,
         },
+        dict = "missfam5_yoga",
       },
       {
-        dict = "anim@amb@carmeet@checkout_car@",
         anim = "female_c_idle_d",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@carmeet@checkout_car@",
       },
     },
+    command = "fspose",
+    type = "animation",
     label = "F Sex Pose",
   },
   {
-    command = "gangsign",
-    type = "animation",
     animations = {
       {
-        dict = "mp_player_int_uppergang_sign_a",
         anim = "mp_player_int_gang_sign_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_player_int_uppergang_sign_a",
       },
       {
-        dict = "mp_player_int_uppergang_sign_b",
         anim = "mp_player_int_gang_sign_b",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_player_int_uppergang_sign_b",
       },
       {
-        dict = "qpacc@gangsign1",
         anim = "gangsign1_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "qpacc@gangsign1",
       },
       {
-        dict = "qpacc@gangsign2",
         anim = "gangsign2_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "qpacc@gangsign2",
       },
       {
-        dict = "qpacc@gangsign3",
         anim = "gangsign3_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "qpacc@gangsign3",
       },
       {
-        dict = "qpacc@gangsign4",
         anim = "gangsign4_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "qpacc@gangsign4",
       },
       {
-        dict = "qpacc@gangsign5",
         anim = "gangsign5_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "qpacc@gangsign5",
       },
       {
-        dict = "qpacc@gangsign6",
         anim = "gangsign6_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "qpacc@gangsign6",
       },
       {
-        dict = "qpacc@gangsign7",
         anim = "gangsign7_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "qpacc@gangsign7",
       },
       {
-        dict = "qpacc@gangsign8",
         anim = "gangsign8_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "qpacc@gangsign8",
       },
       {
-        dict = "anim@gang_pistol_westside",
         anim = "pistol_westside_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@gang_pistol_westside",
       },
       {
-        dict = "anim@gang_one",
         anim = "gang_one_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@gang_one",
       },
       {
-        dict = "anim@gang_two",
         anim = "gang_two_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@gang_two",
       },
       {
-        dict = "devil@ierrorr",
         anim = "devil_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "devil@ierrorr",
       },
       {
-        dict = "emoo@ierrorr",
         anim = "emoo_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "emoo@ierrorr",
       },
       {
-        dict = "gang_2@ierrorr",
         anim = "gang_2_clip",
         flags = {
+          loop = true,
         },
+        dict = "gang_2@ierrorr",
       },
       {
-        dict = "gingging2@sharror",
         anim = "gingging2_clip",
         flags = {
+          loop = true,
         },
+        dict = "gingging2@sharror",
       },
     },
+    command = "gangsign",
+    type = "animation",
     label = "Gang Sign",
   },
   {
-    command = "grieve",
-    type = "animation",
     animations = {
       {
-        dict = "anim@miss@low@fin@vagos@",
         anim = "idle_ped05",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@miss@low@fin@vagos@",
       },
     },
+    command = "grieve",
+    type = "animation",
     label = "Grieve The Dead",
   },
   {
-    command = "guntohead",
-    type = "animation",
     animations = {
       {
-        dict = "gun_head@sharror",
         anim = "gun_head_clip",
         flags = {
+          loop = true,
         },
+        dict = "gun_head@sharror",
       },
     },
+    command = "guntohead",
+    type = "animation",
     label = "Gun To Head",
   },
   {
-    command = "handsontits",
-    type = "animation",
     animations = {
       {
-        dict = "luxurymods@hands_on_tits",
         anim = "hands_on_tits_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "luxurymods@hands_on_tits",
       },
     },
+    command = "handsontits",
+    type = "animation",
     label = "Hands on Tits",
   },
   {
-    command = "handshake",
-    type = "animation",
     animations = {
       {
-        dict = "mp_ped_interaction",
         anim = "handshake_guy_a",
         flags = {
+          move = true,
         },
+        dict = "mp_ped_interaction",
       },
       {
-        dict = "mp_ped_interaction",
         anim = "handshake_guy_b",
         flags = {
+          move = true,
         },
+        dict = "mp_ped_interaction",
       },
     },
+    command = "handshake",
+    type = "animation",
     label = "Handshake",
   },
   {
-    command = "handsinpockets",
-    type = "animation",
     animations = {
       {
-        dict = "bzzz@animations@hands",
         anim = "bz_hands",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "bzzz@animations@hands",
       },
       {
-        dict = "handinpocket@sharror",
         anim = "handinpocket_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "handinpocket@sharror",
       },
     },
+    command = "handsinpockets",
+    type = "animation",
     label = "Hands in Pockets",
   },
   {
-    command = "handsup",
-    type = "animation",
     animations = {
       {
-        dict = "missminuteman_1ig_2",
         anim = "handsup_base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "missminuteman_1ig_2",
       },
       {
-        dict = "anim@mp_player_intuppersurrender",
         anim = "idle_a_fp",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intuppersurrender",
       },
       {
-        dict = "anim@mp_rollarcoaster",
         anim = "hands_up_idle_a_player_one",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_rollarcoaster",
       },
     },
+    command = "handsup",
+    type = "animation",
     label = "Hands Up",
   },
   {
-    command = "headbutt",
-    type = "animation",
     animations = {
       {
         anim = "plyr_takedown_front_headbutt",
         dict = "melee@unarmed@streamed_variations",
       },
     },
+    command = "headbutt",
+    type = "animation",
     label = "Headbutt",
   },
   {
-    command = "hhands",
-    type = "animation",
     animations = {
       {
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "misssnowie@hearthands",
-        anim = "base",
-        flags = {
-        },
       },
       {
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "heart@hands1",
-        anim = "base",
-        flags = {
-        },
       },
       {
-        dict = "heart@hands2",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "heart@hands2",
       },
     },
+    command = "hhands",
+    type = "animation",
     label = "Heart Hands",
   },
   {
-    command = "hidegun",
-    type = "animation",
     animations = {
       {
-        dict = "fin_a_int-3",
         anim = "player_one_dual-3",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "fin_a_int-3",
       },
     },
+    command = "hidegun",
+    type = "animation",
     label = "Hide Gun",
   },
   {
-    command = "hiking",
-    type = "animation",
     animations = {
       {
-        dict = "move_m@hiking",
         anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "move_m@hiking",
       },
     },
+    command = "hiking",
+    type = "animation",
     label = "Hiking",
   },
   {
-    command = "holdvest",
-    type = "animation",
     animations = {
       {
-        dict = "anim@male@holding_vest",
         anim = "holding_vest_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@male@holding_vest",
       },
       {
-        dict = "anim@holding_siege_vest_side",
         anim = "holding_siege_vest_side_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@holding_siege_vest_side",
       },
       {
-        dict = "anim@male@holding_vest_2",
         anim = "holding_vest_2_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@male@holding_vest_2",
       },
       {
-        dict = "anim@male@holding_vest_siege",
         anim = "holding_vest_siege_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@male@holding_vest_siege",
       },
       {
-        dict = "anim@male@holding_vest_siege_2",
         anim = "holding_vest_siege_2_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@male@holding_vest_siege_2",
       },
     },
+    command = "holdvest",
+    type = "animation",
     label = "Hold Vest",
   },
   {
-    command = "hug",
-    type = "animation",
     animations = {
       {
         anim = "kisses_guy_a",
@@ -1276,223 +1449,249 @@ return {
         dict = "mp_ped_interaction",
       },
     },
+    command = "hug",
+    type = "animation",
     label = "Hug",
   },
   {
-    command = "hump",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@trevor@skull_loving_bear",
         anim = "skull_loving_bear",
         flags = {
+          loop = true,
         },
+        dict = "timetable@trevor@skull_loving_bear",
       },
       {
-        flags = {
-        },
-        dict = "timetable@trevor@skull_loving_bear",
-        anim = "skull_loving_bear",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_mr_raspberry_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "skull_loving_bear",
+        flags = {
+          loop = true,
+        },
+        dict = "timetable@trevor@skull_loving_bear",
       },
     },
+    command = "hump",
+    type = "prop",
     label = "Hump",
   },
   {
-    command = "idle",
-    type = "animation",
     animations = {
       {
+        anim = "idle",
+        flags = {
+          loop = true,
+        },
         dict = "anim@heists@heist_corona@team_idles@male_a",
-        anim = "idle",
-        flags = {
-        },
       },
       {
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "mp_move@prostitute@m@french",
-        anim = "idle",
-        flags = {
-        },
       },
       {
-        dict = "random@countrysiderobbery",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "random@countrysiderobbery",
       },
       {
-        dict = "anim@heists@heist_corona@team_idles@female_a",
         anim = "idle",
         flags = {
+          loop = true,
         },
+        dict = "anim@heists@heist_corona@team_idles@female_a",
       },
       {
-        dict = "anim@heists@humane_labs@finale@strip_club",
         anim = "ped_b_celebrate_loop",
         flags = {
+          loop = true,
         },
+        dict = "anim@heists@humane_labs@finale@strip_club",
       },
       {
-        dict = "anim@mp_celebration@idles@female",
         anim = "celebration_idle_f_a",
         flags = {
+          loop = true,
         },
+        dict = "anim@mp_celebration@idles@female",
       },
       {
+        anim = "idle_a",
+        flags = {
+          loop = true,
+        },
         dict = "anim@mp_corona_idles@female_b@idle_a",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
+        anim = "idle_a",
+        flags = {
+          loop = true,
+        },
         dict = "anim@mp_corona_idles@male_c@idle_a",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
-        dict = "anim@mp_corona_idles@male_d@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "anim@mp_corona_idles@male_d@idle_a",
       },
       {
         anim = "idle_b",
         dict = "amb@world_human_hang_out_street@male_b@idle_a",
       },
       {
-        dict = "friends@fra@ig_1",
         anim = "base_idle",
         flags = {
+          loop = true,
         },
+        dict = "friends@fra@ig_1",
       },
     },
+    command = "idle",
+    type = "animation",
     label = "Idle",
   },
   {
-    command = "idledrunk",
-    type = "animation",
     animations = {
       {
-        dict = "random@drunk_driver_1",
         anim = "drunk_driver_stand_loop_dd1",
         flags = {
+          loop = true,
         },
+        dict = "random@drunk_driver_1",
       },
       {
-        dict = "random@drunk_driver_1",
         anim = "drunk_driver_stand_loop_dd2",
         flags = {
+          loop = true,
         },
+        dict = "random@drunk_driver_1",
       },
       {
-        dict = "missarmenian2",
         anim = "standing_idle_loop_drunk",
         flags = {
+          loop = true,
         },
+        dict = "missarmenian2",
       },
     },
+    command = "idledrunk",
+    type = "animation",
     label = "Idle Drunk",
   },
   {
-    command = "inspect",
-    type = "animation",
     animations = {
       {
         anim = "idle_e",
         dict = "random@train_tracks",
       },
     },
+    command = "inspect",
+    type = "animation",
     label = "Inspect",
   },
   {
-    command = "jazzhands",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intcelebrationfemale@jazz_hands",
         anim = "jazz_hands",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@jazz_hands",
       },
     },
+    command = "jazzhands",
+    type = "animation",
     label = "Jazzhands",
   },
   {
-    command = "jog2",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_jog_standing@male@idle_a",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "amb@world_human_jog_standing@male@idle_a",
       },
     },
+    command = "jog2",
+    type = "animation",
     label = "Jog Still",
   },
   {
-    command = "jog3",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_jog_standing@female@idle_a",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "amb@world_human_jog_standing@female@idle_a",
       },
     },
+    command = "jog3",
+    type = "animation",
     label = "Jog 3",
   },
   {
-    command = "jog4",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_power_walker@female@idle_a",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "amb@world_human_power_walker@female@idle_a",
       },
     },
+    command = "jog4",
+    type = "animation",
     label = "Jog 4",
   },
   {
-    command = "jog5",
-    type = "animation",
     animations = {
       {
-        dict = "move_m@joy@a",
         anim = "walk",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "move_m@joy@a",
       },
     },
+    command = "jog5",
+    type = "animation",
     label = "Jog 5",
   },
   {
-    command = "jumpingjacks",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@reunited@ig_2",
         anim = "jimmy_getknocked",
         flags = {
+          loop = true,
         },
+        dict = "timetable@reunited@ig_2",
       },
     },
+    command = "jumpingjacks",
+    type = "animation",
     label = "Jumping Jacks",
   },
   {
-    command = "karate",
-    type = "animation",
     animations = {
       {
         anim = "karate_chops",
@@ -1503,1281 +1702,1441 @@ return {
         dict = "anim@mp_player_intcelebrationmale@karate_chops",
       },
     },
+    command = "karate",
+    type = "animation",
     label = "Karate",
   },
   {
-    command = "keyfob",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intmenu@key_fob@",
         anim = "fob_click",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intmenu@key_fob@",
       },
     },
+    command = "keyfob",
+    type = "animation",
     label = "Key Fob",
   },
   {
-    command = "kick",
-    type = "animation",
     animations = {
       {
-        dict = "missheistdockssetup1ig_13@kick_idle",
         anim = "guard_beatup_kickidle_guard1",
         flags = {
+          loop = true,
         },
+        dict = "missheistdockssetup1ig_13@kick_idle",
       },
       {
-        dict = "missheistdockssetup1ig_13@kick_idle",
         anim = "guard_beatup_kickidle_guard2",
         flags = {
+          loop = true,
         },
+        dict = "missheistdockssetup1ig_13@kick_idle",
       },
       {
         anim = "kick_close_a",
         dict = "melee@unarmed@streamed_core",
       },
     },
+    command = "kick",
+    type = "animation",
     label = "Kick",
   },
   {
-    command = "kneel2",
-    type = "animation",
     animations = {
       {
-        dict = "rcmextreme3",
         anim = "idle",
         flags = {
+          loop = true,
         },
+        dict = "rcmextreme3",
       },
     },
+    command = "kneel2",
+    type = "animation",
     label = "Kneel Down",
   },
   {
-    command = "kneel3",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_bum_wash@male@low@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_bum_wash@male@low@idle_a",
       },
     },
+    command = "kneel3",
+    type = "animation",
     label = "Kneel Wash",
   },
   {
-    command = "kneelthot",
-    type = "animation",
     animations = {
       {
-        dict = "anim@model_kylie_insta",
         anim = "kylie_insta_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@model_kylie_insta",
       },
     },
+    command = "kneelthot",
+    type = "animation",
     label = "Kneel Thot Instagram",
   },
   {
-    command = "knock",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@jimmy@doorknock@",
         anim = "knockdoor_idle",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "timetable@jimmy@doorknock@",
       },
       {
-        dict = "missheistfbi3b_ig7",
         anim = "lift_fibagent_loop",
         flags = {
+          loop = true,
         },
+        dict = "missheistfbi3b_ig7",
       },
     },
+    command = "knock",
+    type = "animation",
     label = "Knock",
   },
   {
-    command = "knucklecrunch",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intcelebrationfemale@knuckle_crunch",
         anim = "knuckle_crunch",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@knuckle_crunch",
       },
     },
+    command = "knucklecrunch",
+    type = "animation",
     label = "Knuckle Crunch",
   },
   {
-    command = "layncry",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_dlg_fuckedup_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_base_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_dlg_notagain_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_dlg_notagain_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_dlg_shit2strong_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
       {
-        dict = "misschinese2_crystalmaze",
         anim = "2int_loop_a_taocheng",
         flags = {
+          loop = true,
         },
+        dict = "misschinese2_crystalmaze",
       },
     },
+    command = "layncry",
+    type = "animation",
     label = "Lay & Cry",
   },
   {
-    command = "laysexy",
-    type = "animation",
     animations = {
       {
-        dict = "anim@female_laying_sexy",
         anim = "laying_sexy_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@female_laying_sexy",
       },
     },
+    command = "laysexy",
+    type = "animation",
     label = "Laying Down Sexy",
   },
   {
-    command = "lean2",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_leaning@female@wall@back@hand_up@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_leaning@female@wall@back@hand_up@idle_a",
       },
     },
+    command = "lean2",
+    type = "animation",
     label = "Lean 2",
   },
   {
-    command = "lean3",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_leaning@female@wall@back@holding_elbow@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_leaning@female@wall@back@holding_elbow@idle_a",
       },
     },
+    command = "lean3",
+    type = "animation",
     label = "Lean 3",
   },
   {
-    command = "lean4",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_leaning@male@wall@back@foot_up@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_leaning@male@wall@back@foot_up@idle_a",
       },
     },
+    command = "lean4",
+    type = "animation",
     label = "Lean 4",
   },
   {
-    command = "lean5",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_leaning@male@wall@back@hands_together@idle_b",
         anim = "idle_b",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_leaning@male@wall@back@hands_together@idle_b",
       },
     },
+    command = "lean5",
+    type = "animation",
     label = "Lean 5",
   },
   {
-    command = "lean6",
-    type = "animation",
     animations = {
       {
-        dict = "leaning_wall@holding_knee",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "leaning_wall@holding_knee",
       },
     },
+    command = "lean6",
+    type = "animation",
     label = "Lean 6",
   },
   {
-    command = "lean7",
-    type = "animation",
     animations = {
       {
-        dict = "leaning_wall@touching_hair",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "leaning_wall@touching_hair",
       },
     },
+    command = "lean7",
+    type = "animation",
     label = "Lean 7",
   },
   {
-    command = "leanbar2",
-    type = "animation",
     animations = {
       {
-        dict = "amb@prop_human_bum_shopping_cart@male@idle_a",
         anim = "idle_c",
         flags = {
+          loop = true,
         },
+        dict = "amb@prop_human_bum_shopping_cart@male@idle_a",
       },
     },
+    command = "leanbar2",
+    type = "animation",
     label = "Lean Bar 2",
   },
   {
-    command = "leanbar3",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@lazlow@ig1_vip@",
         anim = "clubvip_base_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@ig1_vip@",
       },
     },
+    command = "leanbar3",
+    type = "animation",
     label = "Lean Bar 3",
   },
   {
-    command = "leanbar4",
-    type = "animation",
     animations = {
       {
-        dict = "anim@heists@prison_heist",
         anim = "ped_b_loop_a",
         flags = {
+          loop = true,
         },
+        dict = "anim@heists@prison_heist",
       },
     },
+    command = "leanbar4",
+    type = "animation",
     label = "Lean Bar 4",
   },
   {
-    command = "leanflirt",
-    type = "animation",
     animations = {
       {
-        dict = "random@street_race",
         anim = "_car_a_flirt_girl",
         flags = {
+          loop = true,
         },
+        dict = "random@street_race",
       },
     },
+    command = "leanflirt",
+    type = "animation",
     label = "Lean Flirt",
   },
   {
-    command = "leanhigh",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_ferris_wheel",
         anim = "idle_a_player_one",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_ferris_wheel",
       },
       {
-        dict = "anim@mp_ferris_wheel",
         anim = "idle_a_player_two",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_ferris_wheel",
       },
     },
+    command = "leanhigh",
+    type = "animation",
     label = "Lean High",
   },
   {
-    command = "leanside",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@mime@01_gc",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "timetable@mime@01_gc",
       },
       {
-        dict = "misscarstealfinale",
         anim = "packer_idle_1_trevor",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "misscarstealfinale",
       },
       {
-        dict = "misscarstealfinalecar_5_ig_1",
         anim = "waitloop_lamar",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "misscarstealfinalecar_5_ig_1",
       },
       {
-        dict = "misscarstealfinalecar_5_ig_1",
         anim = "waitloop_lamar",
         flags = {
+          loop = true,
         },
+        dict = "misscarstealfinalecar_5_ig_1",
       },
       {
-        dict = "rcmjosh2",
         anim = "josh_2_intp1_base",
         flags = {
+          loop = true,
         },
+        dict = "rcmjosh2",
       },
     },
+    command = "leanside",
+    type = "animation",
     label = "Leanside",
   },
   {
-    command = "ledge",
-    type = "animation",
     animations = {
       {
-        dict = "missfbi1",
         anim = "ledge_loop",
         flags = {
+          loop = true,
         },
+        dict = "missfbi1",
       },
     },
+    command = "ledge",
+    type = "animation",
     label = "Ledge",
   },
   {
-    command = "lift",
-    type = "animation",
     animations = {
       {
-        dict = "random@hitch_lift",
         anim = "idle_f",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@hitch_lift",
       },
     },
+    command = "lift",
+    type = "animation",
     label = "Lift",
   },
   {
-    command = "lol",
-    type = "animation",
     animations = {
       {
-        dict = "anim@arena@celeb@flat@paired@no_props@",
         anim = "laugh_a_player_b",
         flags = {
+          loop = true,
         },
+        dict = "anim@arena@celeb@flat@paired@no_props@",
       },
       {
-        dict = "anim@arena@celeb@flat@solo@no_props@",
         anim = "giggle_a_player_b",
         flags = {
+          loop = true,
         },
+        dict = "anim@arena@celeb@flat@solo@no_props@",
       },
     },
+    command = "lol",
+    type = "animation",
     label = "LOL",
   },
   {
-    command = "magic",
-    type = "animation",
     animations = {
       {
-        dict = "magic@dark_spell",
         anim = "base",
         flags = {
+          move = true,
         },
+        dict = "magic@dark_spell",
       },
     },
+    command = "magic",
+    type = "animation",
     label = "Magic",
   },
   {
-    command = "me",
-    type = "animation",
     animations = {
       {
-        dict = "gestures@f@standing@casual",
         anim = "gesture_me_hard",
         flags = {
+          move = true,
         },
+        dict = "gestures@f@standing@casual",
       },
     },
+    command = "me",
+    type = "animation",
     label = "Me",
   },
   {
-    command = "mechanic",
-    type = "animation",
     animations = {
       {
-        dict = "mini@repair",
         anim = "fixing_a_ped",
         flags = {
+          loop = true,
         },
+        dict = "mini@repair",
       },
       {
-        dict = "mini@repair",
         anim = "fixing_a_player",
         flags = {
+          loop = true,
         },
+        dict = "mini@repair",
       },
       {
-        dict = "amb@world_human_vehicle_mechanic@male@base",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_vehicle_mechanic@male@base",
       },
       {
-        dict = "anim@amb@clubhouse@tutorial@bkr_tut_ig3@",
         anim = "machinic_loop_mechandplayer",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@clubhouse@tutorial@bkr_tut_ig3@",
       },
       {
-        dict = "amb@prop_human_movie_bulb@idle_a",
         anim = "idle_b",
         flags = {
+          loop = true,
         },
+        dict = "amb@prop_human_movie_bulb@idle_a",
       },
     },
+    command = "mechanic",
+    type = "animation",
     label = "Mechanic",
   },
   {
-    command = "medic2",
-    type = "animation",
     animations = {
       {
-        dict = "amb@medic@standing@tendtodead@base",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "amb@medic@standing@tendtodead@base",
       },
     },
+    command = "medic2",
+    type = "animation",
     label = "Medic 2",
   },
   {
-    command = "meditate",
-    type = "animation",
     animations = {
       {
-        dict = "rcmcollect_paperleadinout@",
         anim = "meditiate_idle",
         flags = {
+          loop = true,
         },
+        dict = "rcmcollect_paperleadinout@",
       },
       {
-        dict = "rcmepsilonism3",
         anim = "ep_3_rcm_marnie_meditating",
         flags = {
+          loop = true,
         },
+        dict = "rcmepsilonism3",
       },
       {
-        dict = "rcmepsilonism3",
         anim = "base_loop",
         flags = {
+          loop = true,
         },
+        dict = "rcmepsilonism3",
       },
     },
+    command = "meditate",
+    type = "animation",
     label = "Meditate",
   },
   {
-    command = "metal",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intincarrockstd@ps@",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intincarrockstd@ps@",
       },
     },
+    command = "metal",
+    type = "animation",
     label = "Metal",
   },
   {
-    command = "military1",
-    type = "animation",
     animations = {
       {
-        dict = "bzzz@animation@army1",
         anim = "bz_army1",
         flags = {
+          loop = true,
         },
+        dict = "bzzz@animation@army1",
       },
     },
+    command = "military1",
+    type = "animation",
     label = "Military 1",
   },
   {
-    command = "military2",
-    type = "animation",
     animations = {
       {
-        dict = "bzzz@animation@army1_left",
         anim = "bz_army1_left",
         flags = {
+          loop = true,
         },
+        dict = "bzzz@animation@army1_left",
       },
     },
+    command = "military2",
+    type = "animation",
     label = "Military 2",
   },
   {
-    command = "military3",
-    type = "animation",
     animations = {
       {
-        dict = "bzzz@animation@army1_right",
         anim = "bz_army1_right",
         flags = {
+          loop = true,
         },
+        dict = "bzzz@animation@army1_right",
       },
     },
+    command = "military3",
+    type = "animation",
     label = "Military 3",
   },
   {
-    command = "military4",
-    type = "animation",
     animations = {
       {
-        dict = "bzzz@animation@army2",
         anim = "bz_army2",
         flags = {
+          loop = true,
         },
+        dict = "bzzz@animation@army2",
       },
     },
+    command = "military4",
+    type = "animation",
     label = "Military 4",
   },
   {
-    command = "military5",
-    type = "animation",
     animations = {
       {
-        dict = "bzzz@animation@army2_left",
         anim = "bz_army2_left",
         flags = {
+          loop = true,
         },
+        dict = "bzzz@animation@army2_left",
       },
     },
+    command = "military5",
+    type = "animation",
     label = "Military 5",
   },
   {
-    command = "military6",
-    type = "animation",
     animations = {
       {
-        dict = "bzzz@animation@army2_right",
         anim = "bz_army2_right",
         flags = {
+          loop = true,
         },
+        dict = "bzzz@animation@army2_right",
       },
     },
+    command = "military6",
+    type = "animation",
     label = "Military 6",
   },
   {
-    command = "mindblown",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intcelebrationmale@mind_blown",
         anim = "mind_blown",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intcelebrationmale@mind_blown",
       },
       {
-        dict = "anim@mp_player_intcelebrationfemale@mind_blown",
         anim = "mind_blown",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@mind_blown",
       },
     },
+    command = "mindblown",
+    type = "animation",
     label = "Mind Blown",
   },
   {
-    command = "mindcontrol",
-    type = "animation",
     animations = {
       {
-        dict = "rcmbarry",
         anim = "mind_control_b_loop",
         flags = {
+          loop = true,
         },
+        dict = "rcmbarry",
       },
       {
-        dict = "rcmbarry",
         anim = "bar_1_attack_idle_aln",
         flags = {
+          loop = true,
         },
+        dict = "rcmbarry",
       },
     },
+    command = "mindcontrol",
+    type = "animation",
     label = "Mind Control",
   },
   {
-    command = "modelpose",
-    type = "animation",
     animations = {
       {
-        dict = "anim@female_model_showoff",
         anim = "model_showoff_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@female_model_showoff",
       },
       {
-        dict = "fmodelpose1@sharror",
         anim = "fmodelpose1_clip",
         flags = {
+          loop = true,
         },
+        dict = "fmodelpose1@sharror",
       },
       {
-        dict = "fmodelpose2@sharror",
         anim = "fmodelpose2_clip",
         flags = {
+          loop = true,
         },
+        dict = "fmodelpose2@sharror",
       },
       {
-        dict = "fmodelpose3@sharror",
         anim = "fmodelpose3_clip",
         flags = {
+          loop = true,
         },
+        dict = "fmodelpose3@sharror",
       },
       {
-        dict = "sitdownonknees@queensisters",
         anim = "sitdown_clip",
         flags = {
+          loop = true,
         },
+        dict = "sitdownonknees@queensisters",
       },
       {
-        dict = "handkylie@queensisters",
         anim = "kylie_clip",
         flags = {
+          loop = true,
         },
+        dict = "handkylie@queensisters",
       },
     },
+    command = "modelpose",
+    type = "animation",
     label = "Model Pose",
   },
   {
-    command = "namaste",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@amanda@ig_4",
         anim = "ig_4_base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "timetable@amanda@ig_4",
       },
     },
+    command = "namaste",
+    type = "animation",
     label = "Namaste",
   },
   {
-    command = "nervous",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_bum_standing@twitchy@idle_a",
         anim = "idle_c",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "amb@world_human_bum_standing@twitchy@idle_a",
       },
       {
-        dict = "mp_missheist_countrybank@nervous",
         anim = "nervous_idle",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_missheist_countrybank@nervous",
       },
       {
-        dict = "rcmme_tracey1",
         anim = "nervous_loop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "rcmme_tracey1",
       },
     },
+    command = "nervous",
+    type = "animation",
     label = "Nervous",
   },
   {
-    command = "no",
-    type = "animation",
     animations = {
       {
-        dict = "anim@heists@ornate_bank@chat_manager",
         anim = "fail",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@heists@ornate_bank@chat_manager",
       },
       {
-        dict = "mp_player_int_upper_nod",
         anim = "mp_player_int_nod_no",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_player_int_upper_nod",
       },
     },
+    command = "no",
+    type = "animation",
     label = "No",
   },
   {
-    command = "nosepick",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intcelebrationfemale@nose_pick",
         anim = "nose_pick",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@nose_pick",
       },
     },
+    command = "nosepick",
+    type = "animation",
     label = "Nose Pick",
   },
   {
-    command = "noway",
-    type = "animation",
     animations = {
       {
-        dict = "gestures@m@standing@casual",
         anim = "gesture_no_way",
         flags = {
+          move = true,
         },
+        dict = "gestures@m@standing@casual",
       },
     },
+    command = "noway",
+    type = "animation",
     label = "No Way",
   },
   {
-    command = "ok",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intselfiedock",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intselfiedock",
       },
     },
+    command = "ok",
+    type = "animation",
     label = "OK",
   },
   {
-    command = "outofbreath",
-    type = "animation",
     animations = {
       {
-        dict = "re@construction",
         anim = "out_of_breath",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "re@construction",
       },
     },
+    command = "outofbreath",
+    type = "animation",
     label = "Out of Breath",
   },
   {
-    command = "passout",
-    type = "animation",
     animations = {
       {
-        dict = "missarmenian2",
         anim = "drunk_loop",
         flags = {
+          loop = true,
         },
+        dict = "missarmenian2",
       },
       {
-        dict = "missarmenian2",
         anim = "corpse_search_exit_ped",
         flags = {
+          loop = true,
         },
+        dict = "missarmenian2",
       },
       {
-        dict = "anim@gangops@morgue@table@",
         anim = "body_search",
         flags = {
+          loop = true,
         },
+        dict = "anim@gangops@morgue@table@",
       },
       {
-        dict = "mini@cpr@char_b@cpr_def",
         anim = "cpr_pumpchest_idle",
         flags = {
+          loop = true,
         },
+        dict = "mini@cpr@char_b@cpr_def",
       },
       {
-        dict = "random@mugging4",
         anim = "flee_backward_loop_shopkeeper",
         flags = {
+          loop = true,
         },
+        dict = "random@mugging4",
       },
     },
+    command = "passout",
+    type = "animation",
     label = "Passout",
   },
   {
-    command = "peace",
-    type = "animation",
     animations = {
       {
-        dict = "mp_player_int_upperpeace_sign",
         anim = "mp_player_int_peace_sign",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_player_int_upperpeace_sign",
       },
       {
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intupperpeace",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
+        anim = "idle_a_fp",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intupperpeace",
-        anim = "idle_a_fp",
-        flags = {
-        },
       },
       {
-        dict = "anim@mp_player_intincarpeacestd@ds@",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intincarpeacestd@ds@",
       },
       {
-        dict = "anim@mp_player_intincarpeacestd@ds@",
         anim = "idle_a_fp",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intincarpeacestd@ds@",
       },
       {
-        dict = "anim@mp_player_intincarpeacebodhi@ds@",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intincarpeacebodhi@ds@",
       },
       {
-        dict = "anim@mp_player_intincarpeacebodhi@ds@",
         anim = "idle_a_fp",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intincarpeacebodhi@ds@",
       },
     },
+    command = "peace",
+    type = "animation",
     label = "Peace",
   },
   {
-    command = "peacef",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intcelebrationfemale@peace",
         anim = "peace",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@peace",
       },
     },
+    command = "peacef",
+    type = "animation",
     label = "Peace Female",
   },
   {
-    command = "pee",
-    type = "animation",
     animations = {
       {
-        dict = "misscarsteal2peeing",
         anim = "peeing_loop",
         flags = {
         },
+        dict = "misscarsteal2peeing",
       },
       {
-        dict = "missbigscore1switch_trevor_piss",
         anim = "piss_loop",
         flags = {
+          loop = true,
         },
+        dict = "missbigscore1switch_trevor_piss",
       },
     },
+    command = "pee",
+    type = "animation",
     label = "Pee (Male)",
   },
   {
-    command = "peek",
-    type = "animation",
     animations = {
       {
-        dict = "random@paparazzi@peek",
         anim = "left_peek_a",
         flags = {
+          loop = true,
         },
+        dict = "random@paparazzi@peek",
       },
     },
+    command = "peek",
+    type = "animation",
     label = "Peek",
   },
   {
-    command = "petting",
-    type = "animation",
     animations = {
       {
-        dict = "creatures@rottweiler@tricks@",
         anim = "petting_franklin",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@tricks@",
       },
     },
+    command = "petting",
+    type = "animation",
     label = "Petting",
   },
   {
-    command = "picklock",
-    type = "animation",
     animations = {
       {
-        dict = "missheistfbisetup1",
         anim = "hassle_intro_loop_f",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "missheistfbisetup1",
       },
     },
+    command = "picklock",
+    type = "animation",
     label = "Picklock",
   },
   {
-    command = "pickup",
-    type = "animation",
     animations = {
       {
         anim = "pickup_low",
         dict = "random@domestic",
       },
     },
+    command = "pickup",
+    type = "animation",
     label = "Pickup",
   },
   {
-    command = "point",
-    type = "animation",
     animations = {
       {
-        dict = "gestures@f@standing@casual",
         anim = "gesture_point",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "gestures@f@standing@casual",
       },
     },
+    command = "point",
+    type = "animation",
     label = "Point",
   },
   {
-    command = "pointdown",
-    type = "animation",
     animations = {
       {
-        dict = "gestures@f@standing@casual",
         anim = "gesture_hand_down",
         flags = {
+          move = true,
         },
+        dict = "gestures@f@standing@casual",
       },
     },
+    command = "pointdown",
+    type = "animation",
     label = "Point Down",
   },
   {
-    command = "pointright",
-    type = "animation",
     animations = {
       {
-        dict = "mp_gun_shop_tut",
         anim = "indicate_right",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_gun_shop_tut",
       },
     },
+    command = "pointright",
+    type = "animation",
     label = "Point Right",
   },
   {
-    command = "pose",
-    type = "animation",
     animations = {
       {
-        dict = "lucio_01@sharror",
         anim = "lucio_01",
         flags = {
+          loop = true,
         },
+        dict = "lucio_01@sharror",
       },
       {
-        dict = "female_pose_03@sharror",
         anim = "female_pose_03",
         flags = {
+          loop = true,
         },
+        dict = "female_pose_03@sharror",
       },
       {
-        dict = "female_pose_02@sharror",
         anim = "female_pose_02",
         flags = {
+          loop = true,
         },
+        dict = "female_pose_02@sharror",
       },
       {
-        dict = "female_pose_01@sharror",
         anim = "female_pose_01",
         flags = {
+          loop = true,
         },
+        dict = "female_pose_01@sharror",
       },
       {
-        dict = "m_stand_hands@sharror",
         anim = "m_stand_hands",
         flags = {
+          loop = true,
         },
+        dict = "m_stand_hands@sharror",
       },
       {
-        dict = "fgunpose@sharror",
         anim = "fgunpose_clip",
         flags = {
+          loop = true,
         },
+        dict = "fgunpose@sharror",
       },
       {
-        dict = "mmodelpose1@sharror",
         anim = "mmodelpose1_clip",
         flags = {
+          loop = true,
         },
+        dict = "mmodelpose1@sharror",
       },
       {
-        dict = "drill_hands@sharror",
         anim = "drill_hands_clip",
         flags = {
+          loop = true,
         },
+        dict = "drill_hands@sharror",
       },
       {
-        dict = "lookdown@sharror",
         anim = "lookdown_clip",
         flags = {
+          loop = true,
         },
+        dict = "lookdown@sharror",
       },
       {
-        dict = "perspective1@sharror",
         anim = "perspective1_clip",
         flags = {
+          loop = true,
         },
+        dict = "perspective1@sharror",
       },
       {
-        dict = "perspective2@sharror",
         anim = "perspective2_clip",
         flags = {
+          loop = true,
         },
+        dict = "perspective2@sharror",
       },
       {
-        dict = "stairpose1@sharror",
         anim = "stairpose1_clip",
         flags = {
+          loop = true,
         },
+        dict = "stairpose1@sharror",
       },
       {
-        dict = "stairpose2@sharror",
         anim = "stairpose2_clip",
         flags = {
+          loop = true,
         },
+        dict = "stairpose2@sharror",
       },
       {
-        dict = "pupppy@freepose01",
         anim = "freepose01",
         flags = {
+          loop = true,
         },
+        dict = "pupppy@freepose01",
       },
       {
-        dict = "pupppy@freepose03",
         anim = "freepose03",
         flags = {
+          loop = true,
         },
+        dict = "pupppy@freepose03",
       },
       {
-        dict = "pupppy@freepose04",
         anim = "freepose04",
         flags = {
+          loop = true,
         },
+        dict = "pupppy@freepose04",
       },
       {
-        dict = "pupppy@freepose02",
         anim = "freepose02",
         flags = {
+          loop = true,
         },
+        dict = "pupppy@freepose02",
       },
     },
+    command = "pose",
+    type = "animation",
     label = "Pose",
   },
   {
-    command = "prone",
-    type = "animation",
     animations = {
       {
-        dict = "missfbi3_sniping",
         anim = "prone_dave",
         flags = {
+          loop = true,
         },
+        dict = "missfbi3_sniping",
       },
     },
+    command = "prone",
+    type = "animation",
     label = "Prone",
   },
   {
-    command = "pull",
-    type = "animation",
     animations = {
       {
-        dict = "random@mugging4",
         anim = "struggle_loop_b_thief",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@mugging4",
       },
     },
+    command = "pull",
+    type = "animation",
     label = "Pull",
   },
   {
-    command = "pullover",
-    type = "animation",
     animations = {
       {
-        dict = "misscarsteal3pullover",
         anim = "pull_over_right",
         flags = {
+          move = true,
         },
+        dict = "misscarsteal3pullover",
       },
     },
+    command = "pullover",
+    type = "animation",
     label = "Pullover",
   },
   {
-    command = "punching",
-    type = "animation",
     animations = {
       {
-        dict = "rcmextreme2",
         anim = "loop_punching",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "rcmextreme2",
       },
     },
+    command = "punching",
+    type = "animation",
     label = "Punching",
   },
   {
-    command = "push",
-    type = "animation",
     animations = {
       {
-        dict = "missfinale_c2ig_11",
         anim = "pushcar_offcliff_f",
         flags = {
+          loop = true,
         },
+        dict = "missfinale_c2ig_11",
       },
       {
-        dict = "missfinale_c2ig_11",
         anim = "pushcar_offcliff_m",
         flags = {
+          loop = true,
         },
+        dict = "missfinale_c2ig_11",
       },
     },
+    command = "push",
+    type = "animation",
     label = "Push",
   },
   {
-    command = "pushup",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_push_ups@male@idle_a",
         anim = "idle_d",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_push_ups@male@idle_a",
       },
     },
+    command = "pushup",
+    type = "animation",
     label = "Pushup",
   },
   {
-    command = "rabbit",
-    type = "animation",
     animations = {
       {
         anim = "wakeup",
         dict = "random@peyote@rabbit",
       },
     },
+    command = "rabbit",
+    type = "animation",
     label = "Rabbit",
   },
   {
-    command = "radio",
-    type = "animation",
     animations = {
       {
-        dict = "random@arrests",
         anim = "generic_radio_chatter",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@arrests",
       },
     },
+    command = "radio",
+    type = "animation",
     label = "Radio",
   },
   {
-    command = "reaching",
-    type = "animation",
     animations = {
       {
-        dict = "move_m@intimidation@cop@unarmed",
         anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "move_m@intimidation@cop@unarmed",
       },
     },
+    command = "reaching",
+    type = "animation",
     label = "Reaching",
   },
   {
-    command = "relax",
-    type = "animation",
     animations = {
       {
+        anim = "base",
+        flags = {
+          loop = true,
+        },
         dict = "lying@on_grass",
-        anim = "base",
-        flags = {
-        },
       },
       {
+        anim = "base",
+        flags = {
+          loop = true,
+        },
         dict = "lying@on_couch_legs_crossed",
-        anim = "base",
-        flags = {
-        },
       },
       {
+        anim = "base",
+        flags = {
+          loop = true,
+        },
         dict = "lying@on_couch_legs_crossed2",
-        anim = "base",
-        flags = {
-        },
       },
       {
-        dict = "lying@on_couch_legs_crossed3",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "lying@on_couch_legs_crossed3",
       },
     },
+    command = "relax",
+    type = "animation",
     label = "Relax",
   },
   {
-    command = "respect",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intcelebrationmale@respect",
         anim = "respect",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intcelebrationmale@respect",
       },
     },
+    command = "respect",
+    type = "animation",
     label = "Respect Male",
   },
   {
-    command = "respectf",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intcelebrationfemale@respect",
         anim = "respect",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@respect",
       },
     },
+    command = "respectf",
+    type = "animation",
     label = "Respect Female",
   },
   {
-    command = "rps",
-    type = "animation",
     animations = {
       {
         anim = {
@@ -2792,167 +3151,191 @@ return {
         },
       },
     },
+    command = "rps",
+    type = "animation",
     label = "Rock Paper Scissors",
   },
   {
-    command = "salute",
-    type = "animation",
     animations = {
       {
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intincarsalutestd@ds@",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intincarsalutestd@ps@",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
-        dict = "anim@mp_player_intuppersalute",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intuppersalute",
       },
     },
+    command = "salute",
+    type = "animation",
     label = "Salute",
   },
   {
-    command = "scared",
-    type = "animation",
     animations = {
       {
-        dict = "random@domestic",
         anim = "f_distressed_loop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@domestic",
       },
       {
-        dict = "random@homelandsecurity",
         anim = "knees_loop_girl",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@homelandsecurity",
       },
     },
+    command = "scared",
+    type = "animation",
     label = "Scared",
   },
   {
-    command = "scratchass",
-    type = "animation",
     animations = {
       {
         anim = "heist_spawn_01_ped_d",
         dict = "anim@heists@team_respawn@respawn_01",
       },
     },
+    command = "scratchass",
+    type = "animation",
     label = "Scratch Ass",
   },
   {
-    command = "screwyou",
-    type = "animation",
     animations = {
       {
-        dict = "misscommon@response",
         anim = "screw_you",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "misscommon@response",
       },
     },
+    command = "screwyou",
+    type = "animation",
     label = "Screw You",
   },
   {
-    command = "sexypose",
-    type = "animation",
     animations = {
       {
-        dict = "littlespoon@sexy003",
         anim = "sexy003",
         flags = {
+          loop = true,
         },
+        dict = "littlespoon@sexy003",
       },
       {
-        dict = "littlespoon@sexy004",
         anim = "sexy004",
         flags = {
+          loop = true,
         },
+        dict = "littlespoon@sexy004",
       },
       {
-        dict = "littlespoon@sexy005",
         anim = "sexy005",
         flags = {
+          loop = true,
         },
+        dict = "littlespoon@sexy005",
       },
       {
-        dict = "littlespoon@sexy006",
         anim = "sexy006",
         flags = {
+          loop = true,
         },
+        dict = "littlespoon@sexy006",
       },
       {
-        dict = "littlespoon@sexy009",
         anim = "sexy009",
         flags = {
+          loop = true,
         },
+        dict = "littlespoon@sexy009",
       },
       {
-        dict = "littlespoon@sexy012",
         anim = "sexy012",
         flags = {
+          loop = true,
         },
+        dict = "littlespoon@sexy012",
       },
     },
+    command = "sexypose",
+    type = "animation",
     label = "Sexy Pose",
   },
   {
-    command = "shaka",
-    type = "animation",
     animations = {
       {
-        dict = "sign@hang_loose",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "sign@hang_loose",
       },
       {
-        dict = "sign@hang_loose_casual",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "sign@hang_loose_casual",
       },
     },
+    command = "shaka",
+    type = "animation",
     label = "Shaka",
   },
   {
-    command = "shakeoff",
-    type = "animation",
     animations = {
       {
-        dict = "move_m@_idles@shake_off",
         anim = "shakeoff_1",
         flags = {
+          move = true,
         },
+        dict = "move_m@_idles@shake_off",
       },
     },
+    command = "shakeoff",
+    type = "animation",
     label = "Shake Off",
   },
   {
-    command = "shot",
-    type = "animation",
     animations = {
       {
-        dict = "random@dealgonewrong",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "random@dealgonewrong",
       },
     },
+    command = "shot",
+    type = "animation",
     label = "Shot",
   },
   {
-    command = "showboobs",
-    type = "animation",
     animations = {
       {
         anim = "stripper_b_backroom_idle_b",
@@ -2963,379 +3346,426 @@ return {
         dict = "mini@strip_club@idles@stripper",
       },
     },
+    command = "showboobs",
+    type = "animation",
     label = "Show Boobs",
   },
   {
-    command = "showerf",
-    type = "animation",
     animations = {
       {
-        dict = "mp_safehouseshower@female@",
         anim = "shower_enter_into_idle",
         flags = {
+          loop = true,
         },
+        dict = "mp_safehouseshower@female@",
       },
       {
-        dict = "mp_safehouseshower@female@",
         anim = "shower_idle_a",
         flags = {
+          loop = true,
         },
+        dict = "mp_safehouseshower@female@",
       },
       {
-        dict = "mp_safehouseshower@female@",
         anim = "shower_idle_b",
         flags = {
+          loop = true,
         },
+        dict = "mp_safehouseshower@female@",
       },
     },
+    command = "showerf",
+    type = "animation",
     label = "Shower Enter Female",
   },
   {
-    command = "showerm",
-    type = "animation",
     animations = {
       {
-        dict = "mp_safehouseshower@male@",
         anim = "male_shower_idle_a",
         flags = {
+          loop = true,
         },
+        dict = "mp_safehouseshower@male@",
       },
       {
-        dict = "mp_safehouseshower@male@",
         anim = "male_shower_idle_b",
         flags = {
+          loop = true,
         },
+        dict = "mp_safehouseshower@male@",
       },
       {
-        dict = "mp_safehouseshower@male@",
         anim = "male_shower_idle_c",
         flags = {
+          loop = true,
         },
+        dict = "mp_safehouseshower@male@",
       },
       {
-        dict = "mp_safehouseshower@male@",
         anim = "male_shower_idle_d",
         flags = {
+          loop = true,
         },
+        dict = "mp_safehouseshower@male@",
       },
     },
+    command = "showerm",
+    type = "animation",
     label = "Shower Enter Male",
   },
   {
-    command = "shrug",
-    type = "animation",
     animations = {
       {
-        dict = "gestures@f@standing@casual",
         anim = "gesture_shrug_hard",
         flags = {
+          move = true,
         },
+        dict = "gestures@f@standing@casual",
       },
       {
-        dict = "gestures@m@standing@casual",
         anim = "gesture_shrug_hard",
         flags = {
+          move = true,
         },
+        dict = "gestures@m@standing@casual",
       },
     },
+    command = "shrug",
+    type = "animation",
     label = "Shrug",
   },
   {
-    command = "signofhorns",
-    type = "animation",
     animations = {
       {
-        dict = "luxurymods@animation_male_3",
         anim = "animation_male_3_clip",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "luxurymods@animation_male_3",
       },
     },
+    command = "signofhorns",
+    type = "animation",
     label = "Sign of The Horns",
   },
   {
-    command = "sit",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@business@bgen@bgen_no_work@",
         anim = "sit_phone_phoneputdown_idle_nowork",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@business@bgen@bgen_no_work@",
       },
       {
-        dict = "rcm_barry3",
         anim = "barry_3_sit_loop",
         flags = {
+          loop = true,
         },
+        dict = "rcm_barry3",
       },
       {
+        anim = "idle_a",
+        flags = {
+          loop = true,
+        },
         dict = "amb@world_human_picnic@male@idle_a",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
+        anim = "idle_a",
+        flags = {
+          loop = true,
+        },
         dict = "amb@world_human_picnic@female@idle_a",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
-        dict = "anim@heists@fleeca_bank@ig_7_jetski_owner",
         anim = "owner_idle",
         flags = {
+          loop = true,
         },
+        dict = "anim@heists@fleeca_bank@ig_7_jetski_owner",
       },
       {
-        dict = "timetable@jimmy@mics3_ig_15@",
         anim = "idle_a_jimmy",
         flags = {
+          loop = true,
         },
+        dict = "timetable@jimmy@mics3_ig_15@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_alone@",
         anim = "lowalone_base_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_alone@",
       },
       {
-        dict = "timetable@jimmy@mics3_ig_15@",
         anim = "mics3_15_base_jimmy",
         flags = {
+          loop = true,
         },
+        dict = "timetable@jimmy@mics3_ig_15@",
       },
       {
-        dict = "amb@world_human_stupor@male@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_stupor@male@idle_a",
       },
       {
-        dict = "s_sit_01@sharror",
         anim = "s_sit_01_clip",
         flags = {
+          loop = true,
         },
+        dict = "s_sit_01@sharror",
       },
       {
-        dict = "sitonwhip@joker",
         anim = "sitonwhip_clip",
         flags = {
+          loop = true,
         },
+        dict = "sitonwhip@joker",
       },
       {
-        dict = "sitonground1@sharror",
         anim = "sitonground1_clip",
         flags = {
+          loop = true,
         },
+        dict = "sitonground1@sharror",
       },
       {
-        dict = "sitkylie@queensisters",
         anim = "kylie_clip",
         flags = {
+          loop = true,
         },
+        dict = "sitkylie@queensisters",
       },
     },
+    command = "sit",
+    type = "animation",
     label = "Sit",
   },
   {
-    command = "sitchair",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@ron@ig_5_p3",
         anim = "ig_5_p3_base",
         flags = {
+          loop = true,
         },
+        dict = "timetable@ron@ig_5_p3",
       },
       {
-        dict = "timetable@reunited@ig_10",
         anim = "base_amanda",
         flags = {
+          loop = true,
         },
+        dict = "timetable@reunited@ig_10",
       },
       {
-        dict = "timetable@ron@ig_3_couch",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "timetable@ron@ig_3_couch",
       },
       {
-        dict = "timetable@jimmy@mics3_ig_15@",
         anim = "mics3_15_base_tracy",
         flags = {
+          loop = true,
         },
+        dict = "timetable@jimmy@mics3_ig_15@",
       },
       {
-        dict = "timetable@maid@couch@",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "timetable@maid@couch@",
       },
       {
-        dict = "timetable@ron@ron_ig_2_alt1",
         anim = "ig_2_alt1_base",
         flags = {
+          loop = true,
         },
+        dict = "timetable@ron@ron_ig_2_alt1",
       },
       {
-        dict = "sitcouch@joker",
         anim = "sitcouch_clip",
         flags = {
+          loop = true,
         },
+        dict = "sitcouch@joker",
       },
     },
+    command = "sitchair",
+    type = "animation",
     label = "Sit Chair",
   },
   {
-    command = "sitdrunk",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@amanda@drunk@base",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "timetable@amanda@drunk@base",
       },
     },
+    command = "sitdrunk",
+    type = "animation",
     label = "Sit Drunk",
   },
   {
-    command = "sitlean",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@tracy@ig_14@",
         anim = "ig_14_base_tracy",
         flags = {
+          loop = true,
         },
+        dict = "timetable@tracy@ig_14@",
       },
     },
+    command = "sitlean",
+    type = "animation",
     label = "Sit Lean",
   },
   {
-    command = "sitlow",
-    type = "animation",
     animations = {
       {
-        dict = "anim@veh@lowrider@std@ds@arm@base",
         anim = "sit_low_lowdoor",
         flags = {
+          loop = true,
         },
+        dict = "anim@veh@lowrider@std@ds@arm@base",
       },
     },
+    command = "sitlow",
+    type = "animation",
     label = "Sit Lowrider",
   },
   {
-    command = "sitsad",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@business@bgen@bgen_no_work@",
         anim = "sit_phone_phoneputdown_sleeping-noworkfemale",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@business@bgen@bgen_no_work@",
       },
     },
+    command = "sitsad",
+    type = "animation",
     label = "Sit Sad",
   },
   {
-    command = "sitscared",
-    type = "animation",
     animations = {
       {
-        dict = "anim@heists@ornate_bank@hostages@hit",
         anim = "hit_loop_ped_b",
         flags = {
+          loop = true,
         },
+        dict = "anim@heists@ornate_bank@hostages@hit",
       },
       {
+        anim = "flinch_loop",
+        flags = {
+          loop = true,
+        },
         dict = "anim@heists@ornate_bank@hostages@ped_c@",
-        anim = "flinch_loop",
-        flags = {
-        },
       },
       {
-        dict = "anim@heists@ornate_bank@hostages@ped_e@",
         anim = "flinch_loop",
         flags = {
+          loop = true,
         },
+        dict = "anim@heists@ornate_bank@hostages@ped_e@",
       },
     },
+    command = "sitscared",
+    type = "animation",
     label = "Sit Scared",
   },
   {
-    command = "situp",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_sit_ups@male@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_sit_ups@male@idle_a",
       },
     },
+    command = "situp",
+    type = "animation",
     label = "Sit Up",
   },
   {
-    command = "slap",
-    type = "animation",
     animations = {
       {
-        dict = "melee@unarmed@streamed_variations",
         anim = "plyr_takedown_front_slap",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "melee@unarmed@streamed_variations",
       },
     },
+    command = "slap",
+    type = "animation",
     label = "Slap",
   },
   {
-    command = "sleep",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@tracy@sleep@",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "timetable@tracy@sleep@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_base_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_dlg_crying_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_dlg_fuckedup_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_dlg_notagain_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
       {
-        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
         anim = "lowsofa_dlg_shit2strong_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@lo_sofa@",
       },
     },
+    command = "sleep",
+    type = "animation",
     label = "Sleep",
   },
   {
-    command = "slide",
-    type = "animation",
     animations = {
       {
         anim = "slide_a_player_a",
@@ -3350,1040 +3780,1202 @@ return {
         dict = "anim@arena@celeb@flat@solo@no_props@",
       },
     },
+    command = "slide",
+    type = "animation",
     label = "Slide",
   },
   {
-    command = "slowclap",
-    type = "animation",
     animations = {
       {
+        anim = "slow_clap",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intcelebrationfemale@slow_clap",
-        anim = "slow_clap",
-        flags = {
-        },
       },
       {
+        anim = "slow_clap",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intcelebrationmale@slow_clap",
-        anim = "slow_clap",
-        flags = {
-        },
       },
       {
-        dict = "anim@mp_player_intupperslow_clap",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intupperslow_clap",
       },
     },
+    command = "slowclap",
+    type = "animation",
     label = "Slow Clap",
   },
   {
-    command = "slugger",
-    type = "animation",
     animations = {
       {
         anim = "slugger_a_player_a",
         dict = "anim@arena@celeb@flat@solo@no_props@",
       },
     },
+    command = "slugger",
+    type = "animation",
     label = "Slugger",
   },
   {
-    command = "smell",
-    type = "animation",
     animations = {
       {
-        dict = "move_p_m_two_idles@generic",
         anim = "fidget_sniff_fingers",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "move_p_m_two_idles@generic",
       },
     },
+    command = "smell",
+    type = "animation",
     label = "Smell",
   },
   {
-    command = "spiderman",
-    type = "animation",
     animations = {
       {
-        dict = "missexile3",
         anim = "ex03_train_roof_idle",
         flags = {
+          loop = true,
         },
+        dict = "missexile3",
       },
     },
+    command = "spiderman",
+    type = "animation",
     label = "Spider-Man",
   },
   {
-    command = "standsick",
-    type = "animation",
     animations = {
       {
-        dict = "standfemale_sick@joker",
         anim = "standfemale_sick_clip",
         flags = {
+          loop = true,
         },
+        dict = "standfemale_sick@joker",
       },
       {
-        dict = "femalestand3@joker",
         anim = "femalestand3_clip",
         flags = {
+          loop = true,
         },
+        dict = "femalestand3@joker",
       },
     },
+    command = "standsick",
+    type = "animation",
     label = "Stand Sick",
   },
   {
-    command = "statue2",
-    type = "animation",
     animations = {
       {
-        dict = "fra_0_int-1",
         anim = "cs_lamardavis_dual-1",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "fra_0_int-1",
       },
     },
+    command = "statue2",
+    type = "animation",
     label = "Statue 2",
   },
   {
-    command = "statue3",
-    type = "animation",
     animations = {
       {
-        dict = "club_intro2-0",
         anim = "csb_englishdave_dual-0",
         flags = {
+          loop = true,
         },
+        dict = "club_intro2-0",
       },
     },
+    command = "statue3",
+    type = "animation",
     label = "Statue 3",
   },
   {
-    command = "stickup",
-    type = "animation",
     animations = {
       {
-        dict = "random@countryside_gang_fight",
         anim = "biker_02_stickup_loop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@countryside_gang_fight",
       },
     },
+    command = "stickup",
+    type = "animation",
     label = "Stick Up",
   },
   {
-    command = "stink",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intcelebrationfemale@stinker",
         anim = "stinker",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@stinker",
       },
     },
+    command = "stink",
+    type = "animation",
     label = "Stink",
   },
   {
-    command = "stretch",
-    type = "animation",
     animations = {
       {
-        dict = "mini@triathlon",
         anim = "idle_e",
         flags = {
+          loop = true,
         },
+        dict = "mini@triathlon",
       },
       {
-        dict = "mini@triathlon",
         anim = "idle_f",
         flags = {
+          loop = true,
         },
+        dict = "mini@triathlon",
       },
       {
-        dict = "mini@triathlon",
         anim = "idle_d",
         flags = {
+          loop = true,
         },
+        dict = "mini@triathlon",
       },
       {
-        dict = "rcmfanatic1maryann_stretchidle_b",
         anim = "idle_e",
         flags = {
+          loop = true,
         },
+        dict = "rcmfanatic1maryann_stretchidle_b",
       },
     },
+    command = "stretch",
+    type = "animation",
     label = "Stretch",
   },
   {
-    command = "stumble",
-    type = "animation",
     animations = {
       {
-        dict = "misscarsteal4@actor",
         anim = "stumble",
         flags = {
+          loop = true,
         },
+        dict = "misscarsteal4@actor",
       },
     },
+    command = "stumble",
+    type = "animation",
     label = "Stumble",
   },
   {
-    command = "stunned",
-    type = "animation",
     animations = {
       {
-        dict = "stungun@standing",
         anim = "damage",
         flags = {
+          loop = true,
         },
+        dict = "stungun@standing",
       },
     },
+    command = "stunned",
+    type = "animation",
     label = "Stunned",
   },
   {
-    command = "sunbathe",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_sunbathe@male@back@base",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_sunbathe@male@back@base",
       },
       {
-        dict = "amb@world_human_sunbathe@female@back@base",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "amb@world_human_sunbathe@female@back@base",
       },
     },
+    command = "sunbathe",
+    type = "animation",
     label = "Sunbathe",
   },
   {
-    command = "superhero",
-    type = "animation",
     animations = {
       {
-        dict = "rcmbarry",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "rcmbarry",
       },
       {
-        dict = "rcmbarry",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "rcmbarry",
       },
     },
+    command = "superhero",
+    type = "animation",
     label = "Superhero",
   },
   {
-    command = "surrender",
-    type = "animation",
     animations = {
       {
-        dict = "random@arrests@busted",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "random@arrests@busted",
       },
       {
-        dict = "mp_bank_heist_1",
         anim = "f_cower_02",
         flags = {
+          loop = true,
         },
+        dict = "mp_bank_heist_1",
       },
       {
-        dict = "mp_bank_heist_1",
         anim = "m_cower_01",
         flags = {
+          loop = true,
         },
+        dict = "mp_bank_heist_1",
       },
       {
-        dict = "mp_bank_heist_1",
         anim = "m_cower_02",
         flags = {
+          loop = true,
         },
+        dict = "mp_bank_heist_1",
       },
       {
-        dict = "random@arrests",
         anim = "kneeling_arrest_idle",
         flags = {
+          loop = true,
         },
+        dict = "random@arrests",
       },
       {
-        dict = "rcmbarry",
         anim = "m_cower_01",
         flags = {
+          loop = true,
         },
+        dict = "rcmbarry",
       },
     },
+    command = "surrender",
+    type = "animation",
     label = "Surrender",
   },
   {
-    command = "t",
-    type = "animation",
     animations = {
       {
-        dict = "missfam5_yoga",
         anim = "a2_pose",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "missfam5_yoga",
       },
       {
-        dict = "mp_sleep",
         anim = "bind_pose_180",
         flags = {
+          loop = true,
         },
+        dict = "mp_sleep",
       },
     },
+    command = "t",
+    type = "animation",
     label = "T",
   },
   {
-    command = "tactical",
-    type = "animation",
     animations = {
       {
-        dict = "anim@tactical_kneel_walkie",
         anim = "kneel_walkie_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@tactical_kneel_walkie",
       },
       {
-        dict = "anim@tactical_kneel_aiming",
         anim = "kneel_aiming_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@tactical_kneel_aiming",
       },
       {
-        dict = "anim@tactical_highlow_high_leftlean",
         anim = "high_leftlean_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@tactical_highlow_high_leftlean",
       },
       {
-        dict = "anim@tactical_highlow_low_leftlean",
         anim = "low_leftlean_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@tactical_highlow_low_leftlean",
       },
       {
-        dict = "anim@male_tactical_collapsed_lowready",
         anim = "collapsed_lowready_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@male_tactical_collapsed_lowready",
       },
       {
-        dict = "anim@male_tactical_highready_relaxed",
         anim = "highready_relaxed_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@male_tactical_highready_relaxed",
       },
       {
-        dict = "anim@fog_rifle_relaxed",
         anim = "rifle_relaxed_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@fog_rifle_relaxed",
       },
       {
-        dict = "anim@shooter_stance",
         anim = "stance_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@shooter_stance",
       },
       {
-        dict = "anim@stance_handgun",
         anim = "handgun_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@stance_handgun",
       },
       {
-        dict = "anim@stack_pointman",
         anim = "pointman_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@stack_pointman",
       },
       {
-        dict = "anim@stack_two_man",
         anim = "two_man_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@stack_two_man",
       },
       {
-        dict = "anim@stack_three_man",
         anim = "three_man_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@stack_three_man",
       },
       {
-        dict = "anim@highlow_low_lean",
         anim = "low_lean_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@highlow_low_lean",
       },
       {
-        dict = "anim@highlow_high_lean",
         anim = "high_lean_clip",
         flags = {
+          loop = true,
         },
+        dict = "anim@highlow_high_lean",
       },
     },
+    command = "tactical",
+    type = "animation",
     label = "Tactical",
   },
   {
-    command = "think",
-    type = "animation",
     animations = {
       {
-        dict = "misscarsteal4@aliens",
         anim = "rehearsal_base_idle_director",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "misscarsteal4@aliens",
       },
       {
-        dict = "missheist_jewelleadinout",
         anim = "jh_int_outro_loop_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "missheist_jewelleadinout",
       },
       {
-        dict = "timetable@tracy@ig_8@base",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "timetable@tracy@ig_8@base",
       },
       {
-        dict = "anim@amb@casino@hangout@ped_male@stand@02b@idles",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@amb@casino@hangout@ped_male@stand@02b@idles",
       },
       {
-        dict = "mp_cp_welcome_tutthink",
         anim = "b_think",
         flags = {
+          move = true,
         },
+        dict = "mp_cp_welcome_tutthink",
       },
     },
+    command = "think",
+    type = "animation",
     label = "Think",
   },
   {
-    command = "threaten",
-    type = "animation",
     animations = {
       {
-        dict = "random@atmrobberygen",
         anim = "b_atm_mugging",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@atmrobberygen",
       },
     },
+    command = "threaten",
+    type = "animation",
     label = "Threaten",
   },
   {
-    command = "thumbsup",
-    type = "animation",
     animations = {
       {
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intupperthumbs_up",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intselfiethumbs_up",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
-        dict = "anim@mp_player_intincarthumbs_uplow@ds@",
         anim = "enter",
         flags = {
+          move = true,
         },
+        dict = "anim@mp_player_intincarthumbs_uplow@ds@",
       },
     },
+    command = "thumbsup",
+    type = "animation",
     label = "Thumbs Up",
   },
   {
-    command = "tighten",
-    type = "animation",
     animations = {
       {
-        dict = "timetable@denice@ig_1",
         anim = "idle_b",
         flags = {
+          loop = true,
         },
+        dict = "timetable@denice@ig_1",
       },
     },
+    command = "tighten",
+    type = "animation",
     label = "Tigten (Yoga)",
   },
   {
-    command = "tryclothes",
-    type = "animation",
     animations = {
       {
-        dict = "mp_clothing@female@trousers",
         anim = "try_trousers_neutral_a",
         flags = {
+          loop = true,
         },
+        dict = "mp_clothing@female@trousers",
       },
       {
-        dict = "mp_clothing@female@shirt",
         anim = "try_shirt_positive_a",
         flags = {
+          loop = true,
         },
+        dict = "mp_clothing@female@shirt",
       },
       {
-        dict = "mp_clothing@female@shoes",
         anim = "try_shoes_positive_a",
         flags = {
+          loop = true,
         },
+        dict = "mp_clothing@female@shoes",
       },
     },
+    command = "tryclothes",
+    type = "animation",
     label = "Try Clothes",
   },
   {
-    command = "type",
-    type = "animation",
     animations = {
       {
-        dict = "anim@heists@prison_heiststation@cop_reactions",
         anim = "cop_b_idle",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@heists@prison_heiststation@cop_reactions",
       },
       {
-        dict = "anim@heists@prison_heistig1_p1_guard_checks_bus",
         anim = "loop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@heists@prison_heistig1_p1_guard_checks_bus",
       },
       {
-        dict = "mp_prison_break",
         anim = "hack_loop",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_prison_break",
       },
       {
-        dict = "mp_fbi_heist",
         anim = "loop",
         flags = {
+          loop = true,
         },
+        dict = "mp_fbi_heist",
       },
     },
+    command = "type",
+    type = "animation",
     label = "Type",
   },
   {
-    command = "uncuff",
-    type = "animation",
     animations = {
       {
-        dict = "mp_arresting",
         anim = "a_uncuff",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_arresting",
       },
     },
+    command = "uncuff",
+    type = "animation",
     label = "Uncuff",
   },
   {
-    command = "uwu",
-    type = "animation",
     animations = {
       {
-        dict = "uwu@egirl",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "uwu@egirl",
       },
     },
+    command = "uwu",
+    type = "animation",
     label = "uWu",
   },
   {
-    command = "valet",
-    type = "animation",
     animations = {
       {
+        anim = "base_a_m_y_vinewood_01",
+        flags = {
+          loop = true,
+        },
         dict = "anim@amb@casino@valet_scenario@pose_a@",
-        anim = "base_a_m_y_vinewood_01",
-        flags = {
-        },
       },
       {
+        anim = "base_a_m_y_vinewood_01",
+        flags = {
+          loop = true,
+        },
         dict = "anim@amb@casino@valet_scenario@pose_b@",
-        anim = "base_a_m_y_vinewood_01",
-        flags = {
-        },
       },
       {
-        dict = "anim@amb@casino@valet_scenario@pose_d@",
         anim = "base_a_m_y_vinewood_01",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@amb@casino@valet_scenario@pose_d@",
       },
     },
+    command = "valet",
+    type = "animation",
     label = "Valet",
   },
   {
-    command = "wait",
-    type = "animation",
     animations = {
       {
-        dict = "random@shop_tattoo",
         anim = "_idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "random@shop_tattoo",
       },
       {
-        dict = "timetable@amanda@ig_3",
         anim = "ig_3_base_tracy",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "timetable@amanda@ig_3",
       },
       {
+        anim = "keeper_base",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "misshair_shop@hair_dressers",
-        anim = "keeper_base",
-        flags = {
-        },
       },
       {
+        anim = "keeper_base",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "rcmjosh1",
-        anim = "keeper_base",
-        flags = {
-        },
       },
       {
-        dict = "rcmnigel1a",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "rcmnigel1a",
       },
       {
-        dict = "missbigscore2aig_3",
         anim = "wait_for_van_c",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "missbigscore2aig_3",
       },
       {
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "amb@world_human_hang_out_street@female_hold_arm@idle_a",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "amb@world_human_hang_out_street@Female_arm_side@idle_a",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
-        dict = "missclothing",
         anim = "idle_storeclerk",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "missclothing",
       },
       {
-        dict = "timetable@amanda@ig_2",
         anim = "ig_2_base_amanda",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "timetable@amanda@ig_2",
       },
       {
-        dict = "rcmnigel1cnmt_1c",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "rcmnigel1cnmt_1c",
       },
       {
-        dict = "rcmjosh1",
         anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "rcmjosh1",
       },
       {
-        dict = "rcmjosh2",
         anim = "josh_2_intp1_base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "rcmjosh2",
       },
     },
+    command = "wait",
+    type = "animation",
     label = "Wait",
   },
   {
-    command = "wank",
-    type = "animation",
     animations = {
       {
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intselfiewank",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
         dict = "anim@mp_player_intupperwank",
-        anim = "idle_a",
-        flags = {
-        },
       },
       {
-        dict = "mp_player_int_upperwank",
         anim = "mp_player_int_wank_02",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_player_int_upperwank",
       },
       {
-        dict = "mp_player_int_upperwank",
         anim = "mp_player_int_wank_02_fp",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "mp_player_int_upperwank",
       },
       {
         anim = "mp_player_int_wank",
         dict = "mp_player_intwank",
       },
     },
+    command = "wank",
+    type = "animation",
     label = "Wank",
   },
   {
-    command = "warmth",
-    type = "animation",
     animations = {
       {
-        dict = "amb@world_human_stand_fire@male@idle_a",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "amb@world_human_stand_fire@male@idle_a",
       },
     },
+    command = "warmth",
+    type = "animation",
     label = "Warmth",
   },
   {
-    command = "watchstripper",
-    type = "animation",
     animations = {
       {
         anim = "idle_b",
         dict = "amb@world_human_strip_watch_stand@male_c@idle_a",
       },
       {
-        flags = {
-        },
-        dict = "amb@world_human_strip_watch_stand@male_c@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.088000, -0.136000, 0.145000),
             rot = vec3(-102.962402, 81.709801, -39.273399),
             model = "prop_beer_am",
             bone = 60309,
-            pos = vec3(0.088000, -0.136000, 0.145000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_strip_watch_stand@male_c@base",
       },
     },
+    command = "watchstripper",
+    type = "prop",
     label = "Watch Stripper",
   },
   {
-    command = "wave",
-    type = "animation",
     animations = {
       {
-        dict = "friends@frj@ig_1",
         anim = "wave_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "friends@frj@ig_1",
       },
       {
-        dict = "anim@mp_player_intcelebrationfemale@wave",
         anim = "wave",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@wave",
       },
       {
-        dict = "friends@fra@ig_1",
         anim = "over_here_idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "friends@fra@ig_1",
       },
       {
-        dict = "random@mugging5",
         anim = "001445_01_gangintimidation_1_female_idle_b",
         flags = {
+          move = true,
         },
+        dict = "random@mugging5",
       },
       {
-        dict = "friends@frj@ig_1",
         anim = "wave_b",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "friends@frj@ig_1",
       },
       {
-        dict = "friends@frj@ig_1",
         anim = "wave_c",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "friends@frj@ig_1",
       },
       {
-        dict = "friends@frj@ig_1",
         anim = "wave_d",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "friends@frj@ig_1",
       },
       {
-        dict = "friends@frj@ig_1",
         anim = "wave_e",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "friends@frj@ig_1",
       },
       {
-        dict = "gestures@m@standing@casual",
         anim = "gesture_hello",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "gestures@m@standing@casual",
       },
       {
-        dict = "posing@with_car",
         anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "posing@with_car",
       },
     },
+    command = "wave",
+    type = "animation",
     label = "Wave",
   },
   {
-    command = "whistle",
-    type = "animation",
     animations = {
       {
-        dict = "taxi_hail",
         anim = "hail_taxi",
         flags = {
+          move = true,
         },
+        dict = "taxi_hail",
       },
       {
-        dict = "rcmnigel1c",
         anim = "hailing_whistle_waive_a",
         flags = {
+          move = true,
         },
+        dict = "rcmnigel1c",
       },
     },
+    command = "whistle",
+    type = "animation",
     label = "Whistle",
   },
   {
-    command = "yeah",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intupperair_shagging",
         anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@mp_player_intupperair_shagging",
       },
     },
+    command = "yeah",
+    type = "animation",
     label = "Yeah",
   },
   {
-    command = "zombieagony",
-    type = "animation",
     animations = {
       {
-        dict = "zombies_animations",
         anim = "agony",
         flags = {
+          loop = true,
         },
+        dict = "zombies_animations",
       },
     },
+    command = "zombieagony",
+    type = "animation",
     label = "Zombie Agony",
   },
   {
-    command = "zombiecrawl",
-    type = "animation",
     animations = {
       {
-        dict = "zombies_animations",
         anim = "crawl_01",
         flags = {
+          loop = true,
         },
+        dict = "zombies_animations",
       },
     },
+    command = "zombiecrawl",
+    type = "animation",
     label = "Zombie Crawl",
   },
   {
-    command = "zombiescream",
-    type = "animation",
     animations = {
       {
-        dict = "zombies_animations",
         anim = "scream",
         flags = {
+          loop = true,
         },
+        dict = "zombies_animations",
       },
     },
+    command = "zombiescream",
+    type = "animation",
     label = "Zombie Scream",
   },
   {
-    command = "zombiewalk",
-    type = "animation",
     animations = {
       {
-        dict = "zombies_animations",
         anim = "zombi_walk_01",
         flags = {
+          loop = true,
         },
+        dict = "zombies_animations",
       },
       {
-        dict = "zombies_animations",
         anim = "zombi_walk_02",
         flags = {
+          loop = true,
         },
+        dict = "zombies_animations",
       },
     },
+    command = "zombiewalk",
+    type = "animation",
     label = "Zombie Walk",
   },
   {
-    type = "animation",
-    command = "bdogbark",
     animations = {
       {
-        dict = "creatures@rottweiler@amb@world_dog_barking@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@amb@world_dog_barking@idle_a",
       },
     },
     label = "Bark (big dog)",
+    command = "bdogbark",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "bdogbeg",
     animations = {
       {
-        dict = "creatures@rottweiler@tricks@",
         anim = "beg_loop",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@tricks@",
       },
       {
-        dict = "creatures@rottweiler@tricks@",
         anim = "paw_right_loop",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@tricks@",
       },
     },
     label = "Beg (big dog)",
+    command = "bdogbeg",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "bdogdump",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@move",
-        anim = "dump_loop",
         props = {
           {
+            pos = vec3(0.000000, 0.200000, -0.460000),
             rot = vec3(0.000000, -20.000000, 0.000000),
             model = "prop_big_shit_02",
             bone = 51826,
-            pos = vec3(0.000000, 0.200000, -0.460000),
           },
         },
+        anim = "dump_loop",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@move",
       },
     },
     label = "Dump (big dog)",
+    command = "bdogdump",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogglowa",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.200000, 0.000000, -0.060000),
             rot = vec3(90.000000, 0.000000, 0.000000),
             model = "ba_prop_battle_glowstick_01",
             bone = 31086,
-            pos = vec3(0.200000, 0.000000, -0.060000),
           },
         },
+        anim = "nill",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Glow Stick (big dog)",
+    command = "bdogglowa",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogglowb",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.200000, 0.000000, -0.060000),
             rot = vec3(90.000000, 0.000000, 0.000000),
             model = "ba_prop_battle_glowstick_01",
             bone = 31086,
-            pos = vec3(0.200000, 0.000000, -0.060000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Glow Stick Sitting (big dog)",
+    command = "bdogglowb",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdoghump",
     animations = {
       {
-        dict = "creatures@rottweiler@amb@",
         anim = "hump_loop_chop",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@amb@",
       },
       {
-        dict = "creatures@rottweiler@amb@",
         anim = "hump_loop_ladydog",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@amb@",
       },
     },
     label = "Hump (big dog)",
+    command = "bdoghump",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "bdogitch",
     animations = {
       {
         anim = "idle_a",
@@ -4391,1157 +4983,1258 @@ return {
       },
     },
     label = "Itch (big dog)",
+    command = "bdogitch",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "bdoglay",
     animations = {
       {
-        dict = "creatures@rottweiler@move",
         anim = "dead_left",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@move",
       },
       {
-        dict = "creatures@rottweiler@move",
         anim = "dead_right",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@move",
       },
     },
     label = "Lay Down (big dog)",
+    command = "bdoglay",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "bdogpee",
     animations = {
       {
-        dict = "creatures@rottweiler@move",
         anim = "pee_left_idle",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@move",
       },
       {
-        dict = "creatures@rottweiler@move",
         anim = "pee_right_idle",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@move",
       },
     },
     label = "Pee (big dog)",
+    command = "bdogpee",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "bdogpridea",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.190000, 0.000000, -0.050000),
             rot = vec3(100.000000, 90.000000, 0.000000),
             model = "lilprideflag1",
             bone = 31086,
-            pos = vec3(0.190000, 0.000000, -0.050000),
           },
           {
+            pos = vec3(0.194000, 0.020000, -0.050000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "lilprideflag1",
             bone = 31086,
-            pos = vec3(0.194000, 0.020000, -0.050000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit Pride A (big dog)",
+    command = "bdogpridea",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogprideb",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.190000, 0.000000, -0.050000),
             rot = vec3(100.000000, 90.000000, 0.000000),
             model = "lilprideflag2",
             bone = 31086,
-            pos = vec3(0.190000, 0.000000, -0.050000),
           },
           {
+            pos = vec3(0.194000, 0.020000, -0.050000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "lilprideflag2",
             bone = 31086,
-            pos = vec3(0.194000, 0.020000, -0.050000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit Pride B - LGBTQIA (big dog)",
+    command = "bdogprideb",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogpridec",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.190000, 0.000000, -0.050000),
             rot = vec3(100.000000, 90.000000, 0.000000),
             model = "lilprideflag3",
             bone = 31086,
-            pos = vec3(0.190000, 0.000000, -0.050000),
           },
           {
+            pos = vec3(0.194000, 0.020000, -0.050000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "lilprideflag3",
             bone = 31086,
-            pos = vec3(0.194000, 0.020000, -0.050000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit Pride C - Bisexual (big dog)",
+    command = "bdogpridec",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogprided",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.190000, 0.000000, -0.050000),
             rot = vec3(100.000000, 90.000000, 0.000000),
             model = "lilprideflag4",
             bone = 31086,
-            pos = vec3(0.190000, 0.000000, -0.050000),
           },
           {
+            pos = vec3(0.194000, 0.020000, -0.050000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "lilprideflag4",
             bone = 31086,
-            pos = vec3(0.194000, 0.020000, -0.050000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit Pride D - Lesbian (big dog)",
+    command = "bdogprided",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogpridee",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.190000, 0.000000, -0.050000),
             rot = vec3(100.000000, 90.000000, 0.000000),
             model = "lilprideflag5",
             bone = 31086,
-            pos = vec3(0.190000, 0.000000, -0.050000),
           },
           {
+            pos = vec3(0.194000, 0.020000, -0.050000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "lilprideflag5",
             bone = 31086,
-            pos = vec3(0.194000, 0.020000, -0.050000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit Pride E - Pansexual (big dog)",
+    command = "bdogpridee",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogpridef",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.190000, 0.000000, -0.050000),
             rot = vec3(100.000000, 90.000000, 0.000000),
             model = "lilprideflag6",
             bone = 31086,
-            pos = vec3(0.190000, 0.000000, -0.050000),
           },
           {
+            pos = vec3(0.194000, 0.020000, -0.050000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "lilprideflag6",
             bone = 31086,
-            pos = vec3(0.194000, 0.020000, -0.050000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit Pride F - Transgender (big dog)",
+    command = "bdogpridef",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogprideg",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.190000, 0.000000, -0.050000),
             rot = vec3(100.000000, 90.000000, 0.000000),
             model = "lilprideflag7",
             bone = 31086,
-            pos = vec3(0.190000, 0.000000, -0.050000),
           },
           {
+            pos = vec3(0.194000, 0.020000, -0.050000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "lilprideflag7",
             bone = 31086,
-            pos = vec3(0.194000, 0.020000, -0.050000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit Pride G - Non Binary (big dog)",
+    command = "bdogprideg",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogprideh",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.190000, 0.000000, -0.050000),
             rot = vec3(100.000000, 90.000000, 0.000000),
             model = "lilprideflag8",
             bone = 31086,
-            pos = vec3(0.190000, 0.000000, -0.050000),
           },
           {
+            pos = vec3(0.194000, 0.020000, -0.050000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "lilprideflag8",
             bone = 31086,
-            pos = vec3(0.194000, 0.020000, -0.050000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit Pride H - Asexual (big dog)",
+    command = "bdogprideh",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogpridei",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.190000, 0.000000, -0.050000),
             rot = vec3(100.000000, 90.000000, 0.000000),
             model = "lilprideflag9",
             bone = 31086,
-            pos = vec3(0.190000, 0.000000, -0.050000),
           },
           {
+            pos = vec3(0.194000, 0.020000, -0.050000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "lilprideflag9",
             bone = 31086,
-            pos = vec3(0.194000, 0.020000, -0.050000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit Pride I - Straight Ally (big dog)",
+    command = "bdogpridei",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "bdogsit",
     animations = {
       {
-        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
         anim = "base",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@amb@world_dog_sitting@base",
       },
     },
     label = "Sit (big dog)",
+    command = "bdogsit",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "bdogsleep",
     animations = {
       {
-        dict = "creatures@rottweiler@amb@sleep_in_kennel@",
         anim = "sleep_in_kennel",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@amb@sleep_in_kennel@",
       },
     },
     label = "Sleep (big dog)",
+    command = "bdogsleep",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "sdogbark",
     animations = {
       {
-        dict = "creatures@pug@amb@world_dog_barking@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "creatures@pug@amb@world_dog_barking@idle_a",
       },
     },
     label = "Bark (small dog)",
+    command = "sdogbark",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "sdogbb",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.150000, -0.050000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "w_am_baseball",
             bone = 31086,
-            pos = vec3(0.150000, -0.050000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Baseball (small dog)",
+    command = "sdogbb",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogburger",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.150000, -0.040000, 0.000000),
             rot = vec3(-90.000000, 0.000000, 0.000000),
             model = "prop_cs_burger_01",
             bone = 31086,
-            pos = vec3(0.150000, -0.040000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Burger (small dog)",
+    command = "sdogburger",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogcontroller",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.180000, -0.030000, 0.000000),
             rot = vec3(-180.000000, 90.000000, 0.000000),
             model = "prop_controller_01",
             bone = 31086,
-            pos = vec3(0.180000, -0.030000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Controller (small dog)",
+    command = "sdogcontroller",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdance",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.150000, -0.030000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "ba_prop_battle_glowstick_01",
             bone = 31086,
-            pos = vec3(0.150000, -0.030000, 0.000000),
           },
         },
-      },
-      {
+        anim = "idle_turn_0",
         flags = {
+          loop = true,
         },
         dict = "creatures@pug@move",
-        anim = "idle_turn_0",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "ba_prop_battle_glowstick_01",
-            bone = 31086,
-            pos = vec3(0.150000, -0.030000, 0.000000),
-          },
-          {
-            rot = vec3(-100.000000, 90.000000, 0.000000),
-            model = "prop_cs_sol_glasses",
-            bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
-          },
-        },
       },
     },
     label = "Dance (small dog)",
+    command = "sdogdance",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdancepridea",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.150000, -0.030000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "ba_prop_battle_glowstick_01",
+            bone = 31086,
+          },
+          {
+            pos = vec3(0.050000, 0.030000, 0.000000),
+            rot = vec3(-100.000000, 90.000000, 0.000000),
+            model = "prop_cs_sol_glasses",
+            bone = 31086,
+          },
+        },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
+      },
+    },
+    label = "Dance 2 (small dog)",
+    command = "sdogdance2",
+    pedTypes = {
+      "dogs",
+      "cats",
+    },
+    type = "prop",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag1",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Dance Pride A (small dog)",
+    command = "sdogdancepridea",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdanceprideb",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag2",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Dance Pride B - LGBTQIA (small dog)",
+    command = "sdogdanceprideb",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdancepridec",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag3",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Dance Pride C - Bisexual (small dog)",
+    command = "sdogdancepridec",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdanceprided",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag4",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Dance Pride D - Lesbian (small dog)",
+    command = "sdogdanceprided",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdancepridee",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag5",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Dance Pride E - Pansexual (small dog)",
+    command = "sdogdancepridee",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdancepridef",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag6",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Dance Pride F - Transgender (small dog)",
+    command = "sdogdancepridef",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdanceprideg",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag7",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Dance Pride G - Non Binary (small dog)",
+    command = "sdogdanceprideg",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdanceprideh",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag8",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Dance Pride H - Asexual (small dog)",
+    command = "sdogdanceprideh",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdancepridei",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "idle_turn_0",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag9",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_turn_0",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Dance Pride I - Straight Ally (small dog)",
+    command = "sdogdancepridei",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogdolla",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.170000, -0.010000, 0.000000),
             rot = vec3(90.000000, 0.000000, 0.000000),
             model = "p_banknote_onedollar_s",
             bone = 31086,
-            pos = vec3(0.170000, -0.010000, 0.000000),
           },
         },
-      },
-      {
+        anim = "nill",
         flags = {
+          loop = true,
         },
         dict = "creatures@pug@move",
-        anim = "nill",
-        props = {
-          {
-            rot = vec3(90.000000, 0.000000, 0.000000),
-            model = "bkr_prop_scrunched_moneypage",
-            bone = 31086,
-            pos = vec3(0.170000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
-        props = {
-          {
-            rot = vec3(90.000000, 0.000000, 0.000000),
-            model = "bkr_prop_money_wrapped_01",
-            bone = 31086,
-            pos = vec3(0.170000, -0.010000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
-        props = {
-          {
-            rot = vec3(-80.000000, 90.000000, 0.000000),
-            model = "ch_prop_ch_moneybag_01a",
-            bone = 31086,
-            pos = vec3(0.120000, -0.200000, 0.000000),
-          },
-        },
       },
     },
     label = "Dollar Bill (small dog)",
+    command = "sdogdolla",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogggun",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.170000, 0.000000, 0.000000),
+            rot = vec3(90.000000, 0.000000, 0.000000),
+            model = "bkr_prop_scrunched_moneypage",
+            bone = 31086,
+          },
+        },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
+      },
+    },
+    label = "Dollar Bill Scrunched  (small dog)",
+    command = "sdogdolla2",
+    pedTypes = {
+      "dogs",
+      "cats",
+    },
+    type = "prop",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.170000, -0.010000, 0.000000),
+            rot = vec3(90.000000, 0.000000, 0.000000),
+            model = "bkr_prop_money_wrapped_01",
+            bone = 31086,
+          },
+        },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
+      },
+    },
+    label = "Money Stack  (small dog)",
+    command = "sdogdolla3",
+    pedTypes = {
+      "dogs",
+      "cats",
+    },
+    type = "prop",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.120000, -0.200000, 0.000000),
+            rot = vec3(-80.000000, 90.000000, 0.000000),
+            model = "ch_prop_ch_moneybag_01a",
+            bone = 31086,
+          },
+        },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
+      },
+    },
+    label = "Money Bag  (small dog)",
+    command = "sdogdolla4",
+    pedTypes = {
+      "dogs",
+      "cats",
+    },
+    type = "prop",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.201000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "w_pi_pistol_luxe",
             bone = 12844,
-            pos = vec3(0.201000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Gun Gold (small dog)",
+    command = "sdogggun",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoggl1",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.050000, 0.040000, 0.000000),
             rot = vec3(-90.000000, 90.000000, 0.000000),
             model = "prop_aviators_01",
             bone = 31086,
-            pos = vec3(0.050000, 0.040000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Aviators (small dog)",
+    command = "sdoggl1",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoggl2",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.050000, 0.040000, 0.000000),
             rot = vec3(-90.000000, 90.000000, 0.000000),
             model = "prop_aviators_01",
             bone = 31086,
-            pos = vec3(0.050000, 0.040000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Aviators Sitting (small dog)",
+    command = "sdoggl2",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoggl3",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Sunglasses (small dog)",
+    command = "sdoggl3",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoggl4",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.050000, 0.030000, 0.000000),
             rot = vec3(-100.000000, 90.000000, 0.000000),
             model = "prop_cs_sol_glasses",
             bone = 31086,
-            pos = vec3(0.050000, 0.030000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Sunglasses Sitting (small dog)",
+    command = "sdoggl4",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoggun2",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.201000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "w_pi_pistol_luxe",
             bone = 12844,
-            pos = vec3(0.201000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Gun Gold Sit (small dog)",
+    command = "sdoggun2",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoghat",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.000000, 0.120000, 0.000000),
+            rot = vec3(-99.851074, 80.148926, 1.727941),
+            model = "prop_proxy_hat_01",
+            bone = 31086,
+          },
+          {
+            pos = vec3(0.050000, 0.040000, 0.000000),
+            rot = vec3(-90.000000, 90.000000, 0.000000),
+            model = "prop_aviators_01",
+            bone = 31086,
+          },
+        },
+        anim = "nill",
         flags = {
+          loop = true,
         },
         dict = "creatures@pug@move",
-        anim = "nill",
-        props = {
-          {
-            rot = vec3(-99.851074, 80.148926, 1.727941),
-            model = "prop_proxy_hat_01",
-            bone = 31086,
-            pos = vec3(0.000000, 0.120000, 0.000000),
-          },
-          {
-            rot = vec3(-90.000000, 90.000000, 0.000000),
-            model = "prop_aviators_01",
-            bone = 31086,
-            pos = vec3(0.050000, 0.040000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(-99.851074, 80.148926, 1.727941),
-            model = "prop_proxy_hat_01",
-            bone = 31086,
-            pos = vec3(0.000000, 0.120000, 0.000000),
-          },
-          {
-            rot = vec3(-90.000000, 90.000000, 0.000000),
-            model = "prop_aviators_01",
-            bone = 31086,
-            pos = vec3(0.050000, 0.040000, 0.000000),
-          },
-        },
       },
     },
     label = "Hat 1 (small dog)",
+    command = "sdoghat",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoghd1",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.000000, 0.120000, 0.000000),
+            rot = vec3(-99.851074, 80.148926, 1.727941),
+            model = "prop_proxy_hat_01",
+            bone = 31086,
+          },
+          {
+            pos = vec3(0.050000, 0.040000, 0.000000),
+            rot = vec3(-90.000000, 90.000000, 0.000000),
+            model = "prop_aviators_01",
+            bone = 31086,
+          },
+        },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
+      },
+    },
+    label = "Hat 2 Sitting (small dog)",
+    command = "sdoghat2",
+    pedTypes = {
+      "dogs",
+      "cats",
+    },
+    type = "prop",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.130000, -0.025000, 0.000000),
             rot = vec3(-88.272057, -9.846586, -0.148856),
             model = "prop_cs_hotdog_01",
             bone = 31086,
-            pos = vec3(0.130000, -0.025000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Hot Dog (small dog)",
+    command = "sdoghd1",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoghd2",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.130000, -0.025000, 0.000000),
             rot = vec3(-88.272057, -9.846586, -0.148856),
             model = "prop_cs_hotdog_01",
             bone = 31086,
-            pos = vec3(0.130000, -0.025000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Hot Dog Sitting (small dog)",
+    command = "sdoghd2",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoghlmt1",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.000000, -0.020000, 0.000000),
             rot = vec3(-90.000000, 90.000000, 0.000000),
             model = "ba_prop_battle_sports_helmet",
             bone = 31086,
-            pos = vec3(0.000000, -0.020000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Helmet 1 (small dog)",
+    command = "sdoghlmt1",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdoghlmt2",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.000000, 0.130000, 0.000000),
             rot = vec3(-90.000000, 90.000000, 0.000000),
             model = "prop_hard_hat_01",
             bone = 31086,
-            pos = vec3(0.000000, 0.130000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Helmet 2 (small dog)",
+    command = "sdoghlmt2",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogitch",
     animations = {
       {
         anim = "idle_a",
@@ -5549,2188 +6242,2472 @@ return {
       },
     },
     label = "Itch (small dog)",
+    command = "sdogitch",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "sdogmic",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.150000, -0.017000, 0.030000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "p_ing_microphonel_01",
             bone = 31086,
-            pos = vec3(0.150000, -0.017000, 0.030000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Microphone (small dog)",
+    command = "sdogmic",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpee",
     animations = {
       {
-        dict = "creatures@pug@move",
         anim = "nill",
         flags = {
+          loop = true,
         },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pee (Small Dog)",
+    command = "sdogpee",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "sdogpridea",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag1",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pride A (small dog)",
+    command = "sdogpridea",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogprideb",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag2",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pride B - LGBTQIA (small dog)",
+    command = "sdogprideb",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridec",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag3",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pride C - Bisexual (small dog)",
+    command = "sdogpridec",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogprided",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag4",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pride D - Lesbian (small dog)",
+    command = "sdogprided",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridee",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag5",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pride E - Pansexual (small dog)",
+    command = "sdogpridee",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridef",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag6",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pride F - Transgender (small dog)",
+    command = "sdogpridef",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogprideg",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag6",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pride G - Non Binary (small dog)",
+    command = "sdogprideg",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogprideh",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag7",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pride H - Non Binary (small dog)",
+    command = "sdogprideh",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridei",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag8",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Pride I - Asexual (small dog)",
+    command = "sdogpridei",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridesita",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag1",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Pride A Sit (small dog)",
+    command = "sdogpridesita",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridesitb",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag2",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Pride B Sit LGBTQIA (small dog)",
+    command = "sdogpridesitb",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridesitc",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag3",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Pride C Sit Bisexual (small dog)",
+    command = "sdogpridesitc",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridesitd",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag4",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Pride D Sit Lesbian (small dog)",
+    command = "sdogpridesitd",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridesite",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag5",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Pride E Sit Pansexual (small dog)",
+    command = "sdogpridesite",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridesitf",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag6",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Pride F Sit Transgender (small dog)",
+    command = "sdogpridesitf",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridesitg",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag7",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Pride G Sit Non Binary (small dog)",
+    command = "sdogpridesitg",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridesith",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag8",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Pride H Sit Asexual (small dog)",
+    command = "sdogpridesith",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogpridesiti",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.124000, -0.008000, 0.000000),
             rot = vec3(0.000000, 0.000000, -74.699898),
             model = "lilprideflag9",
             bone = 31086,
-            pos = vec3(0.124000, -0.008000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Pride I Sit Straight Ally (small dog)",
+    command = "sdogpridesiti",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogrose",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.109000, -0.014000, 0.050000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_single_rose",
+            bone = 12844,
+          },
+        },
+        anim = "nill",
         flags = {
+          loop = true,
         },
         dict = "creatures@pug@move",
-        anim = "nill",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_single_rose",
-            bone = 12844,
-            pos = vec3(0.109000, -0.014000, 0.050000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_single_rose",
-            bone = 12844,
-            pos = vec3(0.109000, -0.014000, 0.050000),
-          },
-        },
       },
     },
     label = "Rose (small dog)",
+    command = "sdogrose",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogshake",
     animations = {
       {
-        dict = "creatures@pug@amb@world_dog_barking@idle_a",
+        props = {
+          {
+            pos = vec3(0.109000, -0.014000, 0.050000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_single_rose",
+            bone = 12844,
+          },
+        },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
+      },
+    },
+    label = "Rose Sit (small dog)",
+    command = "sdogrose2",
+    pedTypes = {
+      "dogs",
+      "cats",
+    },
+    type = "prop",
+  },
+  {
+    animations = {
+      {
         anim = "idle_c",
         flags = {
+          loop = true,
         },
+        dict = "creatures@pug@amb@world_dog_barking@idle_a",
       },
     },
     label = "Shake (small dog)",
+    command = "sdogshake",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "sdogsit",
     animations = {
       {
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
         anim = "idle_b",
         flags = {
+          loop = true,
         },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
       },
     },
     label = "Sit (small dog)",
+    command = "sdogsit",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "bdogsitcar",
     animations = {
       {
-        dict = "creatures@rottweiler@incar@",
         anim = "sit",
         flags = {
+          loop = true,
         },
+        dict = "creatures@rottweiler@incar@",
       },
     },
     label = "Sit Car (big dog)",
+    command = "bdogsitcar",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "animation",
   },
   {
-    type = "animation",
-    command = "sdogsteak",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.180000, -0.020000, 0.000000),
+            rot = vec3(90.000000, 0.000000, 0.000000),
+            model = "prop_cs_steak",
+            bone = 31086,
+          },
+        },
+        anim = "nill",
         flags = {
+          loop = true,
         },
         dict = "creatures@pug@move",
-        anim = "nill",
-        props = {
-          {
-            rot = vec3(90.000000, 0.000000, 0.000000),
-            model = "prop_cs_steak",
-            bone = 31086,
-            pos = vec3(0.180000, -0.020000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_c",
-        props = {
-          {
-            rot = vec3(90.000000, 0.000000, 0.000000),
-            model = "prop_cs_steak",
-            bone = 31086,
-            pos = vec3(0.180000, -0.020000, 0.000000),
-          },
-        },
       },
     },
     label = "Steak (small dog)",
+    command = "sdogsteak",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogstun",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.180000, -0.020000, 0.000000),
+            rot = vec3(90.000000, 0.000000, 0.000000),
+            model = "prop_cs_steak",
+            bone = 31086,
+          },
+        },
+        anim = "idle_c",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
+      },
+    },
+    label = "Steak 2 Lay Down (small dog)",
+    command = "sdogsteak2",
+    pedTypes = {
+      "dogs",
+      "cats",
+    },
+    type = "prop",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.140000, -0.010000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "w_pi_stungun",
             bone = 12844,
-            pos = vec3(0.140000, -0.010000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Stun Gun (small dog)",
+    command = "sdogstun",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogteddy",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.150000, -0.110000, -0.230000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "v_ilev_mr_rasberryclean",
+            bone = 31086,
+          },
+        },
+        anim = "nill",
         flags = {
+          loop = true,
         },
         dict = "creatures@pug@move",
-        anim = "nill",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "v_ilev_mr_rasberryclean",
-            bone = 31086,
-            pos = vec3(0.150000, -0.110000, -0.230000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "v_ilev_mr_rasberryclean",
-            bone = 31086,
-            pos = vec3(0.150000, -0.110000, -0.230000),
-          },
-        },
       },
     },
     label = "Teddy (small dog)",
+    command = "sdogteddy",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogtennis",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.150000, -0.110000, -0.230000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "v_ilev_mr_rasberryclean",
+            bone = 31086,
+          },
+        },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@amb@world_dog_sitting@idle_a",
+      },
+    },
+    label = "Teddy 2 (small dog)",
+    command = "sdogteddy2",
+    pedTypes = {
+      "dogs",
+      "cats",
+    },
+    type = "prop",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.150000, -0.060000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_tennis_ball",
             bone = 31086,
-            pos = vec3(0.150000, -0.060000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Tennis Ball (small dog)",
+    command = "sdogtennis",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    type = "animation",
-    command = "sdogtennisr",
     animations = {
       {
-        flags = {
-        },
-        dict = "creatures@pug@move",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.150000, -0.020000, 0.000000),
             rot = vec3(0.000000, 0.000000, -28.000000),
             model = "prop_tennis_rack_01",
             bone = 31086,
-            pos = vec3(0.150000, -0.020000, 0.000000),
           },
         },
+        anim = "nill",
+        flags = {
+          loop = true,
+        },
+        dict = "creatures@pug@move",
       },
     },
     label = "Tennis Racket (small dog)",
+    command = "sdogtennisr",
     pedTypes = {
       "dogs",
       "cats",
     },
+    type = "prop",
   },
   {
-    command = "boxdance",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@beach_boxing@",
         anim = "med_right_down",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@beach_boxing@",
       },
     },
+    command = "boxdance",
+    type = "animation",
     label = "Boxing Dance Solo",
   },
   {
-    command = "dance",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@dancers@podium_dancers@",
         anim = "hi_dance_facedj_17_v2_male^5",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@dancers@podium_dancers@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@male@var_b@",
         anim = "high_center_down",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@male@var_b@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
         anim = "high_center",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@male@var_b@",
         anim = "high_center_up",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@male@var_b@",
       },
       {
-        dict = "anim@amb@casino@mini@dance@dance_solo@female@var_a@",
         anim = "med_center",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@casino@mini@dance@dance_solo@female@var_a@",
       },
       {
+        anim = "dance_loop_tao",
+        flags = {
+          loop = true,
+        },
         dict = "misschinese2_crystalmazemcs1_cs",
-        anim = "dance_loop_tao",
-        flags = {
-        },
       },
       {
+        anim = "dance_loop_tao",
+        flags = {
+          loop = true,
+        },
         dict = "misschinese2_crystalmazemcs1_ig",
-        anim = "dance_loop_tao",
-        flags = {
-        },
       },
       {
-        dict = "missfbi3_sniping",
         anim = "dance_m_default",
         flags = {
+          loop = true,
         },
+        dict = "missfbi3_sniping",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
         anim = "med_center_up",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
       },
     },
+    command = "dance",
+    type = "animation",
     label = "Dance",
   },
   {
-    command = "danceclub",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@beachdance@",
         anim = "hi_idle_a_m03",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@beachdance@",
       },
     },
+    command = "danceclub",
+    type = "animation",
     label = "Dance Club",
   },
   {
-    command = "danceclubb",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@beachdance@",
         anim = "hi_idle_a_m05",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@beachdance@",
       },
     },
+    command = "danceclubb",
+    type = "animation",
     label = "Dance Club 2",
   },
   {
-    command = "danceclubc",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@beachdance@",
         anim = "hi_idle_a_m02",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@beachdance@",
       },
     },
+    command = "danceclubc",
+    type = "animation",
     label = "Dance Club 3",
   },
   {
-    command = "danceclubd",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@beachdance@",
         anim = "hi_idle_b_f01",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@beachdance@",
       },
     },
+    command = "danceclubd",
+    type = "animation",
     label = "Dance Club 4",
   },
   {
-    command = "danceclube",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@club@",
         anim = "hi_idle_a_f02",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@club@",
       },
     },
+    command = "danceclube",
+    type = "animation",
     label = "Dance Club 5",
   },
   {
-    command = "danceclubf",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@club@",
         anim = "hi_idle_b_m03",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@club@",
       },
     },
+    command = "danceclubf",
+    type = "animation",
     label = "Dance Club 6",
   },
   {
-    command = "danceclubg",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@club@",
         anim = "hi_idle_d_f01",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@club@",
       },
     },
+    command = "danceclubg",
+    type = "animation",
     label = "Dance Club 7",
   },
   {
-    command = "danceclubh",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@crowddance_facedj@",
         anim = "mi_dance_facedj_17_v2_male^4",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_facedj@",
       },
     },
+    command = "danceclubh",
+    type = "animation",
     label = "Dance Club 8",
   },
   {
-    command = "danceclubi",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
         anim = "mi_dance_prop_13_v1_male^3",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
       },
     },
+    command = "danceclubi",
+    type = "animation",
     label = "Dance Club 9",
   },
   {
-    command = "danceclubj",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@crowddance_groups@groupd@",
         anim = "mi_dance_crowd_13_v2_male^1",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_groups@groupd@",
       },
     },
+    command = "danceclubj",
+    type = "animation",
     label = "Dance Club 10",
   },
   {
-    command = "danceclubk",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@crowddance_facedj@",
         anim = "mi_dance_facedj_15_v2_male^4",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_facedj@",
       },
     },
+    command = "danceclubk",
+    type = "animation",
     label = "Dance Club 11",
   },
   {
-    command = "danceclubl",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
         anim = "high_center_up",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
       },
     },
+    command = "danceclubl",
+    type = "animation",
     label = "Dance Club 12",
   },
   {
-    command = "danceclubm",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@crowddance_facedj@",
         anim = "hi_dance_facedj_hu_15_v2_male^5",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_facedj@",
       },
     },
+    command = "danceclubm",
+    type = "animation",
     label = "Dance Club 13",
   },
   {
-    command = "danceclubn",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub_island@dancers@crowddance_facedj@",
         anim = "hi_dance_facedj_hu_17_male^5",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_facedj@",
       },
     },
+    command = "danceclubn",
+    type = "animation",
     label = "Dance Club 14",
   },
   {
-    command = "danceclubo",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@shuffle@",
         anim = "high_center",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@shuffle@",
       },
     },
+    command = "danceclubo",
+    type = "animation",
     label = "Dance Club 15",
   },
   {
-    command = "danceclubp",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@shuffle@",
         anim = "high_left_down",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@shuffle@",
       },
     },
+    command = "danceclubp",
+    type = "animation",
     label = "Dance Club 16",
   },
   {
-    command = "dancecrankdat",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@shuffle@",
         anim = "high_right_up",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@shuffle@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@shuffle@",
         anim = "high_right_down",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@shuffle@",
       },
     },
+    command = "dancecrankdat",
+    type = "animation",
     label = "Dance Crank Dat",
   },
   {
-    command = "dancedrink",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub_island@dancers@beachdanceprop@",
-        anim = "mi_idle_c_m01",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 20.000000),
             model = "prop_beer_amopen",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "mi_idle_c_m01",
         flags = {
+          loop = true,
         },
         dict = "anim@amb@nightclub_island@dancers@beachdanceprop@",
-        anim = "mi_loop_f1",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "p_wine_glass_s",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@nightclub_island@dancers@beachdanceprop@",
-        anim = "mi_loop_m04",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 10.000000),
-            model = "ba_prop_battle_whiskey_opaque_s",
-            bone = 28422,
-            pos = vec3(-0.010000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@nightclub_island@dancers@beachdanceprops@male@",
-        anim = "mi_idle_b_m04",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 10.000000),
-            model = "ba_prop_battle_whiskey_opaque_s",
-            bone = 28422,
-            pos = vec3(-0.010000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
-        anim = "hi_dance_prop_09_v1_female^3",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "p_wine_glass_s",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
-        anim = "hi_dance_prop_09_v1_male^3",
-        props = {
-          {
-            rot = vec3(180.000000, 180.000000, -69.989998),
-            model = "prop_beer_logopen",
-            bone = 28422,
-            pos = vec3(0.009000, 0.001000, -0.031000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
-        anim = "hi_dance_prop_11_v1_female^3",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "p_wine_glass_s",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
-        anim = "hi_dance_prop_11_v1_female^1",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "p_wine_glass_s",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.090000),
-          },
-        },
       },
     },
+    command = "dancedrink",
+    type = "prop",
     label = "Dance Drink (Beer)",
   },
   {
-    command = "dancef",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@dancers@solomun_entourage@",
-        anim = "mi_dance_facedj_17_v1_female^1",
-        flags = {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, -0.090000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "p_wine_glass_s",
+            bone = 28422,
+          },
         },
-      },
-      {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
-        anim = "high_center",
+        anim = "mi_loop_f1",
         flags = {
+          loop = true,
         },
-      },
-      {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
-        anim = "high_center_up",
-        flags = {
-        },
-      },
-      {
-        dict = "anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity",
-        anim = "hi_dance_facedj_09_v2_female^1",
-        flags = {
-        },
-      },
-      {
-        dict = "anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity",
-        anim = "hi_dance_facedj_09_v2_female^3",
-        flags = {
-        },
-      },
-      {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
-        anim = "high_center_up",
-        flags = {
-        },
+        dict = "anim@amb@nightclub_island@dancers@beachdanceprop@",
       },
     },
+    command = "dancedrink2",
+    type = "prop",
+    label = "Dance Drink 2 (Wine)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.010000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 10.000000),
+            model = "ba_prop_battle_whiskey_opaque_s",
+            bone = 28422,
+          },
+        },
+        anim = "mi_loop_m04",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub_island@dancers@beachdanceprop@",
+      },
+    },
+    command = "dancedrink3",
+    type = "prop",
+    label = "Dance Drink 3 (Whiskey)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.010000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 10.000000),
+            model = "ba_prop_battle_whiskey_opaque_s",
+            bone = 28422,
+          },
+        },
+        anim = "mi_idle_b_m04",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub_island@dancers@beachdanceprops@male@",
+      },
+    },
+    command = "dancedrink4",
+    type = "prop",
+    label = "Dance Drink 4 (Whiskey)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, -0.090000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "p_wine_glass_s",
+            bone = 28422,
+          },
+        },
+        anim = "hi_dance_prop_09_v1_female^3",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
+      },
+    },
+    command = "dancedrink5",
+    type = "prop",
+    label = "Dance Drink 5 (Wine)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.009000, 0.001000, -0.031000),
+            rot = vec3(180.000000, 180.000000, -69.989998),
+            model = "prop_beer_logopen",
+            bone = 28422,
+          },
+        },
+        anim = "hi_dance_prop_09_v1_male^3",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
+      },
+    },
+    command = "dancedrink6",
+    type = "prop",
+    label = "Dance Drink 6 (Beer)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, -0.090000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "p_wine_glass_s",
+            bone = 28422,
+          },
+        },
+        anim = "hi_dance_prop_11_v1_female^3",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
+      },
+    },
+    command = "dancedrink7",
+    type = "prop",
+    label = "Dance Drink 7 (Wine)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, -0.090000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "p_wine_glass_s",
+            bone = 28422,
+          },
+        },
+        anim = "hi_dance_prop_11_v1_female^1",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub_island@dancers@crowddance_single_props@",
+      },
+    },
+    command = "dancedrink8",
+    type = "prop",
+    label = "Dance Drink 8 (Wine)",
+  },
+  {
+    animations = {
+      {
+        anim = "mi_dance_facedj_17_v1_female^1",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@dancers@solomun_entourage@",
+      },
+      {
+        anim = "high_center",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      },
+      {
+        anim = "high_center_up",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      },
+      {
+        anim = "hi_dance_facedj_09_v2_female^1",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity",
+      },
+      {
+        anim = "hi_dance_facedj_09_v2_female^3",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity",
+      },
+      {
+        anim = "high_center_up",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      },
+    },
+    command = "dancef",
+    type = "animation",
     label = "Dance F",
   },
   {
-    command = "danceglowstick",
-    type = "animation",
     animations = {
       {
-        flags = {
+        props = {
+          {
+            pos = vec3(0.070000, 0.140000, 0.000000),
+            rot = vec3(-80.000000, 20.000000, 0.000000),
+            model = "ba_prop_battle_glowstick_01",
+            bone = 28422,
+          },
+          {
+            pos = vec3(0.070000, 0.090000, 0.000000),
+            rot = vec3(-120.000000, -20.000000, 0.000000),
+            model = "ba_prop_battle_glowstick_01",
+            bone = 60309,
+          },
         },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
         anim = "ambclub_13_mi_hi_sexualgriding_laz",
-        props = {
-          {
-            rot = vec3(-80.000000, 20.000000, 0.000000),
-            model = "ba_prop_battle_glowstick_01",
-            bone = 28422,
-            pos = vec3(0.070000, 0.140000, 0.000000),
-          },
-          {
-            rot = vec3(-120.000000, -20.000000, 0.000000),
-            model = "ba_prop_battle_glowstick_01",
-            bone = 60309,
-            pos = vec3(0.070000, 0.090000, 0.000000),
-          },
-        },
-      },
-      {
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_12_mi_hi_bootyshake_laz",
-        props = {
-          {
-            rot = vec3(-80.000000, 20.000000, 0.000000),
-            model = "ba_prop_battle_glowstick_01",
-            bone = 28422,
-            pos = vec3(0.070000, 0.140000, 0.000000),
-          },
-          {
-            rot = vec3(-120.000000, -20.000000, 0.000000),
-            model = "ba_prop_battle_glowstick_01",
-            bone = 60309,
-            pos = vec3(0.070000, 0.090000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
-        props = {
-          {
-            rot = vec3(-80.000000, 20.000000, 0.000000),
-            model = "ba_prop_battle_glowstick_01",
-            bone = 28422,
-            pos = vec3(0.070000, 0.140000, 0.000000),
-          },
-          {
-            rot = vec3(-120.000000, -20.000000, 0.000000),
-            model = "ba_prop_battle_glowstick_01",
-            bone = 60309,
-            pos = vec3(0.070000, 0.090000, 0.000000),
-          },
-        },
       },
     },
+    command = "danceglowstick",
+    type = "prop",
     label = "Dance Glowsticks",
   },
   {
-    command = "fortnite",
-    type = "animation",
     animations = {
       {
-        dict = "custom@downward_fortnite",
-        anim = "Downward_fortnite",
-        flags = {
+        props = {
+          {
+            pos = vec3(0.070000, 0.140000, 0.000000),
+            rot = vec3(-80.000000, 20.000000, 0.000000),
+            model = "ba_prop_battle_glowstick_01",
+            bone = 28422,
+          },
+          {
+            pos = vec3(0.070000, 0.090000, 0.000000),
+            rot = vec3(-120.000000, -20.000000, 0.000000),
+            model = "ba_prop_battle_glowstick_01",
+            bone = 60309,
+          },
         },
-      },
-      {
-        dict = "custom@pullup",
-        anim = "pullup",
+        anim = "ambclub_12_mi_hi_bootyshake_laz",
         flags = {
+          loop = true,
         },
-      },
-      {
-        dict = "custom@rollie",
-        anim = "rollie",
-        flags = {
-        },
-      },
-      {
-        dict = "custom@wanna_see_me",
-        anim = "wanna_see_me",
-        flags = {
-        },
-      },
-      {
-        dict = "custom@billybounce",
-        anim = "billybounce",
-        flags = {
-        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "danceglowstick2",
+    type = "prop",
+    label = "Dance Glowsticks 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.070000, 0.140000, 0.000000),
+            rot = vec3(-80.000000, 20.000000, 0.000000),
+            model = "ba_prop_battle_glowstick_01",
+            bone = 28422,
+          },
+          {
+            pos = vec3(0.070000, 0.090000, 0.000000),
+            rot = vec3(-120.000000, -20.000000, 0.000000),
+            model = "ba_prop_battle_glowstick_01",
+            bone = 60309,
+          },
+        },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
+      },
+    },
+    command = "danceglowstick3",
+    type = "prop",
+    label = "Dance Glowsticks 3",
+  },
+  {
+    animations = {
+      {
+        anim = "Downward_fortnite",
+        flags = {
+          loop = true,
+        },
+        dict = "custom@downward_fortnite",
+      },
+      {
+        anim = "pullup",
+        flags = {
+          loop = true,
+        },
+        dict = "custom@pullup",
+      },
+      {
+        anim = "rollie",
+        flags = {
+          loop = true,
+        },
+        dict = "custom@rollie",
+      },
+      {
+        anim = "wanna_see_me",
+        flags = {
+          loop = true,
+        },
+        dict = "custom@wanna_see_me",
+      },
+      {
+        anim = "billybounce",
+        flags = {
+          loop = true,
+        },
+        dict = "custom@billybounce",
+      },
+    },
+    command = "fortnite",
+    type = "animation",
     label = "Fortnite - Downward",
   },
   {
-    command = "gangnamstyle",
-    type = "animation",
     animations = {
       {
-        dict = "custom@gangnamstyle",
         anim = "gangnamstyle",
         flags = {
+          loop = true,
         },
+        dict = "custom@gangnamstyle",
       },
     },
+    command = "gangnamstyle",
+    type = "animation",
     label = "Gangnam Style",
   },
   {
-    command = "dancehiphop",
-    type = "animation",
     animations = {
       {
+        anim = "ped_a_dance_idle",
+        flags = {
+          loop = true,
+        },
         dict = "anim@amb@nightclub@mini@dance@dance_paired@dance_d@",
-        anim = "ped_a_dance_idle",
-        flags = {
-        },
       },
       {
+        anim = "ped_a_dance_idle",
+        flags = {
+          loop = true,
+        },
         dict = "anim@amb@nightclub@mini@dance@dance_paired@dance_b@",
-        anim = "ped_a_dance_idle",
-        flags = {
-        },
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_paired@dance_a@",
         anim = "ped_a_dance_idle",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_paired@dance_a@",
       },
     },
+    command = "dancehiphop",
+    type = "animation",
     label = "Hip Hop Dance",
   },
   {
-    command = "dancehorse",
-    type = "animation",
     animations = {
       {
-        flags = {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "ba_prop_battle_hobby_horse",
+            bone = 28422,
+          },
         },
-        dict = "anim@amb@nightclub@lazlow@hi_dancefloor@",
         anim = "dancecrowd_li_15_handup_laz",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "ba_prop_battle_hobby_horse",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "anim@amb@nightclub@lazlow@hi_dancefloor@",
-        anim = "crowddance_hi_11_handup_laz",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "ba_prop_battle_hobby_horse",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_dancefloor@",
-        anim = "dancecrowd_li_11_hu_shimmy_laz",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "ba_prop_battle_hobby_horse",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
       },
     },
+    command = "dancehorse",
+    type = "prop",
     label = "Dance Horse",
   },
   {
-    command = "dancethriller",
-    type = "animation",
     animations = {
       {
-        dict = "mj_thriller",
-        anim = "mj_thriller_dance",
-        flags = {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "ba_prop_battle_hobby_horse",
+            bone = 28422,
+          },
         },
+        anim = "crowddance_hi_11_handup_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_dancefloor@",
       },
     },
+    command = "dancehorse2",
+    type = "prop",
+    label = "Dance Horse 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "ba_prop_battle_hobby_horse",
+            bone = 28422,
+          },
+        },
+        anim = "dancecrowd_li_11_hu_shimmy_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_dancefloor@",
+      },
+    },
+    command = "dancehorse3",
+    type = "prop",
+    label = "Dance Horse 3",
+  },
+  {
+    animations = {
+      {
+        anim = "mj_thriller_dance",
+        flags = {
+          loop = true,
+        },
+        dict = "mj_thriller",
+      },
+    },
+    command = "dancethriller",
+    type = "animation",
     label = "Dance - MJ Thriller",
   },
   {
-    command = "danceold",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intupperuncle_disco",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "anim@mp_player_intupperuncle_disco",
       },
     },
+    command = "danceold",
+    type = "animation",
     label = "Dance Old",
   },
   {
-    command = "dancepride",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
         props = {
           {
+            pos = vec3(0.090000, 0.000000, 0.030000),
             rot = vec3(-39.910999, 93.916603, -5.806200),
             model = "lilprideflag1",
             bone = 18905,
-            pos = vec3(0.090000, 0.000000, 0.030000),
           },
           {
+            pos = vec3(0.090000, -0.020000, -0.030000),
             rot = vec3(-90.245399, 5.706800, -28.779699),
             model = "lilprideflag1",
             bone = 57005,
-            pos = vec3(0.090000, -0.020000, -0.030000),
           },
         },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "dancepride",
+    type = "prop",
     label = "Dance Pride A",
   },
   {
-    command = "dancepridea",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
         props = {
           {
+            pos = vec3(0.090000, 0.000000, 0.030000),
             rot = vec3(-39.910999, 93.916603, -5.806200),
             model = "lilprideflag3",
             bone = 18905,
-            pos = vec3(0.090000, 0.000000, 0.030000),
           },
           {
+            pos = vec3(0.090000, -0.020000, -0.030000),
             rot = vec3(-90.245399, 5.706800, -28.779699),
             model = "lilprideflag3",
             bone = 57005,
-            pos = vec3(0.090000, -0.020000, -0.030000),
           },
         },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "dancepridea",
+    type = "prop",
     label = "Dance Pride A - Bisexual",
   },
   {
-    command = "danceprideb",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
         props = {
           {
+            pos = vec3(0.090000, 0.000000, 0.030000),
             rot = vec3(-39.910999, 93.916603, -5.806200),
             model = "lilprideflag2",
             bone = 18905,
-            pos = vec3(0.090000, 0.000000, 0.030000),
           },
           {
+            pos = vec3(0.090000, -0.020000, -0.030000),
             rot = vec3(-90.245399, 5.706800, -28.779699),
             model = "lilprideflag2",
             bone = 57005,
-            pos = vec3(0.090000, -0.020000, -0.030000),
           },
         },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "danceprideb",
+    type = "prop",
     label = "Dance Pride B - LGBTQIA",
   },
   {
-    command = "dancepridec",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
         props = {
           {
+            pos = vec3(0.090000, 0.000000, 0.030000),
             rot = vec3(-39.910999, 93.916603, -5.806200),
             model = "lilprideflag4",
             bone = 18905,
-            pos = vec3(0.090000, 0.000000, 0.030000),
           },
           {
+            pos = vec3(0.090000, -0.020000, -0.030000),
             rot = vec3(-90.245399, 5.706800, -28.779699),
             model = "lilprideflag4",
             bone = 57005,
-            pos = vec3(0.090000, -0.020000, -0.030000),
           },
         },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "dancepridec",
+    type = "prop",
     label = "Dance Pride C - Lesbian",
   },
   {
-    command = "danceprided",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
         props = {
           {
+            pos = vec3(0.090000, 0.000000, 0.030000),
             rot = vec3(-39.910999, 93.916603, -5.806200),
             model = "lilprideflag5",
             bone = 18905,
-            pos = vec3(0.090000, 0.000000, 0.030000),
           },
           {
+            pos = vec3(0.090000, -0.020000, -0.030000),
             rot = vec3(-90.245399, 5.706800, -28.779699),
             model = "lilprideflag5",
             bone = 57005,
-            pos = vec3(0.090000, -0.020000, -0.030000),
           },
         },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "danceprided",
+    type = "prop",
     label = "Dance Pride D - Pansexual",
   },
   {
-    command = "dancepridee",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
         props = {
           {
+            pos = vec3(0.090000, 0.000000, 0.030000),
             rot = vec3(-39.910999, 93.916603, -5.806200),
             model = "lilprideflag6",
             bone = 18905,
-            pos = vec3(0.090000, 0.000000, 0.030000),
           },
           {
+            pos = vec3(0.090000, -0.020000, -0.030000),
             rot = vec3(-90.245399, 5.706800, -28.779699),
             model = "lilprideflag6",
             bone = 57005,
-            pos = vec3(0.090000, -0.020000, -0.030000),
           },
         },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "dancepridee",
+    type = "prop",
     label = "Dance Pride E - Transgender",
   },
   {
-    command = "dancepridef",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
         props = {
           {
+            pos = vec3(0.090000, 0.000000, 0.030000),
             rot = vec3(-39.910999, 93.916603, -5.806200),
             model = "lilprideflag7",
             bone = 18905,
-            pos = vec3(0.090000, 0.000000, 0.030000),
           },
           {
+            pos = vec3(0.090000, -0.020000, -0.030000),
             rot = vec3(-90.245399, 5.706800, -28.779699),
             model = "lilprideflag7",
             bone = 57005,
-            pos = vec3(0.090000, -0.020000, -0.030000),
           },
         },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "dancepridef",
+    type = "prop",
     label = "Dance Pride F - Non Binary",
   },
   {
-    command = "danceprideg",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
         props = {
           {
+            pos = vec3(0.090000, 0.000000, 0.030000),
             rot = vec3(-39.910999, 93.916603, -5.806200),
             model = "lilprideflag8",
             bone = 18905,
-            pos = vec3(0.090000, 0.000000, 0.030000),
           },
           {
+            pos = vec3(0.090000, -0.020000, -0.030000),
             rot = vec3(-90.245399, 5.706800, -28.779699),
             model = "lilprideflag8",
             bone = 57005,
-            pos = vec3(0.090000, -0.020000, -0.030000),
           },
         },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "danceprideg",
+    type = "prop",
     label = "Dance Pride G - Asexual",
   },
   {
-    command = "danceprideh",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@nightclub@lazlow@hi_railing@",
-        anim = "ambclub_09_mi_hi_bellydancer_laz",
         props = {
           {
+            pos = vec3(0.090000, 0.000000, 0.030000),
             rot = vec3(-39.910999, 93.916603, -5.806200),
             model = "lilprideflag9",
             bone = 18905,
-            pos = vec3(0.090000, 0.000000, 0.030000),
           },
           {
+            pos = vec3(0.090000, -0.020000, -0.030000),
             rot = vec3(-90.245399, 5.706800, -28.779699),
             model = "lilprideflag9",
             bone = 57005,
-            pos = vec3(0.090000, -0.020000, -0.030000),
           },
         },
+        anim = "ambclub_09_mi_hi_bellydancer_laz",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@nightclub@lazlow@hi_railing@",
       },
     },
+    command = "danceprideh",
+    type = "prop",
     label = "Dance Pride H - Straight Ally",
   },
   {
-    command = "danceshy",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
         anim = "low_center",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
         anim = "low_center_down",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
       },
     },
+    command = "danceshy",
+    type = "animation",
     label = "Dance Shy",
   },
   {
-    command = "dancesilly",
-    type = "animation",
     animations = {
       {
-        dict = "special_ped@mountain_dancer@monologue_3@monologue_3a",
         anim = "mnt_dnc_buttwag",
         flags = {
+          loop = true,
         },
+        dict = "special_ped@mountain_dancer@monologue_3@monologue_3a",
       },
       {
-        dict = "rcmnigel1bnmt_1b",
         anim = "dance_loop_tyler",
         flags = {
+          loop = true,
         },
+        dict = "rcmnigel1bnmt_1b",
       },
       {
+        anim = "fidget_short_dance",
+        flags = {
+          loop = true,
+        },
         dict = "move_clown@p_m_zero_idles@",
-        anim = "fidget_short_dance",
-        flags = {
-        },
       },
       {
+        anim = "fidget_short_dance",
+        flags = {
+          loop = true,
+        },
         dict = "move_clown@p_m_two_idles@",
-        anim = "fidget_short_dance",
-        flags = {
-        },
       },
       {
-        dict = "anim@amb@nightclub@lazlow@hi_podium@",
         anim = "danceidle_hi_11_buttwiggle_b_laz",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@lazlow@hi_podium@",
       },
       {
-        dict = "timetable@tracy@ig_5@idle_a",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "timetable@tracy@ig_5@idle_a",
       },
       {
-        dict = "timetable@tracy@ig_8@idle_b",
         anim = "idle_d",
         flags = {
+          loop = true,
         },
+        dict = "timetable@tracy@ig_8@idle_b",
       },
       {
-        dict = "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
         anim = "med_center",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
       },
       {
-        dict = "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
         anim = "high_center",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
       },
       {
-        dict = "anim@mp_player_intcelebrationfemale@the_woogie",
         anim = "the_woogie",
         flags = {
+          loop = true,
         },
+        dict = "anim@mp_player_intcelebrationfemale@the_woogie",
       },
     },
+    command = "dancesilly",
+    type = "animation",
     label = "Dance Silly",
   },
   {
-    command = "danceslow",
-    type = "animation",
     animations = {
       {
+        anim = "low_center",
+        flags = {
+          loop = true,
+        },
         dict = "anim@amb@nightclub@mini@dance@dance_solo@male@var_b@",
-        anim = "low_center",
-        flags = {
-        },
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
         anim = "low_center",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
         anim = "low_center_down",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
         anim = "low_center",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
       },
     },
+    command = "danceslow",
+    type = "animation",
     label = "Dance Slow",
   },
   {
-    command = "danceupper",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
         anim = "high_center",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
         anim = "high_center_up",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
       },
     },
+    command = "danceupper",
+    type = "animation",
     label = "Dance Upper",
   },
   {
-    command = "dj",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@djs@dixon@",
         anim = "dixn_dance_cntr_open_dix",
         flags = {
+          move = true,
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@dixon@",
       },
       {
-        dict = "anim@amb@nightclub@djs@dixon@",
         anim = "dixn_end_dix",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@dixon@",
       },
       {
-        dict = "anim@amb@nightclub@djs@solomun@",
         anim = "sol_idle_ctr_mid_a_sol",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@solomun@",
       },
       {
-        dict = "anim@amb@nightclub@djs@solomun@",
         anim = "sol_dance_l_sol",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@solomun@",
       },
       {
-        dict = "anim@amb@nightclub@djs@black_madonna@",
         anim = "dance_b_idle_a_blamadon",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@black_madonna@",
       },
       {
-        dict = "anim@amb@nightclub@djs@dixon@",
         anim = "dixn_idle_cntr_a_dix",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@dixon@",
       },
       {
-        dict = "anim@amb@nightclub@djs@dixon@",
         anim = "dixn_idle_cntr_b_dix",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@dixon@",
       },
       {
-        dict = "anim@amb@nightclub@djs@dixon@",
         anim = "dixn_idle_cntr_g_dix",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@dixon@",
       },
       {
-        dict = "anim@amb@nightclub@djs@dixon@",
         anim = "dixn_idle_cntr_gb_dix",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@dixon@",
       },
       {
-        dict = "anim@amb@nightclub@djs@dixon@",
         anim = "dixn_sync_cntr_j_dix",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@djs@dixon@",
       },
     },
+    command = "dj",
+    type = "animation",
     label = "DJ",
   },
   {
-    command = "lapchair",
-    type = "animation",
     animations = {
       {
-        dict = "mini@strip_club@lap_dance@ld_girl_a_song_a_p1",
         anim = "ld_girl_a_song_a_p1_f",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@lap_dance@ld_girl_a_song_a_p1",
       },
       {
-        dict = "mini@strip_club@lap_dance@ld_girl_a_song_a_p2",
         anim = "ld_girl_a_song_a_p2_f",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@lap_dance@ld_girl_a_song_a_p2",
       },
       {
-        dict = "mini@strip_club@lap_dance@ld_girl_a_song_a_p3",
         anim = "ld_girl_a_song_a_p3_f",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@lap_dance@ld_girl_a_song_a_p3",
       },
     },
+    command = "lapchair",
+    type = "animation",
     label = "Lap Chair",
   },
   {
-    command = "lapdance",
-    type = "animation",
     animations = {
       {
         anim = "lap_dance_girl",
         dict = "mp_safehouse",
       },
       {
-        dict = "mini@strip_club@private_dance@idle",
         anim = "priv_dance_idle",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@private_dance@idle",
       },
       {
-        dict = "mini@strip_club@private_dance@part1",
         anim = "priv_dance_p1",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@private_dance@part1",
       },
       {
-        dict = "mini@strip_club@private_dance@part2",
         anim = "priv_dance_p2",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@private_dance@part2",
       },
       {
-        dict = "mini@strip_club@private_dance@part3",
         anim = "priv_dance_p3",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@private_dance@part3",
       },
       {
-        dict = "oddjobs@assassinate@multi@yachttarget@lapdance",
         anim = "yacht_ld_f",
         flags = {
+          loop = true,
         },
+        dict = "oddjobs@assassinate@multi@yachttarget@lapdance",
       },
     },
+    command = "lapdance",
+    type = "animation",
     label = "Lapdance",
   },
   {
-    command = "lapdancewith",
-    type = "animation",
     animations = {
       {
-        dict = "mini@strip_club@lap_dance_2g@ld_2g_p3",
         anim = "ld_2g_p3_s2",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@lap_dance_2g@ld_2g_p3",
       },
       {
-        dict = "mini@strip_club@lap_dance_2g@ld_2g_p2",
         anim = "ld_2g_p2_s2",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@lap_dance_2g@ld_2g_p2",
       },
       {
-        dict = "mini@strip_club@lap_dance_2g@ld_2g_p1",
         anim = "ld_2g_p1_s2",
         flags = {
+          loop = true,
         },
+        dict = "mini@strip_club@lap_dance_2g@ld_2g_p1",
       },
     },
+    command = "lapdancewith",
+    type = "animation",
     label = "Lapdance With",
   },
   {
-    command = "makarena",
-    type = "animation",
     animations = {
       {
-        dict = "custom@makarena",
         anim = "makarena",
         flags = {
+          loop = true,
         },
+        dict = "custom@makarena",
       },
     },
+    command = "makarena",
+    type = "animation",
     label = "Makarena",
   },
   {
-    command = "dancemonkey",
-    type = "animation",
     animations = {
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@",
         anim = "high_center",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@",
         anim = "high_center_down",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@",
       },
       {
-        dict = "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@",
         anim = "med_center_down",
         flags = {
+          loop = true,
         },
+        dict = "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@",
       },
     },
+    command = "dancemonkey",
+    type = "animation",
     label = "Monkey Dance",
   },
   {
-    command = "salsa",
-    type = "animation",
     animations = {
       {
-        dict = "anim@mp_player_intuppersalsa_roll",
         anim = "idle_a",
         flags = {
+          loop = true,
         },
+        dict = "anim@mp_player_intuppersalsa_roll",
       },
       {
-        dict = "custom@salsa",
         anim = "salsa",
         flags = {
+          loop = true,
         },
+        dict = "custom@salsa",
       },
     },
+    command = "salsa",
+    type = "animation",
     label = "Salsa",
   },
   {
-    command = "shortdance",
-    type = "animation",
     animations = {
       {
-        dict = "anim@arena@celeb@podium@no_prop@",
         anim = "dance_a_1st",
         flags = {
+          loop = true,
         },
+        dict = "anim@arena@celeb@podium@no_prop@",
       },
       {
-        dict = "anim@arena@celeb@podium@no_prop@",
         anim = "dance_b_1st",
         flags = {
+          loop = true,
         },
+        dict = "anim@arena@celeb@podium@no_prop@",
       },
     },
+    command = "shortdance",
+    type = "animation",
     label = "Short Dance",
   },
   {
-    command = "singer",
-    type = "animation",
     animations = {
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "sing_a_song_1",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "sing_a_song_2",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "sing_a_song_3",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "sing_a_song_4",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "sing_a_song_5",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "up_beat_1",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "up_beat_2",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "up_beat_3",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "up_beat_4",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
       {
-        dict = "jazzrockabillybluesetc_singer@anim",
         anim = "up_beat_5",
         flags = {
+          loop = true,
         },
+        dict = "jazzrockabillybluesetc_singer@anim",
       },
     },
+    command = "singer",
+    type = "animation",
     label = "Singer",
   },
   {
-    command = "twerk",
-    type = "animation",
     animations = {
       {
-        dict = "switch@trevor@mocks_lapdance",
         anim = "001443_01_trvs_28_idle_stripper",
         flags = {
+          loop = true,
         },
+        dict = "switch@trevor@mocks_lapdance",
       },
     },
+    command = "twerk",
+    type = "animation",
     label = "Twerk",
   },
   {
-    command = "dancewave",
-    type = "animation",
     animations = {
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "wave_dance_1",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "wave_dance_2",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "wave_dance_3",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "wave_dance_4",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "tutankhamun_dance_1",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "tutankhamun_dance_2",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "snake_dance_1",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "slide_dance",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "slide_dance_2",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "robot_dance",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "locking_dance",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
       {
         anim = "headspin",
@@ -7745,104 +8722,108 @@ return {
         dict = "dancing_wave_part_one@anim",
       },
       {
-        dict = "dancing_wave_part_one@anim",
         anim = "uprock_dance_1",
         flags = {
+          loop = true,
         },
+        dict = "dancing_wave_part_one@anim",
       },
     },
+    command = "dancewave",
+    type = "animation",
     label = "Wave Dance",
   },
   {
+    label = "Aiming",
     command = "aiming",
     type = "expression",
     expressions = {
       "mood_aiming_1",
     },
-    label = "Aiming",
   },
   {
+    label = "Angry",
     command = "angry",
     type = "expression",
     expressions = {
       "mood_angry_1",
     },
-    label = "Angry",
   },
   {
+    label = "Burning",
     command = "burning",
     type = "expression",
     expressions = {
       "burning_1",
     },
-    label = "Burning",
   },
   {
+    label = "Crying",
     command = "crying",
     type = "expression",
     expressions = {
       "console_wasnt_fun_end_loop_floyd_facial",
     },
-    label = "Crying",
   },
   {
+    label = "Dead",
     command = "dead",
     type = "expression",
     expressions = {
       "dead_1",
       "dead_2",
     },
-    label = "Dead",
   },
   {
+    label = "Drunk",
     command = "drunk",
     type = "expression",
     expressions = {
       "mood_drunk_1",
     },
-    label = "Drunk",
   },
   {
+    label = "Dumb",
     command = "dumb",
     type = "expression",
     expressions = {
       "pose_injured_1",
     },
-    label = "Dumb",
   },
   {
+    label = "Effort",
     command = "effort",
     type = "expression",
     expressions = {
       "effort_1",
     },
-    label = "Effort",
   },
   {
+    label = "Electrocuted",
     command = "electrocuted",
     type = "expression",
     expressions = {
       "electrocuted_1",
     },
-    label = "Electrocuted",
   },
   {
+    label = "Excited",
     command = "excited",
     type = "expression",
     expressions = {
       "mood_excited_1",
     },
-    label = "Excited",
   },
   {
+    label = "Frustrated",
     command = "frustrated",
     type = "expression",
     expressions = {
       "mood_frustrated_1",
     },
-    label = "Frustrated",
   },
   {
+    label = "Grumpy",
     command = "grumpy",
     type = "expression",
     expressions = {
@@ -7850,5795 +8831,7571 @@ return {
       "mood_drivefast_1",
       "pose_angry_1",
     },
-    label = "Grumpy",
   },
   {
+    label = "Happy",
     command = "happy",
     type = "expression",
     expressions = {
       "mood_happy_1",
     },
-    label = "Happy",
   },
   {
+    label = "Injured",
     command = "injured",
     type = "expression",
     expressions = {
       "mood_injured_1",
     },
-    label = "Injured",
   },
   {
+    label = "Joyful",
     command = "joyful",
     type = "expression",
     expressions = {
       "mood_dancing_low_1",
     },
-    label = "Joyful",
   },
   {
+    label = "Mouth breather",
     command = "mouthbreather",
     type = "expression",
     expressions = {
       "smoking_hold_1",
     },
-    label = "Mouth breather",
   },
   {
+    label = "Never Blink",
     command = "neverblink",
     type = "expression",
     expressions = {
       "pose_normal_1",
     },
-    label = "Never Blink",
   },
   {
+    label = "One Eye",
     command = "oneeye",
     type = "expression",
     expressions = {
       "pose_aiming_1",
     },
-    label = "One Eye",
   },
   {
+    label = "Shocked",
     command = "shocked",
     type = "expression",
     expressions = {
       "shocked_1",
       "shocked_2",
     },
-    label = "Shocked",
   },
   {
+    label = "Sleeping",
     command = "sleeping",
     type = "expression",
     expressions = {
       "mood_sleeping_1",
     },
-    label = "Sleeping",
   },
   {
+    label = "Smug",
     command = "smug",
     type = "expression",
     expressions = {
       "mood_smug_1",
     },
-    label = "Smug",
   },
   {
+    label = "Speculative",
     command = "speculative",
     type = "expression",
     expressions = {
       "mood_aiming_1",
     },
-    label = "Speculative",
   },
   {
+    label = "Stressed",
     command = "stressed",
     type = "expression",
     expressions = {
       "mood_stressed_1",
     },
-    label = "Stressed",
   },
   {
+    label = "Sulking",
     command = "sulking",
     type = "expression",
     expressions = {
       "mood_sulk_1",
     },
-    label = "Sulking",
   },
   {
+    label = "Weird",
     command = "weird",
     type = "expression",
     expressions = {
       "effort_2",
       "effort_3",
     },
-    label = "Weird",
   },
   {
-    command = "airportbag",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@narcotics@trash",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.110000, -0.210000, -0.430000),
             rot = vec3(-11.899900, 0.000000, 30.000000),
             model = "prop_suitcase_01c",
             bone = 28422,
-            pos = vec3(0.110000, -0.210000, -0.430000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@narcotics@trash",
       },
     },
+    command = "airportbag",
+    type = "prop",
     label = "Airport Bag",
   },
   {
-    command = "axe",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
         props = {
           {
+            pos = vec3(0.080000, -0.209000, 0.090000),
             rot = vec3(-82.667702, -141.298798, 12.330800),
             model = "prop_tool_fireaxe",
             bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
           },
         },
-      },
-      {
+        anim = "base_club_shoulder",
         flags = {
-        },
-        dict = "melee@large_wpn@streamed_core",
-        anim = "ground_attack_on_spot",
-        props = {
-          {
-            rot = vec3(-97.145500, 165.074905, 13.911400),
-            model = "prop_tool_fireaxe",
-            bone = 57005,
-            pos = vec3(0.016000, -0.314000, -0.086000),
-          },
-        },
-      },
-      {
-        flags = {
+          move = true,
+          loop = true,
         },
         dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-109.023804, 163.614395, 20.609100),
-            model = "prop_tool_pickaxe",
-            bone = 57005,
-            pos = vec3(0.040000, -0.255000, -0.138000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "melee@large_wpn@streamed_core",
-        anim = "ground_attack_on_spot",
-        props = {
-          {
-            rot = vec3(80.000000, -20.000000, 175.000000),
-            model = "prop_tool_pickaxe",
-            bone = 57005,
-            pos = vec3(0.080000, -0.400000, -0.100000),
-          },
-        },
       },
     },
+    command = "axe",
+    type = "prop",
     label = "Axe",
   },
   {
-    command = "backpack",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_p_m_zero_rucksack",
-        anim = "nill",
         props = {
           {
+            pos = vec3(0.016000, -0.314000, -0.086000),
+            rot = vec3(-97.145500, 165.074905, 13.911400),
+            model = "prop_tool_fireaxe",
+            bone = 57005,
+          },
+        },
+        anim = "ground_attack_on_spot",
+        flags = {
+          loop = true,
+        },
+        dict = "melee@large_wpn@streamed_core",
+      },
+    },
+    command = "axe2",
+    type = "prop",
+    label = "Axe - Ground Impact",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.040000, -0.255000, -0.138000),
+            rot = vec3(-109.023804, 163.614395, 20.609100),
+            model = "prop_tool_pickaxe",
+            bone = 57005,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "axe3",
+    type = "prop",
+    label = "Axe - Pickaxe",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.400000, -0.100000),
+            rot = vec3(80.000000, -20.000000, 175.000000),
+            model = "prop_tool_pickaxe",
+            bone = 57005,
+          },
+        },
+        anim = "ground_attack_on_spot",
+        flags = {
+          loop = true,
+        },
+        dict = "melee@large_wpn@streamed_core",
+      },
+    },
+    command = "axe4",
+    type = "prop",
+    label = "Axe - Pickaxe Ground Impact",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.070000, -0.110000, -0.050000),
             rot = vec3(0.000000, 90.000000, 175.000000),
             model = "p_michael_backpack_s",
             bone = 24818,
-            pos = vec3(0.070000, -0.110000, -0.050000),
           },
         },
+        anim = "nill",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_p_m_zero_rucksack",
       },
     },
+    command = "backpack",
+    type = "prop",
     label = "Backpack",
   },
   {
-    command = "bball",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@male_bskball_hold",
-        anim = "bskball_hold_clip",
         props = {
           {
+            pos = vec3(0.060000, 0.040000, -0.120000),
             rot = vec3(0.000000, 0.000000, 40.000000),
             model = "prop_bskball_01",
             bone = 28422,
-            pos = vec3(0.060000, 0.040000, -0.120000),
           },
         },
-      },
-      {
+        anim = "bskball_hold_clip",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "anim@male_bskball_photo_pose",
-        anim = "photo_pose_clip",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_bskball_01",
-            bone = 60309,
-            pos = vec3(-0.010000, 0.020000, 0.130000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "mx@pose2",
-        anim = "mx_clippose2",
-        props = {
-          {
-            rot = vec3(90.000000, -99.999901, 79.999901),
-            model = "prop_bskball_01",
-            bone = 28422,
-            pos = vec3(0.040000, 0.020000, -0.140000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@male_basketball_03",
-        anim = "m_basketball_03_clip",
-        props = {
-          {
-            rot = vec3(90.000000, -99.999901, 79.999901),
-            model = "prop_bskball_01",
-            bone = 28422,
-            pos = vec3(0.040000, 0.020000, -0.140000),
-          },
-        },
+        dict = "anim@male_bskball_hold",
       },
     },
+    command = "bball",
+    type = "prop",
     label = "Basketball",
   },
   {
-    command = "bbqf",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@prop_human_bbq@male@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(-0.010000, 0.020000, 0.130000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_bskball_01",
+            bone = 60309,
+          },
+        },
+        anim = "photo_pose_clip",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@male_bskball_photo_pose",
+      },
+    },
+    command = "bball2",
+    type = "prop",
+    label = "Basketball 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.040000, 0.020000, -0.140000),
+            rot = vec3(90.000000, -99.999901, 79.999901),
+            model = "prop_bskball_01",
+            bone = 28422,
+          },
+        },
+        anim = "mx_clippose2",
+        flags = {
+          loop = true,
+        },
+        dict = "mx@pose2",
+      },
+    },
+    command = "bball3",
+    type = "prop",
+    label = "Basketball 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.040000, 0.020000, -0.140000),
+            rot = vec3(90.000000, -99.999901, 79.999901),
+            model = "prop_bskball_01",
+            bone = 28422,
+          },
+        },
+        anim = "m_basketball_03_clip",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@male_basketball_03",
+      },
+    },
+    command = "bball4",
+    type = "prop",
+    label = "Basketball 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_fish_slice_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@prop_human_bbq@male@idle_a",
       },
     },
+    command = "bbqf",
+    type = "prop",
     label = "BBQ (Female)",
   },
   {
-    command = "beachring",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "beachanims@free",
-        anim = "beachanim_clip",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.010000),
             rot = vec3(-12.000000, 0.000000, -2.000000),
             model = "prop_beach_ring_01",
             bone = 0,
-            pos = vec3(0.000000, 0.000000, 0.010000),
           },
         },
+        anim = "beachanim_clip",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "beachanims@free",
       },
     },
+    command = "beachring",
+    type = "prop",
     label = "Beach Floatie",
   },
   {
-    command = "beerbox",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.220000, 0.000000, 0.000000),
             rot = vec3(0.000000, 266.000000, 48.000000),
             model = "v_ret_ml_beerdus",
             bone = 57005,
-            pos = vec3(0.220000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 266.000000, 48.000000),
-            model = "v_ret_ml_beeram",
-            bone = 57005,
-            pos = vec3(0.220000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 266.000000, 48.000000),
-            model = "v_ret_ml_beerpride",
-            bone = 57005,
-            pos = vec3(0.220000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 266.000000, 60.000000),
-            model = "v_ret_ml_beerbar",
-            bone = 57005,
-            pos = vec3(0.220000, 0.000000, 0.000000),
-          },
-        },
       },
     },
+    command = "beerbox",
+    type = "prop",
     label = "Beer Box 1",
   },
   {
-    command = "beerf",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_drinking@beer@female@idle_a",
-        anim = "idle_a",
         props = {
           {
-            rot = vec3(15.000000, 15.000000, 0.000000),
-            model = "prop_amb_beer_bottle",
-            bone = 28422,
-            pos = vec3(0.000000, -0.000000, 0.050000),
+            pos = vec3(0.220000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 266.000000, 48.000000),
+            model = "v_ret_ml_beeram",
+            bone = 57005,
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "amb@world_human_drinking@beer@female@idle_a",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(15.000000, 15.000000, 0.000000),
-            model = "prop_amb_beer_bottle",
-            bone = 28422,
-            pos = vec3(0.000000, -0.000000, 0.050000),
-          },
-        },
+        dict = "move_weapon@jerrycan@generic",
       },
     },
+    command = "beerbox2",
+    type = "prop",
+    label = "Beer Box 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.220000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 266.000000, 48.000000),
+            model = "v_ret_ml_beerpride",
+            bone = 57005,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "beerbox3",
+    type = "prop",
+    label = "Beer Box 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.220000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 266.000000, 60.000000),
+            model = "v_ret_ml_beerbar",
+            bone = 57005,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "beerbox4",
+    type = "prop",
+    label = "Beer Box 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, -0.000000, 0.050000),
+            rot = vec3(15.000000, 15.000000, 0.000000),
+            model = "prop_amb_beer_bottle",
+            bone = 28422,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@beer@female@idle_a",
+      },
+    },
+    command = "beerf",
+    type = "prop",
     label = "Beer Female",
   },
   {
-    command = "beg",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_bum_freeway@male@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.000000, -0.000000, 0.050000),
+            rot = vec3(15.000000, 15.000000, 0.000000),
+            model = "prop_amb_beer_bottle",
+            bone = 28422,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@beer@female@idle_a",
+      },
+    },
+    command = "beerf3",
+    type = "prop",
+    label = "Beer Female 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_beggers_sign_03",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "amb@world_human_bum_freeway@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_beggers_sign_01",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_bum_freeway@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_beggers_sign_02",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.080000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_bum_freeway@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_beggers_sign_04",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.080000),
-          },
-        },
       },
     },
+    command = "beg",
+    type = "prop",
     label = "Beg",
   },
   {
-    command = "binoculars",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_binoculars@male@idle_b",
-        anim = "idle_f",
         props = {
           {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_binoc_01",
-            bone = 28422,
             pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_beggers_sign_01",
+            bone = 28422,
           },
         },
-      },
-      {
+        anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "amb@world_human_binoculars@male@idle_a",
-        anim = "idle_c",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_binoc_01",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
+        dict = "amb@world_human_bum_freeway@male@base",
       },
     },
+    command = "beg2",
+    type = "prop",
+    label = "Beg 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.080000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_beggers_sign_02",
+            bone = 28422,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_bum_freeway@male@base",
+      },
+    },
+    command = "beg3",
+    type = "prop",
+    label = "Beg 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.080000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_beggers_sign_04",
+            bone = 28422,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_bum_freeway@male@base",
+      },
+    },
+    command = "beg4",
+    type = "prop",
+    label = "Beg 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_binoc_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle_f",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_binoculars@male@idle_b",
+      },
+    },
+    command = "binoculars",
+    type = "prop",
     label = "Binoculars",
   },
   {
-    command = "bong",
-    type = "animation",
     animations = {
       {
-        dict = "anim@safehouse@bong",
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_binoc_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle_c",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_binoculars@male@idle_a",
+      },
+    },
+    command = "binoculars2",
+    type = "prop",
+    label = "Binoculars 2",
+  },
+  {
+    animations = {
+      {
         anim = "bong_stage3",
         props = {
           {
+            pos = vec3(0.100000, -0.250000, 0.000000),
             rot = vec3(95.000000, 190.000000, 180.000000),
             model = "hei_heist_sh_bong_01",
             bone = 18905,
-            pos = vec3(0.100000, -0.250000, 0.000000),
           },
         },
-      },
-      {
         dict = "anim@safehouse@bong",
-        anim = "bong_stage3",
-        props = {
-          {
-            rot = vec3(95.000000, 190.000000, 180.000000),
-            model = "xm3_prop_xm3_bong_01a",
-            bone = 18905,
-            pos = vec3(0.100000, -0.250000, 0.000000),
-          },
-        },
       },
     },
+    command = "bong",
+    type = "prop",
     label = "Bong",
   },
   {
-    command = "bongos",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_musician@bongos@male@base",
-        anim = "base",
+        anim = "bong_stage3",
         props = {
           {
+            pos = vec3(0.100000, -0.250000, 0.000000),
+            rot = vec3(95.000000, 190.000000, 180.000000),
+            model = "xm3_prop_xm3_bong_01a",
+            bone = 18905,
+          },
+        },
+        dict = "anim@safehouse@bong",
+      },
+    },
+    command = "bong2",
+    type = "prop",
+    label = "Bong 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_bongos_01",
             bone = 60309,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_musician@bongos@male@base",
       },
     },
+    command = "bongos",
+    type = "prop",
     label = "Bongo Drums",
   },
   {
-    command = "book",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "cellphone@",
-        anim = "cellphone_text_read_base",
         props = {
           {
+            pos = vec3(0.150000, 0.030000, -0.065000),
             rot = vec3(0.000000, 180.000000, 90.000000),
             model = "prop_novel_01",
             bone = 6286,
-            pos = vec3(0.150000, 0.030000, -0.065000),
           },
         },
+        anim = "cellphone_text_read_base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@",
       },
     },
+    command = "book",
+    type = "prop",
     label = "Book",
   },
   {
-    command = "boombox",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.270000, 0.000000, 0.000000),
             rot = vec3(0.000000, 263.000000, 58.000000),
             model = "prop_boombox_01",
             bone = 57005,
-            pos = vec3(0.270000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "molly@boombox1",
-        anim = "boombox1_clip",
-        props = {
-          {
-            rot = vec3(-160.984299, -88.728798, -0.619700),
-            model = "prop_cs_sol_glasses",
-            bone = 31086,
-            pos = vec3(0.044000, 0.074000, 0.000000),
-          },
-          {
-            rot = vec3(-179.725601, 176.740601, 23.018999),
-            model = "prop_ghettoblast_02",
-            bone = 10706,
-            pos = vec3(-0.231000, -0.077000, 0.241000),
-          },
-        },
+        dict = "move_weapon@jerrycan@generic",
       },
     },
+    command = "boombox",
+    type = "prop",
     label = "Boombox",
   },
   {
-    command = "bouquet",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "impexp_int-0",
-        anim = "mp_m_waremech_01_dual-0",
         props = {
           {
+            pos = vec3(0.044000, 0.074000, 0.000000),
+            rot = vec3(-160.984299, -88.728798, -0.619700),
+            model = "prop_cs_sol_glasses",
+            bone = 31086,
+          },
+          {
+            pos = vec3(-0.231000, -0.077000, 0.241000),
+            rot = vec3(-179.725601, 176.740601, 23.018999),
+            model = "prop_ghettoblast_02",
+            bone = 10706,
+          },
+        },
+        anim = "boombox1_clip",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "molly@boombox1",
+      },
+    },
+    command = "boombox2",
+    type = "prop",
+    label = "Boombox 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.290000, 0.400000, -0.020000),
             rot = vec3(-90.000000, -90.000000, 0.000000),
             model = "prop_snow_flower_02",
             bone = 24817,
-            pos = vec3(-0.290000, 0.400000, -0.020000),
           },
         },
+        anim = "mp_m_waremech_01_dual-0",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "impexp_int-0",
       },
     },
+    command = "bouquet",
+    type = "prop",
     label = "Bouquet",
   },
   {
-    command = "box",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.025000, 0.080000, 0.255000),
             rot = vec3(-145.000000, 290.000000, 0.000000),
             model = "hei_prop_heist_box",
             bone = 60309,
-            pos = vec3(0.025000, 0.080000, 0.255000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "box",
+    type = "prop",
     label = "Box",
   },
   {
-    command = "brief",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.120000, 0.000000, 0.000000),
             rot = vec3(0.000000, 255.000000, 80.000000),
             model = "prop_ld_case_01",
             bone = 57005,
-            pos = vec3(0.120000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "missheistdocksprep1hold_cellphone",
-        anim = "static",
-        props = {
-          {
-            rot = vec3(0.000000, 280.000000, 53.000000),
-            model = "prop_ld_case_01",
-            bone = 57005,
-            pos = vec3(0.100000, 0.000000, 0.000000),
-          },
-        },
+        dict = "move_weapon@jerrycan@generic",
       },
     },
+    command = "brief",
+    type = "prop",
     label = "Briefcase",
   },
   {
-    command = "broom",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@drug_field_workers@rake@male_a@base",
-        anim = "base",
         props = {
           {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tool_broom",
-            bone = 28422,
-            pos = vec3(-0.010000, 0.040000, -0.030000),
+            pos = vec3(0.100000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 280.000000, 53.000000),
+            model = "prop_ld_case_01",
+            bone = 57005,
           },
         },
-      },
-      {
+        anim = "static",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "anim@amb@drug_field_workers@rake@male_a@idles",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tool_broom",
-            bone = 28422,
-            pos = vec3(-0.010000, 0.040000, -0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@drug_field_workers@rake@male_b@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tool_broom",
-            bone = 28422,
-            pos = vec3(-0.010000, 0.040000, -0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@drug_field_workers@rake@male_b@idles",
-        anim = "idle_d",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tool_broom",
-            bone = 28422,
-            pos = vec3(-0.010000, 0.040000, -0.030000),
-          },
-        },
+        dict = "missheistdocksprep1hold_cellphone",
       },
     },
+    command = "brief2",
+    type = "prop",
+    label = "Briefcase 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.010000, 0.040000, -0.030000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tool_broom",
+            bone = 28422,
+          },
+        },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@drug_field_workers@rake@male_a@base",
+      },
+    },
+    command = "broom",
+    type = "prop",
     label = "Broom",
   },
   {
-    command = "camera",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_paparazzi@male@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(-0.010000, 0.040000, -0.030000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tool_broom",
+            bone = 28422,
+          },
+        },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@drug_field_workers@rake@male_a@idles",
+      },
+    },
+    command = "broom2",
+    type = "prop",
+    label = "Broom 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.010000, 0.040000, -0.030000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tool_broom",
+            bone = 28422,
+          },
+        },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@drug_field_workers@rake@male_b@base",
+      },
+    },
+    command = "broom3",
+    type = "prop",
+    label = "Broom 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.010000, 0.040000, -0.030000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tool_broom",
+            bone = 28422,
+          },
+        },
+        anim = "idle_d",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@drug_field_workers@rake@male_b@idles",
+      },
+    },
+    command = "broom4",
+    type = "prop",
+    label = "Broom 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_pap_camera_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "cellphone@female",
-        anim = "cellphone_text_read_base_cover_low",
-        props = {
-          {
-            rot = vec3(-172.048706, -163.938904, -29.022100),
-            model = "prop_ing_camera_01",
-            bone = 28422,
-            pos = vec3(0.010000, -0.030000, 0.052000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "cellphone@female",
-        anim = "cellphone_text_read_base_cover_low",
-        props = {
-          {
-            rot = vec3(-172.048706, -163.938904, -29.022100),
-            model = "prop_ing_camera_01",
-            bone = 28422,
-            pos = vec3(0.010000, -0.030000, 0.052000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(90.000000, 176.000000, 79.999901),
-            model = "prop_v_cam_01",
-            bone = 28422,
-            pos = vec3(0.210000, 0.030000, -0.010000),
-          },
-        },
+        dict = "amb@world_human_paparazzi@male@base",
       },
     },
+    command = "camera",
+    type = "prop",
     label = "Camera",
   },
   {
-    command = "carrydrink",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_drinking@coffee@male@idle_a",
-        anim = "idle_c",
         props = {
           {
+            pos = vec3(0.010000, -0.030000, 0.052000),
+            rot = vec3(-172.048706, -163.938904, -29.022100),
+            model = "prop_ing_camera_01",
+            bone = 28422,
+          },
+        },
+        anim = "cellphone_text_read_base_cover_low",
+        flags = {
+          move = true,
+        },
+        dict = "cellphone@female",
+      },
+    },
+    command = "camera2",
+    type = "prop",
+    label = "Camera 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.010000, -0.030000, 0.052000),
+            rot = vec3(-172.048706, -163.938904, -29.022100),
+            model = "prop_ing_camera_01",
+            bone = 28422,
+          },
+        },
+        anim = "cellphone_text_read_base_cover_low",
+        flags = {
+          move = true,
+        },
+        dict = "cellphone@female",
+      },
+    },
+    command = "camera3",
+    type = "prop",
+    label = "Camera 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.210000, 0.030000, -0.010000),
+            rot = vec3(90.000000, 176.000000, 79.999901),
+            model = "prop_v_cam_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "camera4",
+    type = "prop",
+    label = "Camera 4 - Carry News Camera",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.140000, 0.010000, -0.040000),
             rot = vec3(-83.000000, 2.000000, -36.000000),
             model = "bzzz_pizzahut_cup_a",
             bone = 57005,
-            pos = vec3(0.140000, 0.010000, -0.040000),
           },
         },
+        anim = "idle_c",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@coffee@male@idle_a",
       },
     },
+    command = "carrydrink",
+    type = "prop",
     label = "Carry Drink",
   },
   {
-    command = "carryfoodbag",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.330000, 0.000000, -0.030000),
             rot = vec3(0.001736, -80.000000, 110.065201),
             model = "prop_food_bs_bag_01",
             bone = 57005,
-            pos = vec3(0.330000, 0.000000, -0.030000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.001736, -80.000000, 110.065201),
-            model = "prop_food_cb_bag_01",
-            bone = 57005,
-            pos = vec3(0.380000, 0.000000, -0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.001736, -80.000000, 110.065201),
-            model = "prop_food_bag1",
-            bone = 57005,
-            pos = vec3(0.380000, 0.000000, -0.030000),
-          },
-        },
       },
     },
+    command = "carryfoodbag",
+    type = "prop",
     label = "Carry Food Bag",
   },
   {
-    command = "carrymenu",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missfam4",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.380000, 0.000000, -0.030000),
+            rot = vec3(0.001736, -80.000000, 110.065201),
+            model = "prop_food_cb_bag_01",
+            bone = 57005,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "carryfoodbag2",
+    type = "prop",
+    label = "Carry Food Bag 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.380000, 0.000000, -0.030000),
+            rot = vec3(0.001736, -80.000000, 110.065201),
+            model = "prop_food_bag1",
+            bone = 57005,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "carryfoodbag3",
+    type = "prop",
+    label = "Carry Food Bag 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.200000, 0.110000, 0.060000),
             rot = vec3(98.000000, 46.000000, -128.000000),
             model = "bzzz_pizzahut_menu_a",
             bone = 18905,
-            pos = vec3(0.200000, 0.110000, 0.060000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missfam4",
       },
     },
+    command = "carrymenu",
+    type = "prop",
     label = "Carry Menu",
   },
   {
-    command = "carrypizza",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.010000, -0.100000, -0.159000),
             rot = vec3(20.000000, 0.000000, 0.000000),
             model = "prop_pizza_box_02",
             bone = 28422,
-            pos = vec3(0.010000, -0.100000, -0.159000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(52.000000, -69.000000, -187.000000),
-            model = "bzzz_pizzahut_box_a",
-            bone = 18905,
-            pos = vec3(0.280000, 0.100000, 0.190000),
-          },
-        },
       },
     },
+    command = "carrypizza",
+    type = "prop",
     label = "Carry Pizza Box",
   },
   {
-    command = "cashcase",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.280000, 0.100000, 0.190000),
+            rot = vec3(52.000000, -69.000000, -187.000000),
+            model = "bzzz_pizzahut_box_a",
+            bone = 18905,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "carrypizza2",
+    type = "prop",
+    label = "Carry Pizza Box 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.100000, 0.010000, 0.004000),
             rot = vec3(0.000000, 0.000000, -90.000000),
             model = "bkr_prop_biker_case_shut",
             bone = 28422,
-            pos = vec3(0.100000, 0.010000, 0.004000),
           },
         },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
         anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_cash_case_01",
-            bone = 28422,
-            pos = vec3(-0.005000, -0.187000, -0.140000),
-          },
-        },
-      },
-      {
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(14.000000, 0.000000, 0.000000),
-            model = "prop_cash_case_02",
-            bone = 28422,
-            pos = vec3(0.005000, -0.117000, -0.140000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(14.400000, 0.000000, 0.000000),
-            model = "ch_prop_ch_security_case_01a",
-            bone = 28422,
-            pos = vec3(0.000000, -0.090000, -0.180000),
-          },
-        },
+        dict = "move_weapon@jerrycan@generic",
       },
     },
+    command = "cashcase",
+    type = "prop",
     label = "Cash Briefcase",
   },
   {
-    command = "cbbox",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(-0.005000, -0.187000, -0.140000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_cash_case_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "cashcase2",
+    type = "prop",
+    label = "Cash Briefcase 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.005000, -0.117000, -0.140000),
+            rot = vec3(14.000000, 0.000000, 0.000000),
+            model = "prop_cash_case_02",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "cashcase3",
+    type = "prop",
+    label = "Cash Briefcase 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, -0.090000, -0.180000),
+            rot = vec3(14.400000, 0.000000, 0.000000),
+            model = "ch_prop_ch_security_case_01a",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "cashcase4",
+    type = "prop",
+    label = "Cash Briefcase 4 - Diamonds",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "v_ret_ml_beerben1",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "v_ret_ml_beerbla1",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "v_ret_ml_beerjak1",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "v_ret_ml_beerlog1",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "v_ret_ml_beerpis1",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-180.000000, -180.000000, 1.990000),
-            model = "prop_beer_box_01",
-            bone = 28422,
-            pos = vec3(0.020000, -0.060000, -0.120000),
-          },
-        },
       },
     },
+    command = "cbbox",
+    type = "prop",
     label = "Carry Beer Box",
   },
   {
-    command = "carrycones",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
-            rot = vec3(0.000000, 90.000000, 0.000000),
-            model = "prop_mp_cone_02",
-            bone = 24818,
-            pos = vec3(-0.300000, 0.400000, 0.000000),
-          },
-          {
-            rot = vec3(0.000000, 90.000000, 0.000000),
-            model = "prop_mp_cone_02",
-            bone = 24818,
-            pos = vec3(-0.250000, 0.400000, 0.000000),
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "v_ret_ml_beerbla1",
+            bone = 28422,
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 90.000000, 0.000000),
-            model = "prop_mp_cone_02",
-            bone = 24818,
-            pos = vec3(-0.300000, 0.400000, 0.000000),
-          },
-          {
-            rot = vec3(0.000000, 90.000000, 0.000000),
-            model = "prop_mp_cone_02",
-            bone = 24818,
-            pos = vec3(-0.250000, 0.400000, 0.000000),
-          },
-          {
-            rot = vec3(0.000000, 90.000000, 0.000000),
-            model = "prop_mp_cone_02",
-            bone = 24818,
-            pos = vec3(-0.200000, 0.400000, 0.000000),
-          },
-          {
-            rot = vec3(0.000000, 90.000000, 0.000000),
-            model = "prop_mp_cone_02",
-            bone = 24818,
-            pos = vec3(-0.150000, 0.400000, 0.000000),
-          },
-        },
       },
     },
+    command = "cbbox2",
+    type = "prop",
+    label = "Carry Beer Box 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "v_ret_ml_beerjak1",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "cbbox3",
+    type = "prop",
+    label = "Carry Beer Box 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "v_ret_ml_beerlog1",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "cbbox4",
+    type = "prop",
+    label = "Carry Beer Box 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "v_ret_ml_beerpis1",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "cbbox5",
+    type = "prop",
+    label = "Carry Beer Box 5",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.020000, -0.060000, -0.120000),
+            rot = vec3(-180.000000, -180.000000, 1.990000),
+            model = "prop_beer_box_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "cbbox6",
+    type = "prop",
+    label = "Carry Beer Box 6",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.300000, 0.400000, 0.000000),
+            rot = vec3(0.000000, 90.000000, 0.000000),
+            model = "prop_mp_cone_02",
+            bone = 24818,
+          },
+          {
+            pos = vec3(-0.250000, 0.400000, 0.000000),
+            rot = vec3(0.000000, 90.000000, 0.000000),
+            model = "prop_mp_cone_02",
+            bone = 24818,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "carrycones",
+    type = "prop",
     label = "Carry Cones",
   },
   {
-    command = "champagnespray",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@mp_player_intupperspray_champagne",
-        anim = "idle_a",
         props = {
           {
+            pos = vec3(-0.300000, 0.400000, 0.000000),
+            rot = vec3(0.000000, 90.000000, 0.000000),
+            model = "prop_mp_cone_02",
+            bone = 24818,
+          },
+          {
+            pos = vec3(-0.250000, 0.400000, 0.000000),
+            rot = vec3(0.000000, 90.000000, 0.000000),
+            model = "prop_mp_cone_02",
+            bone = 24818,
+          },
+          {
+            pos = vec3(-0.200000, 0.400000, 0.000000),
+            rot = vec3(0.000000, 90.000000, 0.000000),
+            model = "prop_mp_cone_02",
+            bone = 24818,
+          },
+          {
+            pos = vec3(-0.150000, 0.400000, 0.000000),
+            rot = vec3(0.000000, 90.000000, 0.000000),
+            model = "prop_mp_cone_02",
+            bone = 24818,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "carrycones2",
+    type = "prop",
+    label = "Carry Cones 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "ba_prop_battle_champ_open",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@mp_player_intupperspray_champagne",
       },
     },
+    command = "champagnespray",
+    type = "prop",
     label = "Champagne Spray",
   },
   {
-    command = "champw",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@move_f@waitress",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.010000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "vw_prop_vw_tray_01a",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.010000),
           },
           {
+            pos = vec3(0.000000, 0.000000, 0.010000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_champ_cool",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.010000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@move_f@waitress",
       },
     },
+    command = "champw",
+    type = "prop",
     label = "Champagne Waiter",
   },
   {
-    command = "cig",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_smoking@male@male_a@enter",
-        anim = "enter",
         props = {
           {
+            pos = vec3(0.015000, -0.009000, 0.003000),
             rot = vec3(55.000000, 0.000000, 110.000000),
             model = "prop_amb_ciggy_01",
             bone = 47419,
-            pos = vec3(0.015000, -0.009000, 0.003000),
           },
         },
+        anim = "enter",
+        flags = {
+          move = true,
+        },
+        dict = "amb@world_human_smoking@male@male_a@enter",
       },
     },
+    command = "cig",
+    type = "prop",
     label = "Cig",
   },
   {
-    command = "cigar",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_smoking@male@male_a@enter",
-        anim = "enter",
         props = {
           {
+            pos = vec3(0.010000, 0.000000, 0.000000),
             rot = vec3(50.000000, 0.000000, -80.000000),
             model = "prop_cigar_02",
             bone = 47419,
-            pos = vec3(0.010000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "enter",
         flags = {
+          move = true,
         },
         dict = "amb@world_human_smoking@male@male_a@enter",
-        anim = "enter",
-        props = {
-          {
-            rot = vec3(50.000000, 0.000000, -80.000000),
-            model = "prop_cigar_01",
-            bone = 47419,
-            pos = vec3(0.010000, 0.000000, 0.000000),
-          },
-        },
       },
     },
+    command = "cigar",
+    type = "prop",
     label = "Cigar",
   },
   {
-    command = "clean",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "timetable@floyd@clean_kitchen@base",
-        anim = "base",
         props = {
           {
-            rot = vec3(90.000000, 0.000000, 0.000000),
-            model = "prop_sponge_01",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.010000),
+            pos = vec3(0.010000, 0.000000, 0.000000),
+            rot = vec3(50.000000, 0.000000, -80.000000),
+            model = "prop_cigar_01",
+            bone = 47419,
           },
         },
-      },
-      {
+        anim = "enter",
         flags = {
+          move = true,
         },
-        dict = "amb@world_human_maid_clean@",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(90.000000, 0.000000, 0.000000),
-            model = "prop_sponge_01",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.010000),
-          },
-        },
+        dict = "amb@world_human_smoking@male@male_a@enter",
       },
     },
+    command = "cigar2",
+    type = "prop",
+    label = "Cigar 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, -0.010000),
+            rot = vec3(90.000000, 0.000000, 0.000000),
+            model = "prop_sponge_01",
+            bone = 28422,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "timetable@floyd@clean_kitchen@base",
+      },
+    },
+    command = "clean",
+    type = "prop",
     label = "Clean",
   },
   {
-    command = "clipboard",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missfam4",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, -0.010000),
+            rot = vec3(90.000000, 0.000000, 0.000000),
+            model = "prop_sponge_01",
+            bone = 28422,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_maid_clean@",
+      },
+    },
+    command = "clean2",
+    type = "prop",
+    label = "Clean 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.160000, 0.080000, 0.100000),
             rot = vec3(-130.000000, -50.000000, 0.000000),
             model = "p_amb_clipboard_01",
             bone = 36029,
-            pos = vec3(0.160000, 0.080000, 0.100000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missfam4",
       },
     },
+    command = "clipboard",
+    type = "prop",
     label = "Clipboard",
   },
   {
-    command = "conehead",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_m@drunk@verydrunk_idles@",
-        anim = "fidget_07",
         props = {
           {
+            pos = vec3(0.050000, 0.020000, -0.000000),
             rot = vec3(30.000000, 90.000000, 0.000000),
             model = "prop_roadcone02b",
             bone = 31086,
-            pos = vec3(0.050000, 0.020000, -0.000000),
           },
         },
+        anim = "fidget_07",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_m@drunk@verydrunk_idles@",
       },
     },
+    command = "conehead",
+    type = "prop",
     label = "Cone Head",
   },
   {
-    command = "copwand",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_car_park_attendant@male@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.120000, 0.050000, 0.000000),
             rot = vec3(80.000000, -20.000000, 180.000000),
             model = "prop_parking_wand_01",
             bone = 57005,
-            pos = vec3(0.120000, 0.050000, 0.000000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_car_park_attendant@male@base",
       },
     },
+    command = "copwand",
+    type = "prop",
     label = "Cop Wand",
   },
   {
-    command = "copbeacon",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_car_park_attendant@male@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.120000, 0.050000, 0.000000),
             rot = vec3(80.000000, -20.000000, 180.000000),
             model = "prop_parking_wand_01",
             bone = 57005,
-            pos = vec3(0.120000, 0.050000, 0.000000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_car_park_attendant@male@base",
       },
     },
+    command = "copbeacon",
+    type = "prop",
     label = "Cop Beacon",
   },
   {
-    command = "crackhead",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "special_ped@zombie@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(-0.128000, -0.022000, 0.021000),
             rot = vec3(-150.000504, 179.998901, -30.010500),
             model = "prop_cs_bowie_knife",
             bone = 28422,
-            pos = vec3(-0.128000, -0.022000, 0.021000),
           },
           {
+            pos = vec3(0.010000, -0.019000, 0.092000),
             rot = vec3(-82.407303, 178.600906, 29.919500),
             model = "ng_proc_cigpak01a",
             bone = 26614,
-            pos = vec3(0.010000, -0.019000, 0.092000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "special_ped@zombie@base",
       },
     },
+    command = "crackhead",
+    type = "prop",
     label = "Crack Head",
   },
   {
-    command = "dig",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "random@burial",
-        anim = "a_burial",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.240000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_tool_shovel",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.240000),
           },
           {
+            pos = vec3(0.000000, 0.000000, 0.240000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_ld_shovel_dirt",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.240000),
           },
         },
+        anim = "a_burial",
+        flags = {
+          loop = true,
+        },
+        dict = "random@burial",
       },
     },
+    command = "dig",
+    type = "prop",
     label = "Dig",
   },
   {
-    command = "digiscan",
-    type = "animation",
     animations = {
       {
-        flags = {
+        props = {
+          {
+            pos = vec3(0.048000, 0.078000, 0.004000),
+            rot = vec3(-81.689301, 2.561600, -15.790900),
+            model = "w_am_digiscanner",
+            bone = 28422,
+          },
         },
-        dict = "weapons@misc@digi_scanner",
         anim = "aim_med_loop",
-        props = {
-          {
-            rot = vec3(-81.689301, 2.561600, -15.790900),
-            model = "w_am_digiscanner",
-            bone = 28422,
-            pos = vec3(0.048000, 0.078000, 0.004000),
-          },
-        },
-      },
-      {
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "weapons@misc@digi_scanner",
-        anim = "aim_low_loop",
-        props = {
-          {
-            rot = vec3(-81.689301, 2.561600, -15.790900),
-            model = "w_am_digiscanner",
-            bone = 28422,
-            pos = vec3(0.048000, 0.078000, 0.004000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "weapons@misc@digi_scanner",
-        anim = "aim_high_loop",
-        props = {
-          {
-            rot = vec3(-81.689301, 2.561600, -15.790900),
-            model = "w_am_digiscanner",
-            bone = 28422,
-            pos = vec3(0.048000, 0.078000, 0.004000),
-          },
-        },
       },
     },
+    command = "digiscan",
+    type = "prop",
     label = "Digiscan 1",
   },
   {
-    command = "dufbag",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.048000, 0.078000, 0.004000),
+            rot = vec3(-81.689301, 2.561600, -15.790900),
+            model = "w_am_digiscanner",
+            bone = 28422,
+          },
+        },
+        anim = "aim_low_loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "weapons@misc@digi_scanner",
+      },
+    },
+    command = "digiscan2",
+    type = "prop",
+    label = "Digiscan 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.048000, 0.078000, 0.004000),
+            rot = vec3(-81.689301, 2.561600, -15.790900),
+            model = "w_am_digiscanner",
+            bone = 28422,
+          },
+        },
+        anim = "aim_high_loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "weapons@misc@digi_scanner",
+      },
+    },
+    command = "digiscan3",
+    type = "prop",
+    label = "Digiscan 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.260000, 0.040000, 0.000000),
             rot = vec3(90.000000, 0.000000, -78.989998),
             model = "bkr_prop_duffel_bag_01a",
             bone = 28422,
-            pos = vec3(0.260000, 0.040000, 0.000000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
       },
     },
+    command = "dufbag",
+    type = "prop",
     label = "Duffel Bag",
   },
   {
-    command = "fishing1",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_stand_fishing@idle_a",
-        anim = "idle_a",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_fishing_rod_01",
             bone = 60309,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_a",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_stand_fishing@idle_a",
       },
     },
+    command = "fishing1",
+    type = "prop",
     label = "Fishing 1",
   },
   {
-    command = "fishing2",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_stand_fishing@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_fishing_rod_01",
             bone = 60309,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_stand_fishing@idle_a",
       },
     },
+    command = "fishing2",
+    type = "prop",
     label = "Fishing 2",
   },
   {
-    command = "fishing3",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_stand_fishing@idle_a",
-        anim = "idle_c",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_fishing_rod_01",
             bone = 60309,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_c",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_stand_fishing@idle_a",
       },
     },
+    command = "fishing3",
+    type = "prop",
     label = "Fishing 3",
   },
   {
-    command = "flute",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@humane_labs@finale@keycards",
-        anim = "ped_a_enter_loop",
         props = {
           {
+            pos = vec3(0.100000, -0.030000, 0.030000),
             rot = vec3(-100.000000, 0.000000, -10.000000),
             model = "prop_champ_flute",
             bone = 18905,
-            pos = vec3(0.100000, -0.030000, 0.030000),
           },
         },
+        anim = "ped_a_enter_loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@humane_labs@finale@keycards",
       },
     },
+    command = "flute",
+    type = "prop",
     label = "Flute",
   },
   {
-    command = "foodtraya",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.010000, -0.040000, -0.139000),
             rot = vec3(20.000000, 0.000000, 0.000000),
             model = "prop_food_bs_tray_03",
             bone = 28422,
-            pos = vec3(0.010000, -0.040000, -0.139000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "foodtraya",
+    type = "prop",
     label = "Food Tray",
   },
   {
-    command = "foodtrayb",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.010000, -0.040000, -0.139000),
             rot = vec3(20.000000, 0.000000, 0.000000),
             model = "prop_food_bs_tray_02",
             bone = 28422,
-            pos = vec3(0.010000, -0.040000, -0.139000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "foodtrayb",
+    type = "prop",
     label = "Food Tray B",
   },
   {
-    command = "foodtrayc",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.010000, -0.040000, -0.139000),
             rot = vec3(20.000000, 0.000000, 0.000000),
             model = "prop_food_cb_tray_02",
             bone = 28422,
-            pos = vec3(0.010000, -0.040000, -0.139000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "foodtrayc",
+    type = "prop",
     label = "Food Tray C",
   },
   {
-    command = "foodtrayd",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.010000, -0.040000, -0.139000),
             rot = vec3(20.000000, 0.000000, 0.000000),
             model = "prop_food_tray_02",
             bone = 28422,
-            pos = vec3(0.010000, -0.040000, -0.139000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "foodtrayd",
+    type = "prop",
     label = "Food Tray D",
   },
   {
-    command = "foodtraye",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.010000, -0.040000, -0.139000),
             rot = vec3(20.000000, 0.000000, 0.000000),
             model = "prop_food_tray_03",
             bone = 28422,
-            pos = vec3(0.010000, -0.040000, -0.139000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "foodtraye",
+    type = "prop",
     label = "Food Tray E",
   },
   {
-    command = "foodtrayf",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.250000, 0.100000, 0.070000),
             rot = vec3(-110.548393, 73.352928, -16.338362),
             model = "prop_food_bs_tray_02",
             bone = 57005,
-            pos = vec3(0.250000, 0.100000, 0.070000),
           },
           {
+            pos = vec3(0.220000, 0.130000, -0.100000),
             rot = vec3(-127.772552, 110.207474, -3.588626),
             model = "prop_food_bs_tray_03",
             bone = 18905,
-            pos = vec3(0.220000, 0.130000, -0.100000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "foodtrayf",
+    type = "prop",
     label = "Food Tray F",
   },
   {
-    command = "foodtrayg",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.250000, 0.100000, 0.070000),
             rot = vec3(-110.548393, 73.352928, -16.338362),
             model = "prop_food_cb_tray_02",
             bone = 57005,
-            pos = vec3(0.250000, 0.100000, 0.070000),
           },
           {
+            pos = vec3(0.220000, 0.130000, -0.100000),
             rot = vec3(-127.772552, 110.207474, -3.588626),
             model = "prop_food_cb_tray_02",
             bone = 18905,
-            pos = vec3(0.220000, 0.130000, -0.100000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "foodtrayg",
+    type = "prop",
     label = "Food Tray G",
   },
   {
-    command = "foodtrayh",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.250000, 0.100000, 0.070000),
             rot = vec3(-110.548393, 73.352928, -16.338362),
             model = "prop_food_tray_02",
             bone = 57005,
-            pos = vec3(0.250000, 0.100000, 0.070000),
           },
           {
+            pos = vec3(0.220000, 0.130000, -0.100000),
             rot = vec3(-127.772552, 110.207474, -3.588626),
             model = "prop_food_tray_03",
             bone = 18905,
-            pos = vec3(0.220000, 0.130000, -0.100000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "foodtrayh",
+    type = "prop",
     label = "Food Tray H",
   },
   {
-    command = "foodtrayi",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.250000, 0.100000, 0.070000),
             rot = vec3(-110.548393, 73.352928, -16.338362),
             model = "prop_food_tray_02",
             bone = 57005,
-            pos = vec3(0.250000, 0.100000, 0.070000),
           },
           {
+            pos = vec3(0.220000, 0.130000, -0.100000),
             rot = vec3(-127.772552, 110.207474, -3.588626),
             model = "prop_food_tray_02",
             bone = 18905,
-            pos = vec3(0.220000, 0.130000, -0.100000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "foodtrayi",
+    type = "prop",
     label = "Food Tray I",
   },
   {
-    command = "foodtrayj",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@move_f@waitress",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.020000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_food_bs_tray_02",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.020000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@move_f@waitress",
       },
     },
+    command = "foodtrayj",
+    type = "prop",
     label = "Food Tray J",
   },
   {
-    command = "foodtrayk",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@move_f@waitress",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.020000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_food_bs_tray_02",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.020000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@move_f@waitress",
       },
     },
+    command = "foodtrayk",
+    type = "prop",
     label = "Food Tray K",
   },
   {
-    command = "foodtrayl",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@move_f@waitress",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.020000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_food_bs_tray_03",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.020000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@move_f@waitress",
       },
     },
+    command = "foodtrayl",
+    type = "prop",
     label = "Food Tray L",
   },
   {
-    command = "foodtraym",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@move_f@waitress",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.020000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_food_cb_tray_02",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.020000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@move_f@waitress",
       },
     },
+    command = "foodtraym",
+    type = "prop",
     label = "Food Tray M",
   },
   {
-    command = "foodtrayn",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@move_f@waitress",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.020000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_food_tray_02",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.020000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@move_f@waitress",
       },
     },
+    command = "foodtrayn",
+    type = "prop",
     label = "Food Tray N",
   },
   {
-    command = "foodtrayo",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@move_f@waitress",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.020000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_food_tray_02",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.020000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@move_f@waitress",
       },
     },
+    command = "foodtrayo",
+    type = "prop",
     label = "Food Tray O",
   },
   {
-    command = "ftorch",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@humane_labs@finale@keycards",
-        anim = "ped_a_enter_loop",
         props = {
           {
+            pos = vec3(0.140000, 0.210000, -0.080000),
             rot = vec3(-110.000000, -1.000000, -10.000000),
             model = "bzzz_prop_torch_fire001",
             bone = 18905,
-            pos = vec3(0.140000, 0.210000, -0.080000),
           },
         },
-      },
-      {
+        anim = "ped_a_enter_loop",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(11.418100, -159.102600, 15.033800),
-            model = "bzzz_prop_torch_fire001",
-            bone = 28422,
-            pos = vec3(-0.080000, -0.030000, -0.170000),
-          },
-        },
+        dict = "anim@heists@humane_labs@finale@keycards",
       },
     },
+    command = "ftorch",
+    type = "prop",
     label = "Flame Torch",
   },
   {
-    command = "fuel",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "weapons@misc@jerrycan@",
-        anim = "fire",
         props = {
           {
+            pos = vec3(-0.080000, -0.030000, -0.170000),
+            rot = vec3(11.418100, -159.102600, 15.033800),
+            model = "bzzz_prop_torch_fire001",
+            bone = 28422,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "ftorch2",
+    type = "prop",
+    label = "Fire Torch 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.180000, 0.130000, -0.240000),
             rot = vec3(-165.869385, -11.212276, -32.945301),
             model = "w_am_jerrycan",
             bone = 57005,
-            pos = vec3(0.180000, 0.130000, -0.240000),
           },
         },
-      },
-      {
+        anim = "fire",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "weapons@misc@jerrycan@franklin",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(80.000000, 180.000000, 79.989998),
-            model = "w_am_jerrycan",
-            bone = 28422,
-            pos = vec3(0.260000, 0.050000, 0.030000),
-          },
-        },
+        dict = "weapons@misc@jerrycan@",
       },
     },
+    command = "fuel",
+    type = "prop",
     label = "Fuel",
   },
   {
-    command = "gamer",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "playing@with_controller",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.260000, 0.050000, 0.030000),
+            rot = vec3(80.000000, 180.000000, 79.989998),
+            model = "w_am_jerrycan",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "weapons@misc@jerrycan@franklin",
+      },
+    },
+    command = "fuel2",
+    type = "prop",
+    label = "Fuel 2 (Carry)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.289000, 0.411000, 0.002000),
             rot = vec3(-44.017399, 88.610298, -1.438500),
             model = "prop_controller_01",
             bone = 24818,
-            pos = vec3(0.289000, 0.411000, 0.002000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "playing@with_controller",
       },
     },
+    command = "gamer",
+    type = "prop",
     label = "Gamer",
   },
   {
-    command = "gbag",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missfbi4prepp1",
-        anim = "_idle_garbage_man",
         props = {
           {
+            pos = vec3(0.000000, 0.040000, -0.020000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_cs_street_binbag_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.040000, -0.020000),
           },
         },
+        anim = "_idle_garbage_man",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missfbi4prepp1",
       },
     },
+    command = "gbag",
+    type = "prop",
     label = "Garbage Bag",
   },
   {
-    command = "gbin",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.000000, -0.420000, -1.290000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_bin_08open",
             bone = 28422,
-            pos = vec3(0.000000, -0.420000, -1.290000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_cs_bin_01",
-            bone = 28422,
-            pos = vec3(0.000000, -0.420000, -1.290000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_cs_bin_03",
-            bone = 28422,
-            pos = vec3(0.000000, -0.420000, -1.290000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_bin_08a",
-            bone = 28422,
-            pos = vec3(0.000000, -0.420000, -1.290000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_bin_07d",
-            bone = 28422,
-            pos = vec3(-0.010000, -0.220000, -0.860000),
-          },
-        },
       },
     },
+    command = "gbin",
+    type = "prop",
     label = "Garbage Bin",
   },
   {
-    command = "gift",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "bz@give_love@anim",
-        anim = "bz_give",
         props = {
           {
+            pos = vec3(0.000000, -0.420000, -1.290000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_cs_bin_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "gbin2",
+    type = "prop",
+    label = "Garbage Bin 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, -0.420000, -1.290000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_cs_bin_03",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "gbin3",
+    type = "prop",
+    label = "Garbage Bin 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, -0.420000, -1.290000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_bin_08a",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "gbin4",
+    type = "prop",
+    label = "Garbage Bin 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.010000, -0.220000, -0.860000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_bin_07d",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "gbin5",
+    type = "prop",
+    label = "Garbage Bin 5",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.150000, -0.030000, -0.140000),
             rot = vec3(-77.000000, -120.000000, 40.000000),
             model = "bzzz_prop_gift_purple",
             bone = 57005,
-            pos = vec3(0.150000, -0.030000, -0.140000),
           },
         },
-      },
-      {
+        anim = "bz_give",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "bz@give_love@anim",
-        anim = "bz_give",
-        props = {
-          {
-            rot = vec3(-77.000000, -120.000000, 40.000000),
-            model = "bzzz_prop_gift_orange",
-            bone = 57005,
-            pos = vec3(0.150000, -0.030000, -0.140000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "bz@give_love@anim",
-        anim = "bz_give",
-        props = {
-          {
-            rot = vec3(-41.000000, -120.000000, 40.000000),
-            model = "bzzz_prop_gift_jewel",
-            bone = 57005,
-            pos = vec3(0.120000, 0.000000, -0.190000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "bz@give_love@anim",
-        anim = "bz_give",
-        props = {
-          {
-            rot = vec3(-41.000000, -120.000000, 40.000000),
-            model = "bzzz_prop_gift_bonbonier",
-            bone = 57005,
-            pos = vec3(0.120000, 0.000000, -0.190000),
-          },
-        },
       },
     },
+    command = "gift",
+    type = "prop",
     label = "Gift",
   },
   {
-    command = "golfswing",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "swing_a_mark",
         props = {
           {
+            pos = vec3(0.150000, -0.030000, -0.140000),
+            rot = vec3(-77.000000, -120.000000, 40.000000),
+            model = "bzzz_prop_gift_orange",
+            bone = 57005,
+          },
+        },
+        anim = "bz_give",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "bz@give_love@anim",
+      },
+    },
+    command = "gift2",
+    type = "prop",
+    label = "Gift 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.120000, 0.000000, -0.190000),
+            rot = vec3(-41.000000, -120.000000, 40.000000),
+            model = "bzzz_prop_gift_jewel",
+            bone = 57005,
+          },
+        },
+        anim = "bz_give",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "bz@give_love@anim",
+      },
+    },
+    command = "gift3",
+    type = "prop",
+    label = "Gift 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.120000, 0.000000, -0.190000),
+            rot = vec3(-41.000000, -120.000000, 40.000000),
+            model = "bzzz_prop_gift_bonbonier",
+            bone = 57005,
+          },
+        },
+        anim = "bz_give",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "bz@give_love@anim",
+      },
+    },
+    command = "gift4",
+    type = "prop",
+    label = "Gift 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_golf_wood_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "swing_a_mark",
+        flags = {
+          loop = true,
+        },
+        dict = "rcmnigel1d",
       },
     },
+    command = "golfswing",
+    type = "prop",
     label = "Golf Swing",
   },
   {
-    command = "guitar",
-    type = "animation",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(-0.100000, 0.310000, 0.100000),
+            rot = vec3(0.000000, 20.000000, 150.000000),
+            model = "prop_acc_guitar_01",
+            bone = 24818,
+          },
+        },
+        anim = "idle_b",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "amb@world_human_musician@guitar@male@idle_a",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(0.000000, 20.000000, 150.000000),
-            model = "prop_acc_guitar_01",
-            bone = 24818,
-            pos = vec3(-0.100000, 0.310000, 0.100000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "switch@trevor@guitar_beatdown",
-        anim = "001370_02_trvs_8_guitar_beatdown_idle_busker",
-        props = {
-          {
-            rot = vec3(0.000000, 20.000000, 150.000000),
-            model = "prop_acc_guitar_01",
-            bone = 24818,
-            pos = vec3(-0.050000, 0.310000, 0.100000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "misssnowie@gatlax",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(-140.334900, 166.330002, 29.759001),
-            model = "prop_acc_guitar_01",
-            bone = 24818,
-            pos = vec3(-0.051000, 0.277000, -0.029900),
-          },
-        },
       },
     },
+    command = "guitar",
+    type = "prop",
     label = "Guitar",
   },
   {
-    command = "guitarback",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@bagels@male@walking@",
-        anim = "idle_a",
         props = {
           {
+            pos = vec3(-0.050000, 0.310000, 0.100000),
+            rot = vec3(0.000000, 20.000000, 150.000000),
+            model = "prop_acc_guitar_01",
+            bone = 24818,
+          },
+        },
+        anim = "001370_02_trvs_8_guitar_beatdown_idle_busker",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "switch@trevor@guitar_beatdown",
+      },
+    },
+    command = "guitar2",
+    type = "prop",
+    label = "Guitar 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.051000, 0.277000, -0.029900),
+            rot = vec3(-140.334900, 166.330002, 29.759001),
+            model = "prop_acc_guitar_01",
+            bone = 24818,
+          },
+        },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "misssnowie@gatlax",
+      },
+    },
+    command = "guitar3",
+    type = "prop",
+    label = "Guitar 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.200000, -0.170000, 0.050000),
             rot = vec3(0.000000, 70.000000, 0.000000),
             model = "prop_acc_guitar_01",
             bone = 24818,
-            pos = vec3(0.200000, -0.170000, 0.050000),
           },
         },
-      },
-      {
+        anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "amb@bagels@male@walking@",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(-5.000000, 70.000000, 0.000000),
-            model = "prop_el_guitar_01",
-            bone = 24818,
-            pos = vec3(0.250000, -0.150000, 0.050000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@bagels@male@walking@",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(0.000000, 70.000000, 0.000000),
-            model = "prop_el_guitar_02",
-            bone = 24818,
-            pos = vec3(0.200000, -0.170000, 0.050000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@bagels@male@walking@",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(-5.000000, 70.000000, 0.000000),
-            model = "prop_el_guitar_03",
-            bone = 24818,
-            pos = vec3(0.200000, -0.150000, 0.050000),
-          },
-        },
       },
     },
+    command = "guitarback",
+    type = "prop",
     label = "Guitar Back",
   },
   {
-    command = "guitarcarry",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.250000, -0.150000, 0.050000),
+            rot = vec3(-5.000000, 70.000000, 0.000000),
+            model = "prop_el_guitar_01",
+            bone = 24818,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@bagels@male@walking@",
+      },
+    },
+    command = "guitarback2",
+    type = "prop",
+    label = "Guitar Back 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.200000, -0.170000, 0.050000),
+            rot = vec3(0.000000, 70.000000, 0.000000),
+            model = "prop_el_guitar_02",
+            bone = 24818,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@bagels@male@walking@",
+      },
+    },
+    command = "guitarback3",
+    type = "prop",
+    label = "Guitar Back 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.200000, -0.150000, 0.050000),
+            rot = vec3(-5.000000, 70.000000, 0.000000),
+            model = "prop_el_guitar_03",
+            bone = 24818,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@bagels@male@walking@",
+      },
+    },
+    command = "guitarback4",
+    type = "prop",
+    label = "Guitar Back 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.280000, -0.200000, -0.060000),
             rot = vec3(0.000000, 0.000000, 15.000000),
             model = "sf_prop_sf_guitar_case_01a",
             bone = 28422,
-            pos = vec3(0.280000, -0.200000, -0.060000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-101.508301, 5.725100, 29.498699),
-            model = "prop_acc_guitar_01",
-            bone = 28422,
-            pos = vec3(0.150000, -0.140000, -0.020000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-80.000000, 0.000000, 21.999901),
-            model = "prop_el_guitar_01",
-            bone = 28422,
-            pos = vec3(0.110000, -0.120000, -0.050000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-80.000000, 0.000000, 21.999901),
-            model = "prop_el_guitar_02",
-            bone = 28422,
-            pos = vec3(0.110000, -0.120000, -0.050000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-80.000000, 0.000000, 21.999901),
-            model = "prop_el_guitar_03",
-            bone = 28422,
-            pos = vec3(0.110000, -0.120000, -0.050000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-80.000000, 0.000000, 21.999901),
-            model = "vw_prop_casino_art_guitar_01a",
-            bone = 28422,
-            pos = vec3(0.110000, -0.120000, -0.050000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-80.000000, 0.000000, 21.999901),
-            model = "sf_prop_sf_el_guitar_02a",
-            bone = 28422,
-            pos = vec3(0.110000, -0.120000, -0.050000),
-          },
-        },
       },
     },
+    command = "guitarcarry",
+    type = "prop",
     label = "Guitar Case Carry",
   },
   {
-    command = "guitarelectric",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_musician@guitar@male@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.150000, -0.140000, -0.020000),
+            rot = vec3(-101.508301, 5.725100, 29.498699),
+            model = "prop_acc_guitar_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "guitarcarry2",
+    type = "prop",
+    label = "Guitar Carry Accoustic",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.110000, -0.120000, -0.050000),
+            rot = vec3(-80.000000, 0.000000, 21.999901),
+            model = "prop_el_guitar_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "guitarcarry3",
+    type = "prop",
+    label = "Guitar Carry Electric",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.110000, -0.120000, -0.050000),
+            rot = vec3(-80.000000, 0.000000, 21.999901),
+            model = "prop_el_guitar_02",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "guitarcarry4",
+    type = "prop",
+    label = "Guitar Carry Electric 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.110000, -0.120000, -0.050000),
+            rot = vec3(-80.000000, 0.000000, 21.999901),
+            model = "prop_el_guitar_03",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "guitarcarry5",
+    type = "prop",
+    label = "Guitar Carry Electric 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.110000, -0.120000, -0.050000),
+            rot = vec3(-80.000000, 0.000000, 21.999901),
+            model = "vw_prop_casino_art_guitar_01a",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "guitarcarry6",
+    type = "prop",
+    label = "Guitar Carry Electric 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.110000, -0.120000, -0.050000),
+            rot = vec3(-80.000000, 0.000000, 21.999901),
+            model = "sf_prop_sf_el_guitar_02a",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "guitarcarry7",
+    type = "prop",
+    label = "Guitar Carry Electric 5",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.100000, 0.310000, 0.100000),
             rot = vec3(0.000000, 20.000000, 150.000000),
             model = "prop_el_guitar_01",
             bone = 24818,
-            pos = vec3(-0.100000, 0.310000, 0.100000),
           },
         },
-      },
-      {
+        anim = "idle_b",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "amb@world_human_musician@guitar@male@idle_a",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(0.000000, 20.000000, 150.000000),
-            model = "prop_el_guitar_03",
-            bone = 24818,
-            pos = vec3(-0.100000, 0.310000, 0.100000),
-          },
-        },
       },
     },
+    command = "guitarelectric",
+    type = "prop",
     label = "Guitar Electric",
   },
   {
-    command = "guitaridle",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_musician@guitar@male@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(-0.100000, 0.310000, 0.100000),
+            rot = vec3(0.000000, 20.000000, 150.000000),
+            model = "prop_el_guitar_03",
+            bone = 24818,
+          },
+        },
+        anim = "idle_b",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_musician@guitar@male@idle_a",
+      },
+    },
+    command = "guitarelectric2",
+    type = "prop",
+    label = "Guitar Electric 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.100000, 0.310000, 0.100000),
             rot = vec3(0.000000, 20.000000, 150.000000),
             model = "prop_acc_guitar_01",
             bone = 24818,
-            pos = vec3(-0.100000, 0.310000, 0.100000),
           },
         },
-      },
-      {
+        anim = "idle_b",
         flags = {
-        },
-        dict = "switch@trevor@guitar_beatdown",
-        anim = "001370_02_trvs_8_guitar_beatdown_idle_busker",
-        props = {
-          {
-            rot = vec3(5.000000, 20.000000, 150.000000),
-            model = "prop_acc_guitar_01",
-            bone = 24818,
-            pos = vec3(-0.050000, 0.300000, 0.100000),
-          },
-        },
-      },
-      {
-        flags = {
+          loop = true,
         },
         dict = "amb@world_human_musician@guitar@male@idle_a",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(5.000000, 20.000000, 150.000000),
-            model = "prop_el_guitar_01",
-            bone = 24818,
-            pos = vec3(-0.100000, 0.310000, 0.100000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_musician@guitar@male@idle_a",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(5.000000, 20.000000, 150.000000),
-            model = "prop_el_guitar_03",
-            bone = 24818,
-            pos = vec3(-0.100000, 0.310000, 0.100000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_musician@guitar@male@idle_a",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(5.000000, 20.000000, 150.000000),
-            model = "prop_el_guitar_02",
-            bone = 24818,
-            pos = vec3(-0.100000, 0.310000, 0.100000),
-          },
-        },
       },
     },
+    command = "guitaridle",
+    type = "prop",
     label = "Guitar Idle",
   },
   {
-    command = "guncase",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(-0.050000, 0.300000, 0.100000),
+            rot = vec3(5.000000, 20.000000, 150.000000),
+            model = "prop_acc_guitar_01",
+            bone = 24818,
+          },
+        },
+        anim = "001370_02_trvs_8_guitar_beatdown_idle_busker",
+        flags = {
+          loop = true,
+        },
+        dict = "switch@trevor@guitar_beatdown",
+      },
+    },
+    command = "guitaridle2",
+    type = "prop",
+    label = "Guitar Idle 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.100000, 0.310000, 0.100000),
+            rot = vec3(5.000000, 20.000000, 150.000000),
+            model = "prop_el_guitar_01",
+            bone = 24818,
+          },
+        },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_musician@guitar@male@idle_a",
+      },
+    },
+    command = "guitaridle3",
+    type = "prop",
+    label = "Guitar Idle 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.100000, 0.310000, 0.100000),
+            rot = vec3(5.000000, 20.000000, 150.000000),
+            model = "prop_el_guitar_03",
+            bone = 24818,
+          },
+        },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_musician@guitar@male@idle_a",
+      },
+    },
+    command = "guitaridle4",
+    type = "prop",
+    label = "Guitar Idle 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.100000, 0.310000, 0.100000),
+            rot = vec3(5.000000, 20.000000, 150.000000),
+            model = "prop_el_guitar_02",
+            bone = 24818,
+          },
+        },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_musician@guitar@male@idle_a",
+      },
+    },
+    command = "guitaridle5",
+    type = "prop",
+    label = "Guitar Idle 5",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.100000, 0.020000, -0.020000),
             rot = vec3(40.000000, 145.000000, 115.000000),
             model = "prop_gun_case_01",
             bone = 57005,
-            pos = vec3(0.100000, 0.020000, -0.020000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
       },
     },
+    command = "guncase",
+    type = "prop",
     label = "Guncase",
   },
   {
-    command = "hitchhike",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "random@hitch_lift",
-        anim = "idle_f",
         props = {
           {
+            pos = vec3(0.320000, -0.010000, 0.000000),
             rot = vec3(-162.423004, 74.830002, 58.790001),
             model = "w_am_jerrycan",
             bone = 18905,
-            pos = vec3(0.320000, -0.010000, 0.000000),
           },
           {
+            pos = vec3(-0.070000, -0.210000, -0.110000),
             rot = vec3(-144.929993, 117.358002, -6.160000),
             model = "prop_michael_backpack",
             bone = 40269,
-            pos = vec3(-0.070000, -0.210000, -0.110000),
           },
         },
+        anim = "idle_f",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "random@hitch_lift",
       },
     },
+    command = "hitchhike",
+    type = "prop",
     label = "Hitchhike",
   },
   {
-    command = "holdfw",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@humane_labs@finale@keycards",
-        anim = "ped_a_enter_loop",
         props = {
           {
+            pos = vec3(0.110000, 0.320000, -0.240000),
             rot = vec3(-130.068817, -2.573603, -3.063148),
             model = "ind_prop_firework_01",
             bone = 18905,
-            pos = vec3(0.110000, 0.320000, -0.240000),
           },
         },
-      },
-      {
+        anim = "ped_a_enter_loop",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "anim@heists@humane_labs@finale@keycards",
-        anim = "ped_a_enter_loop",
-        props = {
-          {
-            rot = vec3(-130.068817, -2.573603, -3.063148),
-            model = "ind_prop_firework_01",
-            bone = 18905,
-            pos = vec3(0.110000, 0.320000, -0.240000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@humane_labs@finale@keycards",
-        anim = "ped_a_enter_loop",
-        props = {
-          {
-            rot = vec3(-130.068817, -2.573603, -3.063148),
-            model = "ind_prop_firework_01",
-            bone = 18905,
-            pos = vec3(0.110000, 0.320000, -0.240000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@humane_labs@finale@keycards",
-        anim = "ped_a_enter_loop",
-        props = {
-          {
-            rot = vec3(-106.746696, -2.912200, -19.596500),
-            model = "ind_prop_firework_01",
-            bone = 18905,
-            pos = vec3(0.180000, 0.290000, -0.070000),
-          },
-        },
       },
     },
+    command = "holdfw",
+    type = "prop",
     label = "Hold Firework",
   },
   {
-    command = "icefishing",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "timetable@ron@ig_3_couch",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.110000, 0.320000, -0.240000),
+            rot = vec3(-130.068817, -2.573603, -3.063148),
+            model = "ind_prop_firework_01",
+            bone = 18905,
+          },
+        },
+        anim = "ped_a_enter_loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@humane_labs@finale@keycards",
+      },
+    },
+    command = "holdfw2",
+    type = "prop",
+    label = "Hold Firework 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.110000, 0.320000, -0.240000),
+            rot = vec3(-130.068817, -2.573603, -3.063148),
+            model = "ind_prop_firework_01",
+            bone = 18905,
+          },
+        },
+        anim = "ped_a_enter_loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@humane_labs@finale@keycards",
+      },
+    },
+    command = "holdfw3",
+    type = "prop",
+    label = "Hold Firework 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.180000, 0.290000, -0.070000),
+            rot = vec3(-106.746696, -2.912200, -19.596500),
+            model = "ind_prop_firework_01",
+            bone = 18905,
+          },
+        },
+        anim = "ped_a_enter_loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@humane_labs@finale@keycards",
+      },
+    },
+    command = "holdfw4",
+    type = "prop",
+    label = "Hold Firework 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.050000, 0.000000, -0.630000),
             rot = vec3(7.000000, 0.000000, 180.000000),
             model = "pprp_icefishing_box_02",
             bone = 0,
-            pos = vec3(-0.050000, 0.000000, -0.630000),
           },
         },
-      },
-      {
+        anim = "base",
         flags = {
+          loop = true,
         },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, -90.000000, 100.000000),
-            model = "pprp_icefishing_box_01",
-            bone = 28422,
-            pos = vec3(0.800000, 0.030000, 0.040000),
-          },
-          {
-            rot = vec3(0.000000, 90.000000, 0.000000),
-            model = "pprp_icefishing_augur",
-            bone = 24818,
-            pos = vec3(-0.800000, -0.200000, 0.000000),
-          },
-        },
+        dict = "timetable@ron@ig_3_couch",
       },
     },
+    command = "icefishing",
+    type = "prop",
     label = "Ice Fishing",
   },
   {
-    command = "idcard",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "paper_1_rcm_alt1-8",
-        anim = "player_one_dual-8",
         props = {
           {
+            pos = vec3(0.800000, 0.030000, 0.040000),
+            rot = vec3(0.000000, -90.000000, 100.000000),
+            model = "pprp_icefishing_box_01",
+            bone = 28422,
+          },
+          {
+            pos = vec3(-0.800000, -0.200000, 0.000000),
+            rot = vec3(0.000000, 90.000000, 0.000000),
+            model = "pprp_icefishing_augur",
+            bone = 24818,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "icefishing2",
+    type = "prop",
+    label = "Ice Fishing 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.100000, 0.020000, -0.030000),
             rot = vec3(-90.000000, 170.000000, 78.999001),
             model = "prop_franklin_dl",
             bone = 57005,
-            pos = vec3(0.100000, 0.020000, -0.030000),
           },
         },
-      },
-      {
+        anim = "player_one_dual-8",
         flags = {
+          move = true,
         },
         dict = "paper_1_rcm_alt1-8",
-        anim = "player_one_dual-8",
-        props = {
-          {
-            rot = vec3(-90.000000, -180.000000, 78.999001),
-            model = "prop_fib_badge",
-            bone = 28422,
-            pos = vec3(0.060000, 0.021000, -0.040000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "paper_1_rcm_alt1-8",
-        anim = "player_one_dual-8",
-        props = {
-          {
-            rot = vec3(-90.000000, -180.000000, 78.999001),
-            model = "p_ld_id_card_002",
-            bone = 28422,
-            pos = vec3(0.100000, 0.020000, -0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "paper_1_rcm_alt1-8",
-        anim = "player_one_dual-8",
-        props = {
-          {
-            rot = vec3(-90.000000, -180.000000, 78.999001),
-            model = "prop_michael_sec_id",
-            bone = 28422,
-            pos = vec3(0.100000, 0.020000, -0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "paper_1_rcm_alt1-8",
-        anim = "player_one_dual-8",
-        props = {
-          {
-            rot = vec3(-90.000000, 180.000000, 69.989998),
-            model = "prop_lspd_badge",
-            bone = 28422,
-            pos = vec3(0.080000, -0.012000, -0.060000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "paper_1_rcm_alt1-8",
-        anim = "player_one_dual-8",
-        props = {
-          {
-            rot = vec3(-10.868300, -177.849899, 23.637699),
-            model = "bkr_prop_fakeid_singledriverl",
-            bone = 28422,
-            pos = vec3(0.070000, 0.026000, -0.032000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@code_human_wander_clipboard@male@base",
-        anim = "static",
-        props = {
-          {
-            rot = vec3(-80.708298, 90.866997, 41.481400),
-            model = "bkr_prop_fakeid_openpassport",
-            bone = 60309,
-            pos = vec3(-0.023000, 0.033000, -0.060000),
-          },
-        },
       },
     },
+    command = "idcard",
+    type = "prop",
     label = "ID Card - Drivers License",
   },
   {
-    command = "jerkf",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "switch@trevor@jerking_off",
-        anim = "trev_jerking_off_loop",
         props = {
           {
+            pos = vec3(0.060000, 0.021000, -0.040000),
+            rot = vec3(-90.000000, -180.000000, 78.999001),
+            model = "prop_fib_badge",
+            bone = 28422,
+          },
+        },
+        anim = "player_one_dual-8",
+        flags = {
+          move = true,
+        },
+        dict = "paper_1_rcm_alt1-8",
+      },
+    },
+    command = "idcard2",
+    type = "prop",
+    label = "ID Card 2 - FIB",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.100000, 0.020000, -0.030000),
+            rot = vec3(-90.000000, -180.000000, 78.999001),
+            model = "p_ld_id_card_002",
+            bone = 28422,
+          },
+        },
+        anim = "player_one_dual-8",
+        flags = {
+          move = true,
+        },
+        dict = "paper_1_rcm_alt1-8",
+      },
+    },
+    command = "idcard3",
+    type = "prop",
+    label = "ID Card 3 - Humane Labs",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.100000, 0.020000, -0.030000),
+            rot = vec3(-90.000000, -180.000000, 78.999001),
+            model = "prop_michael_sec_id",
+            bone = 28422,
+          },
+        },
+        anim = "player_one_dual-8",
+        flags = {
+          move = true,
+        },
+        dict = "paper_1_rcm_alt1-8",
+      },
+    },
+    command = "idcard4",
+    type = "prop",
+    label = "ID Card 4 - Gruppe Sechs",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.012000, -0.060000),
+            rot = vec3(-90.000000, 180.000000, 69.989998),
+            model = "prop_lspd_badge",
+            bone = 28422,
+          },
+        },
+        anim = "player_one_dual-8",
+        flags = {
+          move = true,
+        },
+        dict = "paper_1_rcm_alt1-8",
+      },
+    },
+    command = "idcard5",
+    type = "prop",
+    label = "ID Card 5 - LSPD Badge",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.070000, 0.026000, -0.032000),
+            rot = vec3(-10.868300, -177.849899, 23.637699),
+            model = "bkr_prop_fakeid_singledriverl",
+            bone = 28422,
+          },
+        },
+        anim = "player_one_dual-8",
+        flags = {
+          move = true,
+        },
+        dict = "paper_1_rcm_alt1-8",
+      },
+    },
+    command = "idcard6",
+    type = "prop",
+    label = "ID Card 6 - Drivers License",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.023000, 0.033000, -0.060000),
+            rot = vec3(-80.708298, 90.866997, 41.481400),
+            model = "bkr_prop_fakeid_openpassport",
+            bone = 60309,
+          },
+        },
+        anim = "static",
+        flags = {
+          move = true,
+        },
+        dict = "amb@code_human_wander_clipboard@male@base",
+      },
+    },
+    command = "idcard7",
+    type = "prop",
+    label = "ID Card 7 - Passport",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.090000, 0.050000, -0.030000),
             rot = vec3(90.000000, 80.000000, 30.000000),
             model = "prop_cs_dildo_01",
             bone = 28422,
-            pos = vec3(0.090000, 0.050000, -0.030000),
           },
         },
+        anim = "trev_jerking_off_loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "switch@trevor@jerking_off",
       },
     },
+    command = "jerkf",
+    type = "prop",
     label = "JerkOff! Female",
   },
   {
-    command = "joint",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_smoking@male@male_a@enter",
-        anim = "enter",
         props = {
           {
+            pos = vec3(0.015000, -0.009000, 0.003000),
             rot = vec3(55.000000, 0.000000, 110.000000),
             model = "p_cs_joint_02",
             bone = 47419,
-            pos = vec3(0.015000, -0.009000, 0.003000),
           },
         },
+        anim = "enter",
+        flags = {
+          move = true,
+        },
+        dict = "amb@world_human_smoking@male@male_a@enter",
       },
     },
+    command = "joint",
+    type = "prop",
     label = "Joint",
   },
   {
-    command = "lawnchair",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "timetable@ron@ig_5_p3",
-        anim = "ig_5_p3_base",
         props = {
           {
+            pos = vec3(0.025000, -0.200000, -0.100000),
             rot = vec3(45.000000, -5.000000, 180.000000),
             model = "prop_skid_chair_02",
             bone = 0,
-            pos = vec3(0.025000, -0.200000, -0.100000),
           },
         },
-      },
-      {
+        anim = "ig_5_p3_base",
         flags = {
+          loop = true,
         },
-        dict = "timetable@reunited@ig_10",
-        anim = "base_amanda",
-        props = {
-          {
-            rot = vec3(45.000000, 5.000000, 180.000000),
-            model = "prop_skid_chair_02",
-            bone = 0,
-            pos = vec3(0.025000, -0.150000, -0.100000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "timetable@ron@ig_3_couch",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(5.000000, 0.000000, 180.000000),
-            model = "prop_skid_chair_02",
-            bone = 0,
-            pos = vec3(-0.050000, 0.000000, -0.200000),
-          },
-        },
+        dict = "timetable@ron@ig_5_p3",
       },
     },
+    command = "lawnchair",
+    type = "prop",
     label = "Lawnchair",
   },
   {
-    command = "leafblower",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_gardener_leaf_blower@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.025000, -0.150000, -0.100000),
+            rot = vec3(45.000000, 5.000000, 180.000000),
+            model = "prop_skid_chair_02",
+            bone = 0,
+          },
+        },
+        anim = "base_amanda",
+        flags = {
+          loop = true,
+        },
+        dict = "timetable@reunited@ig_10",
+      },
+    },
+    command = "lawnchair2",
+    type = "prop",
+    label = "Lawnchair 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.050000, 0.000000, -0.200000),
+            rot = vec3(5.000000, 0.000000, 180.000000),
+            model = "prop_skid_chair_02",
+            bone = 0,
+          },
+        },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "timetable@ron@ig_3_couch",
+      },
+    },
+    command = "lawnchair3",
+    type = "prop",
+    label = "Lawnchair 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_leaf_blower_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_gardener_leaf_blower@base",
       },
     },
+    command = "leafblower",
+    type = "prop",
     label = "Leaf Blower",
   },
   {
-    command = "leanphone",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_leaning@male@wall@back@mobile@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_phone_ing",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_leaning@male@wall@back@mobile@base",
       },
     },
+    command = "leanphone",
+    type = "prop",
     label = "Leaning With Phone",
   },
   {
-    command = "makeitrain",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@mp_player_intupperraining_cash",
-        anim = "idle_a",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(180.000000, 0.000000, 70.000000),
             model = "prop_anim_cash_pile_01",
             bone = 60309,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@mp_player_intupperraining_cash",
       },
     },
+    command = "makeitrain",
+    type = "prop",
     label = "Make It Rain",
   },
   {
-    command = "map",
-    type = "animation",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tourist_map_01",
+            bone = 28422,
+          },
+        },
+        anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "amb@world_human_tourist_map@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tourist_map_01",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@code_human_in_bus_passenger_idles@female@tablet@idle_a",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tourist_map_01",
-            bone = 28422,
-            pos = vec3(-0.050000, 0.000000, 0.000000),
-          },
-        },
       },
     },
+    command = "map",
+    type = "prop",
     label = "Map",
   },
   {
-    command = "medbag",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(-0.050000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tourist_map_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@code_human_in_bus_passenger_idles@female@tablet@idle_a",
+      },
+    },
+    command = "map2",
+    type = "prop",
+    label = "Map 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.390000, -0.060000, -0.060000),
             rot = vec3(-100.000000, -180.000000, -78.000000),
             model = "xm_prop_x17_bag_med_01a",
             bone = 57005,
-            pos = vec3(0.390000, -0.060000, -0.060000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
       },
     },
+    command = "medbag",
+    type = "prop",
     label = "Medic Bag",
   },
   {
-    command = "megaphone",
-    type = "animation",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.050000, 0.054000, -0.006000),
+            rot = vec3(-71.885498, -13.088900, -16.024200),
+            model = "prop_megaphone_01",
+            bone = 28422,
+          },
+        },
+        anim = "megaphone_clip",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "molly@megaphone",
-        anim = "megaphone_clip",
-        props = {
-          {
-            rot = vec3(-71.885498, -13.088900, -16.024200),
-            model = "prop_megaphone_01",
-            bone = 28422,
-            pos = vec3(0.050000, 0.054000, -0.006000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "molly@megaphone2",
-        anim = "megaphone_clip",
-        props = {
-          {
-            rot = vec3(-71.885498, -13.088900, -16.024200),
-            model = "prop_megaphone_01",
-            bone = 28422,
-            pos = vec3(0.050000, 0.054000, -0.006000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_mobile_film_shocking@female@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 80.000000),
-            model = "prop_megaphone_01",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
       },
     },
+    command = "megaphone",
+    type = "prop",
     label = "Megaphone",
   },
   {
-    command = "mop",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missfbi4prepp1",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.050000, 0.054000, -0.006000),
+            rot = vec3(-71.885498, -13.088900, -16.024200),
+            model = "prop_megaphone_01",
+            bone = 28422,
+          },
+        },
+        anim = "megaphone_clip",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "molly@megaphone2",
+      },
+    },
+    command = "megaphone2",
+    type = "prop",
+    label = "Megaphone 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 80.000000),
+            model = "prop_megaphone_01",
+            bone = 28422,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_mobile_film_shocking@female@base",
+      },
+    },
+    command = "megaphone3",
+    type = "prop",
+    label = "Megaphone 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.020000, -0.060000, -0.200000),
             rot = vec3(-13.377000, 10.356800, 17.968100),
             model = "prop_cs_mop_s",
             bone = 28422,
-            pos = vec3(-0.020000, -0.060000, -0.200000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "move_mop",
-        anim = "idle_scrub_small_player",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_cs_mop_s",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.120000),
-          },
-        },
+        dict = "missfbi4prepp1",
       },
     },
+    command = "mop",
+    type = "prop",
     label = "Mop",
   },
   {
-    command = "mugshot",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "mp_character_creation@customise@male_a",
-        anim = "loop",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.120000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_cs_mop_s",
+            bone = 28422,
+          },
+        },
+        anim = "idle_scrub_small_player",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_mop",
+      },
+    },
+    command = "mop2",
+    type = "prop",
+    label = "Mop 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.120000, 0.240000, 0.000000),
             rot = vec3(5.000000, 0.000000, 70.000000),
             model = "prop_police_id_board",
             bone = 58868,
-            pos = vec3(0.120000, 0.240000, 0.000000),
           },
         },
+        anim = "loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "mp_character_creation@customise@male_a",
       },
     },
+    command = "mugshot",
+    type = "prop",
     label = "Mugshot",
   },
   {
-    command = "murdered",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "dead",
-        anim = "dead_e",
         props = {
           {
+            pos = vec3(-0.220000, 0.340000, -0.300000),
             rot = vec3(-56.000000, 98.000000, 34.000000),
             model = "bzzz_murder_axe001",
             bone = 18905,
-            pos = vec3(-0.220000, 0.340000, -0.300000),
           },
           {
+            pos = vec3(0.280000, 0.170000, -0.120000),
             rot = vec3(-98.000000, -51.000000, 237.000000),
             model = "p_bloodsplat_s",
             bone = 57005,
-            pos = vec3(0.280000, 0.170000, -0.120000),
           },
         },
-      },
-      {
+        anim = "dead_e",
         flags = {
+          loop = true,
         },
         dict = "dead",
-        anim = "dead_a",
-        props = {
-          {
-            rot = vec3(-98.000000, 2.000000, 183.000000),
-            model = "w_pi_heavypistol",
-            bone = 18905,
-            pos = vec3(0.270000, 0.350000, 0.050000),
-          },
-          {
-            rot = vec3(-98.000000, -7.000000, 237.000000),
-            model = "p_bloodsplat_s",
-            bone = 57005,
-            pos = vec3(-0.800000, 0.410000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "dead",
-        anim = "dead_b",
-        props = {
-          {
-            rot = vec3(196.000000, 157.000000, -35.000000),
-            model = "bzzz_murder_machete001",
-            bone = 18905,
-            pos = vec3(-0.220000, 0.180000, -0.670000),
-          },
-          {
-            rot = vec3(266.200012, 182.300003, -10.000000),
-            model = "p_bloodsplat_s",
-            bone = 57005,
-            pos = vec3(-0.280000, -0.150000, 0.000000),
-          },
-        },
       },
     },
+    command = "murdered",
+    type = "prop",
     label = "Murdered",
   },
   {
-    command = "newsbmic",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missfra1",
-        anim = "mcs2_crew_idle_m_boom",
         props = {
           {
+            pos = vec3(0.270000, 0.350000, 0.050000),
+            rot = vec3(-98.000000, 2.000000, 183.000000),
+            model = "w_pi_heavypistol",
+            bone = 18905,
+          },
+          {
+            pos = vec3(-0.800000, 0.410000, 0.000000),
+            rot = vec3(-98.000000, -7.000000, 237.000000),
+            model = "p_bloodsplat_s",
+            bone = 57005,
+          },
+        },
+        anim = "dead_a",
+        flags = {
+          loop = true,
+        },
+        dict = "dead",
+      },
+    },
+    command = "murdered2",
+    type = "prop",
+    label = "Murdered 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.220000, 0.180000, -0.670000),
+            rot = vec3(196.000000, 157.000000, -35.000000),
+            model = "bzzz_murder_machete001",
+            bone = 18905,
+          },
+          {
+            pos = vec3(-0.280000, -0.150000, 0.000000),
+            rot = vec3(266.200012, 182.300003, -10.000000),
+            model = "p_bloodsplat_s",
+            bone = 57005,
+          },
+        },
+        anim = "dead_b",
+        flags = {
+          loop = true,
+        },
+        dict = "dead",
+      },
+    },
+    command = "murdered3",
+    type = "prop",
+    label = "Murdered 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_v_bmike_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "mcs2_crew_idle_m_boom",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missfra1",
       },
     },
+    command = "newsbmic",
+    type = "prop",
     label = "News Boom Microphone",
   },
   {
-    command = "newscam",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missfinale_c2mcs_1",
-        anim = "fin_c2_mcs_1_camman",
         props = {
           {
+            pos = vec3(0.000000, 0.030000, 0.010000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_v_cam_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.030000, 0.010000),
           },
         },
+        anim = "fin_c2_mcs_1_camman",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missfinale_c2mcs_1",
       },
     },
+    command = "newscam",
+    type = "prop",
     label = "News Camera",
   },
   {
-    command = "newsmic",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@humane_labs@finale@keycards",
-        anim = "ped_a_enter_loop",
         props = {
           {
+            pos = vec3(-0.000000, -0.020000, 0.110000),
             rot = vec3(0.000000, 0.000000, 60.000000),
             model = "p_ing_microphonel_01",
             bone = 4154,
-            pos = vec3(-0.000000, -0.020000, 0.110000),
           },
         },
+        anim = "ped_a_enter_loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@humane_labs@finale@keycards",
       },
     },
+    command = "newsmic",
+    type = "prop",
     label = "News Microphone",
   },
   {
-    command = "newspaper",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_clipboard@male@idle_a",
-        anim = "idle_a",
         props = {
           {
+            pos = vec3(0.097000, -0.028000, -0.017000),
             rot = vec3(107.400803, 3.271200, -10.508000),
             model = "prop_cliff_paper",
             bone = 60309,
-            pos = vec3(0.097000, -0.028000, -0.017000),
           },
         },
-      },
-      {
+        anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "amb@world_human_clipboard@male@idle_a",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(90.999802, 0.008700, 0.500000),
-            model = "ng_proc_paper_news_quik",
-            bone = 60309,
-            pos = vec3(0.159000, 0.029000, -0.010000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_clipboard@male@idle_a",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(99.830597, 3.284100, -4.718500),
-            model = "ng_proc_paper_news_rag",
-            bone = 60309,
-            pos = vec3(0.176000, -0.000700, 0.020000),
-          },
-        },
       },
     },
+    command = "newspaper",
+    type = "prop",
     label = "Newspaper",
   },
   {
-    command = "notepad",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missheistdockssetup1clipboard@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.159000, 0.029000, -0.010000),
+            rot = vec3(90.999802, 0.008700, 0.500000),
+            model = "ng_proc_paper_news_quik",
+            bone = 60309,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_clipboard@male@idle_a",
+      },
+    },
+    command = "newspaper2",
+    type = "prop",
+    label = "Newspaper 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.176000, -0.000700, 0.020000),
+            rot = vec3(99.830597, 3.284100, -4.718500),
+            model = "ng_proc_paper_news_rag",
+            bone = 60309,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_clipboard@male@idle_a",
+      },
+    },
+    command = "newspaper3",
+    type = "prop",
+    label = "Newspaper 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.100000, 0.020000, 0.050000),
             rot = vec3(10.000000, 0.000000, 0.000000),
             model = "prop_notepad_01",
             bone = 18905,
-            pos = vec3(0.100000, 0.020000, 0.050000),
           },
           {
+            pos = vec3(0.110000, -0.020000, 0.001000),
             rot = vec3(-120.000000, 0.000000, 0.000000),
             model = "prop_pencil_01",
             bone = 58866,
-            pos = vec3(0.110000, -0.020000, 0.001000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missheistdockssetup1clipboard@base",
       },
     },
+    command = "notepad",
+    type = "prop",
     label = "Notepad",
   },
   {
-    command = "walkingstick",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missheistdocksprep1hold_cellphone",
-        anim = "static",
         props = {
           {
+            pos = vec3(0.150000, 0.050000, -0.030000),
             rot = vec3(0.000000, 266.000000, 180.000000),
             model = "prop_cs_walking_stick",
             bone = 57005,
-            pos = vec3(0.150000, 0.050000, -0.030000),
           },
         },
-      },
-      {
+        anim = "static",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "missbigscore2aleadinout@bs_2a_2b_int",
-        anim = "lester_base_idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_cs_walking_stick",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-          {
-            rot = vec3(-107.999901, 0.000000, -4.600300),
-            model = "prop_phone_ing",
-            bone = 60309,
-            pos = vec3(0.080000, 0.030000, 0.010000),
-          },
-        },
+        dict = "missheistdocksprep1hold_cellphone",
       },
     },
+    command = "walkingstick",
+    type = "prop",
     label = "Walking Stick",
   },
   {
-    command = "pflag",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_cs_walking_stick",
+            bone = 28422,
+          },
+          {
+            pos = vec3(0.080000, 0.030000, 0.010000),
+            rot = vec3(-107.999901, 0.000000, -4.600300),
+            model = "prop_phone_ing",
+            bone = 60309,
+          },
+        },
+        anim = "lester_base_idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missbigscore2aleadinout@bs_2a_2b_int",
+      },
+    },
+    command = "walkingstick2",
+    type = "prop",
+    label = "Walking Stick 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.209000, 0.090000),
             rot = vec3(-82.667702, -141.298798, 12.330800),
             model = "prideflag1",
             bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
           },
         },
-      },
-      {
+        anim = "base_club_shoulder",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-82.667702, -141.298798, 12.330800),
-            model = "prideflag2",
-            bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-82.667702, -141.298798, 12.330800),
-            model = "prideflag3",
-            bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-82.667702, -141.298798, 12.330800),
-            model = "prideflag4",
-            bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-82.667702, -141.298798, 12.330800),
-            model = "prideflag5",
-            bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-82.667702, -141.298798, 12.330800),
-            model = "prideflag6",
-            bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-82.667702, -141.298798, 12.330800),
-            model = "prideflag7",
-            bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-82.667702, -141.298798, 12.330800),
-            model = "prideflag8",
-            bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-82.667702, -141.298798, 12.330800),
-            model = "prideflag9",
-            bone = 18905,
-            pos = vec3(0.080000, -0.209000, 0.090000),
-          },
-        },
       },
     },
+    command = "pflag",
+    type = "prop",
     label = "Pride Flag - Rainbow",
   },
   {
-    command = "puke",
-    type = "animation",
     animations = {
       {
-        dict = "missheistpaletoscore1leadinout",
-        anim = "trv_puking_leadout",
-        flags = {
+        props = {
+          {
+            pos = vec3(0.080000, -0.209000, 0.090000),
+            rot = vec3(-82.667702, -141.298798, 12.330800),
+            model = "prideflag2",
+            bone = 18905,
+          },
         },
-      },
-      {
-        dict = "anim@scripted@ulp_missions@injured_agent@",
-        anim = "idle",
+        anim = "base_club_shoulder",
         flags = {
+          move = true,
+          loop = true,
         },
-      },
-      {
-        dict = "anim@scripted@freemode@throw_up_toilet@male@",
-        anim = "vomit",
-        flags = {
-        },
+        dict = "rcmnigel1d",
       },
     },
+    command = "pflag2",
+    type = "prop",
+    label = "Pride Flag 2 - LGBTQ",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.209000, 0.090000),
+            rot = vec3(-82.667702, -141.298798, 12.330800),
+            model = "prideflag3",
+            bone = 18905,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "pflag3",
+    type = "prop",
+    label = "Pride Flag 3 - Bisexual",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.209000, 0.090000),
+            rot = vec3(-82.667702, -141.298798, 12.330800),
+            model = "prideflag4",
+            bone = 18905,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "pflag4",
+    type = "prop",
+    label = "Pride Flag 4 - Lesbian",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.209000, 0.090000),
+            rot = vec3(-82.667702, -141.298798, 12.330800),
+            model = "prideflag5",
+            bone = 18905,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "pflag5",
+    type = "prop",
+    label = "Pride Flag 5 - Pansexual",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.209000, 0.090000),
+            rot = vec3(-82.667702, -141.298798, 12.330800),
+            model = "prideflag6",
+            bone = 18905,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "pflag6",
+    type = "prop",
+    label = "Pride Flag 6 - Transgender",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.209000, 0.090000),
+            rot = vec3(-82.667702, -141.298798, 12.330800),
+            model = "prideflag7",
+            bone = 18905,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "pflag7",
+    type = "prop",
+    label = "Pride Flag 7 - Non Binary",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.209000, 0.090000),
+            rot = vec3(-82.667702, -141.298798, 12.330800),
+            model = "prideflag8",
+            bone = 18905,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "pflag8",
+    type = "prop",
+    label = "Pride Flag 8 - Asexual",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.080000, -0.209000, 0.090000),
+            rot = vec3(-82.667702, -141.298798, 12.330800),
+            model = "prideflag9",
+            bone = 18905,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "pflag9",
+    type = "prop",
+    label = "Pride Flag 9 - Straight Ally",
+  },
+  {
+    animations = {
+      {
+        anim = "trv_puking_leadout",
+        flags = {
+          move = true,
+        },
+        dict = "missheistpaletoscore1leadinout",
+      },
+      {
+        anim = "idle",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@scripted@ulp_missions@injured_agent@",
+      },
+      {
+        anim = "vomit",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@scripted@freemode@throw_up_toilet@male@",
+      },
+    },
+    command = "puke",
+    type = "animation",
     label = "Puke",
   },
   {
-    command = "phone",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "cellphone@",
-        anim = "cellphone_text_read_base",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_phone_ing",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "cellphone_text_read_base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@",
       },
     },
+    command = "phone",
+    type = "prop",
     label = "SMS",
   },
   {
-    command = "papers",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missheistdocksprep1hold_cellphone",
-        anim = "static",
         props = {
           {
+            pos = vec3(0.130000, 0.000000, 0.040000),
             rot = vec3(-110.000000, 0.000000, 0.000000),
             model = "xm3_prop_xm3_papers_01a",
             bone = 18905,
-            pos = vec3(0.130000, 0.000000, 0.040000),
           },
         },
+        anim = "static",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missheistdocksprep1hold_cellphone",
       },
     },
+    command = "papers",
+    type = "prop",
     label = "Papers",
   },
   {
-    command = "patrolcar",
-    type = "animation",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.000000, -0.010000, -0.010000),
+            rot = vec3(0.000000, 0.000000, 100.000000),
+            model = "prop_cs_police_torch_02",
+            bone = 28422,
+          },
+        },
+        anim = "base",
         flags = {
+          loop = true,
         },
         dict = "amb@incar@male@patrol@torch@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 100.000000),
-            model = "prop_cs_police_torch_02",
-            bone = 28422,
-            pos = vec3(0.000000, -0.010000, -0.010000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@incar@male@patrol@torch@idle_b",
-        anim = "idle_d",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 100.000000),
-            model = "prop_cs_police_torch_02",
-            bone = 28422,
-            pos = vec3(0.000000, -0.010000, -0.010000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@incar@male@patrol@torch@idle_a",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 100.000000),
-            model = "prop_cs_police_torch_02",
-            bone = 28422,
-            pos = vec3(0.000000, -0.010000, -0.010000),
-          },
-        },
       },
     },
+    command = "patrolcar",
+    type = "prop",
     label = "Patrol Car",
   },
   {
-    command = "patrolf",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_security_shine_torch@male@base",
-        anim = "base",
         props = {
           {
-            rot = vec3(0.000000, 0.000000, 80.000000),
-            model = "prop_cs_police_torch_02",
-            bone = 60309,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_security_shine_torch@male@idle_b",
-        anim = "idle_e",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 80.000000),
-            model = "prop_cs_police_torch_02",
-            bone = 60309,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_security_shine_torch@male@idle_a",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 80.000000),
-            model = "prop_cs_police_torch_02",
-            bone = 60309,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@incar@male@patrol@torch@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 90.000000),
+            pos = vec3(0.000000, -0.010000, -0.010000),
+            rot = vec3(0.000000, 0.000000, 100.000000),
             model = "prop_cs_police_torch_02",
             bone = 28422,
-            pos = vec3(0.000000, -0.001000, 0.000000),
-          },
-          {
-            rot = vec3(-43.827332, 164.674698, -7.556900),
-            model = "prop_cs_hand_radio",
-            bone = 60309,
-            pos = vec3(0.056000, 0.047000, 0.011000),
           },
         },
+        anim = "idle_d",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@incar@male@patrol@torch@idle_b",
       },
     },
+    command = "patrolcar2",
+    type = "prop",
+    label = "Patrol Car 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, -0.010000, -0.010000),
+            rot = vec3(0.000000, 0.000000, 100.000000),
+            model = "prop_cs_police_torch_02",
+            bone = 28422,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@incar@male@patrol@torch@idle_a",
+      },
+    },
+    command = "patrolcar3",
+    type = "prop",
+    label = "Patrol Car 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 80.000000),
+            model = "prop_cs_police_torch_02",
+            bone = 60309,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_security_shine_torch@male@base",
+      },
+    },
+    command = "patrolf",
+    type = "prop",
     label = "Patrol - On Foot",
   },
   {
-    command = "phonecall",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "cellphone@",
-        anim = "cellphone_call_listen_base",
         props = {
           {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
             pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 80.000000),
+            model = "prop_cs_police_torch_02",
+            bone = 60309,
           },
         },
-      },
-      {
+        anim = "idle_e",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "random@kidnap_girl",
-        anim = "ig_1_girl_on_phone_loop",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
+        dict = "amb@world_human_security_shine_torch@male@idle_b",
       },
     },
+    command = "patrolf2",
+    type = "prop",
+    label = "Patrol - On Foot 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 80.000000),
+            model = "prop_cs_police_torch_02",
+            bone = 60309,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_security_shine_torch@male@idle_a",
+      },
+    },
+    command = "patrolf3",
+    type = "prop",
+    label = "Patrol - On Foot 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, -0.001000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 90.000000),
+            model = "prop_cs_police_torch_02",
+            bone = 28422,
+          },
+          {
+            pos = vec3(0.056000, 0.047000, 0.011000),
+            rot = vec3(-43.827332, 164.674698, -7.556900),
+            model = "prop_cs_hand_radio",
+            bone = 60309,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@incar@male@patrol@torch@base",
+      },
+    },
+    command = "patrolf4",
+    type = "prop",
+    label = "Patrol - On Foot 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "cellphone_call_listen_base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@",
+      },
+    },
+    command = "phonecall",
+    type = "prop",
     label = "Phone Call",
   },
   {
-    command = "pornmag",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_clipboard@male@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "ig_1_girl_on_phone_loop",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "random@kidnap_girl",
+      },
+    },
+    command = "phonecall2",
+    type = "prop",
+    label = "Phone Call 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.100000, -0.036000, -0.030000),
             rot = vec3(-86.909599, 179.252701, 13.880400),
             model = "prop_porn_mag_02",
             bone = 60309,
-            pos = vec3(0.100000, -0.036000, -0.030000),
           },
         },
-      },
-      {
+        anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "amb@world_human_clipboard@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(87.936897, -0.429200, -14.392500),
-            model = "prop_cs_magazine",
-            bone = 60309,
-            pos = vec3(0.080000, -0.049000, -0.050000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_clipboard@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(-90.000000, -180.000000, 22.700701),
-            model = "prop_porn_mag_03",
-            bone = 60309,
-            pos = vec3(0.100000, -0.070000, -0.020000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_clipboard@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(88.986198, 0.203200, -20.001600),
-            model = "v_res_tt_pornmag01",
-            bone = 60309,
-            pos = vec3(-0.020000, -0.030000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_clipboard@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(88.986198, 0.203200, -20.001600),
-            model = "v_res_tt_pornmag02",
-            bone = 60309,
-            pos = vec3(-0.020000, -0.030000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_clipboard@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(88.986198, 0.203200, -20.001600),
-            model = "v_res_tt_pornmag03",
-            bone = 60309,
-            pos = vec3(-0.020000, -0.030000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_clipboard@male@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(88.986198, 0.203200, -20.001600),
-            model = "v_res_tt_pornmag04",
-            bone = 60309,
-            pos = vec3(-0.020000, -0.030000, 0.000000),
-          },
-        },
       },
     },
+    command = "pornmag",
+    type = "prop",
     label = "Porn Magazine",
   },
   {
-    command = "potplant",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.080000, -0.049000, -0.050000),
+            rot = vec3(87.936897, -0.429200, -14.392500),
+            model = "prop_cs_magazine",
+            bone = 60309,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_clipboard@male@base",
+      },
+    },
+    command = "pornmag2",
+    type = "prop",
+    label = "Porn Magazine 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.100000, -0.070000, -0.020000),
+            rot = vec3(-90.000000, -180.000000, 22.700701),
+            model = "prop_porn_mag_03",
+            bone = 60309,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_clipboard@male@base",
+      },
+    },
+    command = "pornmag3",
+    type = "prop",
+    label = "Porn Magazine 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.020000, -0.030000, 0.000000),
+            rot = vec3(88.986198, 0.203200, -20.001600),
+            model = "v_res_tt_pornmag01",
+            bone = 60309,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_clipboard@male@base",
+      },
+    },
+    command = "pornmag4",
+    type = "prop",
+    label = "Porn Magazine 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.020000, -0.030000, 0.000000),
+            rot = vec3(88.986198, 0.203200, -20.001600),
+            model = "v_res_tt_pornmag02",
+            bone = 60309,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_clipboard@male@base",
+      },
+    },
+    command = "pornmag5",
+    type = "prop",
+    label = "Porn Magazine 5",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.020000, -0.030000, 0.000000),
+            rot = vec3(88.986198, 0.203200, -20.001600),
+            model = "v_res_tt_pornmag03",
+            bone = 60309,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_clipboard@male@base",
+      },
+    },
+    command = "pornmag6",
+    type = "prop",
+    label = "Porn Magazine 6",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.020000, -0.030000, 0.000000),
+            rot = vec3(88.986198, 0.203200, -20.001600),
+            model = "v_res_tt_pornmag04",
+            bone = 60309,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_clipboard@male@base",
+      },
+    },
+    command = "pornmag7",
+    type = "prop",
+    label = "Porn Magazine 7",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.138000, -0.050000, 0.230000),
             rot = vec3(-50.000000, 290.000000, 0.000000),
             model = "bkr_prop_weed_01_small_01c",
             bone = 60309,
-            pos = vec3(0.138000, -0.050000, 0.230000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-50.000000, 290.000000, 0.000000),
-            model = "bkr_prop_weed_01_small_01b",
-            bone = 60309,
-            pos = vec3(0.138000, -0.050000, 0.230000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-50.000000, 290.000000, 0.000000),
-            model = "bkr_prop_weed_lrg_01b",
-            bone = 60309,
-            pos = vec3(0.138000, -0.050000, 0.230000),
-          },
-        },
       },
     },
+    command = "potplant",
+    type = "prop",
     label = "Pot Plant (Small)",
   },
   {
-    command = "propose",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "ultra@propose",
-        anim = "propose",
         props = {
           {
+            pos = vec3(0.138000, -0.050000, 0.230000),
+            rot = vec3(-50.000000, 290.000000, 0.000000),
+            model = "bkr_prop_weed_01_small_01b",
+            bone = 60309,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "potplant2",
+    type = "prop",
+    label = "Pot Plant (Medium)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.138000, -0.050000, 0.230000),
+            rot = vec3(-50.000000, 290.000000, 0.000000),
+            model = "bkr_prop_weed_lrg_01b",
+            bone = 60309,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "potplant3",
+    type = "prop",
+    label = "Pot Plant (Large)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.170000, 0.040000, -0.055506),
             rot = vec3(-138.082001, 7.061380, -59.706200),
             model = "ultra_ringcase",
             bone = 57005,
-            pos = vec3(0.170000, 0.040000, -0.055506),
           },
         },
+        anim = "propose",
+        flags = {
+          loop = true,
+        },
+        dict = "ultra@propose",
       },
     },
+    command = "propose",
+    type = "prop",
     label = "Propose",
   },
   {
-    command = "protest",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
         props = {
           {
+            pos = vec3(0.182000, 0.240000, 0.060000),
             rot = vec3(-69.377426, 5.914205, -13.957235),
             model = "prop_cs_protest_sign_01",
             bone = 57005,
-            pos = vec3(0.182000, 0.240000, 0.060000),
           },
         },
-      },
-      {
+        anim = "base_club_shoulder",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-69.377426, 5.914205, -13.957235),
-            model = "pride_sign_01",
-            bone = 57005,
-            pos = vec3(0.182000, 0.240000, 0.060000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-69.377426, 5.914205, -13.957235),
-            model = "scully_blm",
-            bone = 57005,
-            pos = vec3(0.182000, 0.240000, 0.060000),
-          },
-        },
       },
     },
+    command = "protest",
+    type = "prop",
     label = "Protest",
   },
   {
-    command = "pump",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missfbi4prepp1",
-        anim = "idle",
         props = {
           {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_veg_crop_03_pump",
-            bone = 28422,
-            pos = vec3(0.020000, 0.060000, -0.120000),
+            pos = vec3(0.182000, 0.240000, 0.060000),
+            rot = vec3(-69.377426, 5.914205, -13.957235),
+            model = "pride_sign_01",
+            bone = 57005,
           },
         },
-      },
-      {
+        anim = "base_club_shoulder",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_veg_crop_03_pump",
-            bone = 28422,
-            pos = vec3(0.010000, -0.160000, -0.210000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "missfbi4prepp1",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(171.916901, 179.870697, -39.986000),
-            model = "reh_prop_reh_lantern_pk_01a",
-            bone = 28422,
-            pos = vec3(0.001000, 0.066000, -0.012000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "missfbi4prepp1",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(171.916901, 179.870697, -39.986000),
-            model = "reh_prop_reh_lantern_pk_01b",
-            bone = 28422,
-            pos = vec3(0.001000, 0.066000, -0.012000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "missfbi4prepp1",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(171.916901, 179.870697, -39.986000),
-            model = "reh_prop_reh_lantern_pk_01c",
-            bone = 28422,
-            pos = vec3(0.001000, 0.066000, -0.012000),
-          },
-        },
+        dict = "rcmnigel1d",
       },
     },
+    command = "protest2",
+    type = "prop",
+    label = "Protest 2 - Pride",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.182000, 0.240000, 0.060000),
+            rot = vec3(-69.377426, 5.914205, -13.957235),
+            model = "scully_blm",
+            bone = 57005,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "protest3",
+    type = "prop",
+    label = "Protest 3 - BLM",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.020000, 0.060000, -0.120000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_veg_crop_03_pump",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missfbi4prepp1",
+      },
+    },
+    command = "pump",
+    type = "prop",
     label = "Pumpkin",
   },
   {
-    command = "rake",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@amb@drug_field_workers@rake@male_a@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.010000, -0.160000, -0.210000),
             rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tool_rake",
+            model = "prop_veg_crop_03_pump",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.030000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "anim@amb@drug_field_workers@rake@male_a@idles",
-        anim = "idle_b",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tool_rake",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@drug_field_workers@rake@male_b@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tool_rake",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@amb@drug_field_workers@rake@male_b@idles",
-        anim = "idle_d",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_tool_rake",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.030000),
-          },
-        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "pump2",
+    type = "prop",
+    label = "Pumpkin 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.001000, 0.066000, -0.012000),
+            rot = vec3(171.916901, 179.870697, -39.986000),
+            model = "reh_prop_reh_lantern_pk_01a",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missfbi4prepp1",
+      },
+    },
+    command = "pump3",
+    type = "prop",
+    label = "Pumpkin 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.001000, 0.066000, -0.012000),
+            rot = vec3(171.916901, 179.870697, -39.986000),
+            model = "reh_prop_reh_lantern_pk_01b",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missfbi4prepp1",
+      },
+    },
+    command = "pump4",
+    type = "prop",
+    label = "Pumpkin 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.001000, 0.066000, -0.012000),
+            rot = vec3(171.916901, 179.870697, -39.986000),
+            model = "reh_prop_reh_lantern_pk_01c",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "missfbi4prepp1",
+      },
+    },
+    command = "pump5",
+    type = "prop",
+    label = "Pumpkin 5",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, -0.030000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tool_rake",
+            bone = 28422,
+          },
+        },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@drug_field_workers@rake@male_a@base",
+      },
+    },
+    command = "rake",
+    type = "prop",
     label = "Rake",
   },
   {
-    command = "register",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, -0.030000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tool_rake",
+            bone = 28422,
+          },
+        },
+        anim = "idle_b",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@drug_field_workers@rake@male_a@idles",
+      },
+    },
+    command = "rake2",
+    type = "prop",
+    label = "Rake 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, -0.030000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tool_rake",
+            bone = 28422,
+          },
+        },
+        anim = "base",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@drug_field_workers@rake@male_b@base",
+      },
+    },
+    command = "rake3",
+    type = "prop",
+    label = "Rake 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, -0.030000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_tool_rake",
+            bone = 28422,
+          },
+        },
+        anim = "idle_d",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@amb@drug_field_workers@rake@male_b@idles",
+      },
+    },
+    command = "rake4",
+    type = "prop",
+    label = "Rake 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.138000, 0.200000, 0.200000),
             rot = vec3(-50.000000, 290.000000, 0.000000),
             model = "v_ret_gc_cashreg",
             bone = 60309,
-            pos = vec3(0.138000, 0.200000, 0.200000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "register",
+    type = "prop",
     label = "Register",
   },
   {
-    command = "rose",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@humane_labs@finale@keycards",
-        anim = "ped_a_enter_loop",
         props = {
           {
+            pos = vec3(0.130000, 0.150000, 0.000000),
             rot = vec3(-100.000000, 0.000000, -20.000000),
             model = "prop_single_rose",
             bone = 18905,
-            pos = vec3(0.130000, 0.150000, 0.000000),
           },
         },
-      },
-      {
+        anim = "ped_a_enter_loop",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "missheistdocksprep1hold_cellphone",
-        anim = "static",
-        props = {
-          {
-            rot = vec3(-2.932000, 4.564000, 39.910000),
-            model = "prop_single_rose",
-            bone = 31086,
-            pos = vec3(-0.014000, 0.103000, 0.062000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "missheistdocksprep1hold_cellphone",
-        anim = "static",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 2.990000),
-            model = "prop_single_rose",
-            bone = 31086,
-            pos = vec3(-0.014000, 0.107000, 0.072000),
-          },
-        },
+        dict = "anim@heists@humane_labs@finale@keycards",
       },
     },
+    command = "rose",
+    type = "prop",
     label = "Rose",
   },
   {
-    command = "selfie",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@mp_player_intuppertake_selfie",
-        anim = "idle_a",
         props = {
           {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 60309,
-            pos = vec3(0.000000, 0.000000, 0.000000),
+            pos = vec3(-0.014000, 0.103000, 0.062000),
+            rot = vec3(-2.932000, 4.564000, 39.910000),
+            model = "prop_single_rose",
+            bone = 31086,
           },
         },
-      },
-      {
+        anim = "static",
         flags = {
+          move = true,
         },
-        dict = "cellphone@self@franklin@",
-        anim = "peace",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "cellphone@self@franklin@",
-        anim = "west_coast",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "cellphone@self@trevor@",
-        anim = "aggressive_finger",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "cellphone@self@trevor@",
-        anim = "proud_finger",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "cellphone@self@trevor@",
-        anim = "throat_slit",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "cellphone@self@franklin@",
-        anim = "chest_bump",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "mirror_selfie@peace_sign",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(-126.268700, -139.905807, 35.620300),
-            model = "prop_phone_ing",
-            bone = 57005,
-            pos = vec3(0.170000, 0.029900, -0.015900),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "eagle@boypose04",
-        anim = "boy",
-        props = {
-          {
-            rot = vec3(-142.137405, -92.414200, 33.169102),
-            model = "prop_phone_ing",
-            bone = 60309,
-            pos = vec3(0.073000, 0.022000, 0.046000),
-          },
-        },
+        dict = "missheistdocksprep1hold_cellphone",
       },
     },
+    command = "rose2",
+    type = "prop",
+    label = "Rose 2 (Male)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.014000, 0.107000, 0.072000),
+            rot = vec3(0.000000, 0.000000, 2.990000),
+            model = "prop_single_rose",
+            bone = 31086,
+          },
+        },
+        anim = "static",
+        flags = {
+          move = true,
+        },
+        dict = "missheistdocksprep1hold_cellphone",
+      },
+    },
+    command = "rose3",
+    type = "prop",
+    label = "Rose 3 (Female)",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 60309,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@mp_player_intuppertake_selfie",
+      },
+    },
+    command = "selfie",
+    type = "prop",
     label = "Selfie",
   },
   {
-    command = "selfiebbum",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@female_beach_booty_selfie",
-        anim = "booty_selfie_clip",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "peace",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@self@franklin@",
+      },
+    },
+    command = "selfie2",
+    type = "prop",
+    label = "Selfie 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "west_coast",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@self@franklin@",
+      },
+    },
+    command = "selfie3",
+    type = "prop",
+    label = "Selfie 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "aggressive_finger",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@self@trevor@",
+      },
+    },
+    command = "selfie4",
+    type = "prop",
+    label = "Selfie 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "proud_finger",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@self@trevor@",
+      },
+    },
+    command = "selfie5",
+    type = "prop",
+    label = "Selfie 5",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "throat_slit",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@self@trevor@",
+      },
+    },
+    command = "selfie6",
+    type = "prop",
+    label = "Selfie 6",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "chest_bump",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@self@franklin@",
+      },
+    },
+    command = "selfie7",
+    type = "prop",
+    label = "Selfie 7",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.170000, 0.029900, -0.015900),
+            rot = vec3(-126.268700, -139.905807, 35.620300),
+            model = "prop_phone_ing",
+            bone = 57005,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "mirror_selfie@peace_sign",
+      },
+    },
+    command = "selfie8",
+    type = "prop",
+    label = "Selfie 8",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.073000, 0.022000, 0.046000),
+            rot = vec3(-142.137405, -92.414200, 33.169102),
+            model = "prop_phone_ing",
+            bone = 60309,
+          },
+        },
+        anim = "boy",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "eagle@boypose04",
+      },
+    },
+    command = "selfie9",
+    type = "prop",
+    label = "Selfie 9",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.068000, -0.025000, 0.034000),
             rot = vec3(-13.429900, 47.228802, -14.958800),
             model = "prop_phone_ing",
             bone = 26613,
-            pos = vec3(0.068000, -0.025000, 0.034000),
           },
         },
+        anim = "booty_selfie_clip",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@female_beach_booty_selfie",
       },
     },
+    command = "selfiebbum",
+    type = "prop",
     label = "Selfie Beach Bum",
   },
   {
-    command = "selfiecrouch",
-    type = "animation",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.158000, 0.018000, 0.030000),
+            rot = vec3(-150.479797, -67.823997, -46.041698),
+            model = "prop_phone_ing",
+            bone = 18905,
+          },
+        },
+        anim = "base",
         flags = {
+          loop = true,
         },
         dict = "crouching@taking_selfie",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(-150.479797, -67.823997, -46.041698),
-            model = "prop_phone_ing",
-            bone = 18905,
-            pos = vec3(0.158000, 0.018000, 0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "eagle@girlphonepose13",
-        anim = "girl",
-        props = {
-          {
-            rot = vec3(-90.000000, 0.000000, -25.900000),
-            model = "prop_phone_ing",
-            bone = 60309,
-            pos = vec3(0.067000, 0.030000, 0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@male_insta_selfie",
-        anim = "insta_selfie_clip",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, -150.000000),
-            model = "prop_phone_ing",
-            bone = 60309,
-            pos = vec3(0.070000, 0.010000, 0.069000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@female_selfie_risque",
-        anim = "selfie_risque_clip",
-        props = {
-          {
-            rot = vec3(-150.479797, -67.823997, -46.041698),
-            model = "prop_phone_ing",
-            bone = 18905,
-            pos = vec3(0.158000, 0.018000, 0.030000),
-          },
-        },
       },
     },
+    command = "selfiecrouch",
+    type = "prop",
     label = "Selfie Crouching",
   },
   {
-    command = "selfiecute",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@egirl_1foot_selfie",
-        anim = "1foot_selfie_clip",
         props = {
           {
+            pos = vec3(0.067000, 0.030000, 0.030000),
+            rot = vec3(-90.000000, 0.000000, -25.900000),
+            model = "prop_phone_ing",
+            bone = 60309,
+          },
+        },
+        anim = "girl",
+        flags = {
+          loop = true,
+        },
+        dict = "eagle@girlphonepose13",
+      },
+    },
+    command = "selfiecrouch2",
+    type = "prop",
+    label = "Selfie Crouching 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.070000, 0.010000, 0.069000),
+            rot = vec3(0.000000, 0.000000, -150.000000),
+            model = "prop_phone_ing",
+            bone = 60309,
+          },
+        },
+        anim = "insta_selfie_clip",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@male_insta_selfie",
+      },
+    },
+    command = "selfiecrouch3",
+    type = "prop",
+    label = "Selfie Crouching 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.158000, 0.018000, 0.030000),
+            rot = vec3(-150.479797, -67.823997, -46.041698),
+            model = "prop_phone_ing",
+            bone = 18905,
+          },
+        },
+        anim = "selfie_risque_clip",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@female_selfie_risque",
+      },
+    },
+    command = "selfiecrouch4",
+    type = "prop",
+    label = "Selfie Crouching 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.029000, -0.023000, 0.019000),
             rot = vec3(-14.786000, 67.803001, 6.182700),
             model = "prop_phone_ing",
             bone = 4185,
-            pos = vec3(0.029000, -0.023000, 0.019000),
           },
         },
-      },
-      {
+        anim = "1foot_selfie_clip",
         flags = {
+          loop = true,
         },
-        dict = "eagle@girlphonepose21",
-        anim = "girl",
-        props = {
-          {
-            rot = vec3(-45.893600, 41.837200, -26.641500),
-            model = "prop_phone_ing",
-            bone = 4185,
-            pos = vec3(0.021000, -0.015000, 0.011000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "pupppy@freeselfie01",
-        anim = "freeselfie01",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 10.000000),
-            model = "prop_phone_ing",
-            bone = 26613,
-            pos = vec3(0.038000, -0.031000, 0.059000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "pupppy@freeselfie02",
-        anim = "freeselfie02",
-        props = {
-          {
-            rot = vec3(-155.351501, -84.482803, 4.755100),
-            model = "prop_phone_ing",
-            bone = 60309,
-            pos = vec3(0.096000, 0.016000, 0.042000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "pupppy@freeselfie03",
-        anim = "freeselfie03",
-        props = {
-          {
-            rot = vec3(0.000000, 3.999900, 0.000000),
-            model = "prop_phone_ing",
-            bone = 26614,
-            pos = vec3(0.031000, -0.043000, 0.072000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "heartselfiemirror@queensisters",
-        anim = "heartselfie_clip",
-        props = {
-          {
-            rot = vec3(90.000000, 180.000000, 13.000000),
-            model = "prop_phone_ing",
-            bone = 64096,
-            pos = vec3(0.039000, 0.020000, 0.033000),
-          },
-        },
+        dict = "anim@egirl_1foot_selfie",
       },
     },
+    command = "selfiecute",
+    type = "prop",
     label = "Selfie Cute",
   },
   {
-    command = "selfiefloor",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@selfie_floor_cute",
-        anim = "floor_cute_clip",
         props = {
           {
+            pos = vec3(0.021000, -0.015000, 0.011000),
+            rot = vec3(-45.893600, 41.837200, -26.641500),
+            model = "prop_phone_ing",
+            bone = 4185,
+          },
+        },
+        anim = "girl",
+        flags = {
+          loop = true,
+        },
+        dict = "eagle@girlphonepose21",
+      },
+    },
+    command = "selfiecute2",
+    type = "prop",
+    label = "Selfie Cute 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.038000, -0.031000, 0.059000),
+            rot = vec3(0.000000, 0.000000, 10.000000),
+            model = "prop_phone_ing",
+            bone = 26613,
+          },
+        },
+        anim = "freeselfie01",
+        flags = {
+          loop = true,
+        },
+        dict = "pupppy@freeselfie01",
+      },
+    },
+    command = "selfiecute3",
+    type = "prop",
+    label = "Selfie Cute 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.096000, 0.016000, 0.042000),
+            rot = vec3(-155.351501, -84.482803, 4.755100),
+            model = "prop_phone_ing",
+            bone = 60309,
+          },
+        },
+        anim = "freeselfie02",
+        flags = {
+          loop = true,
+        },
+        dict = "pupppy@freeselfie02",
+      },
+    },
+    command = "selfiecute4",
+    type = "prop",
+    label = "Selfie Cute 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.031000, -0.043000, 0.072000),
+            rot = vec3(0.000000, 3.999900, 0.000000),
+            model = "prop_phone_ing",
+            bone = 26614,
+          },
+        },
+        anim = "freeselfie03",
+        flags = {
+          loop = true,
+        },
+        dict = "pupppy@freeselfie03",
+      },
+    },
+    command = "selfiecute5",
+    type = "prop",
+    label = "Selfie Cute 5",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.039000, 0.020000, 0.033000),
+            rot = vec3(90.000000, 180.000000, 13.000000),
+            model = "prop_phone_ing",
+            bone = 64096,
+          },
+        },
+        anim = "heartselfie_clip",
+        flags = {
+          loop = true,
+        },
+        dict = "heartselfiemirror@queensisters",
+      },
+    },
+    command = "selfiecute6",
+    type = "prop",
+    label = "Selfie Cute 6",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.093000, 0.023000, 0.026000),
             rot = vec3(-158.827103, -82.903999, -18.747200),
             model = "prop_phone_ing",
             bone = 60309,
-            pos = vec3(0.093000, 0.023000, 0.026000),
           },
         },
+        anim = "floor_cute_clip",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@selfie_floor_cute",
       },
     },
+    command = "selfiefloor",
+    type = "prop",
     label = "Selfie Floor Instagram",
   },
   {
-    command = "selfiehb",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@female_selfie_cute",
-        anim = "selfie_cute_clip",
         props = {
           {
+            pos = vec3(0.090000, -0.019000, -0.030000),
             rot = vec3(-112.802299, -171.783096, -56.819500),
             model = "prop_ld_handbag",
             bone = 28422,
-            pos = vec3(0.090000, -0.019000, -0.030000),
           },
           {
+            pos = vec3(0.020000, -0.025000, 0.000000),
             rot = vec3(-8.594700, 30.614100, -5.131100),
             model = "prop_phone_ing",
             bone = 4185,
-            pos = vec3(0.020000, -0.025000, 0.000000),
           },
         },
+        anim = "selfie_cute_clip",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@female_selfie_cute",
       },
     },
+    command = "selfiehb",
+    type = "prop",
     label = "Selfie Hand Bag",
   },
   {
-    command = "selfiefu",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@fuck_you_selfie",
-        anim = "fuck_you_selfie_clip",
         props = {
           {
+            pos = vec3(0.120000, 0.022000, -0.021000),
             rot = vec3(98.682198, -4.980900, 109.621597),
             model = "prop_phone_ing",
             bone = 28422,
-            pos = vec3(0.120000, 0.022000, -0.021000),
           },
         },
-      },
-      {
+        anim = "fuck_you_selfie_clip",
         flags = {
+          loop = true,
         },
-        dict = "fuckyouselfie@queensisters",
-        anim = "mirrorselfie_clip",
-        props = {
-          {
-            rot = vec3(-180.000000, -180.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 64097,
-            pos = vec3(-0.021000, 0.030000, -0.003000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "selfiekilye@queensisters",
-        anim = "kilye_clip",
-        props = {
-          {
-            rot = vec3(92.081001, 1.304900, -2.886300),
-            model = "prop_cs_dildo_01",
-            bone = 28422,
-            pos = vec3(0.045000, 0.005000, -0.015000),
-          },
-          {
-            rot = vec3(10.680800, 13.752600, 2.645700),
-            model = "prop_phone_ing",
-            bone = 26613,
-            pos = vec3(0.065000, -0.028000, 0.044000),
-          },
-        },
+        dict = "anim@fuck_you_selfie",
       },
     },
+    command = "selfiefu",
+    type = "prop",
     label = "Selfie Middle Finger",
   },
   {
-    command = "selfiesexy",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "littlespoon@selfie001",
-        anim = "selfie001",
         props = {
           {
+            pos = vec3(-0.021000, 0.030000, -0.003000),
+            rot = vec3(-180.000000, -180.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 64097,
+          },
+        },
+        anim = "mirrorselfie_clip",
+        flags = {
+          loop = true,
+        },
+        dict = "fuckyouselfie@queensisters",
+      },
+    },
+    command = "selfiefu2",
+    type = "prop",
+    label = "Selfie Middle Finger 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.045000, 0.005000, -0.015000),
+            rot = vec3(92.081001, 1.304900, -2.886300),
+            model = "prop_cs_dildo_01",
+            bone = 28422,
+          },
+          {
+            pos = vec3(0.065000, -0.028000, 0.044000),
+            rot = vec3(10.680800, 13.752600, 2.645700),
+            model = "prop_phone_ing",
+            bone = 26613,
+          },
+        },
+        anim = "kilye_clip",
+        flags = {
+          loop = true,
+        },
+        dict = "selfiekilye@queensisters",
+      },
+    },
+    command = "selfiefu3",
+    type = "prop",
+    label = "Selfie Middle Finger 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.015000, 0.023000, 0.070000),
             rot = vec3(0.000000, 0.000000, 170.000000),
             model = "prop_phone_ing",
             bone = 58870,
-            pos = vec3(0.015000, 0.023000, 0.070000),
           },
         },
-      },
-      {
+        anim = "selfie001",
         flags = {
+          loop = true,
         },
-        dict = "littlespoon@selfie002",
-        anim = "selfie002",
-        props = {
-          {
-            rot = vec3(174.961594, -149.618698, 8.649100),
-            model = "prop_phone_ing",
-            bone = 64064,
-            pos = vec3(0.029000, 0.014000, 0.049000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "littlespoon@selfie003",
-        anim = "selfie003",
-        props = {
-          {
-            rot = vec3(174.961594, -149.618698, 8.649100),
-            model = "prop_phone_ing",
-            bone = 64064,
-            pos = vec3(0.029000, 0.014000, 0.049000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "littlespoon@selfie004",
-        anim = "selfie004",
-        props = {
-          {
-            rot = vec3(174.961594, -149.618698, 8.649100),
-            model = "prop_phone_ing",
-            bone = 64064,
-            pos = vec3(0.029000, 0.014000, 0.049000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "littlespoon@selfie005",
-        anim = "selfie005",
-        props = {
-          {
-            rot = vec3(174.961594, -149.618698, 8.649100),
-            model = "prop_phone_ing",
-            bone = 64064,
-            pos = vec3(0.029000, 0.014000, 0.049000),
-          },
-        },
+        dict = "littlespoon@selfie001",
       },
     },
+    command = "selfiesexy",
+    type = "prop",
     label = "Selfie Sexy",
   },
   {
-    command = "selfiethot",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@sitting_thot",
-        anim = "sitting_thot_clip",
         props = {
           {
+            pos = vec3(0.029000, 0.014000, 0.049000),
+            rot = vec3(174.961594, -149.618698, 8.649100),
+            model = "prop_phone_ing",
+            bone = 64064,
+          },
+        },
+        anim = "selfie002",
+        flags = {
+          loop = true,
+        },
+        dict = "littlespoon@selfie002",
+      },
+    },
+    command = "selfiesexy2",
+    type = "prop",
+    label = "Selfie Sexy 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.029000, 0.014000, 0.049000),
+            rot = vec3(174.961594, -149.618698, 8.649100),
+            model = "prop_phone_ing",
+            bone = 64064,
+          },
+        },
+        anim = "selfie003",
+        flags = {
+          loop = true,
+        },
+        dict = "littlespoon@selfie003",
+      },
+    },
+    command = "selfiesexy3",
+    type = "prop",
+    label = "Selfie Sexy 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.029000, 0.014000, 0.049000),
+            rot = vec3(174.961594, -149.618698, 8.649100),
+            model = "prop_phone_ing",
+            bone = 64064,
+          },
+        },
+        anim = "selfie004",
+        flags = {
+          loop = true,
+        },
+        dict = "littlespoon@selfie004",
+      },
+    },
+    command = "selfiesexy4",
+    type = "prop",
+    label = "Selfie Sexy 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.029000, 0.014000, 0.049000),
+            rot = vec3(174.961594, -149.618698, 8.649100),
+            model = "prop_phone_ing",
+            bone = 64064,
+          },
+        },
+        anim = "selfie005",
+        flags = {
+          loop = true,
+        },
+        dict = "littlespoon@selfie005",
+      },
+    },
+    command = "selfiesexy5",
+    type = "prop",
+    label = "Selfie Sexy 5",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.103000, 0.044000, -0.027000),
             rot = vec3(-160.280197, -99.407997, -3.404800),
             model = "prop_phone_ing",
             bone = 28422,
-            pos = vec3(0.103000, 0.044000, -0.027000),
           },
         },
+        anim = "sitting_thot_clip",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@sitting_thot",
       },
     },
+    command = "selfiethot",
+    type = "prop",
     label = "Selfie Thot Instagram",
   },
   {
-    command = "shit",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "missfbi3ig_0",
-        anim = "shit_loop_trev",
         props = {
           {
+            pos = vec3(0.070000, -0.020000, -0.210000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_toilet_roll_01",
             bone = 28422,
-            pos = vec3(0.070000, -0.020000, -0.210000),
           },
         },
+        anim = "shit_loop_trev",
+        flags = {
+          loop = true,
+        },
+        dict = "missfbi3ig_0",
       },
     },
+    command = "shit",
+    type = "prop",
     label = "Shit",
   },
   {
-    command = "shopbag",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.240000, 0.030000, -0.040000),
             rot = vec3(0.000000, -90.000000, 10.000000),
             model = "vw_prop_casino_shopping_bag_01a",
             bone = 28422,
-            pos = vec3(0.240000, 0.030000, -0.040000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(178.800003, 91.190002, 9.970000),
-            model = "prop_shopping_bags02",
-            bone = 28422,
-            pos = vec3(0.050000, 0.020000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, -90.000000, 10.000000),
-            model = "prop_cs_shopping_bag",
-            bone = 28422,
-            pos = vec3(0.240000, 0.030000, -0.040000),
-          },
-        },
       },
     },
+    command = "shopbag",
+    type = "prop",
     label = "Shopping Bag",
   },
   {
-    command = "sittv",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@heist_safehouse_intro@variations@male@tv",
-        anim = "tv_part_one_loop",
         props = {
           {
+            pos = vec3(0.050000, 0.020000, 0.000000),
+            rot = vec3(178.800003, 91.190002, 9.970000),
+            model = "prop_shopping_bags02",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "shopbag2",
+    type = "prop",
+    label = "Shopping Bag 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.240000, 0.030000, -0.040000),
+            rot = vec3(0.000000, -90.000000, 10.000000),
+            model = "prop_cs_shopping_bag",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "shopbag3",
+    type = "prop",
+    label = "Shopping Bag 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.099000, 0.017000, -0.030000),
             rot = vec3(-64.760002, -109.543999, 18.716999),
             model = "v_res_tre_remote",
             bone = 57005,
-            pos = vec3(0.099000, 0.017000, -0.030000),
           },
         },
+        anim = "tv_part_one_loop",
+        flags = {
+          loop = true,
+        },
+        dict = "anim@heists@heist_safehouse_intro@variations@male@tv",
       },
     },
+    command = "sittv",
+    type = "prop",
     label = "Sit TV",
   },
   {
-    command = "smoke2",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_aa_smoke@male@idle_a",
-        anim = "idle_c",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_cs_ciggy_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_c",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_aa_smoke@male@idle_a",
       },
     },
+    command = "smoke2",
+    type = "prop",
     label = "Smoke 2",
   },
   {
-    command = "smoke3",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_aa_smoke@male@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_cs_ciggy_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_aa_smoke@male@idle_a",
       },
     },
+    command = "smoke3",
+    type = "prop",
     label = "Smoke 3",
   },
   {
-    command = "smoke4",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_smoking@female@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_cs_ciggy_01",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_smoking@female@idle_a",
       },
     },
+    command = "smoke4",
+    type = "prop",
     label = "Smoke 4",
   },
   {
-    command = "smoke5",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_aa_smoke@male@idle_a",
-        anim = "idle_c",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "bzzz_cigarpack_cig002",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_c",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_aa_smoke@male@idle_a",
       },
     },
+    command = "smoke5",
+    type = "prop",
     label = "Smoke 5",
   },
   {
-    command = "smoke6",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_smoking@male@male_a@enter",
-        anim = "enter",
         props = {
           {
+            pos = vec3(0.010000, 0.000000, 0.000000),
             rot = vec3(50.000000, 0.000000, -80.000000),
             model = "bzzz_cigarpack_cig001",
             bone = 47419,
-            pos = vec3(0.010000, 0.000000, 0.000000),
           },
         },
+        anim = "enter",
+        flags = {
+          move = true,
+        },
+        dict = "amb@world_human_smoking@male@male_a@enter",
       },
     },
+    command = "smoke6",
+    type = "prop",
     label = "Smoke 6",
   },
   {
-    command = "smoke7",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_aa_smoke@male@idle_a",
-        anim = "idle_b",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "bzzz_cigarpack_cig003",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_b",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_aa_smoke@male@idle_a",
       },
     },
+    command = "smoke7",
+    type = "prop",
     label = "Smoke 7",
   },
   {
-    command = "sms",
-    type = "animation",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "cellphone_text_read_base",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "cellphone@",
-        anim = "cellphone_text_read_base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "cellphone@female",
-        anim = "cellphone_text_read_base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.030100),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "cellphone@female",
-        anim = "cellphone_email_read_base",
-        props = {
-          {
-            rot = vec3(18.990000, -72.070000, 6.390000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(-0.019000, -0.024000, 0.030000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "cellphone@female",
-        anim = "cellphone_text_read_base_cover_low",
-        props = {
-          {
-            rot = vec3(19.170000, -78.500000, 14.970000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(-0.019000, -0.025000, 0.040000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@code_human_wander_texting_fat@male@base",
-        anim = "static",
-        props = {
-          {
-            rot = vec3(2.309000, 88.845001, 29.979000),
-            model = "prop_phone_ing",
-            bone = 28422,
-            pos = vec3(-0.020000, -0.010000, 0.000000),
-          },
-        },
       },
     },
+    command = "sms",
+    type = "prop",
     label = "SMS",
   },
   {
-    command = "soda",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_drinking@coffee@male@idle_a",
-        anim = "idle_c",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.030100),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "cellphone_text_read_base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "cellphone@female",
+      },
+    },
+    command = "sms2",
+    type = "prop",
+    label = "SMS 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.019000, -0.024000, 0.030000),
+            rot = vec3(18.990000, -72.070000, 6.390000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "cellphone_email_read_base",
+        flags = {
+          move = true,
+        },
+        dict = "cellphone@female",
+      },
+    },
+    command = "sms3",
+    type = "prop",
+    label = "SMS 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.019000, -0.025000, 0.040000),
+            rot = vec3(19.170000, -78.500000, 14.970000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "cellphone_text_read_base_cover_low",
+        flags = {
+          move = true,
+        },
+        dict = "cellphone@female",
+      },
+    },
+    command = "sms4",
+    type = "prop",
+    label = "SMS 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.020000, -0.010000, 0.000000),
+            rot = vec3(2.309000, 88.845001, 29.979000),
+            model = "prop_phone_ing",
+            bone = 28422,
+          },
+        },
+        anim = "static",
+        flags = {
+          move = true,
+        },
+        dict = "amb@code_human_wander_texting_fat@male@base",
+      },
+    },
+    command = "sms5",
+    type = "prop",
+    label = "SMS 6",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 130.000000),
             model = "prop_ecola_can",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
+        anim = "idle_c",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@coffee@male@idle_a",
       },
     },
+    command = "soda",
+    type = "prop",
     label = "Soda",
   },
   {
-    command = "ssign",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
         props = {
           {
+            pos = vec3(-0.139000, -0.987000, 0.430000),
             rot = vec3(-67.331528, 145.062790, -4.431889),
             model = "prop_sign_road_01a",
             bone = 60309,
-            pos = vec3(-0.139000, -0.987000, 0.430000),
           },
         },
-      },
-      {
+        anim = "base_club_shoulder",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-67.331528, 145.062790, -4.431889),
-            model = "prop_sign_road_02a",
-            bone = 60309,
-            pos = vec3(-0.139000, -0.987000, 0.430000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-67.331528, 145.062790, -4.431889),
-            model = "prop_sign_road_03d",
-            bone = 60309,
-            pos = vec3(-0.139000, -0.987000, 0.430000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-67.331528, 145.062790, -4.431889),
-            model = "prop_sign_road_04a",
-            bone = 60309,
-            pos = vec3(-0.139000, -0.987000, 0.430000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-67.331528, 145.062790, -4.431889),
-            model = "prop_sign_road_04w",
-            bone = 60309,
-            pos = vec3(-0.139000, -0.987000, 0.430000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-67.331528, 145.062790, -4.431889),
-            model = "prop_sign_road_05a",
-            bone = 60309,
-            pos = vec3(-0.139000, -0.987000, 0.430000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-67.331528, 145.062790, -4.431889),
-            model = "prop_sign_road_05t",
-            bone = 60309,
-            pos = vec3(-0.139000, -0.987000, 0.430000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-67.331528, 145.062790, -4.431889),
-            model = "prop_sign_freewayentrance",
-            bone = 60309,
-            pos = vec3(-0.139000, -0.987000, 0.430000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(-67.331528, 145.062790, -4.431889),
-            model = "prop_snow_sign_road_01a",
-            bone = 60309,
-            pos = vec3(-0.139000, -0.987000, 0.430000),
-          },
-        },
       },
     },
+    command = "ssign",
+    type = "prop",
     label = "Steal Stop Sign",
   },
   {
-    command = "stealtv",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "beachanims@molly",
-        anim = "beachanim_surf_clip",
         props = {
           {
+            pos = vec3(-0.139000, -0.987000, 0.430000),
+            rot = vec3(-67.331528, 145.062790, -4.431889),
+            model = "prop_sign_road_02a",
+            bone = 60309,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "ssign2",
+    type = "prop",
+    label = "Steal Yield Sign",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.139000, -0.987000, 0.430000),
+            rot = vec3(-67.331528, 145.062790, -4.431889),
+            model = "prop_sign_road_03d",
+            bone = 60309,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "ssign3",
+    type = "prop",
+    label = "Steal Hospital Sign",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.139000, -0.987000, 0.430000),
+            rot = vec3(-67.331528, 145.062790, -4.431889),
+            model = "prop_sign_road_04a",
+            bone = 60309,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "ssign4",
+    type = "prop",
+    label = "Steal Parking Sign",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.139000, -0.987000, 0.430000),
+            rot = vec3(-67.331528, 145.062790, -4.431889),
+            model = "prop_sign_road_04w",
+            bone = 60309,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "ssign5",
+    type = "prop",
+    label = "Steal Parking Sign 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.139000, -0.987000, 0.430000),
+            rot = vec3(-67.331528, 145.062790, -4.431889),
+            model = "prop_sign_road_05a",
+            bone = 60309,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "ssign6",
+    type = "prop",
+    label = "Steal Pedestrian Sign",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.139000, -0.987000, 0.430000),
+            rot = vec3(-67.331528, 145.062790, -4.431889),
+            model = "prop_sign_road_05t",
+            bone = 60309,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "ssign7",
+    type = "prop",
+    label = "Steal Street Sign",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.139000, -0.987000, 0.430000),
+            rot = vec3(-67.331528, 145.062790, -4.431889),
+            model = "prop_sign_freewayentrance",
+            bone = 60309,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "ssign8",
+    type = "prop",
+    label = "Steal Freeway Sign",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.139000, -0.987000, 0.430000),
+            rot = vec3(-67.331528, 145.062790, -4.431889),
+            model = "prop_snow_sign_road_01a",
+            bone = 60309,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "ssign9",
+    type = "prop",
+    label = "Steal Stop Sign Snow",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.260000, 0.110000, -0.140000),
             rot = vec3(96.162003, 168.906906, 84.240196),
             model = "xs_prop_arena_screen_tv_01",
             bone = 28252,
-            pos = vec3(0.260000, 0.110000, -0.140000),
           },
         },
+        anim = "beachanim_surf_clip",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "beachanims@molly",
       },
     },
+    command = "stealtv",
+    type = "prop",
     label = "Steal TV",
   },
   {
-    command = "suitcase",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.350000, 0.000000, 0.000000),
             rot = vec3(0.000000, 266.000000, 90.000000),
             model = "prop_ld_suitcase_01",
             bone = 57005,
-            pos = vec3(0.350000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(0.000000, 280.000000, 90.000000),
-            model = "prop_security_case_01",
-            bone = 57005,
-            pos = vec3(0.130000, 0.000000, -0.010000),
-          },
-        },
       },
     },
+    command = "suitcase",
+    type = "prop",
     label = "Suitcase",
   },
   {
-    command = "surfboard",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "beachanims@molly",
-        anim = "beachanim_surf_clip",
         props = {
           {
+            pos = vec3(0.130000, 0.000000, -0.010000),
+            rot = vec3(0.000000, 280.000000, 90.000000),
+            model = "prop_security_case_01",
+            bone = 57005,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "suitcase2",
+    type = "prop",
+    label = "Suitcase 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.102000, -0.146000, -0.116000),
             rot = vec3(-85.541603, 176.144608, -2.150000),
             model = "prop_surf_board_01",
             bone = 28252,
-            pos = vec3(0.102000, -0.146000, -0.116000),
           },
         },
+        anim = "beachanim_surf_clip",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "beachanims@molly",
       },
     },
+    command = "surfboard",
+    type = "prop",
     label = "Surf Board",
   },
   {
-    command = "tablet",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_tourist_map@male@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.000000, -0.030000, 0.000000),
             rot = vec3(20.000000, -90.000000, 0.000000),
             model = "prop_cs_tablet",
             bone = 28422,
-            pos = vec3(0.000000, -0.030000, 0.000000),
           },
         },
-      },
-      {
+        anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "amb@code_human_in_bus_passenger_idles@female@tablet@idle_a",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(0.000000, -90.000000, 0.000000),
-            model = "prop_cs_tablet",
-            bone = 28422,
-            pos = vec3(-0.050000, 0.000000, 0.000000),
-          },
-        },
+        dict = "amb@world_human_tourist_map@male@base",
       },
     },
+    command = "tablet",
+    type = "prop",
     label = "Tablet",
   },
   {
-    command = "tag",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@scripted@freemode@postertag@graffiti_spray@male@",
-        anim = "shake_can_male",
         props = {
           {
-            rot = vec3(0.001736, 0.000000, 0.000000),
-            model = "prop_cs_spray_can",
+            pos = vec3(-0.050000, 0.000000, 0.000000),
+            rot = vec3(0.000000, -90.000000, 0.000000),
+            model = "prop_cs_tablet",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.070000),
           },
         },
-      },
-      {
+        anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "anim@scripted@freemode@postertag@graffiti_spray@heeled@",
-        anim = "shake_can_female",
-        props = {
-          {
-            rot = vec3(0.001736, 0.000000, 0.000000),
-            model = "prop_cs_spray_can",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.070000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@scripted@freemode@postertag@graffiti_spray@male@",
-        anim = "spray_can_var_01_male",
-        props = {
-          {
-            rot = vec3(0.001736, 0.000000, 0.000000),
-            model = "prop_cs_spray_can",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.070000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@scripted@freemode@postertag@graffiti_spray@male@",
-        anim = "spray_can_var_02_male",
-        props = {
-          {
-            rot = vec3(0.001736, 0.000000, 0.000000),
-            model = "prop_cs_spray_can",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.070000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@scripted@freemode@postertag@graffiti_spray@heeled@",
-        anim = "spray_can_var_01_female",
-        props = {
-          {
-            rot = vec3(0.001736, 0.000000, 0.000000),
-            model = "prop_cs_spray_can",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.070000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "anim@scripted@freemode@postertag@graffiti_spray@heeled@",
-        anim = "spray_can_var_02_female",
-        props = {
-          {
-            rot = vec3(0.001736, 0.000000, 0.000000),
-            model = "prop_cs_spray_can",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.070000),
-          },
-        },
+        dict = "amb@code_human_in_bus_passenger_idles@female@tablet@idle_a",
       },
     },
+    command = "tablet2",
+    type = "prop",
+    label = "Tablet 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.070000),
+            rot = vec3(0.001736, 0.000000, 0.000000),
+            model = "prop_cs_spray_can",
+            bone = 28422,
+          },
+        },
+        anim = "shake_can_male",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@scripted@freemode@postertag@graffiti_spray@male@",
+      },
+    },
+    command = "tag",
+    type = "prop",
     label = "Tagging Shake Can Male",
   },
   {
-    command = "teddy",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "impexp_int-0",
-        anim = "mp_m_waremech_01_dual-0",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.070000),
+            rot = vec3(0.001736, 0.000000, 0.000000),
+            model = "prop_cs_spray_can",
+            bone = 28422,
+          },
+        },
+        anim = "shake_can_female",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@scripted@freemode@postertag@graffiti_spray@heeled@",
+      },
+    },
+    command = "tag2",
+    type = "prop",
+    label = "Tagging Shake Can Female",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.070000),
+            rot = vec3(0.001736, 0.000000, 0.000000),
+            model = "prop_cs_spray_can",
+            bone = 28422,
+          },
+        },
+        anim = "spray_can_var_01_male",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@scripted@freemode@postertag@graffiti_spray@male@",
+      },
+    },
+    command = "tag3",
+    type = "prop",
+    label = "Tagging Male 1",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.070000),
+            rot = vec3(0.001736, 0.000000, 0.000000),
+            model = "prop_cs_spray_can",
+            bone = 28422,
+          },
+        },
+        anim = "spray_can_var_02_male",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@scripted@freemode@postertag@graffiti_spray@male@",
+      },
+    },
+    command = "tag4",
+    type = "prop",
+    label = "Tagging Male 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.070000),
+            rot = vec3(0.001736, 0.000000, 0.000000),
+            model = "prop_cs_spray_can",
+            bone = 28422,
+          },
+        },
+        anim = "spray_can_var_01_female",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@scripted@freemode@postertag@graffiti_spray@heeled@",
+      },
+    },
+    command = "tag5",
+    type = "prop",
+    label = "Tagging Female 1",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.070000),
+            rot = vec3(0.001736, 0.000000, 0.000000),
+            model = "prop_cs_spray_can",
+            bone = 28422,
+          },
+        },
+        anim = "spray_can_var_02_female",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@scripted@freemode@postertag@graffiti_spray@heeled@",
+      },
+    },
+    command = "tag6",
+    type = "prop",
+    label = "Tagging Female 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.200000, 0.460000, -0.016000),
             rot = vec3(-180.000000, -90.000000, 0.000000),
             model = "v_ilev_mr_rasberryclean",
             bone = 24817,
-            pos = vec3(-0.200000, 0.460000, -0.016000),
           },
         },
+        anim = "mp_m_waremech_01_dual-0",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "impexp_int-0",
       },
     },
+    command = "teddy",
+    type = "prop",
     label = "Teddy",
   },
   {
-    command = "tennisplay",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.270000, 0.000000, 0.000000),
             rot = vec3(91.000000, 0.000000, -82.999992),
             model = "prop_tennis_bag_01",
             bone = 57005,
-            pos = vec3(0.270000, 0.000000, 0.000000),
           },
           {
+            pos = vec3(0.080000, 0.030000, 0.000000),
             rot = vec3(-130.290726, 3.878232, 6.588224),
             model = "prop_tennis_rack_01",
             bone = 60309,
-            pos = vec3(0.080000, 0.030000, 0.000000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
       },
     },
+    command = "tennisplay",
+    type = "prop",
     label = "Tennis Play",
   },
   {
-    command = "tire",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(-0.050000, 0.160000, 0.320000),
             rot = vec3(-130.000000, -55.000000, 150.000000),
             model = "prop_wheel_tyre",
             bone = 60309,
-            pos = vec3(-0.050000, 0.160000, 0.320000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "tire",
+    type = "prop",
     label = "Tire",
   },
   {
-    command = "toolbox",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.396000, 0.041000, -0.003000),
             rot = vec3(-90.000000, 0.000000, 90.000000),
             model = "prop_tool_box_04",
             bone = 28422,
-            pos = vec3(0.396000, 0.041000, -0.003000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(90.000000, 0.000000, -90.000000),
-            model = "imp_prop_tool_box_01a",
-            bone = 28422,
-            pos = vec3(0.370000, 0.020000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(90.000000, 0.000000, -90.000000),
-            model = "xm3_prop_xm3_tool_box_01a",
-            bone = 28422,
-            pos = vec3(0.370000, 0.020000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "move_weapon@jerrycan@generic",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(90.000000, 0.000000, -90.000000),
-            model = "xm3_prop_xm3_tool_box_02a",
-            bone = 28422,
-            pos = vec3(0.370000, 0.020000, 0.000000),
-          },
-        },
       },
     },
+    command = "toolbox",
+    type = "prop",
     label = "Toolbox",
   },
   {
-    command = "umbrella",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_drinking@coffee@male@base",
-        anim = "base",
         props = {
           {
-            rot = vec3(87.000000, -20.000000, 180.000000),
-            model = "p_amb_brolly_01",
-            bone = 57005,
-            pos = vec3(0.150000, 0.005000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "rcmnigel1d",
-        anim = "base_club_shoulder",
-        props = {
-          {
-            rot = vec3(2.340239, -150.960571, 57.337490),
-            model = "p_amb_brolly_01",
+            pos = vec3(0.370000, 0.020000, 0.000000),
+            rot = vec3(90.000000, 0.000000, -90.000000),
+            model = "imp_prop_tool_box_01a",
             bone = 28422,
-            pos = vec3(0.070000, 0.010000, 0.110000),
           },
         },
-      },
-      {
+        anim = "idle",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "luxurymods@animation_female_12",
-        anim = "animation_female_12_clip",
-        props = {
-          {
-            rot = vec3(87.000000, -20.000000, 180.000000),
-            model = "p_amb_brolly_01",
-            bone = 57005,
-            pos = vec3(0.150000, 0.005000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "raini@sharror",
-        anim = "raini_clip",
-        props = {
-          {
-            rot = vec3(87.000000, -20.000000, 180.000000),
-            model = "p_amb_brolly_01",
-            bone = 57005,
-            pos = vec3(0.150000, 0.005000, 0.000000),
-          },
-        },
+        dict = "move_weapon@jerrycan@generic",
       },
     },
+    command = "toolbox2",
+    type = "prop",
+    label = "Toolbox 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.370000, 0.020000, 0.000000),
+            rot = vec3(90.000000, 0.000000, -90.000000),
+            model = "xm3_prop_xm3_tool_box_01a",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "toolbox3",
+    type = "prop",
+    label = "Toolbox 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.370000, 0.020000, 0.000000),
+            rot = vec3(90.000000, 0.000000, -90.000000),
+            model = "xm3_prop_xm3_tool_box_02a",
+            bone = 28422,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "move_weapon@jerrycan@generic",
+      },
+    },
+    command = "toolbox4",
+    type = "prop",
+    label = "Toolbox 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.150000, 0.005000, 0.000000),
+            rot = vec3(87.000000, -20.000000, 180.000000),
+            model = "p_amb_brolly_01",
+            bone = 57005,
+          },
+        },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@coffee@male@base",
+      },
+    },
+    command = "umbrella",
+    type = "prop",
     label = "Umbrella",
   },
   {
-    command = "vape",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_smoking@male@male_b@base",
-        anim = "base",
         props = {
           {
+            pos = vec3(0.070000, 0.010000, 0.110000),
+            rot = vec3(2.340239, -150.960571, 57.337490),
+            model = "p_amb_brolly_01",
+            bone = 28422,
+          },
+        },
+        anim = "base_club_shoulder",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "rcmnigel1d",
+      },
+    },
+    command = "umbrella2",
+    type = "prop",
+    label = "Umbrella 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.150000, 0.005000, 0.000000),
+            rot = vec3(87.000000, -20.000000, 180.000000),
+            model = "p_amb_brolly_01",
+            bone = 57005,
+          },
+        },
+        anim = "animation_female_12_clip",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "luxurymods@animation_female_12",
+      },
+    },
+    command = "umbrella3",
+    type = "prop",
+    label = "Umbrella 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.150000, 0.005000, 0.000000),
+            rot = vec3(87.000000, -20.000000, 180.000000),
+            model = "p_amb_brolly_01",
+            bone = 57005,
+          },
+        },
+        anim = "raini_clip",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "raini@sharror",
+      },
+    },
+    command = "umbrella4",
+    type = "prop",
+    label = "Umbrella 4",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.029000, 0.007000, -0.005000),
             rot = vec3(91.000000, 270.000000, -360.000000),
             model = "ba_prop_battle_vape_01",
             bone = 28422,
-            pos = vec3(-0.029000, 0.007000, -0.005000),
           },
         },
+        anim = "base",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_smoking@male@male_b@base",
       },
     },
+    command = "vape",
+    type = "prop",
     label = "Vape",
   },
   {
-    command = "water",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_drinking@coffee@male@idle_a",
-        anim = "idle_c",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, -0.090000),
             rot = vec3(0.000000, 0.000000, 130.000000),
             model = "ba_prop_club_water_bottle",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, -0.090000),
           },
         },
+        anim = "idle_c",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@coffee@male@idle_a",
       },
     },
+    command = "water",
+    type = "prop",
     label = "Water",
   },
   {
-    command = "weedbrick",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "impexp_int-0",
-        anim = "mp_m_waremech_01_dual-0",
         props = {
           {
+            pos = vec3(0.100000, 0.100000, 0.050000),
             rot = vec3(0.000000, -90.000000, 90.000000),
             model = "prop_weed_block_01",
             bone = 60309,
-            pos = vec3(0.100000, 0.100000, 0.050000),
           },
         },
-      },
-      {
+        anim = "mp_m_waremech_01_dual-0",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
-        props = {
-          {
-            rot = vec3(-50.000000, 290.000000, 0.000000),
-            model = "bkr_prop_weed_bigbag_01a",
-            bone = 60309,
-            pos = vec3(0.158000, -0.050000, 0.230000),
-          },
-        },
+        dict = "impexp_int-0",
       },
     },
+    command = "weedbrick",
+    type = "prop",
     label = "Weed Brick",
   },
   {
-    command = "weedbucket",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@box_carry@",
-        anim = "idle",
         props = {
           {
+            pos = vec3(0.158000, -0.050000, 0.230000),
+            rot = vec3(-50.000000, 290.000000, 0.000000),
+            model = "bkr_prop_weed_bigbag_01a",
+            bone = 60309,
+          },
+        },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
+      },
+    },
+    command = "weedbrick2",
+    type = "prop",
+    label = "Weed Brick BIG",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, -0.100000, -0.180000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "bkr_prop_weed_bucket_open_01a",
             bone = 28422,
-            pos = vec3(0.000000, -0.100000, -0.180000),
           },
         },
+        anim = "idle",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "anim@heists@box_carry@",
       },
     },
+    command = "weedbucket",
+    type = "prop",
     label = "Weed Bucket",
   },
   {
-    command = "weights",
-    type = "animation",
     animations = {
       {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_curl_bar_01",
+            bone = 28422,
+          },
+        },
+        anim = "base",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "amb@world_human_muscle_free_weights@male@barbell@base",
-        anim = "base",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_curl_bar_01",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_muscle_free_weights@male@barbell@idle_a",
-        anim = "idle_d",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "prop_curl_bar_01",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
       },
     },
+    command = "weights",
+    type = "prop",
     label = "Weights",
   },
   {
-    command = "whiskey",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_drinking@coffee@male@idle_a",
-        anim = "idle_c",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "prop_curl_bar_01",
+            bone = 28422,
+          },
+        },
+        anim = "idle_d",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_muscle_free_weights@male@barbell@idle_a",
+      },
+    },
+    command = "weights2",
+    type = "prop",
+    label = "Weights 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.010000, -0.010000, -0.060000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_drink_whisky",
             bone = 28422,
-            pos = vec3(0.010000, -0.010000, -0.060000),
           },
         },
+        anim = "idle_c",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@coffee@male@idle_a",
       },
     },
+    command = "whiskey",
+    type = "prop",
     label = "Whiskey",
   },
   {
-    command = "whiskeyb",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "amb@world_human_drinking@beer@male@idle_a",
-        anim = "idle_a",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.050000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "ba_prop_battle_whiskey_bottle_2_s",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.050000),
           },
         },
-      },
-      {
+        anim = "idle_a",
         flags = {
+          move = true,
+          loop = true,
         },
         dict = "amb@world_human_drinking@beer@male@idle_a",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "ba_prop_battle_whiskey_bottle_2_s",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.050000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_drinking@beer@male@idle_a",
-        anim = "idle_a",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "ba_prop_battle_whiskey_bottle_2_s",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.050000),
-          },
-        },
       },
     },
+    command = "whiskeyb",
+    type = "prop",
     label = "Whiskey Bottle",
   },
   {
-    command = "wine",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "anim@heists@humane_labs@finale@keycards",
-        anim = "ped_a_enter_loop",
         props = {
           {
+            pos = vec3(0.000000, 0.000000, 0.050000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "ba_prop_battle_whiskey_bottle_2_s",
+            bone = 28422,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@beer@male@idle_a",
+      },
+    },
+    command = "whiskeyb2",
+    type = "prop",
+    label = "Whiskey Bottle 2",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.050000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "ba_prop_battle_whiskey_bottle_2_s",
+            bone = 28422,
+          },
+        },
+        anim = "idle_a",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@beer@male@idle_a",
+      },
+    },
+    command = "whiskeyb3",
+    type = "prop",
+    label = "Whiskey Bottle 3",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.100000, -0.030000, 0.030000),
             rot = vec3(-100.000000, 0.000000, -10.000000),
             model = "prop_drink_redwine",
             bone = 18905,
-            pos = vec3(0.100000, -0.030000, 0.030000),
           },
         },
-      },
-      {
+        anim = "ped_a_enter_loop",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "amb@world_human_drinking@beer@female@idle_a",
-        anim = "idle_e",
-        props = {
-          {
-            rot = vec3(10.000000, 0.000000, 0.000000),
-            model = "prop_wine_rose",
-            bone = 28422,
-            pos = vec3(-0.000000, 0.040000, -0.190000),
-          },
-        },
-      },
-      {
-        flags = {
-        },
-        dict = "amb@world_human_drinking@beer@female@idle_a",
-        anim = "idle_e",
-        props = {
-          {
-            rot = vec3(10.000000, 0.000000, 0.000000),
-            model = "prop_wine_rose",
-            bone = 28422,
-            pos = vec3(-0.000000, 0.040000, -0.190000),
-          },
-        },
+        dict = "anim@heists@humane_labs@finale@keycards",
       },
     },
+    command = "wine",
+    type = "prop",
     label = "Wine",
   },
   {
-    command = "wt",
-    type = "animation",
     animations = {
       {
-        flags = {
-        },
-        dict = "cellphone@",
-        anim = "cellphone_text_read_base",
         props = {
           {
+            pos = vec3(-0.000000, 0.040000, -0.190000),
+            rot = vec3(10.000000, 0.000000, 0.000000),
+            model = "prop_wine_rose",
+            bone = 28422,
+          },
+        },
+        anim = "idle_e",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@beer@female@idle_a",
+      },
+    },
+    command = "wine2",
+    type = "prop",
+    label = "Wine 2 - Bottle",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(-0.000000, 0.040000, -0.190000),
+            rot = vec3(10.000000, 0.000000, 0.000000),
+            model = "prop_wine_rose",
+            bone = 28422,
+          },
+        },
+        anim = "idle_e",
+        flags = {
+          loop = true,
+        },
+        dict = "amb@world_human_drinking@beer@female@idle_a",
+      },
+    },
+    command = "wine3",
+    type = "prop",
+    label = "Wine 3 - Bottle",
+  },
+  {
+    animations = {
+      {
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "prop_cs_hand_radio",
             bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
           },
         },
-      },
-      {
+        anim = "cellphone_text_read_base",
         flags = {
+          move = true,
+          loop = true,
         },
-        dict = "ultra@walkie_talkie",
-        anim = "walkie_talkie",
+        dict = "cellphone@",
+      },
+    },
+    command = "wt",
+    type = "prop",
+    label = "Walkie Talkie",
+  },
+  {
+    animations = {
+      {
         props = {
           {
+            pos = vec3(0.140000, 0.030000, 0.030000),
             rot = vec3(-105.876999, -10.943200, -33.721199),
             model = "prop_cs_hand_radio",
             bone = 18905,
-            pos = vec3(0.140000, 0.030000, 0.030000),
           },
         },
+        anim = "walkie_talkie",
+        flags = {
+          move = true,
+          loop = true,
+        },
+        dict = "ultra@walkie_talkie",
       },
     },
-    label = "Walkie Talkie",
+    command = "wt2",
+    type = "prop",
+    label = "Walkie Talkie 2",
   },
   {
     command = "atm",
@@ -13801,882 +16558,938 @@ return {
     label = "Yoga",
   },
   {
-    command = "sbaseball",
-    type = "shared",
     animations = {
       {
+        anim = "baseball_a_player_a",
         shared = {
           otherAnimation = "sbaseballthrow",
         },
         dict = "anim@arena@celeb@flat@paired@no_props@",
-        anim = "baseball_a_player_a",
       },
     },
+    command = "sbaseball",
+    type = "shared",
     label = "Baseball",
   },
   {
-    command = "sbaseballthrow",
-    type = "shared",
     animations = {
       {
+        anim = "baseball_a_player_b",
         shared = {
           otherAnimation = "sbaseball",
         },
         dict = "anim@arena@celeb@flat@paired@no_props@",
-        anim = "baseball_a_player_b",
       },
     },
+    command = "sbaseballthrow",
+    type = "shared",
     label = "Baseball Throw",
   },
   {
-    command = "sbro",
-    type = "shared",
     animations = {
       {
+        anim = "hugs_guy_a",
         shared = {
-          otherAnimation = "sbro2",
           frontOffset = 1.14,
+          otherAnimation = "sbro2",
         },
         dict = "mp_ped_interaction",
-        anim = "hugs_guy_a",
       },
       {
+        anim = "hugs_guy_b",
         shared = {
-          otherAnimation = "sbro",
           frontOffset = 1.14,
+          otherAnimation = "sbro",
         },
         dict = "mp_ped_interaction",
-        anim = "hugs_guy_b",
       },
     },
+    command = "sbro",
+    type = "shared",
     label = "Bro",
   },
   {
-    command = "scarry",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "fin_c2_mcs_1_camman",
         shared = {
           otherAnimation = "scarried",
         },
         dict = "missfinale_c2mcs_1",
-        anim = "fin_c2_mcs_1_camman",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "couplepose1cmg_clip",
         shared = {
           otherAnimation = "carried3",
         },
         dict = "couplepose1cmg@animation",
-        anim = "couplepose1cmg_clip",
-        flags = {
-        },
       },
     },
+    command = "scarry",
+    type = "shared",
     label = "Carry",
   },
   {
-    command = "scarried",
-    type = "shared",
     animations = {
       {
+        flags = {
+          loop = true,
+        },
+        anim = "firemans_carry",
         shared = {
+          otherAnimation = "scarry",
           attach = {
+            pos = vec3(-0.140000, 0.150000, 0.140000),
             rot = vec3(0.000000, -59.000000, -4.500000),
             bone = 40269,
-            pos = vec3(-0.140000, 0.150000, 0.140000),
           },
-          otherAnimation = "scarry",
         },
         dict = "nm",
-        anim = "firemans_carry",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "base",
         shared = {
+          otherAnimation = "carry2",
           attach = {
+            pos = vec3(0.350000, 0.150000, -0.150000),
             rot = vec3(-42.500000, -22.500000, 22.500000),
             bone = 28252,
-            pos = vec3(0.350000, 0.150000, -0.150000),
           },
-          otherAnimation = "carry2",
         },
         dict = "amb@code_human_in_car_idles@generic@ps@base",
-        anim = "base",
-        flags = {
-        },
       },
     },
+    command = "scarried",
+    type = "shared",
     label = "Carried",
   },
   {
-    command = "carry2",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "idle",
         shared = {
           otherAnimation = "scarried2",
         },
         dict = "anim@heists@box_carry@",
-        anim = "idle",
-        flags = {
-        },
       },
     },
+    command = "carry2",
+    type = "shared",
     label = "Carry 2",
   },
   {
-    command = "carried3",
-    type = "shared",
     animations = {
       {
+        flags = {
+          loop = true,
+        },
+        anim = "couplepose2cmg_clip",
         shared = {
+          otherAnimation = "scarry3",
           attach = {
+            pos = vec3(0.010000, 0.344000, -0.010000),
             rot = vec3(180.000000, 180.000000, -1.999900),
             bone = 0,
-            pos = vec3(0.010000, 0.344000, -0.010000),
           },
-          otherAnimation = "scarry3",
         },
         dict = "couplepose2cmg@animation",
-        anim = "couplepose2cmg_clip",
-        flags = {
-        },
       },
     },
+    command = "carried3",
+    type = "shared",
     label = "Carried 3",
   },
   {
-    command = "scbdog",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "idle",
         shared = {
           otherAnimation = "scbdog2",
         },
         dict = "anim@heists@box_carry@",
-        anim = "idle",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "sleep_in_kennel",
         shared = {
-          attach = {
-            rot = vec3(0.000000, 0.000000, -100.000000),
-            pos = vec3(-0.100000, 0.650000, 0.430000),
-          },
           otherAnimation = "scbdog",
+          attach = {
+            pos = vec3(-0.100000, 0.650000, 0.430000),
+            rot = vec3(0.000000, 0.000000, -100.000000),
+          },
         },
         dict = "creatures@rottweiler@amb@sleep_in_kennel@",
-        anim = "sleep_in_kennel",
-        flags = {
-        },
       },
     },
+    command = "scbdog",
+    type = "shared",
     label = "Carry Big Dog",
   },
   {
-    command = "scoupleanim",
-    type = "shared",
     animations = {
       {
-        dict = "anim@scripted@robbery@tun_prep_uni_ig1_couple@",
         flags = {
+          loop = true,
         },
-        shared = {
-          otherAnimation = "scoupleanim2",
-        },
-        anim = "action_var_01_bank_manager",
         props = {
           {
+            pos = vec3(-0.050000, -0.010000, -0.170000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             model = "p_wine_glass_s",
             bone = 60309,
-            pos = vec3(-0.050000, -0.010000, -0.170000),
           },
         },
-      },
-      {
-        dict = "anim@scripted@robbery@tun_prep_uni_ig1_couple@",
-        flags = {
-        },
+        anim = "action_var_01_bank_manager",
         shared = {
-          otherAnimation = "scoupleanim",
-          frontOffset = 0.11,
+          otherAnimation = "scoupleanim2",
         },
-        anim = "action_var_01_female",
-        props = {
-          {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            model = "p_wine_glass_s",
-            bone = 28422,
-            pos = vec3(0.000000, 0.000000, 0.000000),
-          },
-        },
+        dict = "anim@scripted@robbery@tun_prep_uni_ig1_couple@",
       },
     },
+    command = "scoupleanim",
+    type = "prop",
     label = "Couple Drinking (Wine Glasses)",
   },
   {
-    command = "scprs",
-    type = "shared",
     animations = {
       {
+        flags = {
+          loop = true,
+        },
+        props = {
+          {
+            pos = vec3(0.000000, 0.000000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+            model = "p_wine_glass_s",
+            bone = 28422,
+          },
+        },
+        anim = "action_var_01_female",
+        shared = {
+          frontOffset = 0.11,
+          otherAnimation = "scoupleanim",
+        },
+        dict = "anim@scripted@robbery@tun_prep_uni_ig1_couple@",
+      },
+    },
+    command = "scoupleanim2",
+    type = "prop",
+    label = "Couple Drinking F (Wine Glasses)",
+  },
+  {
+    animations = {
+      {
+        flags = {
+          loop = true,
+        },
+        anim = "cpr_pumpchest",
         shared = {
           otherAnimation = "scprs2",
         },
         dict = "mini@cpr@char_a@cpr_str",
-        anim = "cpr_pumpchest",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "cpr_pumpchest",
         shared = {
-          attach = {
-            rot = vec3(0.000000, 0.000000, 270.000000),
-            pos = vec3(0.350000, 0.800000, 0.000000),
-          },
           otherAnimation = "scprs",
+          attach = {
+            pos = vec3(0.350000, 0.800000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 270.000000),
+          },
         },
         dict = "mini@cpr@char_b@cpr_str",
-        anim = "cpr_pumpchest",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "cpr_loop_paramedic",
         shared = {
           otherAnimation = "scprs4",
         },
         dict = "missheistfbi3b_ig8_2",
-        anim = "cpr_loop_paramedic",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "cpr_loop_victim",
         shared = {
-          attach = {
-            rot = vec3(0.000000, 0.000000, 270.000000),
-            pos = vec3(0.350000, 0.650000, 0.000000),
-          },
           otherAnimation = "scprs3",
+          attach = {
+            pos = vec3(0.350000, 0.650000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 270.000000),
+          },
         },
         dict = "missheistfbi3b_ig8_2",
-        anim = "cpr_loop_victim",
-        flags = {
-        },
       },
     },
+    command = "scprs",
+    type = "shared",
     label = "Give CPR",
   },
   {
-    command = "sgive",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+        },
+        anim = "givetake1_a",
         shared = {
           otherAnimation = "sgive2",
         },
         dict = "mp_common",
-        anim = "givetake1_a",
-        flags = {
-        },
       },
       {
+        flags = {
+          move = true,
+        },
+        anim = "givetake1_b",
         shared = {
           otherAnimation = "sgive",
         },
         dict = "mp_common",
-        anim = "givetake1_b",
-        flags = {
-        },
       },
     },
+    command = "sgive",
+    type = "shared",
     label = "Give",
   },
   {
-    command = "sgiveblowjob",
-    type = "shared",
     animations = {
       {
+        anim = "pimpsex_hooker",
         shared = {
-          otherAnimation = "sreceiveblowjob",
           frontOffset = 0.63,
+          otherAnimation = "sreceiveblowjob",
         },
         dict = "misscarsteal2pimpsex",
-        anim = "pimpsex_hooker",
       },
     },
+    command = "sgiveblowjob",
+    type = "shared",
     label = "Give Blowjob",
   },
   {
-    command = "shandshake",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+        },
+        anim = "handshake_guy_a",
         shared = {
-          otherAnimation = "shandshake2",
           frontOffset = 0.9,
+          otherAnimation = "shandshake2",
         },
         dict = "mp_ped_interaction",
-        anim = "handshake_guy_a",
-        flags = {
-        },
       },
       {
+        flags = {
+          move = true,
+        },
+        anim = "handshake_guy_b",
         shared = {
           otherAnimation = "shandshake",
         },
         dict = "mp_ped_interaction",
-        anim = "handshake_guy_b",
-        flags = {
-        },
       },
     },
+    command = "shandshake",
+    type = "shared",
     label = "Handshake",
   },
   {
-    command = "sheadbutt",
-    type = "shared",
     animations = {
       {
+        anim = "plyr_takedown_front_headbutt",
         shared = {
           otherAnimation = "sheadbutted",
         },
         dict = "melee@unarmed@streamed_variations",
-        anim = "plyr_takedown_front_headbutt",
       },
     },
+    command = "sheadbutt",
+    type = "shared",
     label = "Headbutt",
   },
   {
-    command = "sheadbutted",
-    type = "shared",
     animations = {
       {
+        anim = "victim_takedown_front_headbutt",
         shared = {
           otherAnimation = "sheadbutt",
         },
         dict = "melee@unarmed@streamed_variations",
-        anim = "victim_takedown_front_headbutt",
       },
     },
+    command = "sheadbutted",
+    type = "shared",
     label = "Headbutted",
   },
   {
-    command = "hugtip",
-    type = "shared",
     animations = {
       {
+        flags = {
+          loop = true,
+        },
+        anim = "friendship007",
         shared = {
           otherAnimation = "hugtip2",
         },
         dict = "littlespoon@friendship007",
-        anim = "friendship007",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "friendship008",
         shared = {
           otherAnimation = "hugtip",
         },
         dict = "littlespoon@friendship008",
-        anim = "friendship008",
-        flags = {
-        },
       },
     },
+    command = "hugtip",
+    type = "shared",
     label = "Hug Pose Tippy Toes",
   },
   {
-    command = "shostage",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "perp_idle",
         shared = {
           otherAnimation = "shostage2",
         },
         dict = "anim@gangops@hostage@",
-        anim = "perp_idle",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "victim_idle",
         shared = {
-          attach = {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            pos = vec3(-0.300000, 0.100000, 0.000000),
-          },
           otherAnimation = "shostage",
+          attach = {
+            pos = vec3(-0.300000, 0.100000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+          },
         },
         dict = "anim@gangops@hostage@",
-        anim = "victim_idle",
-        flags = {
-        },
       },
     },
+    command = "shostage",
+    type = "shared",
     label = "Take hostage",
   },
   {
-    command = "shug",
-    type = "shared",
     animations = {
       {
-        shared = {
-          otherAnimation = "shug2",
-          frontOffset = 1.05,
-        },
-        dict = "mp_ped_interaction",
         anim = "kisses_guy_a",
-      },
-      {
         shared = {
-          otherAnimation = "shug",
-          frontOffset = 1.18,
+          frontOffset = 1.05,
+          otherAnimation = "shug2",
         },
         dict = "mp_ped_interaction",
+      },
+      {
         anim = "kisses_guy_b",
+        shared = {
+          frontOffset = 1.18,
+          otherAnimation = "shug",
+        },
+        dict = "mp_ped_interaction",
       },
       {
-        shared = {
-          otherAnimation = "shug4",
-          frontOffset = 0.52,
+        flags = {
+          loop = true,
         },
-        dict = "misscarsteal2chad_goodbye",
         anim = "chad_armsaround_chad",
-        flags = {
-        },
-      },
-      {
         shared = {
-          otherAnimation = "shug3",
           frontOffset = 0.52,
+          otherAnimation = "shug4",
         },
         dict = "misscarsteal2chad_goodbye",
-        anim = "chad_armsaround_girl",
+      },
+      {
         flags = {
+          loop = true,
         },
+        anim = "chad_armsaround_girl",
+        shared = {
+          frontOffset = 0.52,
+          otherAnimation = "shug3",
+        },
+        dict = "misscarsteal2chad_goodbye",
       },
     },
+    command = "shug",
+    type = "shared",
     label = "Hug",
   },
   {
-    command = "skiss",
-    type = "shared",
     animations = {
       {
-        shared = {
-          otherAnimation = "skiss2",
-          frontOffset = 0.08,
-        },
-        dict = "hs3_ext-20",
         anim = "cs_lestercrest_3_dual-20",
-      },
-      {
         shared = {
-          otherAnimation = "skiss",
           frontOffset = 0.08,
+          otherAnimation = "skiss2",
         },
         dict = "hs3_ext-20",
+      },
+      {
         anim = "csb_georginacheng_dual-20",
+        shared = {
+          frontOffset = 0.08,
+          otherAnimation = "skiss",
+        },
+        dict = "hs3_ext-20",
       },
       {
-        shared = {
-          otherAnimation = "skiss4",
-          frontOffset = 0.08,
-        },
-        dict = "hs3_ext-19",
         anim = "cs_lestercrest_3_dual-19",
-      },
-      {
         shared = {
-          otherAnimation = "skiss3",
           frontOffset = 0.08,
+          otherAnimation = "skiss4",
         },
         dict = "hs3_ext-19",
+      },
+      {
         anim = "csb_georginacheng_dual-19",
+        shared = {
+          frontOffset = 0.08,
+          otherAnimation = "skiss3",
+        },
+        dict = "hs3_ext-19",
       },
     },
+    command = "skiss",
+    type = "shared",
     label = "Kiss",
   },
   {
-    command = "sliftme",
-    type = "shared",
     animations = {
       {
+        flags = {
+          loop = true,
+        },
+        anim = "couplepose1pack1anim2_clip",
         shared = {
           otherAnimation = "sliftme2",
         },
         dict = "couplepose1pack1anim2@animation",
-        anim = "couplepose1pack1anim2_clip",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "couplepose1pack1anim1_clip",
         shared = {
+          otherAnimation = "sliftme",
           attach = {
+            pos = vec3(0.002000, 0.287000, 0.250000),
             rot = vec3(0.000000, 0.000000, 180.000000),
             bone = 0,
-            pos = vec3(0.002000, 0.287000, 0.250000),
           },
-          otherAnimation = "sliftme",
         },
         dict = "couplepose1pack1anim1@animation",
-        anim = "couplepose1pack1anim1_clip",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "couplepose2pack1anim2_clip",
         shared = {
           otherAnimation = "sliftme4",
         },
         dict = "couplepose2pack1anim2@animation",
-        anim = "couplepose2pack1anim2_clip",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "couplepose2pack1anim1_clip",
         shared = {
+          otherAnimation = "sliftme3",
           attach = {
+            pos = vec3(0.010000, 0.480000, 0.530000),
             rot = vec3(0.000000, 0.000000, 180.000000),
             bone = 0,
-            pos = vec3(0.010000, 0.480000, 0.530000),
           },
-          otherAnimation = "sliftme3",
         },
         dict = "couplepose2pack1anim1@animation",
-        anim = "couplepose2pack1anim1_clip",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "couplepose3pack1anim2_clip",
         shared = {
           otherAnimation = "sliftme6",
         },
         dict = "couplepose3pack1anim2@animation",
-        anim = "couplepose3pack1anim2_clip",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "couplepose3pack1anim1_clip",
         shared = {
+          otherAnimation = "sliftme5",
           attach = {
+            pos = vec3(-0.212000, -0.540000, -0.100000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             bone = 0,
-            pos = vec3(-0.212000, -0.540000, -0.100000),
           },
-          otherAnimation = "sliftme5",
         },
         dict = "couplepose3pack1anim1@animation",
-        anim = "couplepose3pack1anim1_clip",
-        flags = {
-        },
       },
     },
+    command = "sliftme",
+    type = "shared",
     label = "Lift Me",
   },
   {
-    command = "spback",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "mxclip_a",
         shared = {
           otherAnimation = "spback2",
         },
         dict = "mx@piggypack_a",
-        anim = "mxclip_a",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "mxanim_b",
         shared = {
+          otherAnimation = "spback",
           attach = {
+            pos = vec3(0.020000, -0.439900, 0.420000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             bone = 0,
-            pos = vec3(0.020000, -0.439900, 0.420000),
           },
-          otherAnimation = "spback",
         },
         dict = "mx@piggypack_b",
-        anim = "mxanim_b",
-        flags = {
-        },
       },
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "piggyback_c_player_a",
         shared = {
           otherAnimation = "spback2",
         },
         dict = "anim@arena@celeb@flat@paired@no_props@",
-        anim = "piggyback_c_player_a",
-        flags = {
-        },
       },
       {
+        flags = {
+          loop = true,
+        },
+        anim = "piggyback_c_player_b",
         shared = {
+          otherAnimation = "spback",
           attach = {
+            pos = vec3(0.000000, -0.700000, 0.400000),
             rot = vec3(0.000000, 0.000000, 0.000000),
             bone = 0,
-            pos = vec3(0.000000, -0.700000, 0.400000),
           },
-          otherAnimation = "spback",
         },
         dict = "anim@arena@celeb@flat@paired@no_props@",
-        anim = "piggyback_c_player_b",
-        flags = {
-        },
       },
     },
+    command = "spback",
+    type = "shared",
     label = "Piggy Back",
   },
   {
-    command = "spunch",
-    type = "shared",
     animations = {
       {
+        anim = "plyr_takedown_rear_lefthook",
         shared = {
           otherAnimation = "spunched",
         },
         dict = "melee@unarmed@streamed_variations",
-        anim = "plyr_takedown_rear_lefthook",
       },
     },
+    command = "spunch",
+    type = "shared",
     label = "Punch",
   },
   {
-    command = "spunched",
-    type = "shared",
     animations = {
       {
+        anim = "victim_takedown_front_cross_r",
         shared = {
           otherAnimation = "spunch",
         },
         dict = "melee@unarmed@streamed_variations",
-        anim = "victim_takedown_front_cross_r",
       },
     },
+    command = "spunched",
+    type = "shared",
     label = "Punched",
   },
   {
-    command = "sreceiveblowjob",
-    type = "shared",
     animations = {
       {
+        anim = "pimpsex_punter",
         shared = {
-          otherAnimation = "sgiveblowjob",
           frontOffset = 0.63,
+          otherAnimation = "sgiveblowjob",
         },
         dict = "misscarsteal2pimpsex",
-        anim = "pimpsex_punter",
       },
     },
+    command = "sreceiveblowjob",
+    type = "shared",
     label = "Receive Blowjob",
   },
   {
-    command = "ssearch",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+        },
+        anim = "police",
         shared = {
           otherAnimation = "ssearch2",
         },
         dict = "custom@police",
-        anim = "police",
-        flags = {
-        },
       },
       {
+        flags = {
+          move = true,
+        },
+        anim = "a2_pose",
         shared = {
-          attach = {
-            rot = vec3(0.000000, 0.000000, 0.000000),
-            pos = vec3(0.000000, 0.500000, 0.000000),
-          },
           otherAnimation = "ssearch",
+          attach = {
+            pos = vec3(0.000000, 0.500000, 0.000000),
+            rot = vec3(0.000000, 0.000000, 0.000000),
+          },
         },
         dict = "missfam5_yoga",
-        anim = "a2_pose",
-        flags = {
-        },
       },
     },
+    command = "ssearch",
+    type = "shared",
     label = "Search",
   },
   {
-    command = "sslap",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "plyr_takedown_front_slap",
         shared = {
           otherAnimation = "sslapped",
         },
         dict = "melee@unarmed@streamed_variations",
-        anim = "plyr_takedown_front_slap",
-        flags = {
-        },
       },
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "plyr_takedown_front_backslap",
         shared = {
           otherAnimation = "sslapped2",
         },
         dict = "melee@unarmed@streamed_variations",
-        anim = "plyr_takedown_front_backslap",
-        flags = {
-        },
       },
     },
+    command = "sslap",
+    type = "shared",
     label = "Slap",
   },
   {
-    command = "sslapped",
-    type = "shared",
     animations = {
       {
+        anim = "victim_takedown_front_slap",
         shared = {
           otherAnimation = "sslap",
         },
         dict = "melee@unarmed@streamed_variations",
-        anim = "victim_takedown_front_slap",
       },
       {
+        anim = "victim_takedown_front_backslap",
         shared = {
           otherAnimation = "sslap2",
         },
         dict = "melee@unarmed@streamed_variations",
-        anim = "victim_takedown_front_backslap",
       },
     },
+    command = "sslapped",
+    type = "shared",
     label = "Slapped",
   },
   {
-    command = "sstickup",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "biker_02_stickup_loop",
         shared = {
           otherAnimation = "sstickupscared",
         },
         dict = "random@countryside_gang_fight",
-        anim = "biker_02_stickup_loop",
-        flags = {
-        },
       },
     },
+    command = "sstickup",
+    type = "shared",
     label = "Stick Up",
   },
   {
-    command = "sstickupscared",
-    type = "shared",
     animations = {
       {
+        flags = {
+          move = true,
+          loop = true,
+        },
+        anim = "handsup_base",
         shared = {
           otherAnimation = "sstickup",
         },
         dict = "missminuteman_1ig_2",
-        anim = "handsup_base",
-        flags = {
-        },
       },
     },
+    command = "sstickupscared",
+    type = "shared",
     label = "Stickup Scared",
   },
   {
-    command = "sstreetsexfemale",
-    type = "shared",
     animations = {
       {
+        flags = {
+          loop = true,
+        },
+        anim = "shagloop_hooker",
         shared = {
-          otherAnimation = "sstreetsexmale",
           frontOffset = 0.5,
+          otherAnimation = "sstreetsexmale",
         },
         dict = "misscarsteal2pimpsex",
-        anim = "shagloop_hooker",
-        flags = {
-        },
       },
     },
+    command = "sstreetsexfemale",
+    type = "shared",
     label = "Street Sex Female",
   },
   {
-    command = "sstreetsexmale",
-    type = "shared",
     animations = {
       {
+        flags = {
+          loop = true,
+        },
+        anim = "shagloop_pimp",
         shared = {
-          otherAnimation = "sstreetsexfemale",
           frontOffset = 0.5,
+          otherAnimation = "sstreetsexfemale",
         },
         dict = "misscarsteal2pimpsex",
-        anim = "shagloop_pimp",
-        flags = {
-        },
       },
     },
+    command = "sstreetsexmale",
+    type = "shared",
     label = "Street Sex Male",
   },
   {
-    command = "alien",
-    type = "walk",
-    label = "Alien",
     walks = {
       "move_m@alien",
     },
+    command = "alien",
+    type = "walk",
+    label = "Alien",
   },
   {
-    command = "armored",
-    type = "walk",
-    label = "Armored",
     walks = {
       "anim_group_move_ballistic",
     },
+    command = "armored",
+    type = "walk",
+    label = "Armored",
   },
   {
-    command = "arrogant",
-    type = "walk",
-    label = "Arrogant",
     walks = {
       "move_f@arrogant@a",
     },
+    command = "arrogant",
+    type = "walk",
+    label = "Arrogant",
   },
   {
-    command = "brave",
-    type = "walk",
-    label = "Brave",
     walks = {
       "move_m@brave",
       "move_m@brave@a",
       "move_m@brave@b",
     },
+    command = "brave",
+    type = "walk",
+    label = "Brave",
   },
   {
-    command = "butch",
-    type = "walk",
-    label = "Butch",
     walks = {
       "move_m@hurry_butch@a",
       "move_m@hurry_butch@b",
       "move_m@hurry_butch@c",
     },
+    command = "butch",
+    type = "walk",
+    label = "Butch",
   },
   {
-    command = "buzzed",
-    type = "walk",
-    label = "Buzzed",
     walks = {
       "move_m@buzzed",
     },
+    command = "buzzed",
+    type = "walk",
+    label = "Buzzed",
   },
   {
-    command = "casey",
-    type = "walk",
-    label = "Casey",
     walks = {
       "move_casey",
     },
+    command = "casey",
+    type = "walk",
+    label = "Casey",
   },
   {
-    command = "casual",
-    type = "walk",
-    label = "Casual",
     walks = {
       "move_m@casual@a",
       "move_m@casual@b",
@@ -14685,105 +17498,105 @@ return {
       "move_m@casual@e",
       "move_m@casual@f",
     },
+    command = "casual",
+    type = "walk",
+    label = "Casual",
   },
   {
-    command = "chichi",
-    type = "walk",
-    label = "Chichi",
     walks = {
       "move_f@chichi",
     },
+    command = "chichi",
+    type = "walk",
+    label = "Chichi",
   },
   {
-    command = "chubbyfemale",
-    type = "walk",
-    label = "Chubby Female",
     walks = {
       "move_f@chubby@a",
     },
+    command = "chubbyfemale",
+    type = "walk",
+    label = "Chubby Female",
   },
   {
-    command = "chubbymale",
-    type = "walk",
-    label = "Chubby Male",
     walks = {
       "move_chubby",
     },
+    command = "chubbymale",
+    type = "walk",
+    label = "Chubby Male",
   },
   {
-    command = "confident",
-    type = "walk",
-    label = "Confident",
     walks = {
       "move_m@confident",
     },
+    command = "confident",
+    type = "walk",
+    label = "Confident",
   },
   {
-    command = "cop",
-    type = "walk",
-    label = "Cop",
     walks = {
       "move_m@business@a",
       "move_m@business@b",
       "move_m@business@c",
       "move_m@intimidation@cop@unarmed",
     },
+    command = "cop",
+    type = "walk",
+    label = "Cop",
   },
   {
-    command = "coward",
-    type = "walk",
-    label = "Coward",
     walks = {
       "move_m@coward",
     },
+    command = "coward",
+    type = "walk",
+    label = "Coward",
   },
   {
-    command = "dave",
-    type = "walk",
-    label = "Dave",
     walks = {
       "move_characters@dave_n",
     },
+    command = "dave",
+    type = "walk",
+    label = "Dave",
   },
   {
-    command = "defaultfemale",
-    type = "walk",
-    label = "Default Female",
     walks = {
       "move_f@multiplayer",
     },
+    command = "defaultfemale",
+    type = "walk",
+    label = "Default Female",
   },
   {
-    command = "defaultmale",
-    type = "walk",
-    label = "Default Male",
     walks = {
       "move_m@multiplayer",
     },
+    command = "defaultmale",
+    type = "walk",
+    label = "Default Male",
   },
   {
-    command = "depressed",
-    type = "walk",
-    label = "Depressed",
     walks = {
       "move_m@depressed@a",
       "move_m@depressed@b",
       "move_f@depressed@a",
       "move_f@depressed@c",
     },
+    command = "depressed",
+    type = "walk",
+    label = "Depressed",
   },
   {
-    command = "dreyfuss",
-    type = "walk",
-    label = "Dreyfuss",
     walks = {
       "move_dreyfuss",
     },
+    command = "dreyfuss",
+    type = "walk",
+    label = "Dreyfuss",
   },
   {
-    command = "drunk",
-    type = "walk",
-    label = "Drunk",
     walks = {
       "move_m@drunk@a",
       "move_m@drunk@slightlydrunk",
@@ -14791,41 +17604,41 @@ return {
       "move_m@drunk@moderatedrunk",
       "move_m@drunk@moderatedrunk_head_up",
     },
+    command = "drunk",
+    type = "walk",
+    label = "Drunk",
   },
   {
-    command = "fat",
-    type = "walk",
-    label = "Fat",
     walks = {
       "move_f@fat@a",
       "move_m@fat@a",
       "move_m@fat@bulky",
       "move_f@fat@a_no_add",
     },
+    command = "fat",
+    type = "walk",
+    label = "Fat",
   },
   {
-    command = "femme",
-    type = "walk",
-    label = "Femme",
     walks = {
       "move_f@femme@",
       "move_m@femme@",
     },
+    command = "femme",
+    type = "walk",
+    label = "Femme",
   },
   {
-    command = "fire",
-    type = "walk",
-    label = "Fire",
     walks = {
       "move_characters@franklin@fire",
       "move_characters@michael@fire",
       "move_m@fire",
     },
+    command = "fire",
+    type = "walk",
+    label = "Fire",
   },
   {
-    command = "flee",
-    type = "walk",
-    label = "Flee",
     walks = {
       "move_f@flee@a",
       "move_f@flee@c",
@@ -14833,27 +17646,27 @@ return {
       "move_m@flee@b",
       "move_m@flee@c",
     },
+    command = "flee",
+    type = "walk",
+    label = "Flee",
   },
   {
-    command = "floyd",
-    type = "walk",
-    label = "Floyd",
     walks = {
       "move_characters@floyd",
     },
+    command = "floyd",
+    type = "walk",
+    label = "Floyd",
   },
   {
-    command = "franklin",
-    type = "walk",
-    label = "Franklin",
     walks = {
       "move_p_m_one",
     },
+    command = "franklin",
+    type = "walk",
+    label = "Franklin",
   },
   {
-    command = "gangster",
-    type = "walk",
-    label = "Gangster",
     walks = {
       "move_m@gangster@generic",
       "move_gangster",
@@ -14870,241 +17683,241 @@ return {
       "move_m@gangster@var_j",
       "move_m@gangster@var_k",
     },
+    command = "gangster",
+    type = "walk",
+    label = "Gangster",
   },
   {
-    command = "generic",
-    type = "walk",
-    label = "Generic",
     walks = {
       "move_m@generic",
       "move_f@generic",
     },
+    command = "generic",
+    type = "walk",
+    label = "Generic",
   },
   {
-    command = "grooving",
-    type = "walk",
-    label = "Grooving",
     walks = {
       "anim@move_m@grooving@",
       "anim@move_f@grooving@",
     },
+    command = "grooving",
+    type = "walk",
+    label = "Grooving",
   },
   {
-    command = "guard",
-    type = "walk",
-    label = "Guard",
     walks = {
       "move_m@prison_gaurd",
     },
+    command = "guard",
+    type = "walk",
+    label = "Guard",
   },
   {
-    command = "handcuffs",
-    type = "walk",
-    label = "Handcuffs",
     walks = {
       "move_m@prisoner_cuffed",
     },
+    command = "handcuffs",
+    type = "walk",
+    label = "Handcuffs",
   },
   {
-    command = "heels",
-    type = "walk",
-    label = "Heels",
     walks = {
       "move_f@heels@c",
       "move_f@heels@d",
     },
+    command = "heels",
+    type = "walk",
+    label = "Heels",
   },
   {
-    command = "hiking",
-    type = "walk",
-    label = "Hiking",
     walks = {
       "move_m@hiking",
       "move_f@hiking",
     },
+    command = "hiking",
+    type = "walk",
+    label = "Hiking",
   },
   {
-    command = "hipster",
-    type = "walk",
-    label = "Hipster",
     walks = {
       "move_m@hipster@a",
     },
+    command = "hipster",
+    type = "walk",
+    label = "Hipster",
   },
   {
-    command = "hobo",
-    type = "walk",
-    label = "Hobo",
     walks = {
       "move_m@hobo@a",
       "move_m@hobo@b",
     },
+    command = "hobo",
+    type = "walk",
+    label = "Hobo",
   },
   {
-    command = "hurry",
-    type = "walk",
-    label = "Hurry",
     walks = {
       "move_f@hurry@a",
       "move_m@hurry@a",
       "move_m@hurry@c",
       "move_f@hurry@b",
     },
+    command = "hurry",
+    type = "walk",
+    label = "Hurry",
   },
   {
-    command = "injured",
-    type = "walk",
-    label = "Injured",
     walks = {
       "move_m@injured",
       "move_f@injured",
     },
+    command = "injured",
+    type = "walk",
+    label = "Injured",
   },
   {
-    command = "intimidating",
-    type = "walk",
-    label = "Intimidating",
     walks = {
       "move_m@intimidation@1h",
       "move_m@intimidation@unarmed",
     },
+    command = "intimidating",
+    type = "walk",
+    label = "Intimidating",
   },
   {
-    command = "janitor",
-    type = "walk",
-    label = "Janitor",
     walks = {
       "move_p_m_zero_janitor",
       "move_p_m_zero_slow",
     },
+    command = "janitor",
+    type = "walk",
+    label = "Janitor",
   },
   {
-    command = "jimmy",
-    type = "walk",
-    label = "Jimmy",
     walks = {
       "move_characters@jimmy",
     },
+    command = "jimmy",
+    type = "walk",
+    label = "Jimmy",
   },
   {
-    command = "jog",
-    type = "walk",
-    label = "Jog",
     walks = {
       "move_m@jog@",
     },
+    command = "jog",
+    type = "walk",
+    label = "Jog",
   },
   {
-    command = "lamar",
-    type = "walk",
-    label = "Lamar",
     walks = {
       "anim_group_move_lemar_alley",
       "move_characters@lamar",
     },
+    command = "lamar",
+    type = "walk",
+    label = "Lamar",
   },
   {
-    command = "lester",
-    type = "walk",
-    label = "Lester",
     walks = {
       "move_heist_lester",
       "move_lester_caneup",
     },
+    command = "lester",
+    type = "walk",
+    label = "Lester",
   },
   {
-    command = "maneater",
-    type = "walk",
-    label = "Maneater",
     walks = {
       "move_f@maneater",
     },
+    command = "maneater",
+    type = "walk",
+    label = "Maneater",
   },
   {
-    command = "michael",
-    type = "walk",
-    label = "Michael",
     walks = {
       "move_ped_bucket",
     },
+    command = "michael",
+    type = "walk",
+    label = "Michael",
   },
   {
-    command = "money",
-    type = "walk",
-    label = "Money",
     walks = {
       "move_m@money",
     },
+    command = "money",
+    type = "walk",
+    label = "Money",
   },
   {
-    command = "muscle",
-    type = "walk",
-    label = "Muscle",
     walks = {
       "move_m@muscle@a",
     },
+    command = "muscle",
+    type = "walk",
+    label = "Muscle",
   },
   {
-    command = "nervous",
-    type = "walk",
-    label = "Nervous",
     walks = {
       "move_characters@jimmy@nervous@",
     },
+    command = "nervous",
+    type = "walk",
+    label = "Nervous",
   },
   {
-    command = "patricia",
-    type = "walk",
-    label = "Patricia",
     walks = {
       "move_characters@patricia",
     },
+    command = "patricia",
+    type = "walk",
+    label = "Patricia",
   },
   {
-    command = "paramedic",
-    type = "walk",
-    label = "Paramedic",
     walks = {
       "move_paramedic",
     },
+    command = "paramedic",
+    type = "walk",
+    label = "Paramedic",
   },
   {
-    command = "posh",
-    type = "walk",
-    label = "Posh",
     walks = {
       "move_m@posh@",
       "move_f@posh@",
     },
+    command = "posh",
+    type = "walk",
+    label = "Posh",
   },
   {
-    command = "quick",
-    type = "walk",
-    label = "Quick",
     walks = {
       "move_m@quick",
     },
+    command = "quick",
+    type = "walk",
+    label = "Quick",
   },
   {
-    command = "ron",
-    type = "walk",
-    label = "Ron",
     walks = {
       "move_characters@ron",
     },
+    command = "ron",
+    type = "walk",
+    label = "Ron",
   },
   {
-    command = "runner",
-    type = "walk",
-    label = "Runner",
     walks = {
       "female_fast_runner",
     },
+    command = "runner",
+    type = "walk",
+    label = "Runner",
   },
   {
-    command = "sad",
-    type = "walk",
-    label = "Sad",
     walks = {
       "move_m@sad@a",
       "move_m@sad@b",
@@ -15112,122 +17925,125 @@ return {
       "move_f@sad@a",
       "move_f@sad@b",
     },
+    command = "sad",
+    type = "walk",
+    label = "Sad",
   },
   {
-    command = "sassy",
-    type = "walk",
-    label = "Sassy",
     walks = {
       "move_m@sassy",
       "move_f@sassy",
     },
+    command = "sassy",
+    type = "walk",
+    label = "Sassy",
   },
   {
-    command = "scared",
-    type = "walk",
-    label = "Scared",
     walks = {
       "move_f@scared",
     },
+    command = "scared",
+    type = "walk",
+    label = "Scared",
   },
   {
-    command = "sexy",
-    type = "walk",
-    label = "Sexy",
     walks = {
       "move_f@sexy@a",
     },
+    command = "sexy",
+    type = "walk",
+    label = "Sexy",
   },
   {
-    command = "shady",
-    type = "walk",
-    label = "Shady",
     walks = {
       "move_m@shadyped@a",
     },
+    command = "shady",
+    type = "walk",
+    label = "Shady",
   },
   {
-    command = "slow",
-    type = "walk",
-    label = "Slow",
     walks = {
       "move_characters@jimmy@slow@",
     },
+    command = "slow",
+    type = "walk",
+    label = "Slow",
   },
   {
-    command = "stripper",
-    type = "walk",
-    label = "Stripper",
     walks = {
       "move_f@stripper@a",
     },
+    command = "stripper",
+    type = "walk",
+    label = "Stripper",
   },
   {
-    command = "swagger",
-    type = "walk",
-    label = "Swagger",
     walks = {
       "move_m@swagger",
       "move_m@swagger@b",
     },
+    command = "swagger",
+    type = "walk",
+    label = "Swagger",
   },
   {
-    command = "tough",
-    type = "walk",
-    label = "Tough",
     walks = {
       "move_m@tough_guy@",
       "move_f@tough_guy@",
     },
+    command = "tough",
+    type = "walk",
+    label = "Tough",
   },
   {
-    command = "toolbelt",
-    type = "walk",
-    label = "Toolbelt",
     walks = {
       "move_m@tool_belt@a",
       "move_f@tool_belt@a",
     },
+    command = "toolbelt",
+    type = "walk",
+    label = "Toolbelt",
   },
   {
-    command = "tracy",
-    type = "walk",
-    label = "Tracy",
     walks = {
       "move_characters@tracey",
     },
+    command = "tracy",
+    type = "walk",
+    label = "Tracy",
   },
   {
-    command = "trash",
-    type = "walk",
-    label = "Trash",
     walks = {
       "clipset@move@trash_fast_turn",
       "missfbi4prepp1_garbageman",
     },
+    command = "trash",
+    type = "walk",
+    label = "Trash",
   },
   {
-    command = "trevor",
-    type = "walk",
-    label = "Trevor",
     walks = {
       "move_p_m_two",
     },
+    command = "trevor",
+    type = "walk",
+    label = "Trevor",
   },
   {
-    command = "veryslow",
-    type = "walk",
-    label = "Very Slow",
     walks = {
       "move_m@leaf_blower",
     },
+    command = "veryslow",
+    type = "walk",
+    label = "Very Slow",
   },
   {
-    command = "wide",
-    type = "walk",
-    label = "Wide",
     walks = {
       "move_m@bag",
     },
+    command = "wide",
+    type = "walk",
+    label = "Wide",
   },
 }

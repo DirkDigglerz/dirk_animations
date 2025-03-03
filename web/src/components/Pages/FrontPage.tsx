@@ -70,6 +70,19 @@ export default function FrontPage(){
             }}
           />
         </Grid.Col>
+        <Grid.Col
+          span={1}
+        >
+          <MainButton
+            icon={'fa fa-box'}
+            label={locale('Props').toUpperCase()}
+            h='10vh'
+            onClick={() => {
+              // set page to animations but with params of this category.
+              useAnimations.setState((state) => ({...state, page: <AnimationPage type="prop" />, pageId: 'walks'}))  
+            }}
+          />
+        </Grid.Col>
         {categories.map((category, index) => (
           <Grid.Col
             span={1}
@@ -102,7 +115,6 @@ export default function FrontPage(){
           description='Create sequences of animations'
           h='10vh'
           onClick={() => {
-            console.log('clicked')
             useAnimations.setState((state) => ({...state, page: <AnimationPage type="animation"/>, pageId: 'animations', sequenceBox: true})) 
           }}
           
@@ -115,14 +127,14 @@ export default function FrontPage(){
           h='10vh'
           description='Blend animations together'
         />
-        <MainButton 
+        {/* <MainButton 
           flex={0.33}
           comingSoon 
           icon='fa fa-camera'
           label='GIF MAKER'
           h='10vh'
           description='Dev tool for creating gifs'
-        />
+        /> */}
       </Flex>
 
     </Flex>

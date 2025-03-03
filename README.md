@@ -12,7 +12,7 @@
 - Lock Categories or Animations to certain discord roles.
 - Search through all available animations, no more endless scrolling
 - Shared Animations; works best if you have friends.
-- Facial Expressions, Walkstyles and Idle Camera settings are persistent.
+- Facial Expressions, Walkstyles and Idle Camera settings are persistent to the character using KVP, no more having to change when switching characters.
 - Pointing, Handsup and Crouching included.
 - Easily convert Menyoo and Scully Emotes to clean_animations' format. 
 
