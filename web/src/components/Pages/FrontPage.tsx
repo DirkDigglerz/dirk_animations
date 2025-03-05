@@ -111,7 +111,7 @@ export default function FrontPage(){
           comingSoon
           // flex={2}
           icon='fa fa-clock'
-          label='SEQUENCES'
+          label={locale('Sequences').toUpperCase()}
           description='Create sequences of animations'
           h='10vh'
           onClick={() => {
@@ -123,7 +123,7 @@ export default function FrontPage(){
           flex={0.33}
           comingSoon
           icon='fa fa-pencil'
-          label='ANIM MAKER'
+          label={locale('Blend').toUpperCase()}
           h='10vh'
           description='Blend animations together'
         />
