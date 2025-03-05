@@ -4,7 +4,7 @@ return {
   disableIdleCamDefault  = true, -- will set the idle cam to false as default
   forceSharedNearest     = false,-- Allows players to target/interact with player of their choice upon choosing a shared animation. 
   defaultBinds = {
-    menu    = 'K',
+    menu    = 'F3',
     cancel  = 'X',
     handsup = 'X',
     point   = 'B',
