@@ -53,3 +53,8 @@ lib.addKeybind({
   end
 })
 
+
+if not basic.menuCommand then return end
+RegisterCommand(basic.menuCommand, function()
+  openAnimationMenu()
+end, false)
