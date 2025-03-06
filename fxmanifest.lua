@@ -4,7 +4,7 @@ lua54 'yes'
 games { 'rdr3', 'gta5' } 
 author 'DirkScripts' 
 description 'Clean Animations | Pause menu for FiveM'
-version      '1.0.13' 
+version      '1.0.14' 
 
 shared_script {
   '@clean_lib/init.lua',
