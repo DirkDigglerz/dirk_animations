@@ -6,5 +6,11 @@
   "Point": "Point",
   "FailedToReach": "FailedToReach",
   "Animations": "Animations",
-  "Rotate Left": "Rotate Left"
+  "Rotate Left": "Rotate Left",
+  "Faces": "Faces",
+  "Walks": "Walks",
+  "Shared": "Shared",
+  "Props": "Props",
+  "ViewAllAnimations": "ViewAllAnimations"
+
 }

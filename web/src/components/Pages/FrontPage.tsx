@@ -18,8 +18,8 @@ export default function FrontPage(){
     >
       <MainButton
         icon='fa fa-magic'
-        label='ANIMATIONS'
-        description='View all animations available'
+        label={locale('Animations').toUpperCase()}
+        description={locale('ViewAllAnimations')}
         h='20vh'
         w='100%'
         onClick={() => {
