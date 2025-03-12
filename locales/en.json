@@ -1,16 +1,16 @@
 {
-  "Rotate Right": "Rotate Right",
-  "Cancel": "Cancel",
-  "Example": "Example",
-  "HandsUp": "HandsUp",
-  "Point": "Point",
   "FailedToReach": "FailedToReach",
-  "Animations": "Animations",
   "Rotate Left": "Rotate Left",
-  "Faces": "Faces",
-  "Walks": "Walks",
-  "Shared": "Shared",
   "Props": "Props",
-  "ViewAllAnimations": "ViewAllAnimations"
-
+  "HandsUp": "HandsUp",
+  "Example": "Example",
+  "Animations": "Animations",
+  "Cancel": "Cancel",
+  "Rotate Right": "Rotate Right",
+  "Crouch": "Crouch",
+  "Point": "Point",
+  "Shared": "Shared",
+  "ViewAllAnimations": "ViewAllAnimations",
+  "Walks": "Walks",
+  "Faces": "Faces"
 }
