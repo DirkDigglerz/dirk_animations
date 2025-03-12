@@ -34,15 +34,40 @@ openAnimationMenu = function()
       currentWalk = currentWalk,
       currentExpression = currentExpression,
       pedType = _type,
+      defaultBinds = basic.defaultBinds,
     }
   }))
 end
+
+RegisterNuiCallback('CANCEL_ANIMATION', function(data, cb)
+  stopAnimation(cache.ped)
+end)
 
 RegisterNuiCallback('CLOSE_ANIMATIONS', function(data, cb)
   SetNuiFocus(false, false)
   cb('ok')
 end)
 
+
+local tempLossFocus = false
+RegisterNuiCallback('TEMP_LOSE_FOCUS', function(data, cb)
+  SetNuiFocus(false, false)
+  tempLossFocus = true
+  cb('ok')
+end)
+
+
+lib.addKeybind({
+  name = 'refocus',
+  description = locale('Refocus'),
+  defaultKey = basic.defaultBinds.toggleFocus,
+  onPressed = function()
+    if tempLossFocus then
+      SetNuiFocus(true, true)
+      tempLossFocus = false
+    end
+  end
+})
 
 lib.addKeybind({
   name = 'animMenu',

@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Flex, Pagination, SimpleGrid, Text, TextInput, Transition, useMantineTheme } from "@mantine/core";
 import { useMemo, useState } from "react";
 import { AnimationProps, useAnimations } from "../../stores/animations";
-import Animation from "./Animation";
 import { locale } from "../../stores/locales";
+import Animation from "./Animation";
 
 type AnimationPageProps = {
   type: AnimationProps['type'];
@@ -66,20 +66,22 @@ export default function AnimationPage(props: AnimationPageProps) {
       direction="column"
       align="center"
     > 
-      <TextInput
-        size='xs'
-        radius='xxs'
-        onChange={(event) => setSearch(event.currentTarget.value)}
-        placeholder='Search'
-        w='60%'
-        leftSection={
-          <FontAwesomeIcon icon={'fa fa-search' as IconProp}
-            style={{
-              fontSize: theme.fontSizes.xs,
-            }}
-          />
-        }
-      />
+
+        <TextInput
+          // size='xs'
+          radius='xxs'
+          onChange={(event) => setSearch(event.currentTarget.value)}
+          placeholder='Search'
+          w='80%'
+          leftSection={
+            <FontAwesomeIcon icon={'fa fa-search' as IconProp}
+              style={{
+                fontSize: theme.fontSizes.xs,
+              }}
+            />
+          }
+        />
+ 
       <SimpleGrid
         mt='xs'
         p="xs"

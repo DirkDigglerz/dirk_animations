@@ -1,4 +1,4 @@
-import { useMantineTheme } from "@mantine/core"
+import { Flex, useMantineTheme } from "@mantine/core"
 import { useEffect } from "react"
 import { useNuiEvent } from "../../hooks/useNuiEvent"
 import { AnimationProps, AnimCategoryProps, useAnimations } from "../../stores/animations"
@@ -6,6 +6,8 @@ import { fetchNui } from "../../utils/fetchNui"
 import SideBar from "../Generic/SideBar"
 import { Title } from "../Generic/Title"
 import FrontPage from "../Pages/FrontPage"
+import { InfoBox } from "../Generic/InfoBox"
+import { locale } from "../../stores/locales"
 
 export default function Main() {
   const open = useAnimations(state => state.open)  
@@ -14,6 +16,36 @@ export default function Main() {
   const pageId = useAnimations(state => state.pageId)
   const setPage = useAnimations(state => state.setPage)
   const theme = useMantineTheme()
+  const defaultBinds = useAnimations(state => state.defaultBinds)
+
+
+  useEffect(() => {
+    // create listener for teh toggle focus key
+    const handleKeyDown = (e: KeyboardEvent) => {
+      console.log('PRess Key', e.key)
+      if (e.key === 'Alt') {
+        if (!open || sequenceBox) return
+        fetchNui('TEMP_LOSE_FOCUS')
+      }
+    } 
+
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [open, defaultBinds, sequenceBox])
+
+
+  // listen for cancel key 
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      console.log('PRess Key', e.key)
+      if (e.key === defaultBinds.cancel) {
+        if (!open || sequenceBox) return
+        fetchNui('CANCEL_ANIMATION')
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [open, defaultBinds, sequenceBox])
 
   useNuiEvent('UPDATE_PED_TYPE', (data: string) => {
     useAnimations.setState({ pedType: data })
@@ -25,6 +57,9 @@ export default function Main() {
     currentWalk: {name: string, option: number},
     currentExpression: {name: string, option: number},
     pedType: string,
+    defaultBinds: {
+      [key: string]: string
+    }
   }) => {
 
     useAnimations.setState({ 
@@ -34,6 +69,7 @@ export default function Main() {
       currentWalk: data.currentWalk,
       open: true,
       pedType: data.pedType,
+      defaultBinds: data.defaultBinds,
       page: <FrontPage />,
       pageId: 'front'
     })
@@ -105,6 +141,21 @@ export default function Main() {
         }}
         closeButton={!sequenceBox}
       />
+      <Flex
+        align='center'
+        justify={'center'}
+        w='100%'
+        gap='xs'
+      >
+        <InfoBox
+          leftSide={defaultBinds.cancel}
+          rightSide={locale('Cancel').toUpperCase()}
+        />
+        <InfoBox
+          leftSide={'ALT'}
+          rightSide={locale('ToggleFocus').toUpperCase()}
+        />
+      </Flex>
       {page}
     </SideBar>
   )

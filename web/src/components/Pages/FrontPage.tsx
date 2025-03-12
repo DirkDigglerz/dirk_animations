@@ -14,7 +14,7 @@ export default function FrontPage(){
       align='center'
       w='100%'
       gap='xs'
-      p='sm'
+      // p='sm'
     >
       <MainButton
         icon='fa fa-magic'

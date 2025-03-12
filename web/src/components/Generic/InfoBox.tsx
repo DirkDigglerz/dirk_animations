@@ -13,9 +13,9 @@ export function InfoBox(props: InfoBoxProps) {
       w='fit-content'
       h='60%'
       style={{
-        borderRadius: theme.radius.xs,
+        borderRadius: theme.radius.xxs,
         overflow: 'hidden',
-        border: `1px solid rgba(77,77,77,0.6)`
+        border: `0.2vh solid rgba(77,77,77,0.6)`
       }}
       align='center'
     >
@@ -34,7 +34,7 @@ export function InfoBox(props: InfoBoxProps) {
 
       <Flex
         p='xs'
-        bg='rgba(77,77,77,0.5)'
+        bg='rgba(77,77,77,0.4)'
         direction='column'
         align='center'
         justify='center'

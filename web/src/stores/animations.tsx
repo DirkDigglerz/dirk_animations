@@ -51,7 +51,9 @@ type AnimationStoreProps = {
   };
 
   pedType: string;
-
+  defaultBinds: {
+    [key: string]: string
+  }
   page: React.ReactNode;
   categories: AnimCategoryProps[];
   animations: AnimationProps[];
@@ -68,6 +70,11 @@ export const useAnimations = create<AnimationStoreProps>((set) => ({
   currentWalk: {
     name: 'walking',
     option: 1,
+  },
+
+  defaultBinds: {
+    'toggleFocus': 'LALT',
+    'cancel': 'X',
   },
 
   currentExpression: {
