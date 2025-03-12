@@ -31,3 +31,22 @@ lib.addKeybind({
 })
 
 
+AddStateBagChangeHandler('blockCrouch', ('player:%s'):format(cache.serverId), function(_, _, value)
+  if value then 
+    LocalPlayer.state:set("crouch", false)
+  end
+end)
+
+AddStateBagChangeHandler('isDead', ('player:%s'):format(cache.serverId), function(_, _, value)
+  if value then 
+    LocalPlayer.state:set("crouch", false)
+  end 
+end)
+
+AddStateBagChangeHandler('lastStand', ('player:%s'):format(cache.serverId), function(_, _, value)
+  if value then 
+    LocalPlayer.state:set("crouch", false)
+  end 
+end)
+
+
