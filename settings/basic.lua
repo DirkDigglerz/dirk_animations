@@ -11,7 +11,9 @@ return {
     point   = 'B',
   },
 
-
+  
+  
+  useHandsup        = true, -- Enable/disable handsup feature
   placeAnimDist = 5.0,    ---## Distance to place animation
   placeAnimTaskTime = 10, ---## Time to reach destination
 }

@@ -9,11 +9,15 @@ lib.addKeybind({
       stopAnimation(ped or cache.ped)
       return false
     end 
+
+    if not basic.useHandsup then return end
     if LocalPlayer.state.isDead or LocalPlayer.state.lastStand then return end
     if LocalPlayer.state.blockHandsUp then return end
     LocalPlayer.state:set("handsUp",  not LocalPlayer.state.handsUp)
   end
 })
+
+if not basic.useHandsup then return end
 
 AddStateBagChangeHandler('blockHandsUp', ('player:%s'):format(cache.serverId), function(_, _, value)
   if value then 
