@@ -29,3 +29,5 @@ files {
 	'web/build/index.html',
 	'web/build/**/*',
 }
+
+dependency 'clean_lib'
