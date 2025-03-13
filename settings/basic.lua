@@ -1,7 +1,7 @@
 return {
   interact               = 'interact', -- How players interact with others (used for selecting shared emote recipient if you wish)
   menuCommand            = 'emotemenu', -- Command to open the menu
-  convertScullyEmotes    = true, -- will convert scullyEmotes format to clean_animations from conversions/scullyFormatAnims.lua  
+  convertScullyEmotes    = true, -- will convert scullyEmotes format to dirk_animations from conversions/scullyFormatAnims.lua  
   disableIdleCamDefault  = true, -- will set the idle cam to false as default
   forceSharedNearest     = false,-- Allows players to target/interact with player of their choice upon choosing a shared animation. 
   defaultBinds = {

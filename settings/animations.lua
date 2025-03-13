@@ -438,9 +438,9 @@ return {
     },
   },
   {
-    command = "cleanface",
+    command = "dirkface",
     type = "animation",
-    label = "Clean Your Face",
+    label = "Dirk Your Face",
     animations = {
       {
         flags = {
@@ -453,9 +453,9 @@ return {
     },
   },
   {
-    command = "cleanhands",
+    command = "dirkhands",
     type = "animation",
-    label = "Clean Them Filthy Hands",
+    label = "Dirk Them Filthy Hands",
     animations = {
       {
         flags = {
@@ -6952,7 +6952,7 @@ return {
       {
         props = {
           {
-            model = "v_ilev_mr_rasberryclean",
+            model = "v_ilev_mr_rasberrydirk",
             bone = 31086,
             rot = vec3(0.000000, 0.000000, 0.000000),
             pos = vec3(0.150000, -0.110000, -0.230000),
@@ -6978,7 +6978,7 @@ return {
       {
         props = {
           {
-            model = "v_ilev_mr_rasberryclean",
+            model = "v_ilev_mr_rasberrydirk",
             bone = 31086,
             rot = vec3(0.000000, 0.000000, 0.000000),
             pos = vec3(0.150000, -0.110000, -0.230000),
@@ -10471,9 +10471,9 @@ return {
     },
   },
   {
-    command = "clean",
+    command = "dirk",
     type = "prop",
-    label = "Clean",
+    label = "Dirk",
     animations = {
       {
         props = {
@@ -10489,14 +10489,14 @@ return {
           move = true,
         },
         anim = "base",
-        dict = "timetable@floyd@clean_kitchen@base",
+        dict = "timetable@floyd@dirk_kitchen@base",
       },
     },
   },
   {
-    command = "clean2",
+    command = "dirk2",
     type = "prop",
-    label = "Clean 2",
+    label = "Dirk 2",
     animations = {
       {
         props = {
@@ -10512,7 +10512,7 @@ return {
           move = true,
         },
         anim = "base",
-        dict = "amb@world_human_maid_clean@",
+        dict = "amb@world_human_maid_dirk@",
       },
     },
   },
@@ -15780,7 +15780,7 @@ return {
       {
         props = {
           {
-            model = "v_ilev_mr_rasberryclean",
+            model = "v_ilev_mr_rasberrydirk",
             bone = 24817,
             rot = vec3(-180.000000, -90.000000, 0.000000),
             pos = vec3(-0.200000, 0.460000, -0.016000),

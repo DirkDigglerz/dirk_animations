@@ -14,7 +14,7 @@
 - Shared Animations; works best if you have friends.
 - Facial Expressions, Walkstyles and Idle Camera settings are persistent to the character using KVP, no more having to change when switching characters.
 - Pointing, Handsup and Crouching included.
-- Easily convert Menyoo and Scully Emotes to clean_animations' format. 
+- Easily convert Menyoo and Scully Emotes to dirk_animations' format. 
 
 ## Animation Placing 
 https://github.com/user-attachments/assets/f3ba96dc-f8ca-42b6-9601-da0c7059d015
@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/f3ba96dc-f8ca-42b6-9601-da0c7059d015
 
 
 # Dependencies 
-- [Clean Lib](https://github.com/Clean-Server-Pack/clean_lib/releases/tag/latest_production)
+- [Dirk Lib](https://github.com/Dirk-Server-Pack/dirk_lib/releases/tag/latest_production)
 
 # Credits
 - [Scully Emote Menu](https://github.com/Scullyy/scully_emotemenu) thanks for the big list of animations!

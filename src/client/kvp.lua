@@ -6,7 +6,7 @@ local typeNative = {
 return {
 
   onChange = function(key, func)
-    AddEventHandler('clean_hud:kvpChange', function(k, v, ov)
+    AddEventHandler('dirk_hud:kvpChange', function(k, v, ov)
       if k == key then
         func(v, ov)
       end
@@ -30,7 +30,7 @@ return {
     local oldValue = settings[key]
     settings[key] = value
     SetResourceKvp(('animationsSettings:%s'):format(cache.citizenId), json.encode(settings))
-    TriggerEvent('clean_hud:kvpChange', key, value, oldValue)
+    TriggerEvent('dirk_hud:kvpChange', key, value, oldValue)
   end
 }
 

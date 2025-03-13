@@ -3,11 +3,11 @@ fx_version 'cerulean'
 lua54 'yes' 
 games { 'rdr3', 'gta5' } 
 author 'DirkScripts' 
-description 'Clean Animations | Pause menu for FiveM'
+description 'Dirk Animations | Pause menu for FiveM'
 version      '1.0.19' 
 
 shared_script {
-  '@clean_lib/init.lua',
+  '@dirk_lib/init.lua',
   'src/shared/*.lua',
 }
 
@@ -30,4 +30,4 @@ files {
 	'web/build/**/*',
 }
 
-dependency 'clean_lib'
+dependency 'dirk_lib'

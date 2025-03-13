@@ -407,8 +407,8 @@ return {
       },
   },
   {
-      Label = 'Clean Your Face',
-      Command = 'cleanface',
+      Label = 'Dirk Your Face',
+      Command = 'dirkface',
       Animation = 'loop_michael',
       Dictionary = 'switch@michael@wash_face',
       Options = {
@@ -419,8 +419,8 @@ return {
       },
   },
   {
-      Label = 'Clean Them Filthy Hands',
-      Command = 'cleanhands',
+      Label = 'Dirk Them Filthy Hands',
+      Command = 'dirkhands',
       Animation = 'urinal_sink_loop',
       Dictionary = 'missheist_agency3aig_23',
       Options = {
@@ -7141,7 +7141,7 @@ return {
           Props = {
               {
                   Bone = 31086,
-                  Name = 'v_ilev_mr_rasberryclean',
+                  Name = 'v_ilev_mr_rasberrydirk',
                   Placement = {
                       vector3(0.150000, -0.110000, -0.230000),
                       vector3(0.000000, 0.000000, 0.000000),
@@ -7163,7 +7163,7 @@ return {
           Props = {
               {
                   Bone = 31086,
-                  Name = 'v_ilev_mr_rasberryclean',
+                  Name = 'v_ilev_mr_rasberrydirk',
                   Placement = {
                       vector3(0.150000, -0.110000, -0.230000),
                       vector3(0.000000, 0.000000, 0.000000),
@@ -10776,10 +10776,10 @@ return {
         },
     },
     {
-        Label = 'Clean',
-        Command = 'clean',
+        Label = 'Dirk',
+        Command = 'dirk',
         Animation = 'base',
-        Dictionary = 'timetable@floyd@clean_kitchen@base',
+        Dictionary = 'timetable@floyd@dirk_kitchen@base',
         Options = {
             Flags = {
                 Loop = true,
@@ -10798,10 +10798,10 @@ return {
         },
     },
     {
-        Label = 'Clean 2',
-        Command = 'clean2',
+        Label = 'Dirk 2',
+        Command = 'dirk2',
         Animation = 'base',
-        Dictionary = 'amb@world_human_maid_clean@',
+        Dictionary = 'amb@world_human_maid_dirk@',
         Options = {
             Flags = {
                 Loop = true,
@@ -16444,7 +16444,7 @@ return {
             Props = {
                 {
                     Bone = 24817,
-                    Name = 'v_ilev_mr_rasberryclean',
+                    Name = 'v_ilev_mr_rasberrydirk',
                     Placement = {
                         vector3(-0.200000, 0.460000, -0.016000),
                         vector3(-180.000000, -90.000000, 0.000000),

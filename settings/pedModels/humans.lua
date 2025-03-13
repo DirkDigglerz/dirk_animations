@@ -317,7 +317,7 @@ return {
   's_m_y_waiter_01',
   's_m_y_waretech_01',
   's_m_y_westsec_01',
-  's_m_y_winclean_01',
+  's_m_y_windirk_01',
   's_m_y_xmech_01',
   's_m_y_xmech_02',
   'u_m_m_aldinapoli',
