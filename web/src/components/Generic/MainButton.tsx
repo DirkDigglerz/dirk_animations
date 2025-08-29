@@ -70,6 +70,7 @@ function MainButton(props: MainButtonProps) {
         duration: 0.2
       }}
       onClick={() => {
+        if (props.disabled) return;
         if (props.onClick) {
           props.onClick();
           playSound('click');
