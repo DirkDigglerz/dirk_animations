@@ -4,7 +4,7 @@ lua54 'yes'
 games { 'rdr3', 'gta5' } 
 author 'DirkScripts' 
 description 'Animations system for FiveM'
-version      '1.0.20' 
+version      '1.1.0' 
 
 shared_script {
   '@dirk_lib/init.lua',
@@ -20,8 +20,8 @@ server_script {
 }
  
 
--- ui_page 'web/build/index.html'
-ui_page 'http://localhost:3002'
+ui_page 'web/build/index.html'
+-- ui_page 'http://localhost:3002'
 
 files {
   'locales/*.json',
