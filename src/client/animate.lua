@@ -145,6 +145,7 @@ local cancelAll = function()
 
   if LocalPlayer.state.movingToAnim then 
     LocalPlayer.state.movingToAnim = false
+    SetNuiFocus(true, true)
     
     ClearPedTasks(cache.ped)
     ClearPedSecondaryTask(cache.ped)

@@ -401,7 +401,7 @@ local getPedModel = function(ped)
   end
 
   local model = GetEntityModel(ped)
-  return pedModelsByHash[model]?.model, pedModelsByHash[model]?.type
+  return pedModelsByHash[model]?.model, pedModelsByHash[model]?.type or 'humans'
 end
 
 rawHash, pedModel, pedType = false, false, false 
@@ -415,7 +415,7 @@ lib.onCache('playerLoaded', function(data)
         pedModel, pedType = getPedModel(cache.ped)
         SendNuiMessage(json.encode({
           action = 'UPDATE_PED_TYPE',
-          data = pedType,
+          data = pedType or 'humans',
         }))
         
       end 

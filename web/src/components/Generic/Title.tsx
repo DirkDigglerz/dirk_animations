@@ -3,92 +3,130 @@ import { Flex, Text, useMantineTheme } from "@mantine/core";
 import colorWithAlpha from "../../utils/colorWithAlpha";
 import BorderedIcon from "./BorderedIcon";
 import Button from "./Button";
-
+import { motion, AnimatePresence } from "framer-motion";
+import { MotionFlex } from "../Pages/FrontPage";
 
 type TitleProps = {
-  title: string
+  title: string;
+  color?: string;
   description: string;
   icon: string;
+  mt?: string;
+  w?: string;
+  iconSize?: string;
+  removeBorder?: boolean;
+  rightSection?: React.ReactNode;
   backButton?: boolean;
   onBack?: () => void;
-  mt?: string;
   closeButton?: boolean;
-  extraButtons?:{
-    icon: string;
-    onClick: () => void;
-  }[];
   onClose?: () => void;
 };
 
+
 export function Title(props: TitleProps) {
-  
   const theme = useMantineTheme();
+
   return (
-    <Flex
+    <MotionFlex
       mt={props.mt}
-      direction='column'
-      align='center'
-      gap='xs'
-      w='90%'
-      
-      pb='md'
+      direction="column"
+      gap="xs"
+      w={props.w || "100%"}
+      pb={props.removeBorder ? "0" : "xs"}
+      pl={!props.removeBorder ? "xs" : "0"}
       style={{
-        borderBottom: `0.2vh solid ${colorWithAlpha(theme.colors[theme.primaryColor][9], 0.5)}`,
+        userSelect: "none",
+        borderBottom: props.removeBorder
+          ? "none"
+          : `0.2vh solid ${colorWithAlpha(
+              props.color
+                ? props.color
+                : theme.colors[theme.primaryColor][9],
+              0.5
+            )}`,
       }}
+      layout
+      transition={{ duration: 0.25, ease: "easeInOut" }}
     >
-      <Flex
-   
-        align='center'
-        justify={'center'}
-        w='90%'
-      >
+      <MotionFlex align="center" justify={"center"} layout>
+        <MotionFlex align="center" gap="sm" layout>
+          <AnimatePresence initial={false}>
+            {props.backButton && (
+              <motion.div
+                key="back-button"
+                layout
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -10 }}
+                transition={{ duration: 0.2 }}
+              >
+                <Button
+                  iconSize="1.75vh"
+                  icon="arrow-left"
+                  color="blue"
+                  onClick={props.onBack}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
 
-        <Flex
-          align='center'
-          gap='sm'
-        >
           <BorderedIcon
+            color={props.color}
             icon={props.icon as IconName}
-            fontSize={theme.fontSizes.md}
+            fontSize={props.iconSize || theme.fontSizes.md}
           />
-          <Flex
-            direction='column'
-            gap='0.25vh'
-          >
-            <Text p='0' size='md' style={{
-              lineHeight: theme.fontSizes.md,
-              fontFamily: 'Akrobat Bold'
-            }}>{props.title}</Text>
-            <Text 
-              size='xs'
-              c='grey'
-            >{props.description}</Text>
+
+          <Flex direction="column">
+            <Text
+              p="0"
+              size="xs"
+              style={{
+                fontFamily: "Akrobat Bold",
+              }}
+            >
+              {props.title}
+            </Text>
+            <Text size="xxs" c="grey">
+              {props.description}
+            </Text>
           </Flex>
+        </MotionFlex>
 
+        <MotionFlex ml="auto" align="center" gap="xs" layout>
+          <AnimatePresence mode="popLayout" initial={false}>
+            {props.rightSection && (
+              <motion.div
+                key="right-section"
+                layout
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.95 }}
+                transition={{ duration: 0.2 }}
+              >
+                {props.rightSection}
+              </motion.div>
+            )}
 
-        </Flex>
-        
-        <Flex
-          ml='auto'
-          align='center'
-          gap='xs'
-        >
-          {props.extraButtons && props.extraButtons.map((button, index) => (
-            <Button icon={button.icon} onClick={button.onClick} key={index}/>
-          ))}
-
-          {props.backButton && (
-            <Button icon='fa-arrow-left' onClick={props.onBack}/> 
-          )}
-
-          {props.closeButton && (
-            <Button icon='fa-times' onClick={props.onClose} 
-              hoverColor='red'
-            />
-          )}
-
-        </Flex>
-      </Flex>
-    </Flex>
+            {props.closeButton && (
+              <motion.div
+                key="close-button"
+                layout
+                initial={{ opacity: 0, x: 10 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 10 }}
+                transition={{ duration: 0.2 }}
+              >
+                <Button
+                  iconSize="1.75vh"
+                  icon="times"
+                  color="red"
+                  onClick={props.onClose}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </MotionFlex>
+      </MotionFlex>
+    </MotionFlex>
   );
 }

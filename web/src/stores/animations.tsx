@@ -36,6 +36,7 @@ export type AnimationProps = {
 type AnimationStoreProps = {
     // Add your store properties here
   open: boolean;
+  controlsOpen?: boolean;
   sequenceBox?: boolean;
   pageId: string;
 
@@ -62,6 +63,7 @@ type AnimationStoreProps = {
 
 export const useAnimations = create<AnimationStoreProps>((set) => ({
   open: isEnvBrowser(),
+  controlsOpen: false,
   page: <FrontPage />,
   sequenceBox: false,
   pageId: 'front',
@@ -86,136 +88,136 @@ export const useAnimations = create<AnimationStoreProps>((set) => ({
   ],
 
   animations: [
-    // {
-    //   command: 'box',
-    //   label: 'Box Emote',
-    //   category: 'vip',
-    //   type: 'prop',
-    //   animations: [
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave',
-    //       props:[
-    //         {
-    //           model: 'prop_box_ammo07a',
-    //           rot: '0.0,0.0,0.0',
-    //           bone: 'SKEL_R_Hand',
-    //           pos: '0.0,0.0,0.0',
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave'
-    //     },
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave'
-    //     },
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave'
-    //     },
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave'
-    //     },
-    //     {
-    //       name: 'wave2',
-    //       dict: 'anim@mp_player_intcelebrationmale@wave'
-    //     },
-    //     {
-    //       name: 'wave3',
-    //       dict: 'anim@mp_player_intcelebrationpaired@wave'
-    //     },
-    //     {
-    //       name: 'wave3',
-    //       dict: 'anim@mp_player_intcelebrationpaired@wave'
-    //     },
-    //     {
-    //       name: 'wave3',
-    //       dict: 'anim@mp_player_intcelebrationpaired@wave'
-    //     },
-    //   ]
-    // },
-    // {
-    //   command: 'emote',
-    //   label: 'SElf Thot Instagrams  sasasasas',
-    //   category: 'vip',
-    //   type: 'animation',
-    //   animations: [
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave'
-    //     },
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave'
-    //     },
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave'
-    //     },
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave'
-    //     },
-    //     {
-    //       name: 'wave',
-    //       dict: 'anim@mp_player_intcelebrationfemale@wave'
-    //     },
-    //     {
-    //       name: 'wave2',
-    //       dict: 'anim@mp_player_intcelebrationmale@wave'
-    //     },
-    //     {
-    //       name: 'wave3',
-    //       dict: 'anim@mp_player_intcelebrationpaired@wave'
-    //     },
-    //     {
-    //       name: 'wave3',
-    //       dict: 'anim@mp_player_intcelebrationpaired@wave'
-    //     },
-    //     {
-    //       name: 'wave3',
-    //       dict: 'anim@mp_player_intcelebrationpaired@wave'
-    //     },
-    //   ]
-    // },
-    // {
-    //   command: 'walking',
-    //   type: 'walk',
-    //   label: 'Walking',
-    //   category: 'emotes',
-    //   walks: [
-    //     'walk',
-    //     'walk2',
-    //     'walk3',
-    //   ]
-    // },
+    {
+      command: 'box',
+      label: 'Box Emote',
+      category: 'vip',
+      type: 'prop',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave',
+          props:[
+            {
+              model: 'prop_box_ammo07a',
+              rot: '0.0,0.0,0.0',
+              bone: 'SKEL_R_Hand',
+              pos: '0.0,0.0,0.0',
+            }
+          ]
+        },
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'emote',
+      label: 'SElf Thot Instagrams  sasasasas',
+      category: 'vip',
+      type: 'animation',
+      animations: [
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave',
+          dict: 'anim@mp_player_intcelebrationfemale@wave'
+        },
+        {
+          name: 'wave2',
+          dict: 'anim@mp_player_intcelebrationmale@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+        {
+          name: 'wave3',
+          dict: 'anim@mp_player_intcelebrationpaired@wave'
+        },
+      ]
+    },
+    {
+      command: 'walking',
+      type: 'walk',
+      label: 'Walking',
+      category: 'emotes',
+      walks: [
+        'walk',
+        'walk2',
+        'walk3',
+      ]
+    },
 
-    // {
-    //   command: 'emote',
-    //   type: 'expression',
-    //   label: 'Walking',
-    //   category: 'emotes',
-    //   expressions: [
-    //     'walk',
-    //     'walk2',
-    //     'walk3',
-    //   ]
-    // },
-    // {
-    //   command: 'sillyface',
-    //   type: 'shared',
-    //   label: 'Walking',
-    //   category: 'emotes',
-    //   walks: [
-    //     'walk',
-    //     'walk2',
-    //     'walk3',
-    //   ]
-    // },
+    {
+      command: 'emote',
+      type: 'expression',
+      label: 'Walking',
+      category: 'emotes',
+      expressions: [
+        'walk',
+        'walk2',
+        'walk3',
+      ]
+    },
+    {
+      command: 'sillyface',
+      type: 'shared',
+      label: 'Walking',
+      category: 'emotes',
+      walks: [
+        'walk',
+        'walk2',
+        'walk3',
+      ]
+    },
 
 
   ],

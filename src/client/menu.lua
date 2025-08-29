@@ -26,6 +26,7 @@ openAnimationMenu = function()
   })
 
   local model, _type = utils.getPedModel(cache.ped)
+
   SendNuiMessage(json.encode({
     action = 'OPEN_ANIMATIONS',
     data   = {

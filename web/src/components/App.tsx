@@ -9,6 +9,7 @@ import { isEnvBrowser } from '../utils/misc';
 import "./App.css";
 import Main from './Main/main';
 import Sequences from './Pages/Sequences/main';
+import { Controls } from './Main/Controls';
 
 
 const App: React.FC = () => {
@@ -51,6 +52,7 @@ const App: React.FC = () => {
       <Wrapper>
         <Main />
         <Sequences />
+        <Controls/>
       </Wrapper>
     </MantineProvider>
   );

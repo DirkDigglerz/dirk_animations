@@ -95,7 +95,7 @@ export default function Animation(props: AnimationProps & {selected?: boolean} )
       <Flex
         style={{
           width: "100%",
-          height: "15vh",
+          height: "14vh",
           position: "relative",
           transformStyle: "preserve-3d",
           transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)",
@@ -104,7 +104,7 @@ export default function Animation(props: AnimationProps & {selected?: boolean} )
       >
         {/* Front Side */}
         <Flex
-          bg={(props.selected || hovered) ? "rgba(77,77,77,0.6)" : "rgba(77,77,77,0.5)"}
+          bg={(props.selected || hovered) ? "rgba(45, 45, 45, 0.6)" : "rgba(28, 28, 28, 0.7)"}
           style={{
             position: "absolute",
             backfaceVisibility: "hidden",
@@ -133,7 +133,7 @@ export default function Animation(props: AnimationProps & {selected?: boolean} )
 
         {/* Back Side */}
         <Flex
-          bg="rgba(77,77,77,0.5)"
+          bg="rgba(28, 28, 28, 0.7)"
           p='xs'
           style={{
             position: "absolute",

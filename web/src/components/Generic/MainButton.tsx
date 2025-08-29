@@ -2,117 +2,145 @@ import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Flex, Text, useMantineTheme } from "@mantine/core";
 import { useHover } from "@mantine/hooks";
+import { motion } from "framer-motion";
 import colorWithAlpha from "../../utils/colorWithAlpha";
 
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { useAudio } from "../../stores/audio/store";
-import { locale } from "../../stores/locales";
 
 type MainButtonProps = {
   icon: string;
   label: string;
   w?: string;
-  h?: string
+  h?: string;
   bgImg?: string;
+  disabled?: boolean;
   description?: string;
-  flex?: number
+  flex?: number;
   onClick?: () => void;
-  comingSoon?: boolean;
-}
+};
 
-
-
-function MainButton(props:MainButtonProps) {
-  const theme = useMantineTheme()
-  const {ref, hovered} = useHover()
-  const playSound = useAudio(state => state.play)
+function MainButton(props: MainButtonProps) {
+  const theme = useMantineTheme();
+  const { ref, hovered } = useHover();
+  const playSound = useAudio(state => state.play);
 
   useEffect(() => {
-    if (props.comingSoon) {
-      return
-    }
-    if(hovered){
-    playSound('hover')
-    }
-  }, [hovered, props.comingSoon])
-  
+    if (props.disabled) return 
+    if (!hovered) return 
+    playSound('hover');
+
+  }, [hovered, playSound, props.disabled]);
+
+  const realHovered = useMemo(() => {
+    return hovered && !props.disabled;
+  }, [hovered, props.disabled]);
+
   return (
-
-      <Flex
-    
-        ref={ref}
-        h={props.h}
-        flex={props.flex}
-        align='center'
-        w={props.w}
-        justify='center'  
-        onClick={() => {
-          if (props.comingSoon) {
-            return
-          }
-          if (props.onClick) {
-            props.onClick()
-            playSound('click')
-          }
-
-        }}
-        p='sm'
+    <motion.div
+      ref={ref}
+      style={{
+        height: props.h,
+        flex: props.flex,
+        width: props.w,
+        padding: theme.spacing.sm,
+        borderRadius: theme.radius.xxs,
+        backgroundImage: props.bgImg ? `url('./${props.bgImg}.png')` : 'none',
+        backgroundBlendMode: 'multiply',
+        backgroundSize: 'cover',
+        cursor: props.disabled ? 'not-allowed' : 'pointer',
+        userSelect: 'none',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+      animate={{
+        boxShadow: realHovered 
+          ? `inset 0 0 8vh ${colorWithAlpha(theme.colors[theme.primaryColor][theme.primaryShade as number], 0.8)}` 
+          : 'inset 0 0 0.0vh rgba(0,0,0,0.6)',
+        filter: realHovered ? 'brightness(1.1)' : 'brightness(1)',
+        outline: realHovered
+          ? `0.2vh solid ${colorWithAlpha(theme.colors[theme.primaryColor][9], 0.8)}`
+          : '0.2vh solid transparent',
+        backgroundColor: realHovered ? 'rgba(45, 45, 45, 0.6)' : !props.disabled ? 'rgba(28, 28, 28, 0.7)' : 'rgba(22, 22, 22, 0.3)',
+      }}
+      transition={{
+        type: "tween",
+        ease: "easeInOut",
+        duration: 0.2
+      }}
+      onClick={() => {
+        if (props.onClick) {
+          props.onClick();
+          playSound('click');
+        }
+      }}
+    >
+      <motion.div
         style={{
-          transition: 'all ease-in-out 0.2s',
-          boxShadow: (!props.comingSoon && hovered) ? `inset 0 0 8vh ${colorWithAlpha(theme.colors[theme.primaryColor][theme.primaryShade as number], 0.8)}` : 'inset 0 0 0.2vh rgba(0,0,0,0.6)', 
-          outline: (!props.comingSoon && hovered) ?  `0.2vh solid ${colorWithAlpha(theme.colors[theme.primaryColor][9], 0.8)}` : '0.2rem solid transparent',
-          backgroundColor: (!props.comingSoon && hovered) ? 'rgba(77,77,77,0.6)' : !props.comingSoon? 'rgba(77,77,77,0.5)' : 'rgba(77,77,77,0.3)',
-          userSelect: 'none', 
-          borderRadius: theme.radius.xxs,
-          backgroundImage: props.bgImg ? `url('./${props.bgImg}.png')` : 'none',
-          backgroundBlendMode: 'multiply',
-          backgroundSize: 'cover',
-          cursor: !props.comingSoon ? 'pointer' : 'default',
+          display: 'flex',
+          flexDirection: 'column',
+          marginTop: 'auto',
+          marginRight: 'auto',
+          gap: theme.spacing.xxs,
+        }}
+        transition={{
+          type: "tween",
+          ease: "easeInOut",
+          duration: 0.2
         }}
       >
         <Flex
-          direction='column'
-          mt='auto'
-          mr='auto'
+          align='center'
           gap='xxs'
           style={{
-            transform: (!props.comingSoon && hovered) ? 'scale(1.02)' : 'scale(1)',
-            transition: 'all ease-in-out 0.2s',
+            filter: realHovered ? 'brightness(1.1)' : 'brightness(1)',
           }}
         >
-          <Flex
-            align='center'
-            gap='xxs'
-
-          >
-            <FontAwesomeIcon icon={props.icon as IconProp} 
-              style={{
-                transition: 'all ease-in-out 0.2s',
-                color: !(!props.comingSoon && hovered) ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,1)',
-                fontSize: theme.fontSizes.xs,
-              }}
+          <FontAwesomeIcon
+            icon={props.icon as IconProp}
+            color='rgba(255,255,255,0.8)'
+            style={{
+              fontSize: theme.fontSizes.xxs,
+              aspectRatio: '1 / 1'
+            }}
             />
             <Text
-              c={!(!props.comingSoon && hovered) ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,1)'}
-              size={theme.fontSizes.xs}
+              size='xs'
+              c='rgba(255,255,255,0.8)'
               style={{
-                fontFamily: 'Akrobat Bold',
-                transition: 'all ease-in-out 0.2s',
+                fontFamily: 'Akrobat Bold', 
+                letterSpacing: '0.05em',
+                textTransform: 'uppercase',
               }}
-            >{props.label}</Text>
-          </Flex>
-          {(props.description || props.comingSoon) && <Text
-            c={!(!props.comingSoon && hovered) ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.8)'}
-            style={{
-              transition: 'all ease-in-out 0.2s',
-            }}
-            size = {theme.fontSizes.xs}
-            mih={theme.spacing.md}
-          >{props.comingSoon ? locale('ComingSoon') : props.description}</Text>}
-        </Flex>
-      </Flex>
 
-  )
+            >{props.label}</Text>
+        </Flex>
+        {props.description && (
+          <motion.div
+            animate={{
+              color: realHovered ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,0.6)',
+            }}
+            transition={{
+              type: "tween",
+              ease: "easeInOut",
+              duration: 0.2
+            }}
+          >
+            <Text
+              style={{
+                color: 'inherit',
+                minHeight: theme.spacing.md,
+              }}
+              size={theme.fontSizes.xxs}
+            >
+              {props.description}
+            </Text>
+          </motion.div>
+        )}
+      </motion.div>
+    </motion.div>
+  );
 }
 
-export default MainButton
+export default MainButton;

@@ -1,13 +1,12 @@
-import { Flex, useMantineTheme } from "@mantine/core"
+import { useMantineTheme } from "@mantine/core"
 import { useEffect } from "react"
 import { useNuiEvent } from "../../hooks/useNuiEvent"
 import { AnimationProps, AnimCategoryProps, useAnimations } from "../../stores/animations"
 import { fetchNui } from "../../utils/fetchNui"
+import Button from "../Generic/Button"
 import SideBar from "../Generic/SideBar"
 import { Title } from "../Generic/Title"
 import FrontPage from "../Pages/FrontPage"
-import { InfoBox } from "../Generic/InfoBox"
-import { locale } from "../../stores/locales"
 
 export default function Main() {
   const open = useAnimations(state => state.open)  
@@ -22,7 +21,6 @@ export default function Main() {
   useEffect(() => {
     // create listener for teh toggle focus key
     const handleKeyDown = (e: KeyboardEvent) => {
-      console.log('PRess Key', e.key)
       if (e.key === 'Alt') {
         if (!open || sequenceBox) return
         fetchNui('TEMP_LOSE_FOCUS')
@@ -37,7 +35,6 @@ export default function Main() {
   // listen for cancel key 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      console.log('PRess Key', e.key)
       if (e.key === defaultBinds.cancel) {
         if (!open || sequenceBox) return
         fetchNui('CANCEL_ANIMATION')
@@ -103,6 +100,8 @@ export default function Main() {
     document.addEventListener('keydown', handleKeyDown)
     return () => document.removeEventListener('keydown', handleKeyDown  ) 
   }, [open, sequenceBox])
+
+  const controlsOpen = useAnimations((state) => state.controlsOpen)
   
   return (
 
@@ -110,7 +109,8 @@ export default function Main() {
       menuOpen={open}
       h='100vh'
       w='30vw'
-      p='md'
+      p='xl'
+      pt='xl'
       style={{
         gap: theme.spacing.md,
         display: 'flex',
@@ -139,23 +139,18 @@ export default function Main() {
             setPage(<FrontPage />, 'front')
           }
         }}
+        rightSection={
+          <Button
+            selected={controlsOpen}
+            iconSize='1.75vh'
+            icon='fa fa-question'
+            onClick={() => {
+              useAnimations.setState({ controlsOpen: !controlsOpen })
+            }}
+          />
+        }
         closeButton={!sequenceBox}
       />
-      <Flex
-        align='center'
-        justify={'center'}
-        w='100%'
-        gap='xs'
-      >
-        <InfoBox
-          leftSide={defaultBinds.cancel}
-          rightSide={locale('Cancel').toUpperCase()}
-        />
-        <InfoBox
-          leftSide={'ALT'}
-          rightSide={locale('ToggleFocus').toUpperCase()}
-        />
-      </Flex>
       {page}
     </SideBar>
   )

@@ -3,7 +3,7 @@ fx_version 'cerulean'
 lua54 'yes' 
 games { 'rdr3', 'gta5' } 
 author 'DirkScripts' 
-description 'Clean Animations | Pause menu for FiveM'
+description 'Animations system for FiveM'
 version      '1.0.20' 
 
 shared_script {
@@ -20,7 +20,8 @@ server_script {
 }
  
 
-ui_page 'web/build/index.html'
+-- ui_page 'web/build/index.html'
+ui_page 'http://localhost:3002'
 
 files {
   'locales/*.json',
