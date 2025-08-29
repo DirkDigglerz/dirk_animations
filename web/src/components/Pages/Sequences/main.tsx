@@ -84,11 +84,7 @@ export default function Sequences() {
               
             }}
 
-            extraButtons={[
-              {icon: 'fa fa-plus', onClick: () => {}},
-              {icon: 'fa fa-trash', onClick: () => {}},
-              {icon: 'fa fa-save', onClick: () => {}},
-            ]}
+          
           />
           <Flex
             flex={1}
