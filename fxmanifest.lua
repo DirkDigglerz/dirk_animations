@@ -4,7 +4,7 @@ lua54 'yes'
 games { 'rdr3', 'gta5' } 
 author 'DirkScripts' 
 description 'Animations system for FiveM'
-version      '1.1.1' 
+version      '1.1.2' 
 
 shared_script {
   '@dirk_lib/init.lua',
