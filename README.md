@@ -23,8 +23,9 @@ https://github.com/user-attachments/assets/d6834a24-a424-4f08-a7c3-838b1848938d
 
 
 # Dependencies 
-- [Dirk Lib](https://github.com/Dirk-Server-Pack/dirk_lib/releases/tag/latest_production)
+- [Dirk Lib](https://github.com/DirkDigglerz/dirk_lib)
 
 # Credits
 - [Scully Emote Menu](https://github.com/Scullyy/scully_emotemenu) thanks for the big list of animations!
+
 
