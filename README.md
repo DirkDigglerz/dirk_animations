@@ -17,7 +17,8 @@
 - Easily convert Menyoo and Scully Emotes to dirk_animations' format. 
 
 ## Animation Placing 
-https://github.com/user-attachments/assets/f3ba96dc-f8ca-42b6-9601-da0c7059d015
+https://github.com/user-attachments/assets/d6834a24-a424-4f08-a7c3-838b1848938d
+
 
 
 
@@ -26,3 +27,4 @@ https://github.com/user-attachments/assets/f3ba96dc-f8ca-42b6-9601-da0c7059d015
 
 # Credits
 - [Scully Emote Menu](https://github.com/Scullyy/scully_emotemenu) thanks for the big list of animations!
+
